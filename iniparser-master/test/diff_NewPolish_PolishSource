@@ -1,0 +1,189 @@
+10c10
+< Blind transfer to=Transfer bez anons.
+---
+> Blind transfer to= Transfer bez anons.
+25c25
+< 123=123
+---
+> 123=123	
+58,59c58,59
+< NetWork=Sieć
+< NetWorkStatus=Status sieci
+---
+> Network=Sieć
+> NetworkStatus=Status sieci
+62,67c62,67
+< Lan type=Typ LAN
+< Lan ip=IP LAN
+< Lan mask=Maska LAN
+< Getway=Bramka
+< Pri.DNS=Pref. serwer DNS
+< Sec.DNS=Alternat. serwer DNS
+---
+> LAN type=Typ LAN
+> IP Address=Adres IP
+> Subnet Mask=Maska podsieci
+> Gateway=Brama
+> Primary DNS=Prefer. DNS
+> Secondary DNS=Alternat. DNS
+70c70
+< Static=Statyczne
+---
+> Static IP=Statyczny adres IP
+79c79
+< STATIC IP Client=STATIC IP
+---
+> Static IP Client=Statyczny adres IP
+83,87c83,87
+< Voice VID Number=Numer LAN VID
+< Voice Priority=Priorytet LAN
+< Data Status=Status PC
+< Data VID number=Numer PC VID
+< Data Priority=Priorytet PC
+---
+> VLAN No. for LAN= Nr VLAN dla LAN
+> LAN Priority=Priorytet LAN
+> PC Status=Status PC
+> VLAN No. for PC = Nr VLAN dla PC
+> PC Priority=Priorytet PC
+94c94
+< Phone Unlock Pin=Phone Unlock Pin
+---
+> Phone Unlock PIN=PIN odblokow.
+98,99c98,99
+< Pin not same=Pin not same
+< Pin Error=Pin Error
+---
+> PIN not same=PIN różny
+> PIN Error=PIN błędny
+103c103
+< Menu key=Przycisk Menu
+---
+> Menu Key=Przycisk menu
+110,111c110,111
+< Enable=Włącz
+< Disable=Wyłącz
+---
+> Enabled=Włączony
+> Disabled=Wyłączony
+116c116
+< PPPoE Dialing...=Wybieranie PPPoE...
+---
+> PPPoE Dialling...=Wybieranie PPPoE...
+124c124
+< Register Name=Nazwa rejestrac.
+---
+> Register Name= Nazwa rejestrac.
+128,129c128,129
+< Stun Status=Status serwera STUN
+< Stun Server=Serwer STUN
+---
+> STUN Status=Status serwera STUN
+> STUN Server=Serwer STUN
+185c185
+< DSS Keys=Przyciski DSS
+---
+> DSS Keys= Przyciski DSS
+202,222c202,222
+< Extension=Rozszerzenie
+< Memory Key1=DSS1
+< Memory Key2=DSS 2
+< Memory Key3=DSS 3
+< Memory Key4=DSS 4
+< Memory Key5=DSS 5
+< Memory Key6=DSS 6
+< Memory Key7=DSS 7
+< Memory Key8=DSS 8
+< Memory Key9=DSS 9
+< Memory Key10=DSS 10
+< Memory Key11=DSS 11
+< Memory Key12=DSS 12
+< Memory Key13=DSS 13
+< Memory Key14=DSS 14
+< Memory Key15=DSS 15
+< Memory Key16=DSS 16
+< Memory Key17=DSS 17
+< Memory Key18=DSS 18
+< Memory Key19=DSS 19
+< Memory Key20=DSS 20
+---
+> Function=Funkcja
+> Memory Key1=DSS1 
+> Memory Key2= DSS 2
+> Memory Key3= DSS 3
+> Memory Key4= DSS 4
+> Memory Key5= DSS 5
+> Memory Key6= DSS 6
+> Memory Key7= DSS 7
+> Memory Key8= DSS 8
+> Memory Key9= DSS 9
+> Memory Key10= DSS 10
+> Memory Key11= DSS 11
+> Memory Key12= DSS 12
+> Memory Key13= DSS 13
+> Memory Key14= DSS 14
+> Memory Key15= DSS 15
+> Memory Key16= DSS 16
+> Memory Key17= DSS 17
+> Memory Key18= DSS 18
+> Memory Key19= DSS 19
+> Memory Key20= DSS 20
+246c246
+< Phone Setting=Ustawienia telefonu
+---
+> Phone Settings=Ustawienia telefonu
+277c277
+< Dialed Calls=Wybierane połączenia
+---
+> Dialled Calls=Wykonane
+288c288
+< Main Backlight=Telefon
+---
+> Main Backlight=Telefon 
+362c362
+< Reset to factory settings succeed!=Przywracanie ustawień zakończono pomyślnie!
+---
+> Reset to factory settings succeeded!=Przywrócono ustawienia fabryczne!
+370,373c370,373
+< Name can not be empty!=Nazwa nie może być pusta!
+< Contact name already exist!=Podana nazwa kontaktu już istnieje!
+< Name exist in contactlist!=Nazwa widnieje na liście kontaktów!
+< Name exist in blacklist!=Nazwa widnieje na liście zablokowanych!
+---
+> Name cannot be empty!=Nazwa nie może być pusta!
+> Name already exists!=Podana nazwa już istnieje!
+> Name exists in Contacts!=Nazwa jest już w kontaktach!
+> Name exists in Black List!=Nazwa jest na czarnej liście!
+380c380
+< #---------------------------------------------------submenu
+---
+> #---------------------------------------------------submenu 
+382c382
+< Move to Blacklist=Do zablokowanych
+---
+> Move to Black List=Do czarnej listy
+391c391
+< Feature=Funkcja
+---
+> Features=Funkcje
+400c400
+< Setting=Ustawienia
+---
+> Settings=Ustawienia
+405,406c405,406
+< Network Unavilible=Sieć niedostępna!
+< Network Initialiation=Łączenie z siecią...
+---
+> Network Unavailable=Sieć niedostępna!
+> Initialising Network=Inicjalizacja sieci...
+408c408
+< Do not disturb=Nie przeszkadzać!
+---
+> Do Not Disturb=Nie przeszkadzać DND!
+424c424
+< Update status:update software=Stan aktualizacji: aktualizacja oprogramowania
+---
+> Update status:update firmware=Stan: aktualizacja oprogramowania
+427,428d426
+< 
+< 

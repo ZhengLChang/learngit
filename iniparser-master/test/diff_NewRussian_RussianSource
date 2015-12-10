@@ -1,0 +1,13 @@
+194c194
+< Line Key=Кнопка линии
+---
+> Line Key= Кнопка линии
+342c342
+< Hotline timeout=Продолжительность
+---
+> Hotline timeout=Продолжительность 
+426c426,427
+< Update status:update file system=Обновление обновление файловой системы
+---
+> Update status:update file system= Обновление обновление файловой системы
+> 
