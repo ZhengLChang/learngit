@@ -1,0 +1,3 @@
+#! /bin/sh -
+set -x
+who | grep $1
