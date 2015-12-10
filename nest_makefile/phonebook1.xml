@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AtcomIPPhoneMenu>
+	<Title>remote menu</Title>
+	<MenuItem>
+		<Name>testmunu3</Name>
+		<URL>tftp://172.16.0.70/phonebook8.xml</URL>
+	</MenuItem>
+</AtcomIPPhoneMenu>
