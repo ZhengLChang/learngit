@@ -12,5 +12,7 @@ int main(int argc, char **argv)
 			argv[1], argv[2],
 			EditDistance(argv[1], strlen(argv[1]),
 			             argv[2], strlen(argv[2])));
+	EditPath(argv[1], strlen(argv[1]),
+			             argv[2], strlen(argv[2]));
 	return 0;
 }

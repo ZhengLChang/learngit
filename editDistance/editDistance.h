@@ -7,6 +7,8 @@
 #include <errno.h>
 int EditDistance(const char *s, const int s_size, 
 			const char *n, const int n_size);
+void EditPath(const char *s, const int s_size, 
+			const char *n, const int n_size);
 
 
 #endif
