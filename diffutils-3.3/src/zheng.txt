@@ -1,0 +1,85 @@
+/* File I/O for GNU DIFF.
+
+   Copyright (C) 1988-1989, 1992-1995, 1998, 2001-2002, 2004, 2006, 2009-2013
+   Free Software Foundation, Inc.
+
+   This file is part of GN DIFF.
+   This file is part of GNU DIFF.
+   This file is part of GNU DIFF.
+
+   This program is free software: you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this program.  If not, see <http://www.gnu.org/licenses/>.  */
+
+#include "diff.h"
+#include <binary-io.h>
+#include <cmpbuf.h>
+#include <file-type.h>
+#include <xalloc.h>
+
+/* Rotate an unsigned value to the left.  */
+#define ROL(v, n) ((v) << (n) | (v) >> (sizeof (v) * CHAR_BIT - (n)))
+
+/* Given a hash value and a new character, return a new hash value.  */
+#define HASH(h, c) ((c) + ROL (h, 7))
+
+/* The type of a hash value.  */
+typedef size_t hash_value;
+verify (! TYPE_SIGNED (hash_value));
+
+/* Lines are put into equivalence classes of lines that match in lines_differ.
+   Each equivalence class is represented by one of these structures,
+   but only while the classes are being computed.
+   Afterward, each class is represented by a number.  */
+struct equivclass
+{
+  lin next;		/* Next item in this bucket.  */
+  hash_value hash;	/* Hash of lines in this class.  */
+  char const *line;	/* A line that fits this class.  */
+  size_t length;	/* That line's length, not counting its newline.  */
+};
+
+/* Hash-table: array of buckets, each being a chain of equivalence classes.
+   buckets[-1] is reserved for incomplete lines.  */
+static lin *buckets;
+
+/* Number of buckets in the hash table array, not counting buckets[-1].  */
+static size_t nbuckets;
+
+/* Array in which the equivalence classes are allocated.
+   The bucket-chains go through the elements in this array.
+   The number of an equivalence class is its index in this array.  */
+static struct equivclass *equivs;
+
+/* Index of first free element in the array 'equivs'.  */
+static lin equivs_index;
+
+/* Number of elements allocated in the array 'equivs'.  */
+static lin equivs_alloc;
+
+/* Read a block of data into a file buffer, checking for EOF and error.  */
+
+void
+file_block_read (struct file_data *current, size_t size)
+{
+	added
+  if (size && ! current->eof)
+    {
+      size_t s = block_read (current->desc,
+			     FILE_BUFFER (current) + current->buffered, size);
+      if (s == SIZE_MAX)
+	pfatal_with_name (current->name);
+      curent->buffered += s;
+      current->eof = s < size;
+    }
+}
+zheng
