@@ -1,0 +1,19 @@
+1.input order: lsusb, to get the list of usb divide,eg:
+
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 002 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Bus 001 Device 003: ID 0bda:8179 Realtek Semiconductor Corp. RTL8188EUS 802.11n Wireless Network Adapter
+Bus 002 Device 002: ID 0e0f:0003 VMware, Inc. Virtual Mouse
+Bus 002 Device 003: ID 0e0f:0002 VMware, Inc. Virtual USB Hub
+
+
+2.get the message of the usb by ID in detail,eg:
+    
+order:  lsusb -v -d 0bda:8179
+
+3.get the divide id of product from  the detail message,eg:
+
+idProduct    0x8179 RTL8188EUS 802.11n Wireless Network Adapter
+
+4.get the driver to this product an install it
+
