@@ -1,0 +1,2501 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	../unpv13e/ping/bsdping.c	93;"	d	file:
+ADDR	../unpv13e/debug/backlog.c	4;"	d	file:
+ADDR	../unpv13e/debug/qlen.c	4;"	d	file:
+AF_INET6	../unpv13e/libfree/inet_ntop.c	36;"	d	file:
+AF_INET6	../unpv13e/libfree/inet_pton.c	36;"	d	file:
+AF_INET6	../unpv13e/libfree/test_inet_pton.c	4;"	d	file:
+AF_LOCAL	../lib/unp.h	173;"	d
+AF_LOCAL	../unp.h	147;"	d
+AF_LOCAL	../unpv13e/key/unp.h	154;"	d
+AF_LOCAL	../unpv13e/lib/unp.h	173;"	d
+AF_LOCAL	../unpv13e/libfree/getaddrinfo.c	71;"	d	file:
+AF_LOCAL	../unpv13e/sctp/unp.h	147;"	d
+AI_CANONNAME	../lib/addrinfo.h	23;"	d
+AI_CANONNAME	../unpv13e/lib/addrinfo.h	23;"	d
+AI_CANONNAME	../unpv13e/libfree/addrinfo.h	23;"	d
+AI_CANONNAME	../unpv13e/libgai/addrinfo.h	23;"	d
+AI_CLONE	../unpv13e/libfree/getaddrinfo.c	119;"	d	file:
+AI_CLONE	../unpv13e/libgai/gai_hdr.h	5;"	d
+AI_CLONE	../unpv13e/libgai/old/savecopy.c	7;"	d	file:
+AI_PASSIVE	../lib/addrinfo.h	22;"	d
+AI_PASSIVE	../unpv13e/lib/addrinfo.h	22;"	d
+AI_PASSIVE	../unpv13e/libfree/addrinfo.h	22;"	d
+AI_PASSIVE	../unpv13e/libgai/addrinfo.h	22;"	d
+Accept	../lib/wrapsock.c	/^Accept(int fd, struct sockaddr *sa, socklen_t *salenptr)$/;"	f
+Accept	../mylib/wrapsock.c	/^Accept(int fd, struct sockaddr *sa, socklen_t *salenptr)$/;"	f
+Accept	../unpv13e/lib/wrapsock.c	/^Accept(int fd, struct sockaddr *sa, socklen_t *salenptr)$/;"	f
+B	../unpv13e/ping/bsdping.c	94;"	d	file:
+BSPACE	../unpv13e/ping/bsdping.c	/^char BSPACE = '\\b';		\/* characters written for flood *\/$/;"	v
+BUFF	../unpv13e/test/tshutdown.c	3;"	d	file:
+BUFFSIZE	../lib/unp.h	197;"	d
+BUFFSIZE	../unp.h	172;"	d
+BUFFSIZE	../unpv13e/key/unp.h	179;"	d
+BUFFSIZE	../unpv13e/lib/unp.h	197;"	d
+BUFFSIZE	../unpv13e/sctp/unp.h	172;"	d
+BUFFSIZE	../unpv13e/threads/example03.c	25;"	d	file:
+BUFLEN	../unpv13e/route/getrt.c	4;"	d	file:
+BUFSIZE	../unpv13e/ping/ping.h	6;"	d
+BUFSIZE	../unpv13e/traceroute/trace.h	7;"	d
+Bind	../lib/wrapsock.c	/^Bind(int fd, const struct sockaddr *sa, socklen_t salen)$/;"	f
+Bind	../mylib/wrapsock.c	/^Bind(int fd, const struct sockaddr *sa, socklen_t salen)$/;"	f
+Bind	../unpv13e/lib/wrapsock.c	/^Bind(int fd, const struct sockaddr *sa, socklen_t salen)$/;"	f
+CLR	../unpv13e/ping/bsdping.c	96;"	d	file:
+CMD	../unpv13e/udpcksum/pcap.c	4;"	d	file:
+CMSG_LEN	../lib/unp.h	154;"	d
+CMSG_LEN	../unp.h	128;"	d
+CMSG_LEN	../unpv13e/key/unp.h	135;"	d
+CMSG_LEN	../unpv13e/lib/unp.h	154;"	d
+CMSG_LEN	../unpv13e/sctp/unp.h	128;"	d
+CMSG_SPACE	../lib/unp.h	158;"	d
+CMSG_SPACE	../unp.h	132;"	d
+CMSG_SPACE	../unpv13e/key/unp.h	139;"	d
+CMSG_SPACE	../unpv13e/lib/unp.h	158;"	d
+CMSG_SPACE	../unpv13e/sctp/unp.h	132;"	d
+CONTROLLEN	../unpv13e/sock/loop.c	32;"	d	file:
+CONTROLLEN	../unpv13e/sock/loopudp.c	31;"	d	file:
+CONTROL_LEN	../unpv13e/advio/old/recvfromflags.c	12;"	d	file:
+CONTROL_LEN	../unpv13e/advio/old/test01.c	43;"	d	file:
+CONTROL_LEN	../unpv13e/unixdomain/readcred.c	3;"	d	file:
+CONTROL_LEN	../unpv13e/unixdomain/tfcred01.c	47;"	d	file:
+CPU_VENDOR_OS	../config.h	5;"	d
+CPU_VENDOR_OS	../unpv13e/config.h	5;"	d
+CPU_VENDOR_OS	../unpv13e/sparc64-unknown-freebsd5.1/config.h	5;"	d
+Calloc	../lib/wrapunix.c	/^Calloc(size_t n, size_t size)$/;"	f
+Calloc	../unpv13e/lib/wrapunix.c	/^Calloc(size_t n, size_t size)$/;"	f
+Child	../unpv13e/server/child.h	/^} Child;$/;"	t	typeref:struct:__anon5
+Close	../lib/wrapunix.c	/^Close(int fd)$/;"	f
+Close	../unpv13e/lib/wrapunix.c	/^Close(int fd)$/;"	f
+Connect	../lib/wrapsock.c	/^Connect(int fd, const struct sockaddr *sa, socklen_t salen)$/;"	f
+Connect	../mylib/wrapsock.c	/^Connect(int fd, const struct sockaddr *sa, socklen_t salen)$/;"	f
+Connect	../unpv13e/lib/wrapsock.c	/^Connect(int fd, const struct sockaddr *sa, socklen_t salen)$/;"	f
+Connect_timeo	../lib/connect_timeo.c	/^Connect_timeo(int fd, const SA *sa, socklen_t salen, int sec)$/;"	f
+Connect_timeo	../unpv13e/lib/connect_timeo.c	/^Connect_timeo(int fd, const SA *sa, socklen_t salen, int sec)$/;"	f
+DEFDATALEN	../unpv13e/ping/bsdping.c	87;"	d	file:
+DG	../unpv13e/sigio/dgecho01.c	/^} DG;$/;"	t	typeref:struct:__anon4	file:
+DGLEN	../unpv13e/udpcliserv/dgcliloop1.c	4;"	d	file:
+DGLEN	../unpv13e/udpcliserv/dgcliloop3.c	7;"	d	file:
+DIR_MODE	../lib/unp.h	240;"	d
+DIR_MODE	../unp.h	199;"	d
+DIR_MODE	../unpv13e/key/unp.h	199;"	d
+DIR_MODE	../unpv13e/lib/unp.h	240;"	d
+DIR_MODE	../unpv13e/sctp/unp.h	199;"	d
+DIR_MODE	../unpv13e/sock/ourhdr.h	29;"	d
+DOT	../unpv13e/ping/bsdping.c	/^char DOT = '.';$/;"	v
+Dg_send_recv	../unpv13e/rtt/dg_send_recv.c	/^Dg_send_recv(int fd, const void *outbuff, size_t outbytes,$/;"	f
+Dup2	../lib/wrapunix.c	/^Dup2(int fd1, int fd2)$/;"	f
+Dup2	../unpv13e/lib/wrapunix.c	/^Dup2(int fd1, int fd2)$/;"	f
+EAI_ADDRFAMILY	../lib/addrinfo.h	36;"	d
+EAI_ADDRFAMILY	../unpv13e/lib/addrinfo.h	36;"	d
+EAI_ADDRFAMILY	../unpv13e/libfree/addrinfo.h	36;"	d
+EAI_ADDRFAMILY	../unpv13e/libgai/addrinfo.h	36;"	d
+EAI_AGAIN	../lib/addrinfo.h	37;"	d
+EAI_AGAIN	../unpv13e/lib/addrinfo.h	37;"	d
+EAI_AGAIN	../unpv13e/libfree/addrinfo.h	37;"	d
+EAI_AGAIN	../unpv13e/libgai/addrinfo.h	37;"	d
+EAI_BADFLAGS	../lib/addrinfo.h	38;"	d
+EAI_BADFLAGS	../unpv13e/lib/addrinfo.h	38;"	d
+EAI_BADFLAGS	../unpv13e/libfree/addrinfo.h	38;"	d
+EAI_BADFLAGS	../unpv13e/libgai/addrinfo.h	38;"	d
+EAI_FAIL	../lib/addrinfo.h	39;"	d
+EAI_FAIL	../unpv13e/lib/addrinfo.h	39;"	d
+EAI_FAIL	../unpv13e/libfree/addrinfo.h	39;"	d
+EAI_FAIL	../unpv13e/libgai/addrinfo.h	39;"	d
+EAI_FAMILY	../lib/addrinfo.h	40;"	d
+EAI_FAMILY	../unpv13e/lib/addrinfo.h	40;"	d
+EAI_FAMILY	../unpv13e/libfree/addrinfo.h	40;"	d
+EAI_FAMILY	../unpv13e/libgai/addrinfo.h	40;"	d
+EAI_MEMORY	../lib/addrinfo.h	41;"	d
+EAI_MEMORY	../unpv13e/lib/addrinfo.h	41;"	d
+EAI_MEMORY	../unpv13e/libfree/addrinfo.h	41;"	d
+EAI_MEMORY	../unpv13e/libgai/addrinfo.h	41;"	d
+EAI_NODATA	../lib/addrinfo.h	42;"	d
+EAI_NODATA	../unpv13e/lib/addrinfo.h	42;"	d
+EAI_NODATA	../unpv13e/libfree/addrinfo.h	42;"	d
+EAI_NODATA	../unpv13e/libgai/addrinfo.h	42;"	d
+EAI_NONAME	../lib/addrinfo.h	43;"	d
+EAI_NONAME	../unpv13e/lib/addrinfo.h	43;"	d
+EAI_NONAME	../unpv13e/libfree/addrinfo.h	43;"	d
+EAI_NONAME	../unpv13e/libgai/addrinfo.h	43;"	d
+EAI_SERVICE	../lib/addrinfo.h	44;"	d
+EAI_SERVICE	../unpv13e/lib/addrinfo.h	44;"	d
+EAI_SERVICE	../unpv13e/libfree/addrinfo.h	44;"	d
+EAI_SERVICE	../unpv13e/libgai/addrinfo.h	44;"	d
+EAI_SOCKTYPE	../lib/addrinfo.h	45;"	d
+EAI_SOCKTYPE	../unpv13e/lib/addrinfo.h	45;"	d
+EAI_SOCKTYPE	../unpv13e/libfree/addrinfo.h	45;"	d
+EAI_SOCKTYPE	../unpv13e/libgai/addrinfo.h	45;"	d
+EAI_SYSTEM	../lib/addrinfo.h	46;"	d
+EAI_SYSTEM	../unpv13e/lib/addrinfo.h	46;"	d
+EAI_SYSTEM	../unpv13e/libfree/addrinfo.h	46;"	d
+EAI_SYSTEM	../unpv13e/libgai/addrinfo.h	46;"	d
+FILE_MODE	../lib/unp.h	238;"	d
+FILE_MODE	../unp.h	197;"	d
+FILE_MODE	../unpv13e/key/unp.h	197;"	d
+FILE_MODE	../unpv13e/lib/unp.h	238;"	d
+FILE_MODE	../unpv13e/sctp/unp.h	197;"	d
+FILE_MODE	../unpv13e/sock/ourhdr.h	27;"	d
+F_CONNECTING	../unpv13e/nonblock/web.h	13;"	d
+F_CONNECTING	../unpv13e/threads/web01.c	15;"	d	file:
+F_CONNECTING	../unpv13e/threads/web02.c	16;"	d	file:
+F_CONNECTING	../unpv13e/threads/web03.c	14;"	d	file:
+F_DONE	../unpv13e/nonblock/web.h	15;"	d
+F_DONE	../unpv13e/threads/web01.c	17;"	d	file:
+F_DONE	../unpv13e/threads/web02.c	18;"	d	file:
+F_DONE	../unpv13e/threads/web03.c	16;"	d	file:
+F_FLOOD	../unpv13e/ping/bsdping.c	99;"	d	file:
+F_INTERVAL	../unpv13e/ping/bsdping.c	100;"	d	file:
+F_JOINED	../unpv13e/threads/web02.c	19;"	d	file:
+F_JOINED	../unpv13e/threads/web03.c	17;"	d	file:
+F_NUMERIC	../unpv13e/ping/bsdping.c	101;"	d	file:
+F_PINGFILLED	../unpv13e/ping/bsdping.c	102;"	d	file:
+F_QUIET	../unpv13e/ping/bsdping.c	103;"	d	file:
+F_READING	../unpv13e/nonblock/web.h	14;"	d
+F_READING	../unpv13e/threads/web01.c	16;"	d	file:
+F_READING	../unpv13e/threads/web02.c	17;"	d	file:
+F_READING	../unpv13e/threads/web03.c	15;"	d	file:
+F_RROUTE	../unpv13e/ping/bsdping.c	104;"	d	file:
+F_SO_DEBUG	../unpv13e/ping/bsdping.c	105;"	d	file:
+F_SO_DONTROUTE	../unpv13e/ping/bsdping.c	106;"	d	file:
+F_VERBOSE	../unpv13e/ping/bsdping.c	107;"	d	file:
+Family_to_level	../lib/family_to_level.c	/^Family_to_level(int family)$/;"	f
+Family_to_level	../unpv13e/lib/family_to_level.c	/^Family_to_level(int family)$/;"	f
+Fclose	../lib/wrapstdio.c	/^Fclose(FILE *fp)$/;"	f
+Fclose	../unpv13e/lib/wrapstdio.c	/^Fclose(FILE *fp)$/;"	f
+Fcntl	../lib/wrapunix.c	/^Fcntl(int fd, int cmd, int arg)$/;"	f
+Fcntl	../unpv13e/lib/wrapunix.c	/^Fcntl(int fd, int cmd, int arg)$/;"	f
+Fdopen	../lib/wrapstdio.c	/^Fdopen(int fd, const char *type)$/;"	f
+Fdopen	../unpv13e/lib/wrapstdio.c	/^Fdopen(int fd, const char *type)$/;"	f
+Fgets	../lib/wrapstdio.c	/^Fgets(char *ptr, int n, FILE *stream)$/;"	f
+Fgets	../unpv13e/lib/wrapstdio.c	/^Fgets(char *ptr, int n, FILE *stream)$/;"	f
+Fopen	../lib/wrapstdio.c	/^Fopen(const char *filename, const char *mode)$/;"	f
+Fopen	../unpv13e/lib/wrapstdio.c	/^Fopen(const char *filename, const char *mode)$/;"	f
+Fork	../lib/wrapunix.c	/^Fork(void)$/;"	f
+Fork	../unpv13e/lib/wrapunix.c	/^Fork(void)$/;"	f
+Fputs	../lib/wrapstdio.c	/^Fputs(const char *ptr, FILE *stream)$/;"	f
+Fputs	../unpv13e/lib/wrapstdio.c	/^Fputs(const char *ptr, FILE *stream)$/;"	f
+GET_CMD	../unpv13e/nonblock/web.h	17;"	d
+GET_CMD	../unpv13e/threads/web01.c	19;"	d	file:
+GET_CMD	../unpv13e/threads/web03.c	19;"	d	file:
+Get_ifi_info	../lib/get_ifi_info.c	/^Get_ifi_info(int family, int doaliases)$/;"	f
+Get_ifi_info	../unpv13e/lib/get_ifi_info.c	/^Get_ifi_info(int family, int doaliases)$/;"	f
+Get_ifi_info	../unpv13e/route/get_ifi_info.c	/^Get_ifi_info(int family, int doaliases)$/;"	f
+Getpeername	../lib/wrapsock.c	/^Getpeername(int fd, struct sockaddr *sa, socklen_t *salenptr)$/;"	f
+Getpeername	../mylib/wrapsock.c	/^Getpeername(int fd, struct sockaddr *sa, socklen_t *salenptr)$/;"	f
+Getpeername	../unpv13e/lib/wrapsock.c	/^Getpeername(int fd, struct sockaddr *sa, socklen_t *salenptr)$/;"	f
+Getsockname	../lib/wrapsock.c	/^Getsockname(int fd, struct sockaddr *sa, socklen_t *salenptr)$/;"	f
+Getsockname	../mylib/wrapsock.c	/^Getsockname(int fd, struct sockaddr *sa, socklen_t *salenptr)$/;"	f
+Getsockname	../unpv13e/lib/wrapsock.c	/^Getsockname(int fd, struct sockaddr *sa, socklen_t *salenptr)$/;"	f
+Getsockopt	../lib/wrapsock.c	/^Getsockopt(int fd, int level, int optname, void *optval, socklen_t *optlenptr)$/;"	f
+Getsockopt	../mylib/wrapsock.c	/^Getsockopt(int fd, int level, int optname, void *optval, socklen_t *optlenptr)$/;"	f
+Getsockopt	../unpv13e/lib/wrapsock.c	/^Getsockopt(int fd, int level, int optname, void *optval, socklen_t *optlenptr)$/;"	f
+Gettimeofday	../lib/wrapunix.c	/^Gettimeofday(struct timeval *tv, void *foo)$/;"	f
+Gettimeofday	../unpv13e/lib/wrapunix.c	/^Gettimeofday(struct timeval *tv, void *foo)$/;"	f
+HAVE_ADDRINFO_STRUCT	../config.h	8;"	d
+HAVE_ADDRINFO_STRUCT	../unpv13e/config.h	8;"	d
+HAVE_ADDRINFO_STRUCT	../unpv13e/sparc64-unknown-freebsd5.1/config.h	8;"	d
+HAVE_ARPA_INET_H	../config.h	11;"	d
+HAVE_ARPA_INET_H	../unpv13e/config.h	11;"	d
+HAVE_ARPA_INET_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	11;"	d
+HAVE_BZERO	../config.h	14;"	d
+HAVE_BZERO	../unpv13e/config.h	14;"	d
+HAVE_BZERO	../unpv13e/sparc64-unknown-freebsd5.1/config.h	14;"	d
+HAVE_ERRNO_H	../config.h	26;"	d
+HAVE_ERRNO_H	../unpv13e/config.h	26;"	d
+HAVE_ERRNO_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	26;"	d
+HAVE_FCNTL_H	../config.h	29;"	d
+HAVE_FCNTL_H	../unpv13e/config.h	29;"	d
+HAVE_FCNTL_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	29;"	d
+HAVE_GETADDRINFO	../config.h	32;"	d
+HAVE_GETADDRINFO	../unpv13e/config.h	32;"	d
+HAVE_GETADDRINFO	../unpv13e/sparc64-unknown-freebsd5.1/config.h	32;"	d
+HAVE_GETADDRINFO_PROTO	../config.h	35;"	d
+HAVE_GETADDRINFO_PROTO	../unpv13e/config.h	35;"	d
+HAVE_GETADDRINFO_PROTO	../unpv13e/sparc64-unknown-freebsd5.1/config.h	35;"	d
+HAVE_GETHOSTBYNAME2	../config.h	38;"	d
+HAVE_GETHOSTBYNAME2	../unpv13e/config.h	38;"	d
+HAVE_GETHOSTBYNAME2	../unpv13e/sparc64-unknown-freebsd5.1/config.h	38;"	d
+HAVE_GETHOSTBYNAME_R	../config.h	41;"	d
+HAVE_GETHOSTBYNAME_R	../unpv13e/config.h	41;"	d
+HAVE_GETHOSTNAME	../config.h	44;"	d
+HAVE_GETHOSTNAME	../unpv13e/config.h	44;"	d
+HAVE_GETHOSTNAME	../unpv13e/sparc64-unknown-freebsd5.1/config.h	44;"	d
+HAVE_GETHOSTNAME_PROTO	../config.h	47;"	d
+HAVE_GETHOSTNAME_PROTO	../unpv13e/config.h	47;"	d
+HAVE_GETHOSTNAME_PROTO	../unpv13e/sparc64-unknown-freebsd5.1/config.h	47;"	d
+HAVE_GETNAMEINFO	../config.h	50;"	d
+HAVE_GETNAMEINFO	../unpv13e/config.h	50;"	d
+HAVE_GETNAMEINFO	../unpv13e/sparc64-unknown-freebsd5.1/config.h	50;"	d
+HAVE_GETNAMEINFO_PROTO	../config.h	53;"	d
+HAVE_GETNAMEINFO_PROTO	../unpv13e/config.h	53;"	d
+HAVE_GETNAMEINFO_PROTO	../unpv13e/sparc64-unknown-freebsd5.1/config.h	53;"	d
+HAVE_GETRUSAGE_PROTO	../config.h	56;"	d
+HAVE_GETRUSAGE_PROTO	../unpv13e/config.h	56;"	d
+HAVE_GETRUSAGE_PROTO	../unpv13e/sparc64-unknown-freebsd5.1/config.h	56;"	d
+HAVE_HSTRERROR	../config.h	59;"	d
+HAVE_HSTRERROR	../unpv13e/config.h	59;"	d
+HAVE_HSTRERROR	../unpv13e/sparc64-unknown-freebsd5.1/config.h	59;"	d
+HAVE_HSTRERROR_PROTO	../config.h	62;"	d
+HAVE_HSTRERROR_PROTO	../unpv13e/config.h	62;"	d
+HAVE_HSTRERROR_PROTO	../unpv13e/sparc64-unknown-freebsd5.1/config.h	62;"	d
+HAVE_IF_NAMEINDEX_STRUCT	../config.h	65;"	d
+HAVE_IF_NAMEINDEX_STRUCT	../unpv13e/config.h	65;"	d
+HAVE_IF_NAMEINDEX_STRUCT	../unpv13e/sparc64-unknown-freebsd5.1/config.h	65;"	d
+HAVE_IF_NAMETOINDEX	../config.h	68;"	d
+HAVE_IF_NAMETOINDEX	../unpv13e/config.h	68;"	d
+HAVE_IF_NAMETOINDEX	../unpv13e/sparc64-unknown-freebsd5.1/config.h	68;"	d
+HAVE_IF_NAMETOINDEX_PROTO	../config.h	71;"	d
+HAVE_IF_NAMETOINDEX_PROTO	../unpv13e/config.h	71;"	d
+HAVE_IF_NAMETOINDEX_PROTO	../unpv13e/sparc64-unknown-freebsd5.1/config.h	71;"	d
+HAVE_INET6_RTH_INIT	../config.h	74;"	d
+HAVE_INET6_RTH_INIT	../unpv13e/config.h	74;"	d
+HAVE_INET_ATON	../config.h	77;"	d
+HAVE_INET_ATON	../unpv13e/config.h	77;"	d
+HAVE_INET_ATON	../unpv13e/sparc64-unknown-freebsd5.1/config.h	74;"	d
+HAVE_INET_ATON_PROTO	../config.h	80;"	d
+HAVE_INET_ATON_PROTO	../unpv13e/config.h	80;"	d
+HAVE_INET_ATON_PROTO	../unpv13e/sparc64-unknown-freebsd5.1/config.h	77;"	d
+HAVE_INET_PTON	../config.h	83;"	d
+HAVE_INET_PTON	../unpv13e/config.h	83;"	d
+HAVE_INET_PTON	../unpv13e/sparc64-unknown-freebsd5.1/config.h	80;"	d
+HAVE_INET_PTON_PROTO	../config.h	86;"	d
+HAVE_INET_PTON_PROTO	../unpv13e/config.h	86;"	d
+HAVE_INET_PTON_PROTO	../unpv13e/sparc64-unknown-freebsd5.1/config.h	83;"	d
+HAVE_KEVENT	../unpv13e/sparc64-unknown-freebsd5.1/config.h	86;"	d
+HAVE_KQUEUE	../unpv13e/sparc64-unknown-freebsd5.1/config.h	89;"	d
+HAVE_LIBPTHREAD	../config.h	98;"	d
+HAVE_LIBPTHREAD	../unpv13e/config.h	98;"	d
+HAVE_MKSTEMP	../config.h	110;"	d
+HAVE_MKSTEMP	../unpv13e/config.h	110;"	d
+HAVE_MKSTEMP	../unpv13e/sparc64-unknown-freebsd5.1/config.h	107;"	d
+HAVE_MSGHDR_MSG_CONTROL	../config.h	113;"	d
+HAVE_MSGHDR_MSG_CONTROL	../unpv13e/config.h	113;"	d
+HAVE_MSGHDR_MSG_CONTROL	../unpv13e/sparc64-unknown-freebsd5.1/config.h	110;"	d
+HAVE_NETCONFIG_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	113;"	d
+HAVE_NETDB_H	../config.h	119;"	d
+HAVE_NETDB_H	../unpv13e/config.h	119;"	d
+HAVE_NETDB_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	116;"	d
+HAVE_NETINET_IN_H	../config.h	125;"	d
+HAVE_NETINET_IN_H	../unpv13e/config.h	125;"	d
+HAVE_NETINET_IN_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	122;"	d
+HAVE_NET_IF_DL_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	125;"	d
+HAVE_POLL	../config.h	131;"	d
+HAVE_POLL	../unpv13e/config.h	131;"	d
+HAVE_POLL	../unpv13e/sparc64-unknown-freebsd5.1/config.h	128;"	d
+HAVE_POLL_H	../config.h	134;"	d
+HAVE_POLL_H	../unpv13e/config.h	134;"	d
+HAVE_POLL_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	131;"	d
+HAVE_PSELECT	../config.h	137;"	d
+HAVE_PSELECT	../unpv13e/config.h	137;"	d
+HAVE_PSELECT	../unpv13e/sparc64-unknown-freebsd5.1/config.h	134;"	d
+HAVE_PSELECT_PROTO	../config.h	140;"	d
+HAVE_PSELECT_PROTO	../unpv13e/config.h	140;"	d
+HAVE_PSELECT_PROTO	../unpv13e/sparc64-unknown-freebsd5.1/config.h	137;"	d
+HAVE_PTHREAD_H	../config.h	143;"	d
+HAVE_PTHREAD_H	../unpv13e/config.h	143;"	d
+HAVE_PTHREAD_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	140;"	d
+HAVE_SIGNAL_H	../config.h	146;"	d
+HAVE_SIGNAL_H	../unpv13e/config.h	146;"	d
+HAVE_SIGNAL_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	143;"	d
+HAVE_SNPRINTF	../config.h	149;"	d
+HAVE_SNPRINTF	../unpv13e/config.h	149;"	d
+HAVE_SNPRINTF	../unpv13e/sparc64-unknown-freebsd5.1/config.h	146;"	d
+HAVE_SNPRINTF_PROTO	../config.h	152;"	d
+HAVE_SNPRINTF_PROTO	../unpv13e/config.h	152;"	d
+HAVE_SNPRINTF_PROTO	../unpv13e/sparc64-unknown-freebsd5.1/config.h	149;"	d
+HAVE_SOCKADDR_DL_STRUCT	../unpv13e/sparc64-unknown-freebsd5.1/config.h	152;"	d
+HAVE_SOCKADDR_SA_LEN	../unpv13e/sparc64-unknown-freebsd5.1/config.h	155;"	d
+HAVE_SOCKATMARK	../config.h	161;"	d
+HAVE_SOCKATMARK	../unpv13e/config.h	161;"	d
+HAVE_SOCKATMARK	../unpv13e/sparc64-unknown-freebsd5.1/config.h	158;"	d
+HAVE_SOCKATMARK_PROTO	../config.h	164;"	d
+HAVE_SOCKATMARK_PROTO	../unpv13e/config.h	164;"	d
+HAVE_SOCKATMARK_PROTO	../unpv13e/sparc64-unknown-freebsd5.1/config.h	161;"	d
+HAVE_STDIO_H	../config.h	167;"	d
+HAVE_STDIO_H	../unpv13e/config.h	167;"	d
+HAVE_STDIO_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	164;"	d
+HAVE_STDLIB_H	../config.h	170;"	d
+HAVE_STDLIB_H	../unpv13e/config.h	170;"	d
+HAVE_STDLIB_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	167;"	d
+HAVE_STRINGS_H	../config.h	173;"	d
+HAVE_STRINGS_H	../unpv13e/config.h	173;"	d
+HAVE_STRINGS_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	170;"	d
+HAVE_STRING_H	../config.h	176;"	d
+HAVE_STRING_H	../unpv13e/config.h	176;"	d
+HAVE_STRING_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	173;"	d
+HAVE_STRUCT_IFREQ_IFR_MTU	../config.h	182;"	d
+HAVE_STRUCT_IFREQ_IFR_MTU	../unpv13e/config.h	182;"	d
+HAVE_STRUCT_IFREQ_IFR_MTU	../unpv13e/sparc64-unknown-freebsd5.1/config.h	179;"	d
+HAVE_STRUCT_SOCKADDR_STORAGE	../config.h	185;"	d
+HAVE_STRUCT_SOCKADDR_STORAGE	../unpv13e/config.h	185;"	d
+HAVE_STRUCT_SOCKADDR_STORAGE	../unpv13e/sparc64-unknown-freebsd5.1/config.h	182;"	d
+HAVE_SYS_EVENT_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	185;"	d
+HAVE_SYS_FILIO_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	188;"	d
+HAVE_SYS_IOCTL_H	../config.h	194;"	d
+HAVE_SYS_IOCTL_H	../unpv13e/config.h	194;"	d
+HAVE_SYS_IOCTL_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	191;"	d
+HAVE_SYS_PARAM_H	../config.h	197;"	d
+HAVE_SYS_PARAM_H	../unpv13e/config.h	197;"	d
+HAVE_SYS_SELECT_H	../config.h	200;"	d
+HAVE_SYS_SELECT_H	../unpv13e/config.h	200;"	d
+HAVE_SYS_SELECT_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	194;"	d
+HAVE_SYS_SOCKET_H	../config.h	203;"	d
+HAVE_SYS_SOCKET_H	../unpv13e/config.h	203;"	d
+HAVE_SYS_SOCKET_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	197;"	d
+HAVE_SYS_SOCKIO_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	200;"	d
+HAVE_SYS_STAT_H	../config.h	209;"	d
+HAVE_SYS_STAT_H	../unpv13e/config.h	209;"	d
+HAVE_SYS_STAT_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	203;"	d
+HAVE_SYS_SYSCTL_H	../config.h	212;"	d
+HAVE_SYS_SYSCTL_H	../unpv13e/config.h	212;"	d
+HAVE_SYS_SYSCTL_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	206;"	d
+HAVE_SYS_TIME_H	../config.h	215;"	d
+HAVE_SYS_TIME_H	../unpv13e/config.h	215;"	d
+HAVE_SYS_TIME_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	209;"	d
+HAVE_SYS_TYPES_H	../config.h	218;"	d
+HAVE_SYS_TYPES_H	../unpv13e/config.h	218;"	d
+HAVE_SYS_TYPES_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	212;"	d
+HAVE_SYS_UIO_H	../config.h	221;"	d
+HAVE_SYS_UIO_H	../unpv13e/config.h	221;"	d
+HAVE_SYS_UIO_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	215;"	d
+HAVE_SYS_UN_H	../config.h	224;"	d
+HAVE_SYS_UN_H	../unpv13e/config.h	224;"	d
+HAVE_SYS_UN_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	218;"	d
+HAVE_SYS_WAIT_H	../config.h	227;"	d
+HAVE_SYS_WAIT_H	../unpv13e/config.h	227;"	d
+HAVE_SYS_WAIT_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	221;"	d
+HAVE_TIMESPEC_STRUCT	../config.h	230;"	d
+HAVE_TIMESPEC_STRUCT	../unpv13e/config.h	230;"	d
+HAVE_TIMESPEC_STRUCT	../unpv13e/sparc64-unknown-freebsd5.1/config.h	224;"	d
+HAVE_TIME_H	../config.h	233;"	d
+HAVE_TIME_H	../unpv13e/config.h	233;"	d
+HAVE_TIME_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	227;"	d
+HAVE_UNISTD_H	../config.h	236;"	d
+HAVE_UNISTD_H	../unpv13e/config.h	236;"	d
+HAVE_UNISTD_H	../unpv13e/sparc64-unknown-freebsd5.1/config.h	230;"	d
+HAVE_VSNPRINTF	../config.h	239;"	d
+HAVE_VSNPRINTF	../unpv13e/config.h	239;"	d
+HAVE_VSNPRINTF	../unpv13e/sparc64-unknown-freebsd5.1/config.h	233;"	d
+HENTBUFSIZ	../unpv13e/libfree/getaddrinfo.c	115;"	d	file:
+HENTBUFSIZ	../unpv13e/libfree/getnameinfo.c	42;"	d	file:
+HENTMAXADDR	../unpv13e/libfree/getaddrinfo.c	116;"	d	file:
+Host_serv	../lib/host_serv.c	/^Host_serv(const char *host, const char *serv, int family, int socktype)$/;"	f
+Host_serv	../unpv13e/lib/host_serv.c	/^Host_serv(const char *host, const char *serv, int family, int socktype)$/;"	f
+ICMPD_PATH	../unpv13e/icmpd/unpicmpd.h	6;"	d
+ICMPV6_DEST_UNREACH	../unpv13e/ping/old/icmp6.h	21;"	d
+ICMPV6_DEST_UNREACH_ADDR	../unpv13e/ping/old/icmp6.h	38;"	d
+ICMPV6_DEST_UNREACH_ADMIN	../unpv13e/ping/old/icmp6.h	35;"	d
+ICMPV6_DEST_UNREACH_NOPORT	../unpv13e/ping/old/icmp6.h	39;"	d
+ICMPV6_DEST_UNREACH_NOROUTE	../unpv13e/ping/old/icmp6.h	34;"	d
+ICMPV6_DEST_UNREACH_NOTNEIGHBOR	../unpv13e/ping/old/icmp6.h	37;"	d
+ICMPV6_ECHORPLY	../unpv13e/ping/old/icmp6.h	29;"	d
+ICMPV6_ECHORQST	../unpv13e/ping/old/icmp6.h	28;"	d
+ICMPV6_INFOMSG_MASK	../unpv13e/ping/old/icmp6.h	26;"	d
+ICMPV6_MGM_QUERY	../unpv13e/ping/old/icmp6.h	30;"	d
+ICMPV6_MGM_REDUCTION	../unpv13e/ping/old/icmp6.h	32;"	d
+ICMPV6_MGM_REPORT	../unpv13e/ping/old/icmp6.h	31;"	d
+ICMPV6_PARAMPROB	../unpv13e/ping/old/icmp6.h	24;"	d
+ICMPV6_PARAMPROB_HDR	../unpv13e/ping/old/icmp6.h	44;"	d
+ICMPV6_PARAMPROB_NXT_HDR	../unpv13e/ping/old/icmp6.h	45;"	d
+ICMPV6_PARAMPROB_OPTS	../unpv13e/ping/old/icmp6.h	46;"	d
+ICMPV6_PKT_TOOBIG	../unpv13e/ping/old/icmp6.h	22;"	d
+ICMPV6_TIME_EXCEED	../unpv13e/ping/old/icmp6.h	23;"	d
+ICMPV6_TIME_EXCEED_HOPS	../unpv13e/ping/old/icmp6.h	41;"	d
+ICMPV6_TIME_EXCEED_REASSEMBLY	../unpv13e/ping/old/icmp6.h	42;"	d
+IFI_ALIAS	../lib/unpifi.h	27;"	d
+IFI_ALIAS	../unpv13e/lib/unpifi.h	27;"	d
+IFI_HADDR	../lib/unpifi.h	11;"	d
+IFI_HADDR	../unpv13e/lib/unpifi.h	11;"	d
+IFI_NAME	../lib/unpifi.h	10;"	d
+IFI_NAME	../unpv13e/lib/unpifi.h	10;"	d
+IN6ADDRSZ	../unpv13e/libfree/inet_ntop.c	32;"	d	file:
+IN6ADDRSZ	../unpv13e/libfree/inet_pton.c	31;"	d	file:
+INADDRSZ	../unpv13e/libfree/inet_pton.c	32;"	d	file:
+INADDR_NONE	../lib/unp.h	98;"	d
+INADDR_NONE	../unp.h	72;"	d
+INADDR_NONE	../unpv13e/key/unp.h	79;"	d
+INADDR_NONE	../unpv13e/lib/unp.h	98;"	d
+INADDR_NONE	../unpv13e/sctp/unp.h	72;"	d
+INET6	../unpv13e/libfree/getaddrinfo.c	23;"	d	file:
+INET6_ADDRSTRLEN	../lib/unp.h	121;"	d
+INET6_ADDRSTRLEN	../unp.h	95;"	d
+INET6_ADDRSTRLEN	../unpv13e/key/unp.h	102;"	d
+INET6_ADDRSTRLEN	../unpv13e/lib/unp.h	121;"	d
+INET6_ADDRSTRLEN	../unpv13e/sctp/unp.h	95;"	d
+INET_ADDRSTRLEN	../lib/unp.h	113;"	d
+INET_ADDRSTRLEN	../unp.h	87;"	d
+INET_ADDRSTRLEN	../unpv13e/key/unp.h	94;"	d
+INET_ADDRSTRLEN	../unpv13e/lib/unp.h	113;"	d
+INET_ADDRSTRLEN	../unpv13e/libfree/inet_ntop_ipv4.c	7;"	d	file:
+INET_ADDRSTRLEN	../unpv13e/sctp/unp.h	87;"	d
+INET_NTOA	../unpv13e/sock/sock.h	78;"	d
+INET_NTOA	../unpv13e/sock/sock.h	80;"	d
+INFTIM	../lib/unp.h	184;"	d
+INFTIM	../unp.h	158;"	d
+INFTIM	../unpv13e/debug/unpxti.h	19;"	d
+INFTIM	../unpv13e/key/unp.h	165;"	d
+INFTIM	../unpv13e/lib/unp.h	184;"	d
+INFTIM	../unpv13e/sctp/unp.h	158;"	d
+INFTIM	../unpv13e/streams/unpxti.h	19;"	d
+INFTIM_UNPH	../lib/unp.h	187;"	d
+INFTIM_UNPH	../unp.h	161;"	d
+INFTIM_UNPH	../unpv13e/key/unp.h	168;"	d
+INFTIM_UNPH	../unpv13e/lib/unp.h	187;"	d
+INFTIM_UNPH	../unpv13e/sctp/unp.h	161;"	d
+INT16SZ	../unpv13e/libfree/inet_ntop.c	33;"	d	file:
+INT16SZ	../unpv13e/libfree/inet_pton.c	33;"	d	file:
+IPV4	../config.h	248;"	d
+IPV4	../unpv13e/config.h	248;"	d
+IPV4	../unpv13e/libfree/getaddrinfo.c	53;"	d	file:
+IPV4	../unpv13e/libfree/getnameinfo.c	30;"	d	file:
+IPV4	../unpv13e/sparc64-unknown-freebsd5.1/config.h	242;"	d
+IPV6	../config.h	251;"	d
+IPV6	../unpv13e/config.h	251;"	d
+IPV6	../unpv13e/libfree/getaddrinfo.c	58;"	d	file:
+IPV6	../unpv13e/libfree/getaddrinfo.c	60;"	d	file:
+IPV6	../unpv13e/libfree/getnameinfo.c	33;"	d	file:
+IPV6	../unpv13e/sparc64-unknown-freebsd5.1/config.h	245;"	d
+IPv4	../config.h	254;"	d
+IPv4	../unpv13e/config.h	254;"	d
+IPv4	../unpv13e/sparc64-unknown-freebsd5.1/config.h	248;"	d
+IPv6	../config.h	257;"	d
+IPv6	../unpv13e/config.h	257;"	d
+IPv6	../unpv13e/sparc64-unknown-freebsd5.1/config.h	251;"	d
+If_indextoname	../lib/if_indextoname.c	/^If_indextoname(unsigned int index, char *name)$/;"	f
+If_indextoname	../unpv13e/lib/if_indextoname.c	/^If_indextoname(unsigned int index, char *name)$/;"	f
+If_indextoname	../unpv13e/libroute/if_indextoname.c	/^If_indextoname(unsigned int idx, char *name)$/;"	f
+If_nameindex	../lib/if_nameindex.c	/^If_nameindex(void)$/;"	f
+If_nameindex	../unpv13e/lib/if_nameindex.c	/^If_nameindex(void)$/;"	f
+If_nameindex	../unpv13e/libroute/if_nameindex.c	/^If_nameindex(void)$/;"	f
+If_nametoindex	../lib/if_nametoindex.c	/^If_nametoindex(const char *name)$/;"	f
+If_nametoindex	../unpv13e/lib/if_nametoindex.c	/^If_nametoindex(const char *name)$/;"	f
+If_nametoindex	../unpv13e/libroute/if_nametoindex.c	/^If_nametoindex(const char *name)$/;"	f
+Inet6_rth_add	../lib/wrapsock.c	/^Inet6_rth_add(void *rthbuf, const struct in6_addr *addr)$/;"	f
+Inet6_rth_add	../mylib/wrapsock.c	/^Inet6_rth_add(void *rthbuf, const struct in6_addr *addr)$/;"	f
+Inet6_rth_add	../unpv13e/lib/wrapsock.c	/^Inet6_rth_add(void *rthbuf, const struct in6_addr *addr)$/;"	f
+Inet6_rth_getaddr	../lib/wrapsock.c	/^Inet6_rth_getaddr(const void *rthbuf, int idx)$/;"	f
+Inet6_rth_getaddr	../mylib/wrapsock.c	/^Inet6_rth_getaddr(const void *rthbuf, int idx)$/;"	f
+Inet6_rth_getaddr	../unpv13e/lib/wrapsock.c	/^Inet6_rth_getaddr(const void *rthbuf, int idx)$/;"	f
+Inet6_rth_init	../lib/wrapsock.c	/^Inet6_rth_init(void *rthbuf, socklen_t rthlen, int type, int segments)$/;"	f
+Inet6_rth_init	../mylib/wrapsock.c	/^Inet6_rth_init(void *rthbuf, socklen_t rthlen, int type, int segments)$/;"	f
+Inet6_rth_init	../unpv13e/lib/wrapsock.c	/^Inet6_rth_init(void *rthbuf, socklen_t rthlen, int type, int segments)$/;"	f
+Inet6_rth_reverse	../lib/wrapsock.c	/^Inet6_rth_reverse(const void *in, void *out)$/;"	f
+Inet6_rth_reverse	../mylib/wrapsock.c	/^Inet6_rth_reverse(const void *in, void *out)$/;"	f
+Inet6_rth_reverse	../unpv13e/lib/wrapsock.c	/^Inet6_rth_reverse(const void *in, void *out)$/;"	f
+Inet6_rth_segments	../lib/wrapsock.c	/^Inet6_rth_segments(const void *rthbuf)$/;"	f
+Inet6_rth_segments	../mylib/wrapsock.c	/^Inet6_rth_segments(const void *rthbuf)$/;"	f
+Inet6_rth_segments	../unpv13e/lib/wrapsock.c	/^Inet6_rth_segments(const void *rthbuf)$/;"	f
+Inet6_rth_space	../lib/wrapsock.c	/^Inet6_rth_space(int type, int segments)$/;"	f
+Inet6_rth_space	../mylib/wrapsock.c	/^Inet6_rth_space(int type, int segments)$/;"	f
+Inet6_rth_space	../unpv13e/lib/wrapsock.c	/^Inet6_rth_space(int type, int segments)$/;"	f
+Inet_ntop	../lib/wraplib.c	/^Inet_ntop(int family, const void *addrptr, char *strptr, size_t len)$/;"	f
+Inet_ntop	../unpv13e/lib/wraplib.c	/^Inet_ntop(int family, const void *addrptr, char *strptr, size_t len)$/;"	f
+Inet_pton	../lib/wraplib.c	/^Inet_pton(int family, const char *strptr, void *addrptr)$/;"	f
+Inet_pton	../unpv13e/lib/wraplib.c	/^Inet_pton(int family, const char *strptr, void *addrptr)$/;"	f
+Ioctl	../lib/wrapunix.c	/^Ioctl(int fd, int request, void *arg)$/;"	f
+Ioctl	../unpv13e/lib/wrapunix.c	/^Ioctl(int fd, int request, void *arg)$/;"	f
+JAN_1970	../unpv13e/ssntp/ntp.h	1;"	d
+Kevent	../lib/wrapsock.c	/^Kevent(int kq, const struct kevent *changelist, int nchanges,$/;"	f
+Kevent	../mylib/wrapsock.c	/^Kevent(int kq, const struct kevent *changelist, int nchanges,$/;"	f
+Kevent	../unpv13e/lib/wrapsock.c	/^Kevent(int kq, const struct kevent *changelist, int nchanges,$/;"	f
+Kqueue	../lib/wrapsock.c	/^Kqueue(void)$/;"	f
+Kqueue	../mylib/wrapsock.c	/^Kqueue(void)$/;"	f
+Kqueue	../unpv13e/lib/wrapsock.c	/^Kqueue(void)$/;"	f
+LISTENQ	../lib/unp.h	193;"	d
+LISTENQ	../unp.h	167;"	d
+LISTENQ	../unpv13e/key/unp.h	174;"	d
+LISTENQ	../unpv13e/lib/unp.h	193;"	d
+LISTENQ	../unpv13e/sctp/unp.h	167;"	d
+LOCAL	../unpv13e/libfree/getaddrinfo.c	68;"	d	file:
+Listen	../lib/wrapsock.c	/^Listen(int fd, int backlog)$/;"	f
+Listen	../mylib/wrapsock.c	/^Listen(int fd, int backlog)$/;"	f
+Listen	../unpv13e/lib/wrapsock.c	/^Listen(int fd, int backlog)$/;"	f
+MAXBACKLOG	../unpv13e/debug/backlog.c	5;"	d	file:
+MAXBACKLOG	../unpv13e/debug/qlen.c	5;"	d	file:
+MAXDG	../unpv13e/sigio/dgecho01.c	7;"	d	file:
+MAXFD	../lib/daemon_init.c	4;"	d	file:
+MAXFD	../unpv13e/lib/daemon_init.c	4;"	d	file:
+MAXFILES	../unpv13e/nonblock/web.h	3;"	d
+MAXFILES	../unpv13e/threads/web01.c	5;"	d	file:
+MAXFILES	../unpv13e/threads/web02.c	6;"	d	file:
+MAXFILES	../unpv13e/threads/web03.c	4;"	d	file:
+MAXICMPLEN	../unpv13e/ping/bsdping.c	89;"	d	file:
+MAXIPLEN	../unpv13e/ping/bsdping.c	88;"	d	file:
+MAXLINE	../lib/unp.h	196;"	d
+MAXLINE	../myinclude/unp.h	12;"	d
+MAXLINE	../unp.h	170;"	d
+MAXLINE	../unpv13e/advio/dgechoaddr.c	3;"	d	file:
+MAXLINE	../unpv13e/advio/dgechoaddr.c	4;"	d	file:
+MAXLINE	../unpv13e/advio/old/dgechoaddr.c	3;"	d	file:
+MAXLINE	../unpv13e/advio/old/dgechoaddr.c	4;"	d	file:
+MAXLINE	../unpv13e/key/unp.h	177;"	d
+MAXLINE	../unpv13e/lib/unp.h	196;"	d
+MAXLINE	../unpv13e/sctp/unp.h	170;"	d
+MAXLINE	../unpv13e/sock/ourhdr.h	25;"	d
+MAXLINE	../unpv13e/udpcliserv/dgclibig.c	3;"	d	file:
+MAXLINE	../unpv13e/udpcliserv/dgclibig.c	4;"	d	file:
+MAXN	../unpv13e/server/client.c	3;"	d	file:
+MAXN	../unpv13e/server/clientrst.c	3;"	d	file:
+MAXN	../unpv13e/server/web_child.c	3;"	d	file:
+MAXN	../unpv13e/server/web_child_r.c	4;"	d	file:
+MAXNCLI	../unpv13e/server/pthread08.h	7;"	d
+MAXPACKET	../unpv13e/ping/bsdping.c	90;"	d	file:
+MAXSOCKADDR	../unp.h	171;"	d
+MAXSOCKADDR	../unpv13e/key/unp.h	178;"	d
+MAXSOCKADDR	../unpv13e/sctp/unp.h	171;"	d
+MAXWAIT	../unpv13e/ping/bsdping.c	382;"	d	file:
+MAX_DUP_CHK	../unpv13e/ping/bsdping.c	115;"	d	file:
+MCAST	../config.h	260;"	d
+MCAST	../unpv13e/config.h	260;"	d
+MCAST	../unpv13e/sparc64-unknown-freebsd5.1/config.h	254;"	d
+MODE_BROADCAST	../unpv13e/ssntp/ntp.h	32;"	d
+MODE_CLIENT	../unpv13e/ssntp/ntp.h	30;"	d
+MODE_MASK	../unpv13e/ssntp/ntp.h	28;"	d
+MODE_SERVER	../unpv13e/ssntp/ntp.h	31;"	d
+Malloc	../lib/wrapunix.c	/^Malloc(size_t size)$/;"	f
+Malloc	../unpv13e/lib/wrapunix.c	/^Malloc(size_t size)$/;"	f
+Mcast_block_source	../lib/mcast_join.c	/^Mcast_block_source(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+Mcast_block_source	../unpv13e/lib/mcast_join.c	/^Mcast_block_source(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+Mcast_get_if	../lib/mcast_get_if.c	/^Mcast_get_if(int sockfd)$/;"	f
+Mcast_get_if	../unpv13e/lib/mcast_get_if.c	/^Mcast_get_if(int sockfd)$/;"	f
+Mcast_get_loop	../lib/mcast_get_loop.c	/^Mcast_get_loop(int sockfd)$/;"	f
+Mcast_get_loop	../unpv13e/lib/mcast_get_loop.c	/^Mcast_get_loop(int sockfd)$/;"	f
+Mcast_get_ttl	../lib/mcast_get_ttl.c	/^Mcast_get_ttl(int sockfd)$/;"	f
+Mcast_get_ttl	../unpv13e/lib/mcast_get_ttl.c	/^Mcast_get_ttl(int sockfd)$/;"	f
+Mcast_join	../lib/mcast_join.c	/^Mcast_join(int sockfd, const SA *grp, socklen_t grplen,$/;"	f
+Mcast_join	../unpv13e/lib/mcast_join.c	/^Mcast_join(int sockfd, const SA *grp, socklen_t grplen,$/;"	f
+Mcast_join_source_group	../lib/mcast_join.c	/^Mcast_join_source_group(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+Mcast_join_source_group	../unpv13e/lib/mcast_join.c	/^Mcast_join_source_group(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+Mcast_leave	../lib/mcast_leave.c	/^Mcast_leave(int sockfd, const SA *grp, socklen_t grplen)$/;"	f
+Mcast_leave	../unpv13e/lib/mcast_leave.c	/^Mcast_leave(int sockfd, const SA *grp, socklen_t grplen)$/;"	f
+Mcast_leave_source_group	../lib/mcast_leave.c	/^Mcast_leave_source_group(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+Mcast_leave_source_group	../unpv13e/lib/mcast_leave.c	/^Mcast_leave_source_group(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+Mcast_set_if	../lib/mcast_set_if.c	/^Mcast_set_if(int sockfd, const char *ifname, u_int ifindex)$/;"	f
+Mcast_set_if	../unpv13e/lib/mcast_set_if.c	/^Mcast_set_if(int sockfd, const char *ifname, u_int ifindex)$/;"	f
+Mcast_set_loop	../lib/mcast_set_loop.c	/^Mcast_set_loop(int sockfd, int onoff)$/;"	f
+Mcast_set_loop	../unpv13e/lib/mcast_set_loop.c	/^Mcast_set_loop(int sockfd, int onoff)$/;"	f
+Mcast_set_ttl	../lib/mcast_set_ttl.c	/^Mcast_set_ttl(int sockfd, int val)$/;"	f
+Mcast_set_ttl	../unpv13e/lib/mcast_set_ttl.c	/^Mcast_set_ttl(int sockfd, int val)$/;"	f
+Mcast_unblock_source	../lib/mcast_join.c	/^Mcast_unblock_source(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+Mcast_unblock_source	../unpv13e/lib/mcast_join.c	/^Mcast_unblock_source(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+Mkstemp	../lib/wrapunix.c	/^Mkstemp(char *template)$/;"	f
+Mkstemp	../unpv13e/lib/wrapunix.c	/^Mkstemp(char *template)$/;"	f
+Mmap	../lib/wrapunix.c	/^Mmap(void *addr, size_t len, int prot, int flags, int fd, off_t offset)$/;"	f
+Mmap	../unpv13e/lib/wrapunix.c	/^Mmap(void *addr, size_t len, int prot, int flags, int fd, off_t offset)$/;"	f
+My_addrs	../lib/my_addrs.c	/^My_addrs(int *pfamily)$/;"	f
+My_addrs	../unpv13e/lib/my_addrs.c	/^My_addrs(int *pfamily)$/;"	f
+NDG	../unpv13e/udpcliserv/dgcliloop1.c	3;"	d	file:
+NDG	../unpv13e/udpcliserv/dgcliloop3.c	6;"	d	file:
+NEXT_SA	../unpv13e/libroute/get_rtaddrs.c	12;"	d	file:
+NI_DGRAM	../lib/addrinfo.h	33;"	d
+NI_DGRAM	../unpv13e/lib/addrinfo.h	33;"	d
+NI_DGRAM	../unpv13e/libfree/addrinfo.h	33;"	d
+NI_DGRAM	../unpv13e/libgai/addrinfo.h	33;"	d
+NI_MAXHOST	../lib/addrinfo.h	26;"	d
+NI_MAXHOST	../unpv13e/lib/addrinfo.h	26;"	d
+NI_MAXHOST	../unpv13e/libfree/addrinfo.h	26;"	d
+NI_MAXHOST	../unpv13e/libgai/addrinfo.h	26;"	d
+NI_MAXSERV	../lib/addrinfo.h	27;"	d
+NI_MAXSERV	../unpv13e/lib/addrinfo.h	27;"	d
+NI_MAXSERV	../unpv13e/libfree/addrinfo.h	27;"	d
+NI_MAXSERV	../unpv13e/libgai/addrinfo.h	27;"	d
+NI_NAMEREQD	../lib/addrinfo.h	31;"	d
+NI_NAMEREQD	../unpv13e/lib/addrinfo.h	31;"	d
+NI_NAMEREQD	../unpv13e/libfree/addrinfo.h	31;"	d
+NI_NAMEREQD	../unpv13e/libgai/addrinfo.h	31;"	d
+NI_NOFQDN	../lib/addrinfo.h	29;"	d
+NI_NOFQDN	../unpv13e/lib/addrinfo.h	29;"	d
+NI_NOFQDN	../unpv13e/libfree/addrinfo.h	29;"	d
+NI_NOFQDN	../unpv13e/libgai/addrinfo.h	29;"	d
+NI_NUMERICHOST	../lib/addrinfo.h	30;"	d
+NI_NUMERICHOST	../unpv13e/lib/addrinfo.h	30;"	d
+NI_NUMERICHOST	../unpv13e/libfree/addrinfo.h	30;"	d
+NI_NUMERICHOST	../unpv13e/libgai/addrinfo.h	30;"	d
+NI_NUMERICSERV	../lib/addrinfo.h	32;"	d
+NI_NUMERICSERV	../unpv13e/lib/addrinfo.h	32;"	d
+NI_NUMERICSERV	../unpv13e/libfree/addrinfo.h	32;"	d
+NI_NUMERICSERV	../unpv13e/libgai/addrinfo.h	32;"	d
+NLOOP	../unpv13e/threads/example01.c	3;"	d	file:
+NLOOP	../unpv13e/threads/example02.c	3;"	d	file:
+NLOOP	../unpv13e/threads/example03.c	24;"	d	file:
+NROUTES	../unpv13e/ping/bsdping.c	91;"	d	file:
+Net_rt_dump	../unpv13e/libroute/net_rt_dump.c	/^Net_rt_dump(int family, int flags, size_t *lenp)$/;"	f
+Net_rt_iflist	../unpv13e/libroute/net_rt_iflist.c	/^Net_rt_iflist(int family, int flags, size_t *lenp)$/;"	f
+OBJS	../unpv13e/icmpd/Makefile	/^OBJS = icmpd.o readable_listen.o readable_conn.o readable_v4.o readable_v6.o$/;"	m
+OBJS	../unpv13e/key/Makefile	/^OBJS = printsadbmsg.o name.o$/;"	m
+OBJS	../unpv13e/ping/Makefile	/^OBJS = init_v6.o main.o proc_v4.o proc_v6.o readloop.o \\$/;"	m
+OBJS	../unpv13e/sock/Makefile	/^OBJS = buffers.o cliopen.o crlf.o error.o looptcp.o loopudp.o \\$/;"	m
+OBJS	../unpv13e/traceroute/Makefile	/^OBJS = main.o icmpcode_v4.o icmpcode_v6.o recv_v4.o recv_v6.o \\$/;"	m
+OBJS	../unpv13e/udpcksum/Makefile	/^OBJS = main.o cleanup.o pcap.o udpcksum.o senddnsquery-raw.o udpread.o udpwrite.o$/;"	m
+OBJSNET	../unpv13e/udpcksum/Makefile	/^OBJSNET = main.o cleanup.o pcap.o udpcksum.o senddnsquery-libnet.o udpread.o$/;"	m
+Open	../lib/wrapunix.c	/^Open(const char *pathname, int oflag, mode_t mode)$/;"	f
+Open	../unpv13e/lib/wrapunix.c	/^Open(const char *pathname, int oflag, mode_t mode)$/;"	f
+PACKAGE_BUGREPORT	../config.h	263;"	d
+PACKAGE_BUGREPORT	../unpv13e/config.h	263;"	d
+PACKAGE_NAME	../config.h	266;"	d
+PACKAGE_NAME	../unpv13e/config.h	266;"	d
+PACKAGE_STRING	../config.h	269;"	d
+PACKAGE_STRING	../unpv13e/config.h	269;"	d
+PACKAGE_TARNAME	../config.h	272;"	d
+PACKAGE_TARNAME	../unpv13e/config.h	272;"	d
+PACKAGE_VERSION	../config.h	275;"	d
+PACKAGE_VERSION	../unpv13e/config.h	275;"	d
+PF_LOCAL	../lib/unp.h	176;"	d
+PF_LOCAL	../unp.h	150;"	d
+PF_LOCAL	../unpv13e/key/unp.h	157;"	d
+PF_LOCAL	../unpv13e/lib/unp.h	176;"	d
+PF_LOCAL	../unpv13e/libfree/getaddrinfo.c	74;"	d	file:
+PF_LOCAL	../unpv13e/sctp/unp.h	150;"	d
+PORT	../unpv13e/debug/backlog.c	3;"	d	file:
+PORT	../unpv13e/debug/qlen.c	3;"	d	file:
+PROGS	../unpv13e/advio/Makefile	/^PROGS =	tcpcli01 tcpcli02 tcpserv02 \\$/;"	m
+PROGS	../unpv13e/bcast/Makefile	/^PROGS =	udpcli01 udpcli02 udpcli03 udpcli04 udpcli05 udpcli06$/;"	m
+PROGS	../unpv13e/debug/Makefile	/^PROGS =	qlen backlog test01 test02 test03 test04 test05 test06$/;"	m
+PROGS	../unpv13e/icmpd/Makefile	/^PROGS =	icmpd udpcli01$/;"	m
+PROGS	../unpv13e/inetd/Makefile	/^PROGS =	daytimetcpsrv2 daytimetcpsrv3$/;"	m
+PROGS	../unpv13e/intro/Makefile	/^PROGS =	daytimetcpcli daytimetcpcli1 daytimetcpcli2 daytimetcpcli3 \\$/;"	m
+PROGS	../unpv13e/ioctl/Makefile	/^PROGS =	lsif01 lsif02 prifinfo prmac$/;"	m
+PROGS	../unpv13e/ipopts/Makefile	/^PROGS =	tcpcli01 tcpserv01$/;"	m
+PROGS	../unpv13e/key/Makefile	/^PROGS =	dump register add$/;"	m
+PROGS	../unpv13e/libgai/Makefile	/^PROGS = testga test1$/;"	m
+PROGS	../unpv13e/mcast/Makefile	/^PROGS =	sendrecv udpcli05 udpcli06 udpserv01$/;"	m
+PROGS	../unpv13e/mysdr/Makefile	/^PROGS =	mysdr$/;"	m
+PROGS	../unpv13e/names/Makefile	/^PROGS =	daytimetcpcli daytimetcpcli1 daytimetcpsrv1 daytimetcpsrv2 \\$/;"	m
+PROGS	../unpv13e/nonblock/Makefile	/^PROGS =	daytimetcpcli tcpcli01 tcpcli02 tcpcli03 tcpcli04 tcpservselect02 web$/;"	m
+PROGS	../unpv13e/oob/Makefile	/^PROGS =	tcprecv01 tcprecv02 tcprecv03 tcprecv04 tcprecv05 tcprecv06 \\$/;"	m
+PROGS	../unpv13e/ping/Makefile	/^PROGS =	ping$/;"	m
+PROGS	../unpv13e/route/Makefile	/^PROGS =	checkudpsum getrt mynetstat \\$/;"	m
+PROGS	../unpv13e/rtt/Makefile	/^PROGS =	udpcli01$/;"	m
+PROGS	../unpv13e/sctp/Makefile	/^PROGS =	sctpserv01 sctpclient01 sctpserv02 sctpserv03 sctpclient02 sctpserv04 \\$/;"	m
+PROGS	../unpv13e/select/Makefile	/^PROGS =	tcpcli01 tcpcli02 tcpcli03$/;"	m
+PROGS	../unpv13e/server/Makefile	/^PROGS =	client clientrst \\$/;"	m
+PROGS	../unpv13e/sigio/Makefile	/^PROGS =	udpcli01 udpserv01$/;"	m
+PROGS	../unpv13e/sock/Makefile	/^PROGS =	sock$/;"	m
+PROGS	../unpv13e/sockopt/Makefile	/^PROGS =	checkopts prdefaults rcvbuf rcvbufset sockopt$/;"	m
+PROGS	../unpv13e/ssntp/Makefile	/^PROGS =	ssntp$/;"	m
+PROGS	../unpv13e/streams/Makefile	/^PROGS =	strlist_sock strlist_xti tpi_daytime$/;"	m
+PROGS	../unpv13e/tcpcliserv/Makefile	/^PROGS =	tcpcli01 tcpcli04 tcpcli05 tcpcli06 \\$/;"	m
+PROGS	../unpv13e/test/Makefile	/^PROGS =	accept_eintr test1 treadline1 treadline2 treadline3 \\$/;"	m
+PROGS	../unpv13e/threads/Makefile	/^PROGS =	web01 web02 web03 \\$/;"	m
+PROGS	../unpv13e/traceroute/Makefile	/^PROGS =	traceroute$/;"	m
+PROGS	../unpv13e/udpcksum/Makefile	/^PROGS =	udpcksum udpcksum-libnet$/;"	m
+PROGS	../unpv13e/udpcliserv/Makefile	/^PROGS =	udpcli01 udpserv01 udpcli02 udpcli03 udpcli04 \\$/;"	m
+PROGS	../unpv13e/unixdomain/Makefile	/^PROGS =	daytimetcpcli daytimetcpsrv2 mycat openfile \\$/;"	m
+Pipe	../lib/wrapunix.c	/^Pipe(int *fds)$/;"	f
+Pipe	../unpv13e/lib/wrapunix.c	/^Pipe(int *fds)$/;"	f
+Poll	../lib/wrapsock.c	/^Poll(struct pollfd *fdarray, unsigned long nfds, int timeout)$/;"	f
+Poll	../mylib/wrapsock.c	/^Poll(struct pollfd *fdarray, unsigned long nfds, int timeout)$/;"	f
+Poll	../unpv13e/lib/wrapsock.c	/^Poll(struct pollfd *fdarray, unsigned long nfds, int timeout)$/;"	f
+Pthread_cond_broadcast	../lib/wrappthread.c	/^Pthread_cond_broadcast(pthread_cond_t *cptr)$/;"	f
+Pthread_cond_broadcast	../unpv13e/lib/wrappthread.c	/^Pthread_cond_broadcast(pthread_cond_t *cptr)$/;"	f
+Pthread_cond_signal	../lib/wrappthread.c	/^Pthread_cond_signal(pthread_cond_t *cptr)$/;"	f
+Pthread_cond_signal	../unpv13e/lib/wrappthread.c	/^Pthread_cond_signal(pthread_cond_t *cptr)$/;"	f
+Pthread_cond_signal	../unpv13e/threads/example03.c	18;"	d	file:
+Pthread_cond_timedwait	../lib/wrappthread.c	/^Pthread_cond_timedwait(pthread_cond_t *cptr, pthread_mutex_t *mptr,$/;"	f
+Pthread_cond_timedwait	../unpv13e/lib/wrappthread.c	/^Pthread_cond_timedwait(pthread_cond_t *cptr, pthread_mutex_t *mptr,$/;"	f
+Pthread_cond_wait	../lib/wrappthread.c	/^Pthread_cond_wait(pthread_cond_t *cptr, pthread_mutex_t *mptr)$/;"	f
+Pthread_cond_wait	../unpv13e/lib/wrappthread.c	/^Pthread_cond_wait(pthread_cond_t *cptr, pthread_mutex_t *mptr)$/;"	f
+Pthread_cond_wait	../unpv13e/threads/example03.c	13;"	d	file:
+Pthread_create	../lib/wrappthread.c	/^Pthread_create(pthread_t *tid, const pthread_attr_t *attr,$/;"	f
+Pthread_create	../unpv13e/lib/wrappthread.c	/^Pthread_create(pthread_t *tid, const pthread_attr_t *attr,$/;"	f
+Pthread_detach	../lib/wrappthread.c	/^Pthread_detach(pthread_t tid)$/;"	f
+Pthread_detach	../unpv13e/lib/wrappthread.c	/^Pthread_detach(pthread_t tid)$/;"	f
+Pthread_join	../lib/wrappthread.c	/^Pthread_join(pthread_t tid, void **status)$/;"	f
+Pthread_join	../unpv13e/lib/wrappthread.c	/^Pthread_join(pthread_t tid, void **status)$/;"	f
+Pthread_key_create	../lib/wrappthread.c	/^Pthread_key_create(pthread_key_t *key, void (*func)(void *))$/;"	f
+Pthread_key_create	../unpv13e/lib/wrappthread.c	/^Pthread_key_create(pthread_key_t *key, void (*func)(void *))$/;"	f
+Pthread_kill	../lib/wrappthread.c	/^Pthread_kill(pthread_t tid, int signo)$/;"	f
+Pthread_kill	../unpv13e/lib/wrappthread.c	/^Pthread_kill(pthread_t tid, int signo)$/;"	f
+Pthread_mutex_init	../lib/wrappthread.c	/^Pthread_mutex_init(pthread_mutex_t *mptr, pthread_mutexattr_t *attr)$/;"	f
+Pthread_mutex_init	../unpv13e/lib/wrappthread.c	/^Pthread_mutex_init(pthread_mutex_t *mptr, pthread_mutexattr_t *attr)$/;"	f
+Pthread_mutex_lock	../lib/wrappthread.c	/^Pthread_mutex_lock(pthread_mutex_t *mptr)$/;"	f
+Pthread_mutex_lock	../unpv13e/lib/wrappthread.c	/^Pthread_mutex_lock(pthread_mutex_t *mptr)$/;"	f
+Pthread_mutex_lock	../unpv13e/threads/example03.c	3;"	d	file:
+Pthread_mutex_unlock	../lib/wrappthread.c	/^Pthread_mutex_unlock(pthread_mutex_t *mptr)$/;"	f
+Pthread_mutex_unlock	../unpv13e/lib/wrappthread.c	/^Pthread_mutex_unlock(pthread_mutex_t *mptr)$/;"	f
+Pthread_mutex_unlock	../unpv13e/threads/example03.c	8;"	d	file:
+Pthread_mutexattr_init	../lib/wrappthread.c	/^Pthread_mutexattr_init(pthread_mutexattr_t *attr)$/;"	f
+Pthread_mutexattr_init	../unpv13e/lib/wrappthread.c	/^Pthread_mutexattr_init(pthread_mutexattr_t *attr)$/;"	f
+Pthread_mutexattr_setpshared	../lib/wrappthread.c	/^Pthread_mutexattr_setpshared(pthread_mutexattr_t *attr, int flag)$/;"	f
+Pthread_mutexattr_setpshared	../unpv13e/lib/wrappthread.c	/^Pthread_mutexattr_setpshared(pthread_mutexattr_t *attr, int flag)$/;"	f
+Pthread_once	../lib/wrappthread.c	/^Pthread_once(pthread_once_t *ptr, void (*func)(void))$/;"	f
+Pthread_once	../unpv13e/lib/wrappthread.c	/^Pthread_once(pthread_once_t *ptr, void (*func)(void))$/;"	f
+Pthread_setspecific	../lib/wrappthread.c	/^Pthread_setspecific(pthread_key_t key, const void *value)$/;"	f
+Pthread_setspecific	../unpv13e/lib/wrappthread.c	/^Pthread_setspecific(pthread_key_t key, const void *value)$/;"	f
+QSIZE	../unpv13e/sigio/dgecho01.c	6;"	d	file:
+RES_USE_INET6	../unpv13e/libfree/getaddrinfo.c	509;"	d	file:
+ROUNDUP	../unpv13e/libroute/get_rtaddrs.c	6;"	d	file:
+RTT_DEBUG	../unpv13e/rtt/dg_send_recv.c	5;"	d	file:
+RTT_MAXNREXMT	../lib/unprtt.h	17;"	d
+RTT_MAXNREXMT	../unpv13e/lib/unprtt.h	17;"	d
+RTT_MAXNREXMT	../unpv13e/rtt/unprtt.h	17;"	d
+RTT_RTOCALC	../lib/rtt.c	10;"	d	file:
+RTT_RTOCALC	../unpv13e/lib/rtt.c	10;"	d	file:
+RTT_RXTMAX	../lib/unprtt.h	16;"	d
+RTT_RXTMAX	../unpv13e/lib/unprtt.h	16;"	d
+RTT_RXTMAX	../unpv13e/rtt/unprtt.h	16;"	d
+RTT_RXTMIN	../lib/unprtt.h	15;"	d
+RTT_RXTMIN	../unpv13e/lib/unprtt.h	15;"	d
+RTT_RXTMIN	../unpv13e/rtt/unprtt.h	15;"	d
+Read	../lib/wrapunix.c	/^Read(int fd, void *ptr, size_t nbytes)$/;"	f
+Read	../unpv13e/lib/wrapunix.c	/^Read(int fd, void *ptr, size_t nbytes)$/;"	f
+Read_fd	../lib/read_fd.c	/^Read_fd(int fd, void *ptr, size_t nbytes, int *recvfd)$/;"	f
+Read_fd	../unpv13e/lib/read_fd.c	/^Read_fd(int fd, void *ptr, size_t nbytes, int *recvfd)$/;"	f
+Readable_timeo	../lib/readable_timeo.c	/^Readable_timeo(int fd, int sec)$/;"	f
+Readable_timeo	../unpv13e/lib/readable_timeo.c	/^Readable_timeo(int fd, int sec)$/;"	f
+Readline	../lib/readline.c	/^Readline(int fd, void *ptr, size_t maxlen)$/;"	f
+Readline	../unpv13e/lib/readline.c	/^Readline(int fd, void *ptr, size_t maxlen)$/;"	f
+Readline	../unpv13e/server/readline.c	/^Readline(int fd, void *ptr, size_t maxlen)$/;"	f
+Readline	../unpv13e/test/readline1.c	/^Readline(int fd, void *ptr, size_t maxlen)$/;"	f
+Readline	../unpv13e/test/readline2.c	/^Readline(int fd, void *ptr, size_t maxlen)$/;"	f
+Readline	../unpv13e/test/readline3.c	/^Readline(int fd, void *ptr, size_t maxlen)$/;"	f
+Readline	../unpv13e/threads/readline.c	/^Readline(int fd, void *ptr, size_t maxlen)$/;"	f
+Readline_r	../unpv13e/server/readline_r.c	/^Readline_r(Rline *rptr)$/;"	f
+Readn	../lib/readn.c	/^Readn(int fd, void *ptr, size_t nbytes)$/;"	f
+Readn	../unpv13e/lib/readn.c	/^Readn(int fd, void *ptr, size_t nbytes)$/;"	f
+Recv	../lib/wrapsock.c	/^Recv(int fd, void *ptr, size_t nbytes, int flags)$/;"	f
+Recv	../mylib/wrapsock.c	/^Recv(int fd, void *ptr, size_t nbytes, int flags)$/;"	f
+Recv	../unpv13e/lib/wrapsock.c	/^Recv(int fd, void *ptr, size_t nbytes, int flags)$/;"	f
+Recvfrom	../lib/wrapsock.c	/^Recvfrom(int fd, void *ptr, size_t nbytes, int flags,$/;"	f
+Recvfrom	../mylib/wrapsock.c	/^Recvfrom(int fd, void *ptr, size_t nbytes, int flags,$/;"	f
+Recvfrom	../unpv13e/lib/wrapsock.c	/^Recvfrom(int fd, void *ptr, size_t nbytes, int flags,$/;"	f
+Recvfrom_flags	../unpv13e/advio/old/recvfromflags.c	/^Recvfrom_flags(int fd, void *ptr, size_t nbytes, int *flagsp,$/;"	f
+Recvfrom_flags	../unpv13e/advio/recvfromflags.c	/^Recvfrom_flags(int fd, void *ptr, size_t nbytes, int *flagsp,$/;"	f
+Recvmsg	../lib/wrapsock.c	/^Recvmsg(int fd, struct msghdr *msg, int flags)$/;"	f
+Recvmsg	../mylib/wrapsock.c	/^Recvmsg(int fd, struct msghdr *msg, int flags)$/;"	f
+Recvmsg	../unpv13e/lib/wrapsock.c	/^Recvmsg(int fd, struct msghdr *msg, int flags)$/;"	f
+Rline	../unpv13e/server/readline_r.h	/^} Rline;$/;"	t	typeref:struct:__anon9
+Rline	../unpv13e/test/readline.h	/^} Rline;$/;"	t	typeref:struct:__anon3
+Rline	../unpv13e/threads/readline.c	/^} Rline;$/;"	t	typeref:struct:__anon10	file:
+SA	../lib/unp.h	212;"	d
+SA	../unp.h	195;"	d
+SA	../unpv13e/key/unp.h	195;"	d
+SA	../unpv13e/lib/unp.h	212;"	d
+SA	../unpv13e/sctp/unp.h	195;"	d
+SAP_AUTHLEN_MASK	../unpv13e/mysdr/mysdr.h	10;"	d
+SAP_AUTHLEN_SHIFT	../unpv13e/mysdr/mysdr.h	11;"	d
+SAP_COMPRESSED	../unpv13e/mysdr/mysdr.h	9;"	d
+SAP_DELETE	../unpv13e/mysdr/mysdr.h	7;"	d
+SAP_ENCRYPTED	../unpv13e/mysdr/mysdr.h	8;"	d
+SAP_HASH_MASK	../unpv13e/mysdr/mysdr.h	12;"	d
+SAP_IPV6	../unpv13e/mysdr/mysdr.h	6;"	d
+SAP_NAME	../unpv13e/mysdr/main.c	3;"	d	file:
+SAP_PORT	../unpv13e/mysdr/main.c	4;"	d	file:
+SAP_VERSION	../unpv13e/mysdr/mysdr.h	3;"	d
+SAP_VERSION_MASK	../unpv13e/mysdr/mysdr.h	4;"	d
+SAP_VERSION_SHIFT	../unpv13e/mysdr/mysdr.h	5;"	d
+SCTP_DISABLE_HB	../unp.h	279;"	d
+SCTP_DISABLE_HB	../unpv13e/sctp/unp.h	279;"	d
+SCTP_MAXLINE	../unpv13e/sctp/sctp_strcliecho.c	3;"	d	file:
+SCTP_MAXLINE	../unpv13e/sctp/sctp_strcliecho2.c	3;"	d	file:
+SCTP_ON_DEMAND_HB	../unp.h	277;"	d
+SCTP_ON_DEMAND_HB	../unpv13e/sctp/unp.h	277;"	d
+SCTP_PDAPI_INCR_SZ	../unp.h	178;"	d
+SCTP_PDAPI_INCR_SZ	../unpv13e/sctp/unp.h	178;"	d
+SCTP_PDAPI_NEED_MORE_THRESHOLD	../unp.h	179;"	d
+SCTP_PDAPI_NEED_MORE_THRESHOLD	../unpv13e/sctp/unp.h	179;"	d
+SCTP_SET_HB_INTERVAL	../unp.h	278;"	d
+SCTP_SET_HB_INTERVAL	../unpv13e/sctp/unp.h	278;"	d
+SENDRATE	../unpv13e/mcast/send.c	4;"	d	file:
+SEQ	../unpv13e/route/getrt.c	6;"	d	file:
+SERV	../unpv13e/nonblock/web.h	4;"	d
+SERV	../unpv13e/threads/web01.c	6;"	d	file:
+SERV	../unpv13e/threads/web02.c	7;"	d	file:
+SERV	../unpv13e/threads/web03.c	5;"	d	file:
+SERV_HOST_ADDR	../unpv13e/streams/stream_dg/client.c	10;"	d	file:
+SERV_MAX_SCTP_STRM	../unp.h	180;"	d
+SERV_MAX_SCTP_STRM	../unpv13e/sctp/unp.h	180;"	d
+SERV_MORE_STRMS_SCTP	../unp.h	181;"	d
+SERV_MORE_STRMS_SCTP	../unpv13e/sctp/unp.h	181;"	d
+SERV_PORT	../lib/unp.h	200;"	d
+SERV_PORT	../unp.h	175;"	d
+SERV_PORT	../unpv13e/key/unp.h	182;"	d
+SERV_PORT	../unpv13e/lib/unp.h	200;"	d
+SERV_PORT	../unpv13e/sctp/unp.h	175;"	d
+SERV_PORT_STR	../lib/unp.h	201;"	d
+SERV_PORT_STR	../unp.h	176;"	d
+SERV_PORT_STR	../unpv13e/key/unp.h	183;"	d
+SERV_PORT_STR	../unpv13e/lib/unp.h	201;"	d
+SERV_PORT_STR	../unpv13e/sctp/unp.h	176;"	d
+SERV_TCP_PORT	../unpv13e/streams/stream_dg/client.c	11;"	d	file:
+SERV_TCP_PORT	../unpv13e/streams/stream_dg/server.c	11;"	d	file:
+SET	../unpv13e/ping/bsdping.c	95;"	d	file:
+SHUT_RD	../lib/unp.h	102;"	d
+SHUT_RD	../unp.h	76;"	d
+SHUT_RD	../unpv13e/key/unp.h	83;"	d
+SHUT_RD	../unpv13e/lib/unp.h	102;"	d
+SHUT_RD	../unpv13e/sctp/unp.h	76;"	d
+SHUT_RDWR	../lib/unp.h	104;"	d
+SHUT_RDWR	../unp.h	78;"	d
+SHUT_RDWR	../unpv13e/key/unp.h	85;"	d
+SHUT_RDWR	../unpv13e/lib/unp.h	104;"	d
+SHUT_RDWR	../unpv13e/sctp/unp.h	78;"	d
+SHUT_WR	../lib/unp.h	103;"	d
+SHUT_WR	../unp.h	77;"	d
+SHUT_WR	../unpv13e/key/unp.h	84;"	d
+SHUT_WR	../unpv13e/lib/unp.h	103;"	d
+SHUT_WR	../unpv13e/sctp/unp.h	77;"	d
+SIG_ERR	../unpv13e/sock/ourhdr.h	36;"	d
+STDC_HEADERS	../config.h	281;"	d
+STDC_HEADERS	../unpv13e/config.h	281;"	d
+STDC_HEADERS	../unpv13e/sparc64-unknown-freebsd5.1/config.h	260;"	d
+SUN_LEN	../lib/unp.h	166;"	d
+SUN_LEN	../unp.h	140;"	d
+SUN_LEN	../unpv13e/key/unp.h	147;"	d
+SUN_LEN	../unpv13e/lib/unp.h	166;"	d
+SUN_LEN	../unpv13e/sctp/unp.h	140;"	d
+Sctp_bindx	../unpv13e/sctp/sctp_wrapper.c	/^Sctp_bindx(int sock_fd,struct sockaddr_storage *at,int num,int op)$/;"	f
+Sctp_recvmsg	../unpv13e/sctp/sctp_wrapper.c	/^Sctp_recvmsg(int s, void *msg, size_t len,$/;"	f
+Sctp_sendmsg	../unpv13e/sctp/sctp_wrapper.c	/^Sctp_sendmsg (int s, void *data, size_t len, struct sockaddr *to,$/;"	f
+Select	../lib/wrapsock.c	/^Select(int nfds, fd_set *readfds, fd_set *writefds, fd_set *exceptfds,$/;"	f
+Select	../mylib/wrapsock.c	/^Select(int nfds, fd_set *readfds, fd_set *writefds, fd_set *exceptfds,$/;"	f
+Select	../unpv13e/lib/wrapsock.c	/^Select(int nfds, fd_set *readfds, fd_set *writefds, fd_set *exceptfds,$/;"	f
+Send	../lib/wrapsock.c	/^Send(int fd, const void *ptr, size_t nbytes, int flags)$/;"	f
+Send	../mylib/wrapsock.c	/^Send(int fd, const void *ptr, size_t nbytes, int flags)$/;"	f
+Send	../unpv13e/lib/wrapsock.c	/^Send(int fd, const void *ptr, size_t nbytes, int flags)$/;"	f
+Sendmsg	../lib/wrapsock.c	/^Sendmsg(int fd, const struct msghdr *msg, int flags)$/;"	f
+Sendmsg	../mylib/wrapsock.c	/^Sendmsg(int fd, const struct msghdr *msg, int flags)$/;"	f
+Sendmsg	../unpv13e/lib/wrapsock.c	/^Sendmsg(int fd, const struct msghdr *msg, int flags)$/;"	f
+Sendto	../lib/wrapsock.c	/^Sendto(int fd, const void *ptr, size_t nbytes, int flags,$/;"	f
+Sendto	../mylib/wrapsock.c	/^Sendto(int fd, const void *ptr, size_t nbytes, int flags,$/;"	f
+Sendto	../unpv13e/lib/wrapsock.c	/^Sendto(int fd, const void *ptr, size_t nbytes, int flags,$/;"	f
+Setsockopt	../lib/wrapsock.c	/^Setsockopt(int fd, int level, int optname, const void *optval, socklen_t optlen)$/;"	f
+Setsockopt	../mylib/wrapsock.c	/^Setsockopt(int fd, int level, int optname, const void *optval, socklen_t optlen)$/;"	f
+Setsockopt	../unpv13e/lib/wrapsock.c	/^Setsockopt(int fd, int level, int optname, const void *optval, socklen_t optlen)$/;"	f
+Shutdown	../lib/wrapsock.c	/^Shutdown(int fd, int how)$/;"	f
+Shutdown	../mylib/wrapsock.c	/^Shutdown(int fd, int how)$/;"	f
+Shutdown	../unpv13e/lib/wrapsock.c	/^Shutdown(int fd, int how)$/;"	f
+Sigaddset	../lib/wrapunix.c	/^Sigaddset(sigset_t *set, int signo)$/;"	f
+Sigaddset	../unpv13e/lib/wrapunix.c	/^Sigaddset(sigset_t *set, int signo)$/;"	f
+Sigdelset	../lib/wrapunix.c	/^Sigdelset(sigset_t *set, int signo)$/;"	f
+Sigdelset	../unpv13e/lib/wrapunix.c	/^Sigdelset(sigset_t *set, int signo)$/;"	f
+Sigemptyset	../lib/wrapunix.c	/^Sigemptyset(sigset_t *set)$/;"	f
+Sigemptyset	../unpv13e/lib/wrapunix.c	/^Sigemptyset(sigset_t *set)$/;"	f
+Sigfillset	../lib/wrapunix.c	/^Sigfillset(sigset_t *set)$/;"	f
+Sigfillset	../unpv13e/lib/wrapunix.c	/^Sigfillset(sigset_t *set)$/;"	f
+Sigfunc	../lib/unp.h	/^typedef	void	Sigfunc(int);	\/* for signal handlers *\/$/;"	t
+Sigfunc	../unp.h	/^typedef	void	Sigfunc(int);	\/* for signal handlers *\/$/;"	t
+Sigfunc	../unpv13e/key/unp.h	/^typedef	void	Sigfunc(int);	\/* for signal handlers *\/$/;"	t
+Sigfunc	../unpv13e/lib/unp.h	/^typedef	void	Sigfunc(int);	\/* for signal handlers *\/$/;"	t
+Sigfunc	../unpv13e/sctp/unp.h	/^typedef	void	Sigfunc(int);	\/* for signal handlers *\/$/;"	t
+Sigfunc	../unpv13e/sock/ourhdr.h	/^typedef	void	Sigfunc(int);	\/* for signal handlers *\/$/;"	t
+Sigismember	../lib/wrapunix.c	/^Sigismember(const sigset_t *set, int signo)$/;"	f
+Sigismember	../unpv13e/lib/wrapunix.c	/^Sigismember(const sigset_t *set, int signo)$/;"	f
+Signal	../lib/signal.c	/^Signal(int signo, Sigfunc *func)	\/* for our signal() function *\/$/;"	f
+Signal	../unpv13e/lib/signal.c	/^Signal(int signo, Sigfunc *func)	\/* for our signal() function *\/$/;"	f
+Signal_intr	../lib/signal_intr.c	/^Signal_intr(int signo, Sigfunc *func)$/;"	f
+Signal_intr	../unpv13e/lib/signal_intr.c	/^Signal_intr(int signo, Sigfunc *func)$/;"	f
+Sigpending	../lib/wrapunix.c	/^Sigpending(sigset_t *set)$/;"	f
+Sigpending	../unpv13e/lib/wrapunix.c	/^Sigpending(sigset_t *set)$/;"	f
+Sigprocmask	../lib/wrapunix.c	/^Sigprocmask(int how, const sigset_t *set, sigset_t *oset)$/;"	f
+Sigprocmask	../unpv13e/lib/wrapunix.c	/^Sigprocmask(int how, const sigset_t *set, sigset_t *oset)$/;"	f
+Sock_bind_wild	../lib/sock_bind_wild.c	/^Sock_bind_wild(int sockfd, int family)$/;"	f
+Sock_bind_wild	../unpv13e/lib/sock_bind_wild.c	/^Sock_bind_wild(int sockfd, int family)$/;"	f
+Sock_masktop	../unpv13e/libroute/unproute.h	20;"	d
+Sock_masktop	../unpv13e/route/unproute.h	20;"	d
+Sock_ntop	../lib/sock_ntop.c	/^Sock_ntop(const struct sockaddr *sa, socklen_t salen)$/;"	f
+Sock_ntop	../unpv13e/lib/sock_ntop.c	/^Sock_ntop(const struct sockaddr *sa, socklen_t salen)$/;"	f
+Sock_ntop_host	../lib/sock_ntop_host.c	/^Sock_ntop_host(const struct sockaddr *sa, socklen_t salen)$/;"	f
+Sock_ntop_host	../unpv13e/lib/sock_ntop_host.c	/^Sock_ntop_host(const struct sockaddr *sa, socklen_t salen)$/;"	f
+Sockatmark	../lib/wrapsock.c	/^Sockatmark(int fd)$/;"	f
+Sockatmark	../mylib/wrapsock.c	/^Sockatmark(int fd)$/;"	f
+Sockatmark	../unpv13e/lib/wrapsock.c	/^Sockatmark(int fd)$/;"	f
+Socket	../lib/wrapsock.c	/^Socket(int family, int type, int protocol)$/;"	f
+Socket	../mylib/wrapsock.c	/^Socket(int family, int type, int protocol)$/;"	f
+Socket	../unpv13e/lib/wrapsock.c	/^Socket(int family, int type, int protocol)$/;"	f
+Socketpair	../lib/wrapsock.c	/^Socketpair(int family, int type, int protocol, int *fd)$/;"	f
+Socketpair	../mylib/wrapsock.c	/^Socketpair(int family, int type, int protocol, int *fd)$/;"	f
+Socketpair	../unpv13e/lib/wrapsock.c	/^Socketpair(int family, int type, int protocol, int *fd)$/;"	f
+Sockfd_to_family	../lib/sockfd_to_family.c	/^Sockfd_to_family(int sockfd)$/;"	f
+Sockfd_to_family	../unpv13e/lib/sockfd_to_family.c	/^Sockfd_to_family(int sockfd)$/;"	f
+Strdup	../lib/wrapunix.c	/^Strdup(const char *str)$/;"	f
+Strdup	../unpv13e/lib/wrapunix.c	/^Strdup(const char *str)$/;"	f
+Sysconf	../lib/wrapunix.c	/^Sysconf(int name)$/;"	f
+Sysconf	../unpv13e/lib/wrapunix.c	/^Sysconf(int name)$/;"	f
+Sysctl	../lib/wrapunix.c	/^Sysctl(int *name, u_int namelen, void *oldp, size_t *oldlenp,$/;"	f
+Sysctl	../unpv13e/lib/wrapunix.c	/^Sysctl(int *name, u_int namelen, void *oldp, size_t *oldlenp,$/;"	f
+TELL_CHILD	../unpv13e/sock/tellwait.c	/^TELL_CHILD(pid_t pid)$/;"	f
+TELL_PARENT	../unpv13e/sock/tellwait.c	/^TELL_PARENT(pid_t pid)$/;"	f
+TELL_WAIT	../unpv13e/sock/tellwait.c	/^TELL_WAIT()$/;"	f
+TEST1_OBJS	../unpv13e/test/Makefile	/^TEST1_OBJS = test1.o funcs.o$/;"	m
+TIME_WITH_SYS_TIME	../config.h	284;"	d
+TIME_WITH_SYS_TIME	../unpv13e/config.h	284;"	d
+TIME_WITH_SYS_TIME	../unpv13e/sparc64-unknown-freebsd5.1/config.h	263;"	d
+TST	../unpv13e/ping/bsdping.c	97;"	d	file:
+TTL_OUT	../unpv13e/udpcksum/udpcksum.h	13;"	d
+T_INET_IP	../unpv13e/debug/unpxti.h	36;"	d
+T_INET_IP	../unpv13e/streams/unpxti.h	36;"	d
+T_INET_TCP	../unpv13e/debug/unpxti.h	28;"	d
+T_INET_TCP	../unpv13e/streams/unpxti.h	28;"	d
+T_INET_UDP	../unpv13e/debug/unpxti.h	33;"	d
+T_INET_UDP	../unpv13e/streams/unpxti.h	33;"	d
+T_IP_BROADCAST	../unpv13e/debug/unpxti.h	67;"	d
+T_IP_BROADCAST	../unpv13e/streams/unpxti.h	67;"	d
+T_IP_DONTROUTE	../unpv13e/debug/unpxti.h	63;"	d
+T_IP_DONTROUTE	../unpv13e/streams/unpxti.h	63;"	d
+T_IP_OPTIONS	../unpv13e/debug/unpxti.h	51;"	d
+T_IP_OPTIONS	../unpv13e/streams/unpxti.h	51;"	d
+T_IP_REUSEADDR	../unpv13e/debug/unpxti.h	60;"	d
+T_IP_REUSEADDR	../unpv13e/streams/unpxti.h	60;"	d
+T_IP_TOS	../unpv13e/debug/unpxti.h	54;"	d
+T_IP_TOS	../unpv13e/streams/unpxti.h	54;"	d
+T_IP_TTL	../unpv13e/debug/unpxti.h	57;"	d
+T_IP_TTL	../unpv13e/streams/unpxti.h	57;"	d
+T_TCP_KEEPALIVE	../unpv13e/debug/unpxti.h	45;"	d
+T_TCP_KEEPALIVE	../unpv13e/streams/unpxti.h	45;"	d
+T_TCP_MAXSEG	../unpv13e/debug/unpxti.h	42;"	d
+T_TCP_MAXSEG	../unpv13e/streams/unpxti.h	42;"	d
+T_TCP_NODELAY	../unpv13e/debug/unpxti.h	39;"	d
+T_TCP_NODELAY	../unpv13e/streams/unpxti.h	39;"	d
+T_UDP_CHECKSUM	../unpv13e/debug/unpxti.h	48;"	d
+T_UDP_CHECKSUM	../unpv13e/streams/unpxti.h	48;"	d
+TcpSockByAddr	../unpv13e/test/funcs.c	/^TcpSockByAddr(char *ipaddr, int port \/* host byte order *\/ )$/;"	f
+Tcp_connect	../lib/tcp_connect.c	/^Tcp_connect(const char *host, const char *serv)$/;"	f
+Tcp_connect	../unpv13e/lib/tcp_connect.c	/^Tcp_connect(const char *host, const char *serv)$/;"	f
+Tcp_listen	../lib/tcp_listen.c	/^Tcp_listen(const char *host, const char *serv, socklen_t *addrlenp)$/;"	f
+Tcp_listen	../unpv13e/lib/tcp_listen.c	/^Tcp_listen(const char *host, const char *serv, socklen_t *addrlenp)$/;"	f
+Thread	../unpv13e/server/pthread07.h	/^} Thread;$/;"	t	typeref:struct:__anon8
+Thread	../unpv13e/server/pthread08.h	/^} Thread;$/;"	t	typeref:struct:__anon6
+Thread	../unpv13e/server/pthread09.h	/^} Thread;$/;"	t	typeref:struct:__anon7
+UIO_MAXIOV	../unpv13e/sock/write.c	14;"	d	file:
+UNIXDG_PATH	../lib/unp.h	203;"	d
+UNIXDG_PATH	../unp.h	185;"	d
+UNIXDG_PATH	../unpv13e/key/unp.h	185;"	d
+UNIXDG_PATH	../unpv13e/lib/unp.h	203;"	d
+UNIXDG_PATH	../unpv13e/sctp/unp.h	185;"	d
+UNIXDOMAIN	../config.h	287;"	d
+UNIXDOMAIN	../unpv13e/config.h	287;"	d
+UNIXDOMAIN	../unpv13e/sparc64-unknown-freebsd5.1/config.h	266;"	d
+UNIXSTR_PATH	../lib/unp.h	202;"	d
+UNIXSTR_PATH	../unp.h	184;"	d
+UNIXSTR_PATH	../unpv13e/key/unp.h	184;"	d
+UNIXSTR_PATH	../unpv13e/lib/unp.h	202;"	d
+UNIXSTR_PATH	../unpv13e/sctp/unp.h	184;"	d
+UNIXdomain	../config.h	290;"	d
+UNIXdomain	../unpv13e/config.h	290;"	d
+UNIXdomain	../unpv13e/sparc64-unknown-freebsd5.1/config.h	269;"	d
+UdpConnSockByAddr	../unpv13e/test/funcs.c	/^UdpConnSockByAddr(char *ipaddr, int port \/* host byte order *\/ )$/;"	f
+UdpSockByAddr	../unpv13e/test/funcs.c	/^UdpSockByAddr(char *ipaddr, int port \/* host byte order *\/ )$/;"	f
+Udp_client	../lib/udp_client.c	/^Udp_client(const char *host, const char *serv, SA **saptr, socklen_t *lenptr)$/;"	f
+Udp_client	../unpv13e/lib/udp_client.c	/^Udp_client(const char *host, const char *serv, SA **saptr, socklen_t *lenptr)$/;"	f
+Udp_client	../unpv13e/test/test2.c	/^Udp_client(const char *host, const char *serv, void **saptr, socklen_t *lenptr)$/;"	f
+Udp_connect	../lib/udp_connect.c	/^Udp_connect(const char *host, const char *serv)$/;"	f
+Udp_connect	../unpv13e/lib/udp_connect.c	/^Udp_connect(const char *host, const char *serv)$/;"	f
+Udp_server	../lib/udp_server.c	/^Udp_server(const char *host, const char *serv, socklen_t *addrlenp)$/;"	f
+Udp_server	../unpv13e/lib/udp_server.c	/^Udp_server(const char *host, const char *serv, socklen_t *addrlenp)$/;"	f
+Udp_server_reuseaddr	../unpv13e/names/udp_server_reuseaddr.c	/^Udp_server_reuseaddr(const char *host, const char *serv, socklen_t *addrlenp)$/;"	f
+Unlink	../lib/wrapunix.c	/^Unlink(const char *pathname)$/;"	f
+Unlink	../unpv13e/lib/wrapunix.c	/^Unlink(const char *pathname)$/;"	f
+VERSION_MASK	../unpv13e/ssntp/ntp.h	27;"	d
+WAIT_CHILD	../unpv13e/sock/tellwait.c	/^WAIT_CHILD(void)$/;"	f
+WAIT_PARENT	../unpv13e/sock/tellwait.c	/^WAIT_PARENT(void)$/;"	f
+Wait	../lib/wrapunix.c	/^Wait(int *iptr)$/;"	f
+Wait	../unpv13e/lib/wrapunix.c	/^Wait(int *iptr)$/;"	f
+Waitpid	../lib/wrapunix.c	/^Waitpid(pid_t pid, int *iptr, int options)$/;"	f
+Waitpid	../unpv13e/lib/wrapunix.c	/^Waitpid(pid_t pid, int *iptr, int options)$/;"	f
+Writable_timeo	../lib/writable_timeo.c	/^Writable_timeo(int fd, int sec)$/;"	f
+Writable_timeo	../unpv13e/lib/writable_timeo.c	/^Writable_timeo(int fd, int sec)$/;"	f
+Write	../lib/wrapunix.c	/^Write(int fd, void *ptr, size_t nbytes)$/;"	f
+Write	../unpv13e/lib/wrapunix.c	/^Write(int fd, void *ptr, size_t nbytes)$/;"	f
+Write_fd	../lib/write_fd.c	/^Write_fd(int fd, void *ptr, size_t nbytes, int sendfd)$/;"	f
+Write_fd	../unpv13e/lib/write_fd.c	/^Write_fd(int fd, void *ptr, size_t nbytes, int sendfd)$/;"	f
+Writen	../lib/writen.c	/^Writen(int fd, void *ptr, size_t nbytes)$/;"	f
+Writen	../unpv13e/lib/writen.c	/^Writen(int fd, void *ptr, size_t nbytes)$/;"	f
+XTI_TCP	../unpv13e/debug/unpxti.h	73;"	d
+XTI_TCP	../unpv13e/debug/unpxti.h	77;"	d
+XTI_TCP	../unpv13e/debug/unpxti.h	81;"	d
+XTI_TCP	../unpv13e/streams/unpxti.h	73;"	d
+XTI_TCP	../unpv13e/streams/unpxti.h	77;"	d
+XTI_TCP	../unpv13e/streams/unpxti.h	81;"	d
+XTI_UDP	../unpv13e/debug/unpxti.h	74;"	d
+XTI_UDP	../unpv13e/debug/unpxti.h	78;"	d
+XTI_UDP	../unpv13e/debug/unpxti.h	82;"	d
+XTI_UDP	../unpv13e/streams/unpxti.h	74;"	d
+XTI_UDP	../unpv13e/streams/unpxti.h	78;"	d
+XTI_UDP	../unpv13e/streams/unpxti.h	82;"	d
+_SOCKADDR_LEN	../unpv13e/libfree/getaddrinfo.c	22;"	d	file:
+__SS_ALIGNSIZE	../lib/unp.h	219;"	d
+__SS_ALIGNSIZE	../unpv13e/lib/unp.h	219;"	d
+__SS_MAXSIZE	../lib/unp.h	218;"	d
+__SS_MAXSIZE	../unpv13e/lib/unp.h	218;"	d
+__SS_PAD1SIZE	../lib/unp.h	221;"	d
+__SS_PAD1SIZE	../lib/unp.h	223;"	d
+__SS_PAD1SIZE	../unpv13e/lib/unp.h	221;"	d
+__SS_PAD1SIZE	../unpv13e/lib/unp.h	223;"	d
+__SS_PAD2SIZE	../lib/unp.h	225;"	d
+__SS_PAD2SIZE	../unpv13e/lib/unp.h	225;"	d
+__addrinfo_h	../lib/addrinfo.h	2;"	d
+__addrinfo_h	../unpv13e/lib/addrinfo.h	2;"	d
+__addrinfo_h	../unpv13e/libfree/addrinfo.h	2;"	d
+__addrinfo_h	../unpv13e/libgai/addrinfo.h	2;"	d
+__ourhdr_h	../unpv13e/sock/ourhdr.h	4;"	d
+__ss_align	../lib/unp.h	/^	int64_t		__ss_align;$/;"	m	struct:sockaddr_storage
+__ss_align	../unpv13e/lib/unp.h	/^	int64_t		__ss_align;$/;"	m	struct:sockaddr_storage
+__ss_pad1	../lib/unp.h	/^	char		__ss_pad1[__SS_PAD1SIZE];$/;"	m	struct:sockaddr_storage
+__ss_pad1	../unpv13e/lib/unp.h	/^	char		__ss_pad1[__SS_PAD1SIZE];$/;"	m	struct:sockaddr_storage
+__ss_pad2	../lib/unp.h	/^	char		__ss_pad2[__SS_PAD2SIZE];$/;"	m	struct:sockaddr_storage
+__ss_pad2	../unpv13e/lib/unp.h	/^	char		__ss_pad2[__SS_PAD2SIZE];$/;"	m	struct:sockaddr_storage
+__unp_h	../lib/unp.h	5;"	d
+__unp_h	../unp.h	5;"	d
+__unp_h	../unpv13e/key/unp.h	5;"	d
+__unp_h	../unpv13e/lib/unp.h	5;"	d
+__unp_h	../unpv13e/sctp/unp.h	5;"	d
+__unp_ifi_h	../lib/unpifi.h	5;"	d
+__unp_ifi_h	../unpv13e/lib/unpifi.h	5;"	d
+__unp_pthread_h	../lib/unpthread.h	5;"	d
+__unp_pthread_h	../unpv13e/lib/unpthread.h	5;"	d
+__unp_pthread_h	../unpv13e/server/unpthread.h	5;"	d
+__unp_pthread_h	../unpv13e/threads/unpthread.h	5;"	d
+__unp_rtt_h	../lib/unprtt.h	2;"	d
+__unp_rtt_h	../unpv13e/lib/unprtt.h	2;"	d
+__unp_rtt_h	../unpv13e/rtt/unprtt.h	2;"	d
+__unp_xti_h	../unpv13e/debug/unpxti.h	3;"	d
+__unp_xti_h	../unpv13e/streams/unpxti.h	3;"	d
+__unpicmp_h	../unpv13e/icmpd/unpicmpd.h	2;"	d
+address_print	../unpv13e/key/printsadbmsg.c	/^address_print(struct sadb_ext *ext)$/;"	f
+addrinfo	../lib/addrinfo.h	/^struct addrinfo {$/;"	s
+addrinfo	../unpv13e/lib/addrinfo.h	/^struct addrinfo {$/;"	s
+addrinfo	../unpv13e/libfree/addrinfo.h	/^struct addrinfo {$/;"	s
+addrinfo	../unpv13e/libgai/addrinfo.h	/^struct addrinfo {$/;"	s
+addrinfo_local	../unpv13e/libfree/getaddrinfo.c	/^addrinfo_local(const char *path, struct addrinfo *hints,$/;"	f	file:
+addrlen	../unpv13e/server/pthread07.h	/^socklen_t		addrlen;$/;"	v
+addrlen	../unpv13e/server/pthread09.h	/^socklen_t		addrlen;$/;"	v
+ahalg	../unpv13e/key/name.c	/^static struct idlist ahalg[] = {$/;"	v	typeref:struct:idlist	file:
+ai_addr	../lib/addrinfo.h	/^  struct sockaddr	*ai_addr;	\/* binary address *\/$/;"	m	struct:addrinfo	typeref:struct:addrinfo::sockaddr
+ai_addr	../unpv13e/lib/addrinfo.h	/^  struct sockaddr	*ai_addr;	\/* binary address *\/$/;"	m	struct:addrinfo	typeref:struct:addrinfo::sockaddr
+ai_addr	../unpv13e/libfree/addrinfo.h	/^  struct sockaddr	*ai_addr;	\/* binary address *\/$/;"	m	struct:addrinfo	typeref:struct:addrinfo::sockaddr
+ai_addr	../unpv13e/libgai/addrinfo.h	/^  struct sockaddr	*ai_addr;	\/* binary address *\/$/;"	m	struct:addrinfo	typeref:struct:addrinfo::sockaddr
+ai_addrlen	../lib/addrinfo.h	/^  size_t	ai_addrlen;			\/* length of ai_addr *\/$/;"	m	struct:addrinfo
+ai_addrlen	../unpv13e/lib/addrinfo.h	/^  size_t	ai_addrlen;			\/* length of ai_addr *\/$/;"	m	struct:addrinfo
+ai_addrlen	../unpv13e/libfree/addrinfo.h	/^  size_t	ai_addrlen;			\/* length of ai_addr *\/$/;"	m	struct:addrinfo
+ai_addrlen	../unpv13e/libgai/addrinfo.h	/^  size_t	ai_addrlen;			\/* length of ai_addr *\/$/;"	m	struct:addrinfo
+ai_canonname	../lib/addrinfo.h	/^  char		*ai_canonname;		\/* canonical name for host *\/$/;"	m	struct:addrinfo
+ai_canonname	../unpv13e/lib/addrinfo.h	/^  char		*ai_canonname;		\/* canonical name for host *\/$/;"	m	struct:addrinfo
+ai_canonname	../unpv13e/libfree/addrinfo.h	/^  char		*ai_canonname;		\/* canonical name for host *\/$/;"	m	struct:addrinfo
+ai_canonname	../unpv13e/libgai/addrinfo.h	/^  char		*ai_canonname;		\/* canonical name for host *\/$/;"	m	struct:addrinfo
+ai_family	../lib/addrinfo.h	/^  int		ai_family;			\/* PF_xxx *\/$/;"	m	struct:addrinfo
+ai_family	../unpv13e/lib/addrinfo.h	/^  int		ai_family;			\/* PF_xxx *\/$/;"	m	struct:addrinfo
+ai_family	../unpv13e/libfree/addrinfo.h	/^  int		ai_family;			\/* PF_xxx *\/$/;"	m	struct:addrinfo
+ai_family	../unpv13e/libgai/addrinfo.h	/^  int		ai_family;			\/* PF_xxx *\/$/;"	m	struct:addrinfo
+ai_flags	../lib/addrinfo.h	/^  int		ai_flags;			\/* AI_PASSIVE, AI_CANONNAME *\/$/;"	m	struct:addrinfo
+ai_flags	../unpv13e/lib/addrinfo.h	/^  int		ai_flags;			\/* AI_PASSIVE, AI_CANONNAME *\/$/;"	m	struct:addrinfo
+ai_flags	../unpv13e/libfree/addrinfo.h	/^  int		ai_flags;			\/* AI_PASSIVE, AI_CANONNAME *\/$/;"	m	struct:addrinfo
+ai_flags	../unpv13e/libgai/addrinfo.h	/^  int		ai_flags;			\/* AI_PASSIVE, AI_CANONNAME *\/$/;"	m	struct:addrinfo
+ai_next	../lib/addrinfo.h	/^  struct addrinfo	*ai_next;	\/* next structure in linked list *\/$/;"	m	struct:addrinfo	typeref:struct:addrinfo::addrinfo
+ai_next	../unpv13e/lib/addrinfo.h	/^  struct addrinfo	*ai_next;	\/* next structure in linked list *\/$/;"	m	struct:addrinfo	typeref:struct:addrinfo::addrinfo
+ai_next	../unpv13e/libfree/addrinfo.h	/^  struct addrinfo	*ai_next;	\/* next structure in linked list *\/$/;"	m	struct:addrinfo	typeref:struct:addrinfo::addrinfo
+ai_next	../unpv13e/libgai/addrinfo.h	/^  struct addrinfo	*ai_next;	\/* next structure in linked list *\/$/;"	m	struct:addrinfo	typeref:struct:addrinfo::addrinfo
+ai_protocol	../lib/addrinfo.h	/^  int		ai_protocol;		\/* IPPROTO_xxx for IPv4 and IPv6 *\/$/;"	m	struct:addrinfo
+ai_protocol	../unpv13e/lib/addrinfo.h	/^  int		ai_protocol;		\/* IPPROTO_xxx for IPv4 and IPv6 *\/$/;"	m	struct:addrinfo
+ai_protocol	../unpv13e/libfree/addrinfo.h	/^  int		ai_protocol;		\/* IPPROTO_xxx for IPv4 and IPv6 *\/$/;"	m	struct:addrinfo
+ai_protocol	../unpv13e/libgai/addrinfo.h	/^  int		ai_protocol;		\/* IPPROTO_xxx for IPv4 and IPv6 *\/$/;"	m	struct:addrinfo
+ai_socktype	../lib/addrinfo.h	/^  int		ai_socktype;		\/* SOCK_xxx *\/$/;"	m	struct:addrinfo
+ai_socktype	../unpv13e/lib/addrinfo.h	/^  int		ai_socktype;		\/* SOCK_xxx *\/$/;"	m	struct:addrinfo
+ai_socktype	../unpv13e/libfree/addrinfo.h	/^  int		ai_socktype;		\/* SOCK_xxx *\/$/;"	m	struct:addrinfo
+ai_socktype	../unpv13e/libgai/addrinfo.h	/^  int		ai_socktype;		\/* SOCK_xxx *\/$/;"	m	struct:addrinfo
+allset	../unpv13e/icmpd/icmpd.h	/^fd_set			rset, allset;$/;"	v
+arg1	../unpv13e/tcpcliserv/sum.h	/^  long	arg1;$/;"	m	struct:args
+arg2	../unpv13e/tcpcliserv/sum.h	/^  long	arg2;$/;"	m	struct:args
+args	../unpv13e/tcpcliserv/sum.h	/^struct args {$/;"	s
+b_buf	../unpv13e/threads/example03.c	/^  int		b_buf[BUFFSIZE];	\/* the buffer which contains integer items *\/$/;"	m	struct:buf_t	file:
+b_cond_consumer	../unpv13e/threads/example03.c	/^  pthread_cond_t	b_cond_consumer;	\/* consumer waiting to get *\/$/;"	m	struct:buf_t	file:
+b_cond_producer	../unpv13e/threads/example03.c	/^  pthread_cond_t	b_cond_producer;	\/* producer waiting to put *\/$/;"	m	struct:buf_t	file:
+b_mutex	../unpv13e/threads/example03.c	/^  pthread_mutex_t	b_mutex;$/;"	m	struct:buf_t	file:
+b_nextget	../unpv13e/threads/example03.c	/^  int		b_nextget;$/;"	m	struct:buf_t	file:
+b_nextput	../unpv13e/threads/example03.c	/^  int		b_nextput;$/;"	m	struct:buf_t	file:
+b_nitems	../unpv13e/threads/example03.c	/^  int		b_nitems;			\/* #items currently in buffer *\/$/;"	m	struct:buf_t	file:
+bindport	../unpv13e/sock/main.c	/^int		bindport;			\/* 0 or TCP or UDP port number to bind *\/$/;"	v
+broadcast	../unpv13e/sock/main.c	/^int		broadcast;			\/* SO_BROADCAST *\/$/;"	v
+buf_t	../unpv13e/threads/example03.c	/^struct buf_t {$/;"	s	file:
+buf_t	../unpv13e/threads/example03.c	/^} buf_t;$/;"	v	typeref:struct:buf_t
+buff	../unpv13e/test/test1.c	/^char	buff[8192];$/;"	v
+buff	../unpv13e/test/tshutdown.c	/^char	buff[BUFF];$/;"	v
+buffers	../unpv13e/sock/buffers.c	/^buffers(int sockfd)$/;"	f
+bzero	../lib/unp.h	130;"	d
+bzero	../unp.h	104;"	d
+bzero	../unpv13e/key/unp.h	111;"	d
+bzero	../unpv13e/lib/unp.h	130;"	d
+bzero	../unpv13e/sctp/unp.h	104;"	d
+canjump	../unpv13e/udpcksum/udpcksum.c	/^static int			canjump;$/;"	v	file:
+cbreak	../unpv13e/sock/main.c	/^int		cbreak;				\/* set terminal to cbreak mode *\/$/;"	v
+cfd	../unpv13e/debug/backlog.c	13;"	d	file:
+cfd	../unpv13e/debug/qlen.c	13;"	d	file:
+check_notification	../unpv13e/sctp/sctp_check_notify.c	/^check_notification(int sock_fd,char *recvline,int rd_len)$/;"	f
+child_count	../unpv13e/server/child.h	/^  long		child_count;	\/* # connections handled *\/$/;"	m	struct:__anon5
+child_main	../unpv13e/server/child02.c	/^child_main(int i, int listenfd, int addrlen)$/;"	f
+child_main	../unpv13e/server/child02l.c	/^child_main(int i, int listenfd, int addrlen)$/;"	f
+child_main	../unpv13e/server/child02m.c	/^child_main(int i, int listenfd, int addrlen)$/;"	f
+child_main	../unpv13e/server/child03.c	/^child_main(int i, int listenfd, int addrlen)$/;"	f
+child_main	../unpv13e/server/child03m.c	/^child_main(int i, int listenfd, int addrlen)$/;"	f
+child_main	../unpv13e/server/child04.c	/^child_main(int i, int listenfd, int addrlen)$/;"	f
+child_main	../unpv13e/server/child05.c	/^child_main(int i, int listenfd, int addrlen)$/;"	f
+child_make	../unpv13e/server/child02.c	/^child_make(int i, int listenfd, int addrlen)$/;"	f
+child_make	../unpv13e/server/child02l.c	/^child_make(int i, int listenfd, int addrlen)$/;"	f
+child_make	../unpv13e/server/child02m.c	/^child_make(int i, int listenfd, int addrlen)$/;"	f
+child_make	../unpv13e/server/child03.c	/^child_make(int i, int listenfd, int addrlen)$/;"	f
+child_make	../unpv13e/server/child03m.c	/^child_make(int i, int listenfd, int addrlen)$/;"	f
+child_make	../unpv13e/server/child04.c	/^child_make(int i, int listenfd, int addrlen)$/;"	f
+child_make	../unpv13e/server/child05.c	/^child_make(int i, int listenfd, int addrlen)$/;"	f
+child_pid	../unpv13e/server/child.h	/^  pid_t		child_pid;		\/* process ID *\/$/;"	m	struct:__anon5
+child_pipefd	../unpv13e/server/child.h	/^  int		child_pipefd;	\/* parent's stream pipe to\/from child *\/$/;"	m	struct:__anon5
+child_status	../unpv13e/server/child.h	/^  int		child_status;	\/* 0 = ready *\/$/;"	m	struct:__anon5
+chunkwrite	../unpv13e/sock/main.c	/^int		chunkwrite;			\/* write in small chunks; not all-at-once *\/$/;"	v
+cleanup	../unpv13e/udpcksum/cleanup.c	/^cleanup(int signo)$/;"	f
+cliaddr	../unpv13e/icmpd/icmpd.h	/^struct sockaddr_un	cliaddr;$/;"	v	typeref:struct:sockaddr_un
+cliaddr	../unpv13e/sock/main.c	/^struct sockaddr_in	cliaddr, servaddr;$/;"	v	typeref:struct:sockaddr_in
+cliaddr	../unpv13e/test/test1.c	/^struct sockaddr_in	servaddr, cliaddr;$/;"	v	typeref:struct:
+client	../unpv13e/icmpd/icmpd.h	/^struct client {$/;"	s
+client	../unpv13e/icmpd/icmpd.h	/^} client[FD_SETSIZE];$/;"	v	typeref:struct:client
+client	../unpv13e/sock/main.c	/^int		client = 1;			\/* acting as client is the default *\/$/;"	v
+clifd	../unpv13e/server/pthread08.h	/^int					clifd[MAXNCLI], iget, iput;$/;"	v
+clifd_cond	../unpv13e/server/pthread08.h	/^pthread_cond_t		clifd_cond;$/;"	v
+clifd_cond	../unpv13e/server/serv08.c	/^pthread_cond_t		clifd_cond = PTHREAD_COND_INITIALIZER;$/;"	v
+clifd_mutex	../unpv13e/server/pthread08.h	/^pthread_mutex_t		clifd_mutex;$/;"	v
+clifd_mutex	../unpv13e/server/serv08.c	/^pthread_mutex_t		clifd_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+clilen	../unpv13e/sigio/dgecho01.c	/^static socklen_t clilen;\/* max length of sockaddr{} *\/$/;"	v	file:
+cliopen	../unpv13e/sock/cliopen.c	/^cliopen(char *host, char *port)$/;"	f
+cntread	../unpv13e/sigio/dgecho01.c	/^static long	cntread[QSIZE+1];	\/* diagnostic counter *\/$/;"	v	file:
+connect_alarm	../lib/connect_timeo.c	/^connect_alarm(int signo)$/;"	f	file:
+connect_alarm	../unpv13e/lib/connect_timeo.c	/^connect_alarm(int signo)$/;"	f	file:
+connect_nonb	../lib/connect_nonb.c	/^connect_nonb(int sockfd, const SA *saptr, socklen_t salen, int nsec)$/;"	f
+connect_nonb	../unpv13e/lib/connect_nonb.c	/^connect_nonb(int sockfd, const SA *saptr, socklen_t salen, int nsec)$/;"	f
+connect_timeo	../lib/connect_timeo.c	/^connect_timeo(int sockfd, const SA *saptr, socklen_t salen, int nsec)$/;"	f
+connect_timeo	../unpv13e/lib/connect_timeo.c	/^connect_timeo(int sockfd, const SA *saptr, socklen_t salen, int nsec)$/;"	f
+connectudp	../unpv13e/sock/main.c	/^int		connectudp = 1;		\/* connect UDP client *\/$/;"	v
+connfd	../unpv13e/debug/test05.c	/^int		listenfd, connfd;$/;"	v
+connfd	../unpv13e/icmpd/icmpd.h	/^  int	connfd;			\/* Unix domain stream socket to client *\/$/;"	m	struct:client
+connfd	../unpv13e/oob/tcprecv01.c	/^int		listenfd, connfd;$/;"	v
+connfd	../unpv13e/oob/tcprecv05.c	/^int		listenfd, connfd;$/;"	v
+consume	../unpv13e/threads/example03.c	/^consume(struct buf_t *bptr)$/;"	f
+consume_loop	../unpv13e/threads/example03.c	/^consume_loop(void *vptr)$/;"	f
+copyright	../unpv13e/ping/bsdping.c	/^static char copyright[] =$/;"	v	file:
+copyto	../unpv13e/threads/strclithread.c	/^copyto(void *arg)$/;"	f
+copyto	../unpv13e/threads/strclithread2.c	/^copyto(void *arg)$/;"	f
+count	../unpv13e/udpcliserv/dgecholoop1.c	/^static int	count;$/;"	v	file:
+count	../unpv13e/udpcliserv/dgecholoop2.c	/^static int	count;$/;"	v	file:
+counter	../unpv13e/threads/example01.c	/^int				counter;		\/* incremented by threads *\/$/;"	v
+counter	../unpv13e/threads/example02.c	/^int				counter;		\/* incremented by threads *\/$/;"	v
+counter_mutex	../unpv13e/threads/example02.c	/^pthread_mutex_t	counter_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+cptr	../unpv13e/server/child.h	/^Child	*cptr;		\/* array of Child structures; calloc'ed *\/$/;"	v
+cptr	../unpv13e/server/serv02m.c	/^long			*cptr, *meter(int);	\/* for counting #clients\/child *\/$/;"	v
+cptr	../unpv13e/server/serv03m.c	/^long			*cptr, *meter(int);	\/* for counting #clients\/child *\/$/;"	v
+crlf	../unpv13e/sock/main.c	/^int		crlf;				\/* convert newline to CR\/LF & vice versa *\/$/;"	v
+crlf_add	../unpv13e/sock/crlf.c	/^crlf_add(char *dst, int dstsize, const char *src, int lenin)$/;"	f
+crlf_strip	../unpv13e/sock/crlf.c	/^crlf_strip(char *dst, int dstsize, const char *src, int lenin)$/;"	f
+ctl6_flow	../unpv13e/ping/old/ip6.h	/^	    u_int32_t ctl6_flow;	\/* 24 bits of flow-ID *\/$/;"	m	struct:ip6hdr::__anon2::ip6hdrctl
+ctl6_hlim	../unpv13e/ping/old/ip6.h	/^	    u_int8_t  ctl6_hlim;        \/* hop limit *\/$/;"	m	struct:ip6hdr::__anon2::ip6hdrctl
+ctl6_nxt	../unpv13e/ping/old/ip6.h	/^	    u_int8_t  ctl6_nxt;         \/* next header *\/$/;"	m	struct:ip6hdr::__anon2::ip6hdrctl
+ctl6_plen	../unpv13e/ping/old/ip6.h	/^	    u_int16_t ctl6_plen;        \/* payload length *\/$/;"	m	struct:ip6hdr::__anon2::ip6hdrctl
+daemon_inetd	../lib/daemon_inetd.c	/^daemon_inetd(const char *pname, int facility)$/;"	f
+daemon_inetd	../unpv13e/lib/daemon_inetd.c	/^daemon_inetd(const char *pname, int facility)$/;"	f
+daemon_init	../lib/daemon_init.c	/^daemon_init(const char *pname, int facility)$/;"	f
+daemon_init	../unpv13e/lib/daemon_init.c	/^daemon_init(const char *pname, int facility)$/;"	f
+daemon_proc	../lib/error.c	/^int		daemon_proc;		\/* set nonzero by daemon_init() *\/$/;"	v
+daemon_proc	../mylib/error.c	/^int		daemon_proc;		\/* set nonzero by daemon_init() *\/$/;"	v
+daemon_proc	../unpv13e/lib/error.c	/^int		daemon_proc;		\/* set nonzero by daemon_init() *\/$/;"	v
+datalen	../unpv13e/ping/bsdping.c	/^int datalen = DEFDATALEN;$/;"	v
+datalen	../unpv13e/ping/main.c	/^int	datalen = 56;		\/* data that goes with ICMP echo request *\/$/;"	v
+datalen	../unpv13e/ping/ping.h	/^int		 datalen;			\/* # bytes of data following ICMP header *\/$/;"	v
+datalen	../unpv13e/traceroute/main.c	/^int		datalen = sizeof(struct rec);	\/* defaults *\/$/;"	v
+datalen	../unpv13e/traceroute/trace.h	/^int		 datalen;			\/* # bytes of data following ICMP header *\/$/;"	v
+datalink	../unpv13e/udpcksum/main.c	/^int		datalink;		\/* from pcap_datalink(), in <net\/bpf.h> *\/$/;"	v
+debug	../unpv13e/sock/main.c	/^int		debug;				\/* SO_DEBUG *\/$/;"	v
+dest	../unpv13e/udpcksum/main.c	/^struct sockaddr	*dest, *local;$/;"	v	typeref:struct:sockaddr
+destlen	../unpv13e/udpcksum/main.c	/^socklen_t		destlen, locallen;$/;"	v
+device	../unpv13e/udpcksum/main.c	/^char   *device;			\/* pcap device *\/$/;"	v
+dg	../unpv13e/sigio/dgecho01.c	/^static DG	dg[QSIZE];			\/* queue of datagrams to process *\/$/;"	v	file:
+dg_cli	../lib/dg_cli.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_cli	../unpv13e/advio/dgclitimeo.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_cli	../unpv13e/advio/dgclitimeo1.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_cli	../unpv13e/advio/dgclitimeo2.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_cli	../unpv13e/advio/dgclitimeo3.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_cli	../unpv13e/bcast/dgclibcast1.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_cli	../unpv13e/bcast/dgclibcast2.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_cli	../unpv13e/bcast/dgclibcast3.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_cli	../unpv13e/bcast/dgclibcast4.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_cli	../unpv13e/bcast/dgclibcast5.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_cli	../unpv13e/bcast/dgclibcast6.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_cli	../unpv13e/icmpd/dgcli01.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_cli	../unpv13e/lib/dg_cli.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_cli	../unpv13e/mcast/dgclibcast1.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_cli	../unpv13e/mcast/dgclimcast5.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_cli	../unpv13e/mcast/dgclimcast6.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_cli	../unpv13e/rtt/dg_cli.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_cli	../unpv13e/sigio/dgcli01.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_cli	../unpv13e/udpcliserv/dgcliaddr.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_cli	../unpv13e/udpcliserv/dgclibig.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_cli	../unpv13e/udpcliserv/dgcliconnect.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_cli	../unpv13e/udpcliserv/dgcliinetaddr.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_cli	../unpv13e/udpcliserv/dgcliloop1.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_cli	../unpv13e/udpcliserv/dgcliloop3.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_data	../unpv13e/sigio/dgecho01.c	/^  void		*dg_data;		\/* ptr to actual datagram *\/$/;"	m	struct:__anon4	file:
+dg_echo	../lib/dg_echo.c	/^dg_echo(int sockfd, SA *pcliaddr, socklen_t clilen)$/;"	f
+dg_echo	../unpv13e/advio/dgechoaddr.c	/^dg_echo(int sockfd, SA *pcliaddr, socklen_t clilen)$/;"	f
+dg_echo	../unpv13e/advio/old/dgechoaddr.c	/^dg_echo(int sockfd, SA *pcliaddr, socklen_t clilen)$/;"	f
+dg_echo	../unpv13e/ipopts/dgechoprintroute.c	/^dg_echo(int sockfd, SA *pcliaddr, socklen_t clilen)$/;"	f
+dg_echo	../unpv13e/lib/dg_echo.c	/^dg_echo(int sockfd, SA *pcliaddr, socklen_t clilen)$/;"	f
+dg_echo	../unpv13e/rtt/dg_echo.c	/^dg_echo(int sockfd, SA *pcliaddr, socklen_t clilen)$/;"	f
+dg_echo	../unpv13e/sigio/dgecho01.c	/^dg_echo(int sockfd_arg, SA *pcliaddr, socklen_t clilen_arg)$/;"	f
+dg_echo	../unpv13e/udpcliserv/dgecholoop1.c	/^dg_echo(int sockfd, SA *pcliaddr, socklen_t clilen)$/;"	f
+dg_echo	../unpv13e/udpcliserv/dgecholoop2.c	/^dg_echo(int sockfd, SA *pcliaddr, socklen_t clilen)$/;"	f
+dg_len	../unpv13e/sigio/dgecho01.c	/^  size_t	dg_len;			\/* length of datagram *\/$/;"	m	struct:__anon4	file:
+dg_sa	../unpv13e/sigio/dgecho01.c	/^  struct sockaddr  *dg_sa;	\/* ptr to sockaddr{} w\/client's address *\/$/;"	m	struct:__anon4	typeref:struct:__anon4::sockaddr	file:
+dg_salen	../unpv13e/sigio/dgecho01.c	/^  socklen_t	dg_salen;		\/* length of sockaddr{} *\/$/;"	m	struct:__anon4	file:
+dg_send_recv	../unpv13e/rtt/dg_send_recv.c	/^dg_send_recv(int fd, const void *outbuff, size_t outbytes,$/;"	f
+dispersion	../unpv13e/ssntp/ntp.h	/^  struct s_fixedpt	dispersion;$/;"	m	struct:ntpdata	typeref:struct:ntpdata::s_fixedpt
+distance	../unpv13e/ssntp/ntp.h	/^  struct s_fixedpt	distance;$/;"	m	struct:ntpdata	typeref:struct:ntpdata::s_fixedpt
+do_child	../unpv13e/debug/backlog.c	/^do_child(void)$/;"	f
+do_child	../unpv13e/debug/qlen.c	/^do_child(void)$/;"	f
+do_errtest	../unpv13e/libgai/testga.c	/^do_errtest(void)$/;"	f	file:
+do_funccall	../unpv13e/libgai/testga.c	/^do_funccall(const char *host, const char *serv,$/;"	f	file:
+do_get_read	../unpv13e/threads/web01.c	/^do_get_read(void *vptr)$/;"	f
+do_get_read	../unpv13e/threads/web02.c	/^do_get_read(void *vptr)$/;"	f
+do_get_read	../unpv13e/threads/web03.c	/^do_get_read(void *vptr)$/;"	f
+do_ipv46	../unpv13e/libfree/getnameinfo.c	/^do_ipv46(char *host, size_t hostlen, char *serv, size_t servlen,$/;"	f	file:
+do_onetest	../unpv13e/libgai/testga.c	/^do_onetest(char *host, char *serv, struct addrinfo *hints, int iteration)$/;"	f	file:
+do_parent	../unpv13e/debug/backlog.c	/^do_parent(void)$/;"	f
+do_parent	../unpv13e/debug/qlen.c	/^do_parent(void)$/;"	f
+dofork	../unpv13e/sock/main.c	/^int		dofork;				\/* concurrent server, do a fork() *\/$/;"	v
+doit	../unpv13e/server/serv06.c	/^doit(void *arg)$/;"	f
+doit	../unpv13e/sockopt/prdefaults.c	/^doit(int fd, const char *name)$/;"	f	file:
+doit	../unpv13e/threads/example01.c	/^doit(void *vptr)$/;"	f
+doit	../unpv13e/threads/example02.c	/^doit(void *vptr)$/;"	f
+doit	../unpv13e/threads/tcpserv01.c	/^doit(void *arg)$/;"	f	file:
+doit	../unpv13e/threads/tcpserv02.c	/^doit(void *arg)$/;"	f	file:
+done	../unpv13e/threads/strclithread2.c	/^static int	done;$/;"	v	file:
+dontroute	../unpv13e/sock/main.c	/^int		dontroute;			\/* SO_DONTROUTE *\/$/;"	v
+dowrite	../unpv13e/sock/write.c	/^dowrite(int fd, const void *vptr, size_t nbytes)$/;"	f
+dport	../unpv13e/traceroute/main.c	/^u_short	dport = 32768 + 666;$/;"	v
+dport	../unpv13e/traceroute/trace.h	/^u_short	 sport, dport;$/;"	v
+echo_driver	../unpv13e/streams/stream_dg/client.c	/^echo_driver(int fd, struct sockaddr_in *serv_addr)$/;"	f
+echo_serv	../unpv13e/streams/stream_dg/server.c	/^echo_serv (int fd)$/;"	f
+err_doit	../lib/error.c	/^err_doit(int errnoflag, int level, const char *fmt, va_list ap)$/;"	f	file:
+err_doit	../mylib/error.c	/^err_doit(int errnoflag, int level, const char *fmt, va_list ap)$/;"	f	file:
+err_doit	../unpv13e/lib/error.c	/^err_doit(int errnoflag, int level, const char *fmt, va_list ap)$/;"	f	file:
+err_doit	../unpv13e/sock/error.c	/^err_doit(int errnoflag, const char *fmt, va_list ap)$/;"	f	file:
+err_dump	../lib/error.c	/^err_dump(const char *fmt, ...)$/;"	f
+err_dump	../mylib/error.c	/^err_dump(const char *fmt, ...)$/;"	f
+err_dump	../unpv13e/lib/error.c	/^err_dump(const char *fmt, ...)$/;"	f
+err_dump	../unpv13e/sock/error.c	/^err_dump(const char *fmt, ...)$/;"	f
+err_msg	../lib/error.c	/^err_msg(const char *fmt, ...)$/;"	f
+err_msg	../mylib/error.c	/^err_msg(const char *fmt, ...)$/;"	f
+err_msg	../unpv13e/lib/error.c	/^err_msg(const char *fmt, ...)$/;"	f
+err_msg	../unpv13e/sock/error.c	/^err_msg(const char *fmt, ...)$/;"	f
+err_quit	../lib/error.c	/^err_quit(const char *fmt, ...)$/;"	f
+err_quit	../mylib/error.c	/^err_quit(const char *fmt, ...)$/;"	f
+err_quit	../unpv13e/lib/error.c	/^err_quit(const char *fmt, ...)$/;"	f
+err_quit	../unpv13e/sock/error.c	/^err_quit(const char *fmt, ...)$/;"	f
+err_ret	../lib/error.c	/^err_ret(const char *fmt, ...)$/;"	f
+err_ret	../mylib/error.c	/^err_ret(const char *fmt, ...)$/;"	f
+err_ret	../unpv13e/lib/error.c	/^err_ret(const char *fmt, ...)$/;"	f
+err_ret	../unpv13e/sock/error.c	/^err_ret(const char *fmt, ...)$/;"	f
+err_sys	../lib/error.c	/^err_sys(const char *fmt, ...)$/;"	f
+err_sys	../mylib/error.c	/^err_sys(const char *fmt, ...)$/;"	f
+err_sys	../unpv13e/lib/error.c	/^err_sys(const char *fmt, ...)$/;"	f
+err_sys	../unpv13e/sock/error.c	/^err_sys(const char *fmt, ...)$/;"	f
+error	../unpv13e/libfree/getaddrinfo.c	158;"	d	file:
+error	../unpv13e/libgai/getaddrinfo.c	20;"	d	file:
+error	../unpv13e/libgai/old/savecopy.c	43;"	d	file:
+espalg	../unpv13e/key/name.c	/^static struct idlist espalg[] = {$/;"	v	typeref:struct:idlist	file:
+etherprint	../unpv13e/ioctl/lsif02.c	/^etherprint(const u_char eaddr[6], char string[18])$/;"	f
+f_fd	../unpv13e/nonblock/web.h	/^  int    f_fd;				\/* descriptor *\/$/;"	m	struct:file
+f_fd	../unpv13e/threads/web01.c	/^  int    f_fd;				\/* descriptor *\/$/;"	m	struct:file	file:
+f_fd	../unpv13e/threads/web02.c	/^  int    f_fd;				\/* descriptor *\/$/;"	m	struct:file	file:
+f_fd	../unpv13e/threads/web03.c	/^  int    f_fd;				\/* descriptor *\/$/;"	m	struct:file	file:
+f_flags	../unpv13e/nonblock/web.h	/^  int	 f_flags;			\/* F_xxx below *\/$/;"	m	struct:file
+f_flags	../unpv13e/threads/web01.c	/^  int	 f_flags;			\/* F_xxx below *\/$/;"	m	struct:file	file:
+f_flags	../unpv13e/threads/web02.c	/^  int	 f_flags;			\/* F_xxx below *\/$/;"	m	struct:file	file:
+f_flags	../unpv13e/threads/web03.c	/^  int	 f_flags;			\/* F_xxx below *\/$/;"	m	struct:file	file:
+f_host	../unpv13e/nonblock/web.h	/^  char	*f_host;			\/* hostname or IPv4\/IPv6 address *\/$/;"	m	struct:file
+f_host	../unpv13e/threads/web01.c	/^  char	*f_host;			\/* hostname or IP address *\/$/;"	m	struct:file	file:
+f_host	../unpv13e/threads/web02.c	/^  char	*f_host;			\/* hostname or IP address *\/$/;"	m	struct:file	file:
+f_host	../unpv13e/threads/web03.c	/^  char	*f_host;			\/* hostname or IP address *\/$/;"	m	struct:file	file:
+f_name	../unpv13e/nonblock/web.h	/^  char	*f_name;			\/* filename *\/$/;"	m	struct:file
+f_name	../unpv13e/threads/web01.c	/^  char	*f_name;			\/* filename *\/$/;"	m	struct:file	file:
+f_name	../unpv13e/threads/web02.c	/^  char	*f_name;			\/* filename *\/$/;"	m	struct:file	file:
+f_name	../unpv13e/threads/web03.c	/^  char	*f_name;			\/* filename *\/$/;"	m	struct:file	file:
+f_tid	../unpv13e/threads/web01.c	/^  pthread_t	 f_tid;			\/* thread ID *\/$/;"	m	struct:file	file:
+f_tid	../unpv13e/threads/web02.c	/^  pthread_t	 f_tid;			\/* thread ID *\/$/;"	m	struct:file	file:
+f_tid	../unpv13e/threads/web03.c	/^  pthread_t	 f_tid;			\/* thread ID *\/$/;"	m	struct:file	file:
+family	../unpv13e/icmpd/icmpd.h	/^  int	family;			\/* AF_INET or AF_INET6 *\/$/;"	m	struct:client
+family	../unpv13e/libgai/gai_hdr.h	/^  int			family;	\/* AF_xxx *\/$/;"	m	struct:search
+family	../unpv13e/libgai/old/savecopy.c	/^  int			family;	\/* AF_xxx *\/$/;"	m	struct:search	file:
+family_to_level	../lib/family_to_level.c	/^family_to_level(int family)$/;"	f
+family_to_level	../unpv13e/lib/family_to_level.c	/^family_to_level(int family)$/;"	f
+fd4	../unpv13e/icmpd/icmpd.h	/^int				fd4, fd6, listenfd, maxi, maxfd, nready;$/;"	v
+fd6	../unpv13e/icmpd/icmpd.h	/^int				fd4, fd6, listenfd, maxi, maxfd, nready;$/;"	v
+file	../unpv13e/nonblock/web.h	/^struct file {$/;"	s
+file	../unpv13e/nonblock/web.h	/^} file[MAXFILES];$/;"	v	typeref:struct:file
+file	../unpv13e/threads/web01.c	/^struct file {$/;"	s	file:
+file	../unpv13e/threads/web01.c	/^} file[MAXFILES];$/;"	v	typeref:struct:file
+file	../unpv13e/threads/web02.c	/^struct file {$/;"	s	file:
+file	../unpv13e/threads/web02.c	/^} file[MAXFILES];$/;"	v	typeref:struct:file
+file	../unpv13e/threads/web03.c	/^struct file {$/;"	s	file:
+file	../unpv13e/threads/web03.c	/^} file[MAXFILES];$/;"	v	typeref:struct:file
+fill	../unpv13e/ping/bsdping.c	/^fill(bp, patp)$/;"	f
+finit	../unpv13e/ping/ping.h	/^  void	 (*finit)(void);$/;"	m	struct:proto
+foreignip	../unpv13e/sock/main.c	/^char	foreignip[32];		\/* foreign IP address, dotted-decimal string *\/$/;"	v
+foreignport	../unpv13e/sock/main.c	/^int		foreignport;		\/* foreign port number *\/$/;"	v
+fp	../unpv13e/threads/strclithread.c	/^static FILE	*fp;$/;"	v	file:
+fp	../unpv13e/threads/strclithread2.c	/^static FILE	*fp;$/;"	v	file:
+fproc	../unpv13e/ping/ping.h	/^  void	 (*fproc)(char *, ssize_t, struct msghdr *, struct timeval *);$/;"	m	struct:proto
+fraction	../unpv13e/ssntp/ntp.h	/^  uint16_t	fraction;$/;"	m	struct:s_fixedpt
+fraction	../unpv13e/ssntp/ntp.h	/^  uint32_t	fraction;$/;"	m	struct:l_fixedpt
+free_ifi_info	../lib/get_ifi_info.c	/^free_ifi_info(struct ifi_info *ifihead)$/;"	f
+free_ifi_info	../unpv13e/lib/get_ifi_info.c	/^free_ifi_info(struct ifi_info *ifihead)$/;"	f
+free_ifi_info	../unpv13e/route/get_ifi_info.c	/^free_ifi_info(struct ifi_info *ifihead)$/;"	f
+freeaddrinfo	../unpv13e/libfree/getaddrinfo.c	/^freeaddrinfo(struct addrinfo *aihead)$/;"	f
+freeaddrinfo	../unpv13e/libgai/freeaddrinfo.c	/^freeaddrinfo(struct addrinfo *aihead)$/;"	f
+freeaddrinfo	../unpv13e/libgai/old/savecopy.c	/^freeaddrinfo(struct addrinfo *aihead)$/;"	f
+fsend	../unpv13e/ping/ping.h	/^  void	 (*fsend)(void);$/;"	m	struct:proto
+ga_aistruct	../unpv13e/libgai/ga_aistruct.c	/^ga_aistruct(struct addrinfo ***paipnext, const struct addrinfo *hintsp,$/;"	f
+ga_aistruct	../unpv13e/libgai/old/savecopy.c	/^ga_aistruct(struct addrinfo ***paipnext, const struct addrinfo *hintsp,$/;"	f	file:
+ga_clone	../unpv13e/libgai/ga_clone.c	/^ga_clone(struct addrinfo *ai)$/;"	f
+ga_clone	../unpv13e/libgai/old/savecopy.c	/^ga_clone(struct addrinfo *ai)$/;"	f	file:
+ga_echeck	../unpv13e/libgai/ga_echeck.c	/^ga_echeck(const char *hostname, const char *servname,$/;"	f
+ga_echeck	../unpv13e/libgai/old/savecopy.c	/^ga_echeck(const char *hostname, const char *servname,$/;"	f	file:
+ga_nsearch	../unpv13e/libgai/ga_nsearch.c	/^ga_nsearch(const char *hostname, const struct addrinfo *hintsp,$/;"	f
+ga_nsearch	../unpv13e/libgai/old/savecopy.c	/^ga_nsearch(const char *hostname, const struct addrinfo *hintsp,$/;"	f	file:
+ga_port	../unpv13e/libgai/ga_port.c	/^ga_port(struct addrinfo *aihead, int port, int socktype)$/;"	f
+ga_port	../unpv13e/libgai/old/savecopy.c	/^ga_port(struct addrinfo *aihead, int port, int socktype)$/;"	f	file:
+ga_serv	../unpv13e/libgai/ga_serv.c	/^ga_serv(struct addrinfo *aihead, const struct addrinfo *hintsp,$/;"	f
+ga_serv	../unpv13e/libgai/old/savecopy.c	/^ga_serv(struct addrinfo *aihead, const struct addrinfo *hintsp,$/;"	f	file:
+ga_unix	../unpv13e/libgai/ga_unix.c	/^ga_unix(const char *path, struct addrinfo *hintsp, struct addrinfo **result)$/;"	f
+ga_unix	../unpv13e/libgai/old/savecopy.c	/^ga_unix(const char *path, struct addrinfo *hintsp, struct addrinfo **result)$/;"	f	file:
+ga_unixstruct	../unpv13e/libgai/old/ga_unixstruct.c	/^ga_unixstruct(const char *path, struct addrinfo *hintsp,$/;"	f
+gai_strerror	../unpv13e/libgai/gai_strerror.c	/^gai_strerror(int err)$/;"	f
+get	../unpv13e/threads/web02.c	/^char	get[] = "GET \/ HTTP\/1.0\\r\\n\\r\\n";	\/* for home page *\/$/;"	v
+get_auth_alg	../unpv13e/key/printsadbmsg.c	/^get_auth_alg(int alg)$/;"	f
+get_encrypt_alg	../unpv13e/key/printsadbmsg.c	/^get_encrypt_alg(int alg)$/;"	f
+get_ifi_info	../lib/get_ifi_info.c	/^get_ifi_info(int family, int doaliases)$/;"	f
+get_ifi_info	../unpv13e/lib/get_ifi_info.c	/^get_ifi_info(int family, int doaliases)$/;"	f
+get_ifi_info	../unpv13e/route/get_ifi_info.c	/^get_ifi_info(int family, int doaliases)$/;"	f
+get_rtaddrs	../unpv13e/libroute/get_rtaddrs.c	/^get_rtaddrs(int addrs, SA *sa, SA **rti_info)$/;"	f
+get_sa_state	../unpv13e/key/printsadbmsg.c	/^get_sa_state(int state)$/;"	f
+get_sadb_alg_type	../unpv13e/key/printsadbmsg.c	/^get_sadb_alg_type(int alg, int authenc)$/;"	f
+get_sadb_msg_type	../unpv13e/key/printsadbmsg.c	/^get_sadb_msg_type(int type)$/;"	f
+get_sadb_satype	../unpv13e/key/printsadbmsg.c	/^get_sadb_satype(int type)$/;"	f
+getaddrinfo	../unpv13e/libfree/getaddrinfo.c	/^getaddrinfo(const char *host, const char *serv,$/;"	f
+getaddrinfo	../unpv13e/libgai/getaddrinfo.c	/^getaddrinfo(const char *hostname, const char *servname,$/;"	f
+getaddrinfo	../unpv13e/libgai/old/savecopy.c	/^getaddrinfo(const char *hostname, const char *servname,$/;"	f
+getaddrinfo_clone	../unpv13e/libfree/getaddrinfo.c	/^getaddrinfo_clone(struct addrinfo *ai)$/;"	f	file:
+getaddrinfo_host	../unpv13e/libfree/getaddrinfo.c	/^getaddrinfo_host(const char *host,$/;"	f	file:
+getaddrinfo_port	../unpv13e/libfree/getaddrinfo.c	/^getaddrinfo_port(struct addrinfo *aihead, int port, int socktype)$/;"	f	file:
+getaddrinfo_serv	../unpv13e/libfree/getaddrinfo.c	/^getaddrinfo_serv(struct addrinfo *aihead,$/;"	f	file:
+gethostbyname2	../lib/unp.h	137;"	d
+gethostbyname2	../unp.h	111;"	d
+gethostbyname2	../unpv13e/key/unp.h	118;"	d
+gethostbyname2	../unpv13e/lib/unp.h	137;"	d
+gethostbyname2	../unpv13e/sctp/unp.h	111;"	d
+getnameinfo	../unpv13e/libfree/getnameinfo.c	/^getnameinfo(const struct sockaddr *sa, size_t salen,$/;"	f
+getnameinfo	../unpv13e/libgai/getnameinfo.c	/^getnameinfo(const struct sockaddr *sa, socklen_t salen,$/;"	f
+getsaalgbyname	../unpv13e/key/name.c	/^getsaalgbyname(int type, char *name)$/;"	f
+getsatypebyname	../unpv13e/key/name.c	/^getsatypebyname(char *name)$/;"	f
+gf_time	../lib/gf_time.c	/^gf_time(void)$/;"	f
+gf_time	../unpv13e/lib/gf_time.c	/^gf_time(void)$/;"	f
+gn_ipv46	../unpv13e/libgai/gn_ipv46.c	/^gn_ipv46(char *host, size_t hostlen, char *serv, size_t servlen,$/;"	f
+gotalarm	../unpv13e/traceroute/sig_alrm.c	/^int gotalarm;$/;"	v
+halfclose	../unpv13e/sock/main.c	/^int		halfclose;			\/* TCP half close option *\/$/;"	v
+hdr	../unpv13e/rtt/dg_send_recv.c	/^static struct hdr {$/;"	s	file:
+header_flags	../unpv13e/test/test1.c	/^header_flags()$/;"	f
+heartbeat_action	../unpv13e/sctp/sctp_modify_hb.c	/^int heartbeat_action(int sock_fd, struct sockaddr *sa, socklen_t salen,$/;"	f
+heartbeat_cli	../unpv13e/oob/heartbeatcli.c	/^heartbeat_cli(int servfd_arg, int nsec_arg, int maxnprobes_arg)$/;"	f
+heartbeat_serv	../unpv13e/oob/heartbeatserv.c	/^heartbeat_serv(int servfd_arg, int nsec_arg, int maxnalarms_arg)$/;"	f
+hints_default	../unpv13e/libfree/getaddrinfo.c	/^static struct addrinfo	hints_default;$/;"	v	typeref:struct:addrinfo	file:
+hints_default	../unpv13e/libgai/old/savecopy.c	/^static struct addrinfo	hints_default;$/;"	v	typeref:struct:addrinfo	file:
+home_page	../unpv13e/nonblock/home_page.c	/^home_page(const char *host, const char *fname)$/;"	f
+home_page	../unpv13e/threads/web01.c	/^home_page(const char *host, const char *fname)$/;"	f
+home_page	../unpv13e/threads/web02.c	/^home_page(const char *host, const char *fname)$/;"	f
+home_page	../unpv13e/threads/web03.c	/^home_page(const char *host, const char *fname)$/;"	f
+host	../unpv13e/libgai/gai_hdr.h	/^  const char	*host;	\/* hostname or address string *\/$/;"	m	struct:search
+host	../unpv13e/libgai/old/savecopy.c	/^  const char	*host;	\/* hostname of address string *\/$/;"	m	struct:search	file:
+host	../unpv13e/ping/ping.h	/^char	*host;$/;"	v
+host	../unpv13e/sock/main.c	/^char	*host;		\/* hostname or dotted-decimal string *\/$/;"	v
+host	../unpv13e/traceroute/trace.h	/^char	*host;$/;"	v
+host_serv	../lib/host_serv.c	/^host_serv(const char *host, const char *serv, int family, int socktype)$/;"	f
+host_serv	../unpv13e/lib/host_serv.c	/^host_serv(const char *host, const char *serv, int family, int socktype)$/;"	f
+hostname	../unpv13e/ping/bsdping.c	/^char *hostname;$/;"	v
+hstrerror	../lib/hstrerror.c	/^hstrerror(int err)$/;"	f
+hstrerror	../unpv13e/lib/hstrerror.c	/^hstrerror(int err)$/;"	f
+i_val	../unpv13e/sockopt/checkopts.c	/^  int				i_val;$/;"	m	union:val	file:
+icmp6_cksum	../unpv13e/ping/old/icmp6.h	/^    u_int16_t	icmp6_cksum;		\/* Checksum field *\/$/;"	m	struct:icmp6hdr
+icmp6_code	../unpv13e/ping/old/icmp6.h	/^    u_int8_t	icmp6_code;		\/* Code field *\/$/;"	m	struct:icmp6hdr
+icmp6_data16	../unpv13e/ping/old/icmp6.h	13;"	d
+icmp6_data32	../unpv13e/ping/old/icmp6.h	12;"	d
+icmp6_data8	../unpv13e/ping/old/icmp6.h	14;"	d
+icmp6_dataun	../unpv13e/ping/old/icmp6.h	/^    } icmp6_dataun;$/;"	m	struct:icmp6hdr	typeref:union:icmp6hdr::__anon1
+icmp6_id	../unpv13e/ping/old/icmp6.h	17;"	d
+icmp6_maxdelay	../unpv13e/ping/old/icmp6.h	19;"	d
+icmp6_mtu	../unpv13e/ping/old/icmp6.h	16;"	d
+icmp6_pptr	../unpv13e/ping/old/icmp6.h	15;"	d
+icmp6_seq	../unpv13e/ping/old/icmp6.h	18;"	d
+icmp6_type	../unpv13e/ping/old/icmp6.h	/^    u_int8_t	icmp6_type;		\/* Type field *\/$/;"	m	struct:icmp6hdr
+icmp6hdr	../unpv13e/ping/old/icmp6.h	/^struct icmp6hdr {$/;"	s
+icmpcode	../unpv13e/traceroute/trace.h	/^  const char	*(*icmpcode)(int);$/;"	m	struct:proto
+icmpcode_v4	../unpv13e/traceroute/icmpcode_v4.c	/^icmpcode_v4(int code)$/;"	f
+icmpcode_v6	../unpv13e/traceroute/icmpcode_v6.c	/^icmpcode_v6(int code)$/;"	f
+icmpd_code	../unpv13e/icmpd/unpicmpd.h	/^  char				icmpd_code;	\/* actual ICMPv[46] code *\/$/;"	m	struct:icmpd_err
+icmpd_dest	../unpv13e/icmpd/unpicmpd.h	/^  struct sockaddr_storage	icmpd_dest;	\/* sockaddr_storage handles any size *\/$/;"	m	struct:icmpd_err	typeref:struct:icmpd_err::sockaddr_storage
+icmpd_err	../unpv13e/icmpd/unpicmpd.h	/^struct icmpd_err {$/;"	s
+icmpd_errno	../unpv13e/icmpd/unpicmpd.h	/^  int				icmpd_errno;\/* EHOSTUNREACH, EMSGSIZE, ECONNREFUSED *\/$/;"	m	struct:icmpd_err
+icmpd_len	../unpv13e/icmpd/unpicmpd.h	/^  socklen_t			icmpd_len;	\/* length of sockaddr{} that follows *\/$/;"	m	struct:icmpd_err
+icmpd_type	../unpv13e/icmpd/unpicmpd.h	/^  char				icmpd_type;	\/* actual ICMPv[46] type *\/$/;"	m	struct:icmpd_err
+icmpproto	../unpv13e/ping/ping.h	/^  int	   	    icmpproto;	\/* IPPROTO_xxx value for ICMP *\/$/;"	m	struct:proto
+icmpproto	../unpv13e/traceroute/trace.h	/^  int			icmpproto;	\/* IPPROTO_xxx value for ICMP *\/$/;"	m	struct:proto
+ident	../unpv13e/ping/bsdping.c	/^int ident;			\/* process id to identify our packets *\/$/;"	v
+idlist	../unpv13e/key/name.c	/^struct idlist {$/;"	s	file:
+idlistlookup	../unpv13e/key/name.c	/^idlistlookup(char *name, struct idlist *il)$/;"	f
+if_freenameindex	../lib/if_nameindex.c	/^if_freenameindex(struct if_nameindex *ptr)$/;"	f
+if_freenameindex	../unpv13e/lib/if_nameindex.c	/^if_freenameindex(struct if_nameindex *ptr)$/;"	f
+if_freenameindex	../unpv13e/libroute/if_nameindex.c	/^if_freenameindex(struct if_nameindex *ptr)$/;"	f
+if_index	../lib/unp.h	/^  unsigned int   if_index;  \/* 1, 2, ... *\/$/;"	m	struct:if_nameindex
+if_index	../unp.h	/^  unsigned int   if_index;  \/* 1, 2, ... *\/$/;"	m	struct:if_nameindex
+if_index	../unpv13e/key/unp.h	/^  unsigned int   if_index;  \/* 1, 2, ... *\/$/;"	m	struct:if_nameindex
+if_index	../unpv13e/lib/unp.h	/^  unsigned int   if_index;  \/* 1, 2, ... *\/$/;"	m	struct:if_nameindex
+if_index	../unpv13e/sctp/unp.h	/^  unsigned int   if_index;  \/* 1, 2, ... *\/$/;"	m	struct:if_nameindex
+if_indextoname	../lib/if_indextoname.c	/^if_indextoname(unsigned int index, char *name)$/;"	f
+if_indextoname	../unpv13e/lib/if_indextoname.c	/^if_indextoname(unsigned int index, char *name)$/;"	f
+if_indextoname	../unpv13e/libroute/if_indextoname.c	/^if_indextoname(unsigned int idx, char *name)$/;"	f
+if_name	../lib/unp.h	/^  char          *if_name;   \/* null-terminated name: "le0", ... *\/$/;"	m	struct:if_nameindex
+if_name	../unp.h	/^  char          *if_name;   \/* null terminated name: "le0", ... *\/$/;"	m	struct:if_nameindex
+if_name	../unpv13e/key/unp.h	/^  char          *if_name;   \/* null terminated name: "le0", ... *\/$/;"	m	struct:if_nameindex
+if_name	../unpv13e/lib/unp.h	/^  char          *if_name;   \/* null-terminated name: "le0", ... *\/$/;"	m	struct:if_nameindex
+if_name	../unpv13e/sctp/unp.h	/^  char          *if_name;   \/* null terminated name: "le0", ... *\/$/;"	m	struct:if_nameindex
+if_nameindex	../lib/if_nameindex.c	/^if_nameindex(void)$/;"	f
+if_nameindex	../lib/unp.h	/^struct if_nameindex {$/;"	s
+if_nameindex	../unp.h	/^struct if_nameindex {$/;"	s
+if_nameindex	../unpv13e/key/unp.h	/^struct if_nameindex {$/;"	s
+if_nameindex	../unpv13e/lib/if_nameindex.c	/^if_nameindex(void)$/;"	f
+if_nameindex	../unpv13e/lib/unp.h	/^struct if_nameindex {$/;"	s
+if_nameindex	../unpv13e/libroute/if_nameindex.c	/^if_nameindex(void)$/;"	f
+if_nameindex	../unpv13e/sctp/unp.h	/^struct if_nameindex {$/;"	s
+if_nametoindex	../lib/if_nametoindex.c	/^if_nametoindex(const char *name)$/;"	f
+if_nametoindex	../unpv13e/lib/if_nametoindex.c	/^if_nametoindex(const char *name)$/;"	f
+if_nametoindex	../unpv13e/libroute/if_nametoindex.c	/^if_nametoindex(const char *name)$/;"	f
+ifi_addr	../lib/unpifi.h	/^  struct sockaddr  *ifi_addr;	\/* primary address *\/$/;"	m	struct:ifi_info	typeref:struct:ifi_info::sockaddr
+ifi_addr	../unpv13e/lib/unpifi.h	/^  struct sockaddr  *ifi_addr;	\/* primary address *\/$/;"	m	struct:ifi_info	typeref:struct:ifi_info::sockaddr
+ifi_brdaddr	../lib/unpifi.h	/^  struct sockaddr  *ifi_brdaddr;\/* broadcast address *\/$/;"	m	struct:ifi_info	typeref:struct:ifi_info::sockaddr
+ifi_brdaddr	../unpv13e/lib/unpifi.h	/^  struct sockaddr  *ifi_brdaddr;\/* broadcast address *\/$/;"	m	struct:ifi_info	typeref:struct:ifi_info::sockaddr
+ifi_dstaddr	../lib/unpifi.h	/^  struct sockaddr  *ifi_dstaddr;\/* destination address *\/$/;"	m	struct:ifi_info	typeref:struct:ifi_info::sockaddr
+ifi_dstaddr	../unpv13e/lib/unpifi.h	/^  struct sockaddr  *ifi_dstaddr;\/* destination address *\/$/;"	m	struct:ifi_info	typeref:struct:ifi_info::sockaddr
+ifi_flags	../lib/unpifi.h	/^  short   ifi_flags;			\/* IFF_xxx constants from <net\/if.h> *\/$/;"	m	struct:ifi_info
+ifi_flags	../unpv13e/lib/unpifi.h	/^  short   ifi_flags;			\/* IFF_xxx constants from <net\/if.h> *\/$/;"	m	struct:ifi_info
+ifi_haddr	../lib/unpifi.h	/^  u_char  ifi_haddr[IFI_HADDR];	\/* hardware address *\/$/;"	m	struct:ifi_info
+ifi_haddr	../unpv13e/lib/unpifi.h	/^  u_char  ifi_haddr[IFI_HADDR];	\/* hardware address *\/$/;"	m	struct:ifi_info
+ifi_hlen	../lib/unpifi.h	/^  u_short ifi_hlen;				\/* # bytes in hardware address: 0, 6, 8 *\/$/;"	m	struct:ifi_info
+ifi_hlen	../unpv13e/lib/unpifi.h	/^  u_short ifi_hlen;				\/* # bytes in hardware address: 0, 6, 8 *\/$/;"	m	struct:ifi_info
+ifi_index	../lib/unpifi.h	/^  short   ifi_index;			\/* interface index *\/$/;"	m	struct:ifi_info
+ifi_index	../unpv13e/lib/unpifi.h	/^  short   ifi_index;			\/* interface index *\/$/;"	m	struct:ifi_info
+ifi_info	../lib/unpifi.h	/^struct ifi_info {$/;"	s
+ifi_info	../unpv13e/lib/unpifi.h	/^struct ifi_info {$/;"	s
+ifi_mtu	../lib/unpifi.h	/^  short   ifi_mtu;				\/* interface MTU *\/$/;"	m	struct:ifi_info
+ifi_mtu	../unpv13e/lib/unpifi.h	/^  short   ifi_mtu;				\/* interface MTU *\/$/;"	m	struct:ifi_info
+ifi_myflags	../lib/unpifi.h	/^  short   ifi_myflags;			\/* our own IFI_xxx flags *\/$/;"	m	struct:ifi_info
+ifi_myflags	../unpv13e/lib/unpifi.h	/^  short   ifi_myflags;			\/* our own IFI_xxx flags *\/$/;"	m	struct:ifi_info
+ifi_name	../lib/unpifi.h	/^  char    ifi_name[IFI_NAME];	\/* interface name, null-terminated *\/$/;"	m	struct:ifi_info
+ifi_name	../unpv13e/lib/unpifi.h	/^  char    ifi_name[IFI_NAME];	\/* interface name, null-terminated *\/$/;"	m	struct:ifi_info
+ifi_next	../lib/unpifi.h	/^  struct ifi_info  *ifi_next;	\/* next of these structures *\/$/;"	m	struct:ifi_info	typeref:struct:ifi_info::ifi_info
+ifi_next	../unpv13e/lib/unpifi.h	/^  struct ifi_info  *ifi_next;	\/* next of these structures *\/$/;"	m	struct:ifi_info	typeref:struct:ifi_info::ifi_info
+iget	../unpv13e/server/pthread08.h	/^int					clifd[MAXNCLI], iget, iput;$/;"	v
+iget	../unpv13e/sigio/dgecho01.c	/^static int	iget;		\/* next one for main loop to process *\/$/;"	v	file:
+ignorewerr	../unpv13e/sock/main.c	/^int		ignorewerr;			\/* true if write() errors should be ignored *\/$/;"	v
+in6addr_any	../lib/in6addr_any.c	/^const struct in6_addr in6addr_any;$/;"	v	typeref:struct:in6_addr
+in6addr_any	../unpv13e/lib/in6addr_any.c	/^const struct in6_addr in6addr_any;$/;"	v	typeref:struct:in6_addr
+in_cksum	../unpv13e/libfree/in_cksum.c	/^in_cksum(uint16_t *addr, int len)$/;"	f
+in_cksum	../unpv13e/ping/bsdping.c	/^in_cksum(addr, len)$/;"	f
+in_pktinfo	../unp.h	/^struct in_pktinfo {$/;"	s
+in_pktinfo	../unpv13e/key/unp.h	/^struct in_pktinfo {$/;"	s
+in_pktinfo	../unpv13e/sctp/unp.h	/^struct in_pktinfo {$/;"	s
+inet6_srcrt_print	../unpv13e/ipopts/sourceroute6.c	/^inet6_srcrt_print(void *ptr)$/;"	f
+inet_aton	../unpv13e/libfree/inet_aton.c	/^inet_aton(const char *cp, struct in_addr *ap)$/;"	f
+inet_ntop	../unpv13e/libfree/inet_ntop.c	/^inet_ntop(af, src, dst, size)$/;"	f
+inet_ntop	../unpv13e/libfree/inet_ntop_ipv4.c	/^inet_ntop(int family, const void *addrptr, char *strptr, size_t len)$/;"	f
+inet_ntop4	../unpv13e/libfree/inet_ntop.c	/^inet_ntop4(src, dst, size)$/;"	f	file:
+inet_ntop6	../unpv13e/libfree/inet_ntop.c	/^inet_ntop6(src, dst, size)$/;"	f	file:
+inet_pton	../unpv13e/libfree/inet_pton.c	/^inet_pton(af, src, dst)$/;"	f
+inet_pton	../unpv13e/libfree/inet_pton_ipv4.c	/^inet_pton(int family, const char *strptr, void *addrptr)$/;"	f
+inet_pton4	../unpv13e/libfree/inet_pton.c	/^inet_pton4(src, dst)$/;"	f	file:
+inet_pton6	../unpv13e/libfree/inet_pton.c	/^inet_pton6(src, dst)$/;"	f	file:
+inet_srcrt_add	../unpv13e/ipopts/sourceroute.c	/^inet_srcrt_add(char *hostptr)$/;"	f
+inet_srcrt_init	../unpv13e/ipopts/sourceroute.c	/^inet_srcrt_init(int type)$/;"	f
+inet_srcrt_print	../unpv13e/ipopts/sourceroute.c	/^inet_srcrt_print(u_char *ptr, int len)$/;"	f
+infile	../unpv13e/threads/test04.c	/^static char	*infile;	\/* from argv[1]; read-only by threads *\/$/;"	v	file:
+init_v6	../unpv13e/ping/init_v6.c	/^init_v6()$/;"	f
+int_part	../unpv13e/ssntp/ntp.h	/^  uint16_t	int_part;$/;"	m	struct:s_fixedpt
+int_part	../unpv13e/ssntp/ntp.h	/^  uint32_t	int_part;$/;"	m	struct:l_fixedpt
+interval	../unpv13e/ping/bsdping.c	/^int interval = 1;		\/* interval between packets *\/$/;"	v
+ip6_ctlun	../unpv13e/ping/old/ip6.h	/^    } ip6_ctlun;$/;"	m	struct:ip6hdr	typeref:union:ip6hdr::__anon2
+ip6_dst	../unpv13e/ping/old/ip6.h	/^    struct in6_addr ip6_dst;		\/* destination address *\/$/;"	m	struct:ip6hdr	typeref:struct:ip6hdr::in6_addr
+ip6_flow	../unpv13e/ping/old/ip6.h	16;"	d
+ip6_hlim	../unpv13e/ping/old/ip6.h	19;"	d
+ip6_hops	../unpv13e/ping/old/ip6.h	20;"	d
+ip6_nxt	../unpv13e/ping/old/ip6.h	18;"	d
+ip6_plen	../unpv13e/ping/old/ip6.h	17;"	d
+ip6_src	../unpv13e/ping/old/ip6.h	/^    struct in6_addr ip6_src;		\/* source address *\/$/;"	m	struct:ip6hdr	typeref:struct:ip6hdr::in6_addr
+ip6_vfc	../unpv13e/ping/old/ip6.h	15;"	d
+ip6hdr	../unpv13e/ping/old/ip6.h	/^struct ip6hdr {$/;"	s
+ip6hdrctl	../unpv13e/ping/old/ip6.h	/^	struct ip6hdrctl {$/;"	s	union:ip6hdr::__anon2
+ipi_addr	../lib/unp.h	/^  struct in_addr	ipi_addr;	\/* dst IPv4 address *\/$/;"	m	struct:unp_in_pktinfo	typeref:struct:unp_in_pktinfo::in_addr
+ipi_addr	../unp.h	/^  struct in_addr	ipi_addr;	\/* dst IPv4 address *\/$/;"	m	struct:in_pktinfo	typeref:struct:in_pktinfo::in_addr
+ipi_addr	../unpv13e/key/unp.h	/^  struct in_addr	ipi_addr;	\/* dst IPv4 address *\/$/;"	m	struct:in_pktinfo	typeref:struct:in_pktinfo::in_addr
+ipi_addr	../unpv13e/lib/unp.h	/^  struct in_addr	ipi_addr;	\/* dst IPv4 address *\/$/;"	m	struct:unp_in_pktinfo	typeref:struct:unp_in_pktinfo::in_addr
+ipi_addr	../unpv13e/sctp/unp.h	/^  struct in_addr	ipi_addr;	\/* dst IPv4 address *\/$/;"	m	struct:in_pktinfo	typeref:struct:in_pktinfo::in_addr
+ipi_ifindex	../lib/unp.h	/^  int				ipi_ifindex;\/* received interface index *\/$/;"	m	struct:unp_in_pktinfo
+ipi_ifindex	../unp.h	/^  int				ipi_ifindex;\/* received interface index *\/$/;"	m	struct:in_pktinfo
+ipi_ifindex	../unpv13e/key/unp.h	/^  int				ipi_ifindex;\/* received interface index *\/$/;"	m	struct:in_pktinfo
+ipi_ifindex	../unpv13e/lib/unp.h	/^  int				ipi_ifindex;\/* received interface index *\/$/;"	m	struct:unp_in_pktinfo
+ipi_ifindex	../unpv13e/sctp/unp.h	/^  int				ipi_ifindex;\/* received interface index *\/$/;"	m	struct:in_pktinfo
+iptos	../unpv13e/sock/main.c	/^int		iptos = -1;			\/* IP_TOS opton *\/$/;"	v
+ipttl	../unpv13e/sock/main.c	/^int		ipttl = -1;			\/* IP_TTL opton *\/$/;"	v
+iput	../unpv13e/server/pthread08.h	/^int					clifd[MAXNCLI], iget, iput;$/;"	v
+iput	../unpv13e/sigio/dgecho01.c	/^static int	iput;		\/* next one for signal handler to read into *\/$/;"	v	file:
+is_readlock	../unpv13e/sock/ourhdr.h	98;"	d
+is_writelock	../unpv13e/sock/ourhdr.h	100;"	d
+jmpbuf	../unpv13e/bcast/dgclibcast5.c	/^static sigjmp_buf	jmpbuf;$/;"	v	file:
+jmpbuf	../unpv13e/mcast/dgclimcast5.c	/^static sigjmp_buf	jmpbuf;$/;"	v	file:
+jmpbuf	../unpv13e/mcast/dgclimcast6.c	/^static sigjmp_buf	jmpbuf;$/;"	v	file:
+jmpbuf	../unpv13e/rtt/dg_send_recv.c	/^static sigjmp_buf	jmpbuf;$/;"	v	file:
+jmpbuf	../unpv13e/udpcksum/udpcksum.c	/^static sigjmp_buf	jmpbuf;$/;"	v	file:
+join_mcast	../unpv13e/sock/multicast.c	/^join_mcast(int fd, struct sockaddr_in *sin)$/;"	f
+joinip	../unpv13e/sock/main.c	/^char	joinip[32];			\/* multicast IP address, dotted-decimal string *\/$/;"	v
+keepalive	../unpv13e/sock/main.c	/^int		keepalive;			\/* SO_KEEPALIVE *\/$/;"	v
+key_print	../unpv13e/key/printsadbmsg.c	/^key_print(struct sadb_ext *ext)$/;"	f
+l	../unpv13e/udpcksum/senddnsquery-libnet.c	/^static libnet_t *l;		\/* libnet descriptor *\/$/;"	v	file:
+l_fixedpt	../unpv13e/ssntp/ntp.h	/^struct l_fixedpt {		\/* 64-bit fixed-point *\/$/;"	s
+l_val	../unpv13e/sockopt/checkopts.c	/^  long				l_val;$/;"	m	union:val	file:
+lenptr	../unpv13e/ipopts/sourceroute.c	/^static u_char	*lenptr;	\/* pointer to length byte in SRR option *\/$/;"	v	file:
+lifetime_print	../unpv13e/key/printsadbmsg.c	/^lifetime_print(struct sadb_ext *ext)$/;"	f
+linger	../unpv13e/sock/main.c	/^long	linger = -1;		\/* 0 or positive turns on option *\/$/;"	v
+linger_val	../unpv13e/sockopt/checkopts.c	/^  struct linger		linger_val;$/;"	m	union:val	typeref:struct:val::linger	file:
+listenfd	../unpv13e/debug/test05.c	/^int		listenfd, connfd;$/;"	v
+listenfd	../unpv13e/icmpd/icmpd.h	/^int				fd4, fd6, listenfd, maxi, maxfd, nready;$/;"	v
+listenfd	../unpv13e/oob/tcprecv01.c	/^int		listenfd, connfd;$/;"	v
+listenfd	../unpv13e/oob/tcprecv05.c	/^int		listenfd, connfd;$/;"	v
+listenfd	../unpv13e/server/pthread07.h	/^int				listenfd, nthreads;$/;"	v
+listenfd	../unpv13e/server/pthread09.h	/^int				listenfd, nthreads;$/;"	v
+listenq	../unpv13e/sock/main.c	/^int		listenq = 5;		\/* listen queue for TCP Server *\/$/;"	v
+local	../unpv13e/udpcksum/main.c	/^struct sockaddr	*dest, *local;$/;"	v	typeref:struct:
+localip	../unpv13e/sock/main.c	/^char	localip[32];		\/* local IP address, dotted-decimal string *\/$/;"	v
+locallen	../unpv13e/udpcksum/main.c	/^socklen_t		destlen, locallen;$/;"	v
+locallookup	../unpv13e/udpcksum/main.c	/^struct sockaddr_in locallookup;$/;"	v	typeref:struct:sockaddr_in
+lock_fd	../unpv13e/server/lock_fcntl.c	/^static int			lock_fd = -1;$/;"	v	file:
+lock_it	../unpv13e/server/lock_fcntl.c	/^static struct flock	lock_it, unlock_it;$/;"	v	typeref:struct:flock	file:
+loop	../unpv13e/mysdr/loop.c	/^loop(int sockfd, socklen_t salen)$/;"	f
+loop	../unpv13e/sock/loop.c	/^loop(int sockfd)$/;"	f
+loop_tcp	../unpv13e/sock/looptcp.c	/^loop_tcp(int sockfd)$/;"	f
+loop_udp	../unpv13e/sock/loopudp.c	/^loop_udp(int sockfd)$/;"	f
+lport	../unpv13e/icmpd/icmpd.h	/^  int	lport;			\/* local port bound to client's UDP socket *\/$/;"	m	struct:client
+main	../time_date/timeserv.c	/^int main(int argc, char **argv)$/;"	f
+main	../unpv13e/advio/daytimetcpcli.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/advio/daytimeudpcli3.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/advio/daytimeudpcli4.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/advio/old/test01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/advio/tcpcli01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/advio/tcpcli02.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/advio/tcpcli03.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/advio/tcpcli04.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/advio/tcpserv02.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/advio/udpcli01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/advio/udpcli02.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/advio/udpcli03.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/advio/udpserv01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/advio/udpserv03.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/advio/udpserv04.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/bcast/udpcli01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/bcast/udpcli02.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/bcast/udpcli03.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/bcast/udpcli04.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/bcast/udpcli05.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/bcast/udpcli06.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/debug/backlog.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/debug/qlen.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/debug/test01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/debug/test02.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/debug/test03.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/debug/test04.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/debug/test05.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/debug/test06.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/icmpd/icmpd.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/icmpd/udpcli01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/inetd/daytimetcpsrv2.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/inetd/daytimetcpsrv3.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/intro/byteorder.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/intro/daytimetcpcli.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/intro/daytimetcpcli1.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/intro/daytimetcpcli2.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/intro/daytimetcpcli3.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/intro/daytimetcpcliv6.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/intro/daytimetcpsrv.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/intro/daytimetcpsrv1.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/intro/daytimetcpsrv2.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/intro/daytimetcpsrv3.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/intro/daytimetcpsrvv6.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/ioctl/lsif01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/ioctl/lsif02.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/ioctl/prifinfo.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/ioctl/prmac.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/ioctl/test1.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/ipopts/tcpcli01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/ipopts/tcpserv01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/ipopts/udpcli01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/ipopts/udpserv01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/key/add.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/key/dump.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/key/register.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/libfree/test_ascii2addr.c	/^main()$/;"	f
+main	../unpv13e/libfree/test_getservbyname_r.c	/^main()$/;"	f
+main	../unpv13e/libfree/test_inet_pton.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/libgai/test1.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/libgai/testga.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/mcast/main.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/mcast/udpcli01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/mcast/udpcli05.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/mcast/udpcli06.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/mcast/udpserv01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/mysdr/main.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/names/daytimetcpcli.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/names/daytimetcpcli1.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/names/daytimetcpcli2.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/names/daytimetcpcli3.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/names/daytimetcpsrv1.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/names/daytimetcpsrv2.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/names/daytimetcpsrv3.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/names/daytimetcpsrv4.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/names/daytimeudpcli1.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/names/daytimeudpcli2.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/names/daytimeudpsrv2.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/names/daytimeudpsrv3.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/names/hostent.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/names/hostent2.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/names/hostent3.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/names/netent.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/names/prmyaddrs.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/names/prmyaddrs1.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/names/test1.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/names/test2.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/nonblock/daytimetcpcli.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/nonblock/tcpcli01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/nonblock/tcpcli02.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/nonblock/tcpcli03.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/nonblock/tcpcli04.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/nonblock/tcpservselect03.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/nonblock/web.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/oob/tcpcli02.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/oob/tcprecv01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/oob/tcprecv02.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/oob/tcprecv03.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/oob/tcprecv03p.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/oob/tcprecv04.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/oob/tcprecv05.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/oob/tcprecv06.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/oob/tcpsend01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/oob/tcpsend02.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/oob/tcpsend03.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/oob/tcpsend04.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/oob/tcpsend05.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/oob/tcpsend06.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/oob/tcpserv02.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/ping/bsdping.c	/^main(argc, argv)$/;"	f
+main	../unpv13e/ping/main.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/route/checkudpsum.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/route/getrt.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/route/mynetstat.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/route/prifindex.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/route/prifinfo.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/route/prifname.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/route/prifnameindex.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/rtt/udpcli01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/sctp/sctpclient01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/sctp/sctpclient02.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/sctp/sctpclient04.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/sctp/sctpserv01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/sctp/sctpserv02.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/sctp/sctpserv03.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/sctp/sctpserv04.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/sctp/sctpserv05.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/sctp/sctpserv06.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/sctp/sctpserv07.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/sctp/sctpserv_fork.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/select/tcpcli01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/select/tcpcli02.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/select/tcpcli03.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/server/client.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/server/clientrst.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/server/serv00.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/server/serv01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/server/serv02.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/server/serv02m.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/server/serv03.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/server/serv03m.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/server/serv04.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/server/serv05.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/server/serv06.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/server/serv07.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/server/serv08.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/server/serv09.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/sigio/udpcli01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/sigio/udpserv01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/sock/main.c	/^main(int argc, char *argv[])$/;"	f
+main	../unpv13e/sockopt/checkopts.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/sockopt/prdefaults.c	/^main()$/;"	f
+main	../unpv13e/sockopt/rcvbuf.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/sockopt/rcvbufset.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/sockopt/sockopt.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/ssntp/main.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/streams/stream_dg/client.c	/^main()$/;"	f
+main	../unpv13e/streams/stream_dg/server.c	/^main()$/;"	f
+main	../unpv13e/streams/strlist_sock.c	/^main(int argc, char *argv[])$/;"	f
+main	../unpv13e/streams/strlist_xti.c	/^main(int argc, char *argv[])$/;"	f
+main	../unpv13e/streams/tpi_daytime.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/tcpcliserv/tcpcli01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/tcpcliserv/tcpcli04.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/tcpcliserv/tcpcli05.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/tcpcliserv/tcpcli06.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/tcpcliserv/tcpcli07.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/tcpcliserv/tcpcli08.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/tcpcliserv/tcpcli09.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/tcpcliserv/tcpcli10.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/tcpcliserv/tcpcli11.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/tcpcliserv/tcpserv01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/tcpcliserv/tcpserv02.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/tcpcliserv/tcpserv03.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/tcpcliserv/tcpserv04.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/tcpcliserv/tcpserv08.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/tcpcliserv/tcpserv09.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/tcpcliserv/tcpservpoll01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/tcpcliserv/tcpservselect01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/tcpcliserv/tsigpipe.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/test/accept_eintr.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/test/test1.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/test/test2.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/test/tisfdtype.c	/^main()$/;"	f
+main	../unpv13e/test/treadline1.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/test/treadline2.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/test/treadline3.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/test/tshutdown.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/test/tsnprintf.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/threads/example01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/threads/example02.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/threads/example03.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/threads/tcpcli01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/threads/tcpcli02.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/threads/tcpserv01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/threads/tcpserv02.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/threads/test01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/threads/test02.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/threads/test03.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/threads/test04.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/threads/test05.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/threads/web01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/threads/web02.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/threads/web03.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/traceroute/main.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/udpcksum/main.c	/^main(int argc, char *argv[])$/;"	f
+main	../unpv13e/udpcliserv/udpcli01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/udpcliserv/udpcli02.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/udpcliserv/udpcli03.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/udpcliserv/udpcli04.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/udpcliserv/udpcli05.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/udpcliserv/udpcli06.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/udpcliserv/udpcli08.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/udpcliserv/udpcli09.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/udpcliserv/udpcli10.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/udpcliserv/udpserv01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/udpcliserv/udpserv06.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/udpcliserv/udpserv07.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/udpcliserv/udpservselect01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/unixdomain/daytimetcpcli.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/unixdomain/daytimetcpsrv2.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/unixdomain/mycat.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/unixdomain/openfile.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/unixdomain/testfcred.c	/^main()$/;"	f
+main	../unpv13e/unixdomain/tfcred01.c	/^main()$/;"	f
+main	../unpv13e/unixdomain/unixbind.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/unixdomain/unixdgcli01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/unixdomain/unixdgserv01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/unixdomain/unixstrcli01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/unixdomain/unixstrserv01.c	/^main(int argc, char **argv)$/;"	f
+main	../unpv13e/unixdomain/unixstrserv02.c	/^main(int argc, char **argv)$/;"	f
+max	../lib/unp.h	246;"	d
+max	../unp.h	205;"	d
+max	../unpv13e/key/unp.h	205;"	d
+max	../unpv13e/lib/unp.h	246;"	d
+max	../unpv13e/sctp/unp.h	205;"	d
+max	../unpv13e/sock/ourhdr.h	40;"	d
+max_ttl	../unpv13e/traceroute/main.c	/^int		max_ttl = 30;$/;"	v
+max_ttl	../unpv13e/traceroute/trace.h	/^int		 ttl, max_ttl;$/;"	v
+maxfd	../unpv13e/icmpd/icmpd.h	/^int				fd4, fd6, listenfd, maxi, maxfd, nready;$/;"	v
+maxfd	../unpv13e/nonblock/web.h	/^int		nconn, nfiles, nlefttoconn, nlefttoread, maxfd;$/;"	v
+maxi	../unpv13e/icmpd/icmpd.h	/^int				fd4, fd6, listenfd, maxi, maxfd, nready;$/;"	v
+maxnalarms	../unpv13e/oob/heartbeatserv.c	/^static int	maxnalarms;		\/* #alarms w\/no client probe before quit *\/$/;"	v	file:
+maxnprobes	../unpv13e/oob/heartbeatcli.c	/^static int		maxnprobes;		\/* #probes w\/no response before quit *\/$/;"	v	file:
+maxseg	../unpv13e/sock/main.c	/^int		maxseg;				\/* TCP_MAXSEG *\/$/;"	v
+mcast_block_source	../lib/mcast_join.c	/^mcast_block_source(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+mcast_block_source	../unpv13e/lib/mcast_join.c	/^mcast_block_source(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+mcast_get_if	../lib/mcast_get_if.c	/^mcast_get_if(int sockfd)$/;"	f
+mcast_get_if	../unpv13e/lib/mcast_get_if.c	/^mcast_get_if(int sockfd)$/;"	f
+mcast_get_loop	../lib/mcast_get_loop.c	/^mcast_get_loop(int sockfd)$/;"	f
+mcast_get_loop	../unpv13e/lib/mcast_get_loop.c	/^mcast_get_loop(int sockfd)$/;"	f
+mcast_get_ttl	../lib/mcast_get_ttl.c	/^mcast_get_ttl(int sockfd)$/;"	f
+mcast_get_ttl	../unpv13e/lib/mcast_get_ttl.c	/^mcast_get_ttl(int sockfd)$/;"	f
+mcast_join	../lib/mcast_join.c	/^mcast_join(int sockfd, const SA *grp, socklen_t grplen,$/;"	f
+mcast_join	../unpv13e/lib/mcast_join.c	/^mcast_join(int sockfd, const SA *grp, socklen_t grplen,$/;"	f
+mcast_join_source_group	../lib/mcast_join.c	/^mcast_join_source_group(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+mcast_join_source_group	../unpv13e/lib/mcast_join.c	/^mcast_join_source_group(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+mcast_leave	../lib/mcast_leave.c	/^mcast_leave(int sockfd, const SA *grp, socklen_t grplen)$/;"	f
+mcast_leave	../unpv13e/lib/mcast_leave.c	/^mcast_leave(int sockfd, const SA *grp, socklen_t grplen)$/;"	f
+mcast_leave_source_group	../lib/mcast_leave.c	/^mcast_leave_source_group(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+mcast_leave_source_group	../unpv13e/lib/mcast_leave.c	/^mcast_leave_source_group(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+mcast_set_if	../lib/mcast_set_if.c	/^mcast_set_if(int sockfd, const char *ifname, u_int ifindex)$/;"	f
+mcast_set_if	../unpv13e/lib/mcast_set_if.c	/^mcast_set_if(int sockfd, const char *ifname, u_int ifindex)$/;"	f
+mcast_set_loop	../lib/mcast_set_loop.c	/^mcast_set_loop(int sockfd, int onoff)$/;"	f
+mcast_set_loop	../unpv13e/lib/mcast_set_loop.c	/^mcast_set_loop(int sockfd, int onoff)$/;"	f
+mcast_set_ttl	../lib/mcast_set_ttl.c	/^mcast_set_ttl(int sockfd, int val)$/;"	f
+mcast_set_ttl	../unpv13e/lib/mcast_set_ttl.c	/^mcast_set_ttl(int sockfd, int val)$/;"	f
+mcast_unblock_source	../lib/mcast_join.c	/^mcast_unblock_source(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+mcast_unblock_source	../unpv13e/lib/mcast_join.c	/^mcast_unblock_source(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+mcastttl	../unpv13e/sock/main.c	/^int		mcastttl;			\/* multicast TTL *\/$/;"	v
+meter	../unpv13e/server/meter.c	/^meter(int nchildren)$/;"	f
+min	../lib/unp.h	245;"	d
+min	../unp.h	204;"	d
+min	../unpv13e/key/unp.h	204;"	d
+min	../unpv13e/lib/unp.h	245;"	d
+min	../unpv13e/sctp/unp.h	204;"	d
+min	../unpv13e/sock/ourhdr.h	39;"	d
+mlock	../unpv13e/server/pthread07.h	/^pthread_mutex_t	mlock;$/;"	v
+mlock	../unpv13e/server/serv07.c	/^pthread_mutex_t	mlock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+mptr	../unpv13e/server/lock_pthread.c	/^static pthread_mutex_t	*mptr;	\/* actual mutex will be in shared memory *\/$/;"	v	file:
+msgpeek	../unpv13e/sock/main.c	/^int		msgpeek;			\/* MSG_PEEK *\/$/;"	v
+msgrecv	../unpv13e/rtt/dg_send_recv.c	/^static struct msghdr	msgsend, msgrecv;	\/* assumed init to 0 *\/$/;"	v	typeref:struct:	file:
+msgsend	../unpv13e/rtt/dg_send_recv.c	/^static struct msghdr	msgsend, msgrecv;	\/* assumed init to 0 *\/$/;"	v	typeref:struct:msghdr	file:
+mx_dup_ck	../unpv13e/ping/bsdping.c	/^int mx_dup_ck = MAX_DUP_CHK;$/;"	v
+my_addrs	../lib/my_addrs.c	/^my_addrs(int *addrtype)$/;"	f
+my_addrs	../unpv13e/lib/my_addrs.c	/^my_addrs(int *addrtype)$/;"	f
+my_addrs	../unpv13e/names/myaddrs1.c	/^my_addrs(int *addrtype)$/;"	f
+my_key	../unpv13e/threads/test05.c	/^pthread_key_t	my_key;$/;"	v
+my_lock_init	../unpv13e/server/lock_fcntl.c	/^my_lock_init(char *pathname)$/;"	f
+my_lock_init	../unpv13e/server/lock_pthread.c	/^my_lock_init(char *pathname)$/;"	f
+my_lock_release	../unpv13e/server/lock_fcntl.c	/^my_lock_release()$/;"	f
+my_lock_release	../unpv13e/server/lock_pthread.c	/^my_lock_release()$/;"	f
+my_lock_wait	../unpv13e/server/lock_fcntl.c	/^my_lock_wait()$/;"	f
+my_lock_wait	../unpv13e/server/lock_pthread.c	/^my_lock_wait()$/;"	f
+my_open	../unpv13e/unixdomain/myopen.c	/^my_open(const char *pathname, int mode)$/;"	f
+my_read	../lib/readline.c	/^my_read(int fd, char *ptr)$/;"	f	file:
+my_read	../unpv13e/lib/readline.c	/^my_read(int fd, char *ptr)$/;"	f	file:
+my_read	../unpv13e/test/readline2.c	/^my_read(int fd, char *ptr)$/;"	f	file:
+my_read	../unpv13e/test/readline3.c	/^my_read(Rline *rptr, char *ptr)$/;"	f	file:
+my_read	../unpv13e/threads/readline.c	/^my_read(Rline *tsd, int fd, char *ptr)$/;"	f	file:
+my_read_r	../unpv13e/server/readline_r.c	/^my_read_r(Rline *rptr, char *ptr)$/;"	f	file:
+mydg_echo	../unpv13e/advio/udpserv03.c	/^mydg_echo(int sockfd, SA *pcliaddr, socklen_t clilen, SA *myaddr)$/;"	f
+mydg_echo	../unpv13e/advio/udpserv04.c	/^mydg_echo(int sockfd, SA *myaddr, socklen_t salen)$/;"	f
+myfunc	../unpv13e/threads/test01.c	/^myfunc(void *ptr)$/;"	f
+myfunc	../unpv13e/threads/test02.c	/^myfunc(void *ptr)$/;"	f
+myfunc	../unpv13e/threads/test03.c	/^myfunc(void *ptr)$/;"	f
+myfunc	../unpv13e/threads/test04.c	/^myfunc(void *ptr)$/;"	f
+name	../unpv13e/key/name.c	/^	const char *name;$/;"	m	struct:idlist	file:
+nbuf	../unpv13e/sock/main.c	/^int		nbuf = 1024;		\/* number of buffers to write (sink mode) *\/$/;"	v
+nchildren	../unpv13e/server/serv02.c	/^static int		nchildren;$/;"	v	file:
+nchildren	../unpv13e/server/serv02m.c	/^static int		nchildren;$/;"	v	file:
+nchildren	../unpv13e/server/serv03.c	/^static int		nchildren;$/;"	v	file:
+nchildren	../unpv13e/server/serv03m.c	/^static int		nchildren;$/;"	v	file:
+nchildren	../unpv13e/server/serv04.c	/^static int		nchildren;$/;"	v	file:
+nchildren	../unpv13e/server/serv05.c	/^static int		nchildren;$/;"	v	file:
+nconn	../unpv13e/nonblock/web.h	/^int		nconn, nfiles, nlefttoconn, nlefttoread, maxfd;$/;"	v
+nconn	../unpv13e/threads/web01.c	/^int		nconn, nfiles, nlefttoconn, nlefttoread;$/;"	v
+nconn	../unpv13e/threads/web02.c	/^int		nconn, nfiles, nlefttoconn, nlefttoread;$/;"	v
+nconn	../unpv13e/threads/web03.c	/^int		nconn, nfiles, nlefttoconn, nlefttoread;$/;"	v
+ndone	../unpv13e/threads/test03.c	/^int				ndone;$/;"	v
+ndone	../unpv13e/threads/web02.c	/^int				ndone;		\/* number of terminated threads & mutex *\/$/;"	v
+ndone	../unpv13e/threads/web03.c	/^int				ndone;		\/* number of terminated threads *\/$/;"	v
+ndone_cond	../unpv13e/threads/test03.c	/^pthread_cond_t	ndone_cond = PTHREAD_COND_INITIALIZER;$/;"	v
+ndone_cond	../unpv13e/threads/web03.c	/^pthread_cond_t	ndone_cond = PTHREAD_COND_INITIALIZER;$/;"	v
+ndone_mutex	../unpv13e/threads/test03.c	/^pthread_mutex_t	ndone_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+ndone_mutex	../unpv13e/threads/web02.c	/^pthread_mutex_t	ndone_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+ndone_mutex	../unpv13e/threads/web03.c	/^pthread_mutex_t	ndone_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+net_bind	../unpv13e/streams/stream_dg/net_stream.c	/^net_bind (int fd, void *addr, int addrlen)$/;"	f
+net_open	../unpv13e/streams/stream_dg/net_stream.c	/^net_open (char *path, int oflags, void *addr, int addrlen)$/;"	f
+net_recv	../unpv13e/streams/stream_dg/net_stream.c	/^net_recv (int fd, char *buf, int len, char *from_addr, int addrlen)$/;"	f
+net_rt_dump	../unpv13e/libroute/net_rt_dump.c	/^net_rt_dump(int family, int flags, size_t *lenp)$/;"	f
+net_rt_iflist	../unpv13e/libroute/net_rt_iflist.c	/^net_rt_iflist(int family, int flags, size_t *lenp)$/;"	f
+net_send	../unpv13e/streams/stream_dg/net_stream.c	/^net_send (int fd, char *buf, int len, char *to_addr, int addrlen)$/;"	f
+newmask	../unpv13e/sock/tellwait.c	/^static sigset_t			newmask, oldmask, zeromask;$/;"	v	file:
+next_pcap	../unpv13e/udpcksum/pcap.c	/^next_pcap(int *len)$/;"	f
+nfiles	../unpv13e/nonblock/web.h	/^int		nconn, nfiles, nlefttoconn, nlefttoread, maxfd;$/;"	v
+nfiles	../unpv13e/threads/web01.c	/^int		nconn, nfiles, nlefttoconn, nlefttoread;$/;"	v
+nfiles	../unpv13e/threads/web02.c	/^int		nconn, nfiles, nlefttoconn, nlefttoread;$/;"	v
+nfiles	../unpv13e/threads/web03.c	/^int		nconn, nfiles, nlefttoconn, nlefttoread;$/;"	v
+nlefttoconn	../unpv13e/nonblock/web.h	/^int		nconn, nfiles, nlefttoconn, nlefttoread, maxfd;$/;"	v
+nlefttoconn	../unpv13e/threads/web01.c	/^int		nconn, nfiles, nlefttoconn, nlefttoread;$/;"	v
+nlefttoconn	../unpv13e/threads/web02.c	/^int		nconn, nfiles, nlefttoconn, nlefttoread;$/;"	v
+nlefttoconn	../unpv13e/threads/web03.c	/^int		nconn, nfiles, nlefttoconn, nlefttoread;$/;"	v
+nlefttoread	../unpv13e/nonblock/web.h	/^int		nconn, nfiles, nlefttoconn, nlefttoread, maxfd;$/;"	v
+nlefttoread	../unpv13e/threads/web01.c	/^int		nconn, nfiles, nlefttoconn, nlefttoread;$/;"	v
+nlefttoread	../unpv13e/threads/web02.c	/^int		nconn, nfiles, nlefttoconn, nlefttoread;$/;"	v
+nlefttoread	../unpv13e/threads/web03.c	/^int		nconn, nfiles, nlefttoconn, nlefttoread;$/;"	v
+nodelay	../unpv13e/sock/main.c	/^int		nodelay;			\/* TCP_NODELAY (Nagle algorithm) *\/$/;"	v
+npackets	../unpv13e/ping/bsdping.c	/^long npackets;			\/* max packets to transmit *\/$/;"	v
+nprobes	../unpv13e/oob/heartbeatcli.c	/^static int		nprobes;		\/* #probes since last server response *\/$/;"	v	file:
+nprobes	../unpv13e/oob/heartbeatserv.c	/^static int	nprobes;		\/* #alarms since last client probe *\/$/;"	v	file:
+nprobes	../unpv13e/traceroute/main.c	/^int		nprobes = 3;$/;"	v
+nprobes	../unpv13e/traceroute/trace.h	/^int		 probe, nprobes;$/;"	v
+nqueue	../unpv13e/sigio/dgecho01.c	/^static int	nqueue;		\/* # on queue for main loop to process *\/$/;"	v	file:
+nready	../unpv13e/icmpd/icmpd.h	/^int				fd4, fd6, listenfd, maxi, maxfd, nready;$/;"	v
+nreceived	../unpv13e/ping/bsdping.c	/^long nreceived;			\/* # of packets we got back *\/$/;"	v
+nrepeats	../unpv13e/ping/bsdping.c	/^long nrepeats;			\/* number of duplicates *\/$/;"	v
+nsec	../unpv13e/oob/heartbeatcli.c	/^static int		nsec;			\/* #seconds betweeen each alarm *\/$/;"	v	file:
+nsec	../unpv13e/oob/heartbeatserv.c	/^static int	nsec;			\/* #seconds between each alarm *\/$/;"	v	file:
+nsent	../unpv13e/ping/ping.h	/^int		 nsent;				\/* add 1 for each sendto() *\/$/;"	v
+nsent	../unpv13e/traceroute/trace.h	/^int		 nsent;				\/* add 1 for each sendto() *\/$/;"	v
+nthreads	../unpv13e/server/pthread07.h	/^int				listenfd, nthreads;$/;"	v
+nthreads	../unpv13e/server/pthread09.h	/^int				listenfd, nthreads;$/;"	v
+nthreads	../unpv13e/server/serv08.c	/^static int			nthreads;$/;"	v	file:
+ntpdata	../unpv13e/ssntp/ntp.h	/^struct ntpdata {		\/* NTP header *\/$/;"	s
+ntransmitted	../unpv13e/ping/bsdping.c	/^long ntransmitted;		\/* sequence # for outbound packets = #sent *\/$/;"	v
+ocnt	../unpv13e/ipopts/sourceroute.c	/^static int		ocnt;		\/* count of # addresses *\/$/;"	v	file:
+oldmask	../unpv13e/sock/tellwait.c	/^static sigset_t			newmask, oldmask, zeromask;$/;"	v	file:
+onalrm	../unpv13e/ping/bsdping.c	/^onalrm(signo)$/;"	f
+onesbcast	../unpv13e/sock/main.c	/^int		onesbcast;			\/* set IP_ONESBCAST for 255.255.255.255 bcasts *\/$/;"	v
+oninfo	../unpv13e/ping/bsdping.c	/^oninfo(notused)$/;"	f
+onint	../unpv13e/ping/bsdping.c	/^onint(notused)$/;"	f
+open_output	../unpv13e/udpcksum/senddnsquery-libnet.c	/^open_output(void)$/;"	f
+open_output	../unpv13e/udpcksum/udpwrite.c	/^open_output(void)$/;"	f
+open_pcap	../unpv13e/udpcksum/pcap.c	/^open_pcap(void)$/;"	f
+opt_level	../unpv13e/sockopt/checkopts.c	/^  int		opt_level;$/;"	m	struct:sock_opts	file:
+opt_name	../unpv13e/sockopt/checkopts.c	/^  int		opt_name;$/;"	m	struct:sock_opts	file:
+opt_str	../unpv13e/sockopt/checkopts.c	/^  const char	   *opt_str;$/;"	m	struct:sock_opts	file:
+opt_val_str	../unpv13e/sockopt/checkopts.c	/^  char   *(*opt_val_str)(union val *, int);$/;"	m	struct:sock_opts	file:
+options	../unpv13e/ping/bsdping.c	/^u_int options;$/;"	v
+optr	../unpv13e/ipopts/sourceroute.c	/^static u_char	*optr;		\/* pointer into options being formed *\/$/;"	v	file:
+optr	../unpv13e/sock/sourceroute.c	/^u_char	*optr;				\/* pointer into options being formed *\/$/;"	v
+org	../unpv13e/ssntp/ntp.h	/^  struct l_fixedpt	org;$/;"	m	struct:ntpdata	typeref:struct:ntpdata::l_fixedpt
+outpack	../unpv13e/ping/bsdping.c	/^u_char outpack[MAXPACKET];$/;"	v
+parent_alrm	../unpv13e/debug/backlog.c	/^parent_alrm(int signo)$/;"	f
+parent_alrm	../unpv13e/debug/qlen.c	/^parent_alrm(int signo)$/;"	f
+pattern	../unpv13e/sock/pattern.c	/^pattern(char *ptr, int len)$/;"	f
+pattern	../unpv13e/sock/sourcesink.c	/^pattern(char *ptr, int len)$/;"	f
+pauseclose	../unpv13e/sock/main.c	/^int		pauseclose;			\/* #ms to sleep after recv FIN, before close *\/$/;"	v
+pauseinit	../unpv13e/sock/main.c	/^int		pauseinit;			\/* #ms to sleep before first read *\/$/;"	v
+pauselisten	../unpv13e/sock/main.c	/^int		pauselisten;		\/* #ms to sleep after listen() *\/$/;"	v
+pauserw	../unpv13e/sock/main.c	/^int		pauserw;			\/* #ms to sleep before each read or write *\/$/;"	v
+pd	../unpv13e/udpcksum/main.c	/^pcap_t *pd;				\/* packet capture struct pointer *\/$/;"	v
+pdapi_recvmsg	../unpv13e/sctp/sctp_pdapircv.c	/^pdapi_recvmsg(int sock_fd,$/;"	f
+pfd	../unpv13e/debug/backlog.c	12;"	d	file:
+pfd	../unpv13e/debug/qlen.c	12;"	d	file:
+pid	../unpv13e/debug/backlog.c	/^pid_t				pid;	\/* of child *\/$/;"	v
+pid	../unpv13e/debug/qlen.c	/^pid_t				pid;	\/* of child *\/$/;"	v
+pid	../unpv13e/ping/ping.h	/^pid_t	 pid;				\/* our PID *\/$/;"	v
+pid	../unpv13e/traceroute/trace.h	/^pid_t	 pid;				\/* our PID *\/$/;"	v
+pids	../unpv13e/server/serv02.c	/^static pid_t	*pids;$/;"	v	file:
+pids	../unpv13e/server/serv02m.c	/^static pid_t	*pids;$/;"	v	file:
+pids	../unpv13e/server/serv03.c	/^static pid_t	*pids;$/;"	v	file:
+pids	../unpv13e/server/serv03m.c	/^static pid_t	*pids;$/;"	v	file:
+pids	../unpv13e/server/serv04.c	/^static pid_t	*pids;$/;"	v	file:
+ping_v4	../unpv13e/ping/ping_v4.c	/^ping_v4(struct hostent *hptr)$/;"	f
+pinger	../unpv13e/ping/bsdping.c	/^pinger()$/;"	f
+pipefd	../unpv13e/bcast/dgclibcast6.c	/^static int	pipefd[2];$/;"	v	file:
+pipefd	../unpv13e/debug/backlog.c	/^int			pipefd[2];$/;"	v
+pipefd	../unpv13e/debug/qlen.c	/^int			pipefd[2];$/;"	v
+pname	../unpv13e/sock/error.c	/^char	*pname = NULL;		\/* caller can set this from argv[0] *\/$/;"	v
+port	../unpv13e/sock/main.c	/^char	*port;$/;"	v
+ppoll	../unpv13e/ssntp/ntp.h	/^  u_char			ppoll;$/;"	m	struct:ntpdata
+pr	../unpv13e/ping/ping.h	/^} *pr;$/;"	v	typeref:struct:proto
+pr	../unpv13e/traceroute/trace.h	/^} *pr;$/;"	v	typeref:struct:proto
+pr_addr	../unpv13e/ping/bsdping.c	/^pr_addr(l)$/;"	f
+pr_cpu_time	../unpv13e/server/pr_cpu_time.c	/^pr_cpu_time(void)$/;"	f
+pr_icmph	../unpv13e/ping/bsdping.c	/^pr_icmph(icp)$/;"	f
+pr_iflist	../unpv13e/route/mynetstat.c	/^pr_iflist(int family)$/;"	f
+pr_iph	../unpv13e/ping/bsdping.c	/^pr_iph(ip)$/;"	f
+pr_ipv4	../unpv13e/names/hostent3.c	/^pr_ipv4(char **listptr)$/;"	f
+pr_pack	../unpv13e/ping/bsdping.c	/^pr_pack(buf, cc, from)$/;"	f
+pr_retip	../unpv13e/ping/bsdping.c	/^pr_retip(ip)$/;"	f
+pr_rtable	../unpv13e/route/mynetstat.c	/^pr_rtable(int family)$/;"	f
+precision	../unpv13e/ssntp/ntp.h	/^  int				precision:8;$/;"	m	struct:ntpdata
+prefix_all	../unpv13e/key/add.c	/^prefix_all(struct sockaddr *sa)$/;"	f
+print_notification	../unpv13e/sctp/sctp_displayevents.c	/^print_notification(char *notify_buf)$/;"	f
+print_sadb_msg	../unpv13e/key/printsadbmsg.c	/^print_sadb_msg(struct sadb_msg *msg, int msglen)$/;"	f
+probe	../unpv13e/traceroute/trace.h	/^int		 probe, nprobes;$/;"	v
+proc_v4	../unpv13e/ping/proc_v4.c	/^proc_v4(char *ptr, ssize_t len, struct msghdr *msg, struct timeval *tvrecv)$/;"	f
+proc_v6	../unpv13e/ping/proc_v6.c	/^proc_v6(char *ptr, ssize_t len, struct msghdr *msg, struct timeval* tvrecv)$/;"	f
+produce	../unpv13e/threads/example03.c	/^produce(struct buf_t *bptr, int val)$/;"	f
+produce_loop	../unpv13e/threads/example03.c	/^produce_loop(void *vptr)$/;"	f
+proto	../unpv13e/ping/ping.h	/^struct proto {$/;"	s
+proto	../unpv13e/traceroute/trace.h	/^struct proto {$/;"	s
+proto_v4	../unpv13e/ping/main.c	/^struct proto	proto_v4 = { proc_v4, send_v4, NULL, NULL, NULL, 0, IPPROTO_ICMP };$/;"	v	typeref:struct:proto
+proto_v4	../unpv13e/traceroute/main.c	/^struct proto	proto_v4 = { icmpcode_v4, recv_v4, NULL, NULL, NULL, NULL, 0,$/;"	v	typeref:struct:proto
+proto_v6	../unpv13e/ping/main.c	/^struct proto	proto_v6 = { proc_v6, send_v6, init_v6, NULL, NULL, 0, IPPROTO_ICMPV6 };$/;"	v	typeref:struct:proto
+proto_v6	../unpv13e/traceroute/main.c	/^struct proto	proto_v6 = { icmpcode_v6, recv_v6, NULL, NULL, NULL, NULL, 0,$/;"	v	typeref:struct:proto
+pselect	../lib/pselect.c	/^pselect(int nfds, fd_set *rset, fd_set *wset, fd_set *xset,$/;"	f
+pselect	../unpv13e/lib/pselect.c	/^pselect(int nfds, fd_set *rset, fd_set *wset, fd_set *xset,$/;"	f
+pthread_create	../unpv13e/configure	/^pthread_create ();$/;"	f
+rawfd	../unpv13e/udpcksum/main.c	/^int		rawfd;			\/* raw socket to write on *\/$/;"	v
+rawfd	../unpv13e/udpcksum/udpwrite.c	/^int		rawfd;			\/* raw socket to write on *\/$/;"	v
+rbuf	../unpv13e/sock/main.c	/^char   *rbuf;				\/* pointer that is malloc'ed *\/$/;"	v
+rcsid	../unpv13e/libfree/inet_ntop.c	/^static char rcsid[] = "$Id: inet_ntop.c,v 1.1.1.1 2002\/11\/14 03:33:35 fenner Exp $";$/;"	v	file:
+rcsid	../unpv13e/libfree/inet_pton.c	/^static char rcsid[] = "$Id: inet_pton.c,v 1.1.1.1 2002\/11\/14 03:33:35 fenner Exp $";$/;"	v	file:
+rcvbuflen	../unpv13e/sock/main.c	/^int		rcvbuflen;			\/* size for SO_RCVBUF *\/$/;"	v
+rcvd_tbl	../unpv13e/ping/bsdping.c	/^char rcvd_tbl[MAX_DUP_CHK \/ 8];$/;"	v
+rcvtimeo	../unpv13e/sock/main.c	/^long	rcvtimeo;			\/* SO_RCVTIMEO *\/$/;"	v
+read_buf	../lib/readline.c	/^static char	read_buf[MAXLINE];$/;"	v	file:
+read_buf	../unpv13e/lib/readline.c	/^static char	read_buf[MAXLINE];$/;"	v	file:
+read_cnt	../lib/readline.c	/^static int	read_cnt;$/;"	v	file:
+read_cnt	../unpv13e/lib/readline.c	/^static int	read_cnt;$/;"	v	file:
+read_cred	../unpv13e/unixdomain/readcred.c	/^read_cred(int fd, void *ptr, size_t nbytes, struct cmsgcred *cmsgcredptr)$/;"	f
+read_fd	../lib/read_fd.c	/^read_fd(int fd, void *ptr, size_t nbytes, int *recvfd)$/;"	f
+read_fd	../unpv13e/lib/read_fd.c	/^read_fd(int fd, void *ptr, size_t nbytes, int *recvfd)$/;"	f
+read_fd	../unpv13e/server/readline_r.h	/^  int		read_fd;		\/* caller's descriptor to read from *\/$/;"	m	struct:__anon9
+read_fd	../unpv13e/test/readline.h	/^  int		read_fd;		\/* caller's descriptor to read from *\/$/;"	m	struct:__anon3
+read_lock	../unpv13e/sock/ourhdr.h	84;"	d
+read_maxlen	../unpv13e/server/readline_r.h	/^  size_t	read_maxlen;	\/* max #bytes to read *\/$/;"	m	struct:__anon9
+read_maxlen	../unpv13e/test/readline.h	/^  size_t	read_maxlen;	\/* max #bytes to read *\/$/;"	m	struct:__anon3
+read_ptr	../lib/readline.c	/^static char	*read_ptr;$/;"	v	file:
+read_ptr	../unpv13e/lib/readline.c	/^static char	*read_ptr;$/;"	v	file:
+read_ptr	../unpv13e/server/readline_r.h	/^  char		*read_ptr;		\/* caller's buffer to read into *\/$/;"	m	struct:__anon9
+read_ptr	../unpv13e/test/readline.h	/^  char		*read_ptr;		\/* caller's buffer to read into *\/$/;"	m	struct:__anon3
+readable_conn	../unpv13e/icmpd/readable_conn.c	/^readable_conn(int i)$/;"	f
+readable_listen	../unpv13e/icmpd/readable_listen.c	/^readable_listen(void)$/;"	f
+readable_timeo	../lib/readable_timeo.c	/^readable_timeo(int fd, int sec)$/;"	f
+readable_timeo	../unpv13e/lib/readable_timeo.c	/^readable_timeo(int fd, int sec)$/;"	f
+readable_v4	../unpv13e/icmpd/readable_v4.c	/^readable_v4(void)$/;"	f
+readable_v6	../unpv13e/icmpd/readable_v6.c	/^readable_v6(void)$/;"	f
+readlen	../unpv13e/sock/main.c	/^int		readlen = 1024;		\/* default read length for socket *\/$/;"	v
+readline	../lib/readline.c	/^readline(int fd, void *vptr, size_t maxlen)$/;"	f
+readline	../unpv13e/lib/readline.c	/^readline(int fd, void *vptr, size_t maxlen)$/;"	f
+readline	../unpv13e/server/readline.c	/^readline(int fd, void *vptr, size_t maxlen)$/;"	f
+readline	../unpv13e/test/readline1.c	/^readline(int fd, void *vptr, size_t maxlen)$/;"	f
+readline	../unpv13e/test/readline2.c	/^readline(int fd, void *vptr, size_t maxlen)$/;"	f
+readline	../unpv13e/threads/readline.c	/^readline(int fd, void *vptr, size_t maxlen)$/;"	f
+readline_destructor	../unpv13e/threads/readline.c	/^readline_destructor(void *ptr)$/;"	f	file:
+readline_once	../unpv13e/threads/readline.c	/^readline_once(void)$/;"	f	file:
+readline_r	../unpv13e/server/readline_r.c	/^readline_r(Rline *rptr)$/;"	f
+readline_r	../unpv13e/test/readline3.c	/^readline_r(Rline *rptr)$/;"	f
+readline_rinit	../unpv13e/server/readline_r.c	/^readline_rinit(int fd, void *ptr, size_t maxlen, Rline *rptr)$/;"	f
+readline_rinit	../unpv13e/test/readline3.c	/^readline_rinit(int fd, void *ptr, size_t maxlen, Rline *rptr)$/;"	f
+readlinebuf	../lib/readline.c	/^readlinebuf(void **vptrptr)$/;"	f
+readlinebuf	../unpv13e/lib/readline.c	/^readlinebuf(void **vptrptr)$/;"	f
+readloop	../unpv13e/ping/readloop.c	/^readloop(void)$/;"	f
+readn	../lib/readn.c	/^readn(int fd, void *vptr, size_t n)$/;"	f
+readn	../unpv13e/lib/readn.c	/^readn(int fd, void *vptr, size_t n)$/;"	f
+readw_lock	../unpv13e/sock/ourhdr.h	86;"	d
+rec	../unpv13e/ssntp/ntp.h	/^  struct l_fixedpt	rec;$/;"	m	struct:ntpdata	typeref:struct:ntpdata::l_fixedpt
+rec	../unpv13e/traceroute/trace.h	/^struct rec {					\/* format of outgoing UDP data *\/$/;"	s
+rec_seq	../unpv13e/traceroute/trace.h	/^  u_short	rec_seq;			\/* sequence number *\/$/;"	m	struct:rec
+rec_ttl	../unpv13e/traceroute/trace.h	/^  u_short	rec_ttl;			\/* TTL packet left with *\/$/;"	m	struct:rec
+rec_tv	../unpv13e/traceroute/trace.h	/^  struct timeval	rec_tv;		\/* time packet left *\/$/;"	m	struct:rec	typeref:struct:rec::timeval
+recv	../lib/unp.h	90;"	d
+recv	../lib/unp.h	92;"	d
+recv	../unp.h	64;"	d
+recv	../unp.h	66;"	d
+recv	../unpv13e/key/unp.h	71;"	d
+recv	../unpv13e/key/unp.h	73;"	d
+recv	../unpv13e/lib/unp.h	90;"	d
+recv	../unpv13e/lib/unp.h	92;"	d
+recv	../unpv13e/sctp/unp.h	64;"	d
+recv	../unpv13e/sctp/unp.h	66;"	d
+recv	../unpv13e/traceroute/trace.h	/^  int	 (*recv)(int, struct timeval *);$/;"	m	struct:proto
+recv_all	../unpv13e/mcast/recv.c	/^recv_all(int recvfd, socklen_t salen)$/;"	f
+recv_cred	../unpv13e/unixdomain/tfcred01.c	/^recv_cred(int fd, void *ptr, size_t nbytes, struct fcred *fcredptr)$/;"	f
+recv_v4	../unpv13e/traceroute/recv_v4.c	/^recv_v4(int seq, struct timeval *tv)$/;"	f
+recv_v6	../unpv13e/traceroute/recv_v6.c	/^recv_v6(int seq, struct timeval *tv)$/;"	f
+recvbuf	../unpv13e/traceroute/trace.h	/^char	 recvbuf[BUFSIZE];$/;"	v
+recvdstaddr	../unpv13e/sock/main.c	/^int		recvdstaddr;		\/* IP_RECVDSTADDR option *\/$/;"	v
+recvfd	../unpv13e/traceroute/trace.h	/^int		 sendfd, recvfd;	\/* send on UDP sock, read on raw ICMP sock *\/$/;"	v
+recvfrom_alarm	../unpv13e/bcast/dgclibcast1.c	/^recvfrom_alarm(int signo)$/;"	f	file:
+recvfrom_alarm	../unpv13e/bcast/dgclibcast2.c	/^recvfrom_alarm(int signo)$/;"	f	file:
+recvfrom_alarm	../unpv13e/bcast/dgclibcast3.c	/^recvfrom_alarm(int signo)$/;"	f	file:
+recvfrom_alarm	../unpv13e/bcast/dgclibcast4.c	/^recvfrom_alarm(int signo)$/;"	f	file:
+recvfrom_alarm	../unpv13e/bcast/dgclibcast5.c	/^recvfrom_alarm(int signo)$/;"	f	file:
+recvfrom_alarm	../unpv13e/bcast/dgclibcast6.c	/^recvfrom_alarm(int signo)$/;"	f	file:
+recvfrom_alarm	../unpv13e/mcast/dgclibcast1.c	/^recvfrom_alarm(int signo)$/;"	f	file:
+recvfrom_alarm	../unpv13e/mcast/dgclimcast5.c	/^recvfrom_alarm(int signo)$/;"	f	file:
+recvfrom_alarm	../unpv13e/mcast/dgclimcast6.c	/^recvfrom_alarm(int signo)$/;"	f	file:
+recvfrom_flags	../unpv13e/advio/old/recvfromflags.c	/^recvfrom_flags(int fd, void *ptr, size_t nbytes, int *flagsp,$/;"	f
+recvfrom_flags	../unpv13e/advio/recvfromflags.c	/^recvfrom_flags(int fd, void *ptr, size_t nbytes, int *flagsp,$/;"	f
+recvfrom_int	../unpv13e/udpcliserv/dgecholoop1.c	/^recvfrom_int(int signo)$/;"	f	file:
+recvfrom_int	../unpv13e/udpcliserv/dgecholoop2.c	/^recvfrom_int(int signo)$/;"	f	file:
+recvhdr	../unpv13e/rtt/dg_send_recv.c	/^} sendhdr, recvhdr;$/;"	v	typeref:struct:hdr	file:
+refid	../unpv13e/ssntp/ntp.h	/^  uint32_t			refid;$/;"	m	struct:ntpdata
+reftime	../unpv13e/ssntp/ntp.h	/^  struct l_fixedpt	reftime;$/;"	m	struct:ntpdata	typeref:struct:ntpdata::l_fixedpt
+res_init	../unpv13e/configure	/^res_init ();$/;"	f
+result	../unpv13e/tcpcliserv/sum.h	/^struct result {$/;"	s
+reuseaddr	../unpv13e/sock/main.c	/^int		reuseaddr;			\/* SO_REUSEADDR *\/$/;"	v
+reuseport	../unpv13e/sock/main.c	/^int		reuseport;			\/* SO_REUSEPORT *\/$/;"	v
+rl_buf	../unpv13e/server/readline_r.h	/^  char		rl_buf[MAXLINE];$/;"	m	struct:__anon9
+rl_buf	../unpv13e/test/readline.h	/^  char		rl_buf[MAXLINE];$/;"	m	struct:__anon3
+rl_buf	../unpv13e/threads/readline.c	/^  char	 rl_buf[MAXLINE];$/;"	m	struct:__anon10	file:
+rl_bufptr	../unpv13e/server/readline_r.h	/^  char		*rl_bufptr;		\/* initialize to rl_buf *\/$/;"	m	struct:__anon9
+rl_bufptr	../unpv13e/test/readline.h	/^  char		*rl_bufptr;		\/* initialize to rl_buf *\/$/;"	m	struct:__anon3
+rl_bufptr	../unpv13e/threads/readline.c	/^  char	*rl_bufptr;			\/* initialize to rl_buf *\/$/;"	m	struct:__anon10	file:
+rl_cnt	../unpv13e/server/readline_r.h	/^  int		rl_cnt;			\/* initialize to 0 *\/$/;"	m	struct:__anon9
+rl_cnt	../unpv13e/test/readline.h	/^  int		rl_cnt;			\/* initialize to 0 *\/$/;"	m	struct:__anon3
+rl_cnt	../unpv13e/threads/readline.c	/^  int	 rl_cnt;			\/* initialize to 0 *\/$/;"	m	struct:__anon10	file:
+rl_key	../unpv13e/threads/readline.c	/^static pthread_key_t	rl_key;$/;"	v	file:
+rl_once	../unpv13e/threads/readline.c	/^static pthread_once_t	rl_once = PTHREAD_ONCE_INIT;$/;"	v	file:
+rset	../unpv13e/icmpd/icmpd.h	/^fd_set			rset, allset;$/;"	v
+rset	../unpv13e/nonblock/web.h	/^fd_set	rset, wset;$/;"	v
+rtt_base	../lib/unprtt.h	/^  uint32_t	rtt_base;	\/* # sec since 1\/1\/1970 at start *\/$/;"	m	struct:rtt_info
+rtt_base	../unpv13e/lib/unprtt.h	/^  uint32_t	rtt_base;	\/* # sec since 1\/1\/1970 at start *\/$/;"	m	struct:rtt_info
+rtt_base	../unpv13e/rtt/unprtt.h	/^  uint32_t	rtt_base;	\/* #sec since 1\/1\/1970 at start *\/$/;"	m	struct:rtt_info
+rtt_d_flag	../lib/rtt.c	/^int		rtt_d_flag = 0;		\/* debug flag; can be set by caller *\/$/;"	v
+rtt_d_flag	../unpv13e/lib/rtt.c	/^int		rtt_d_flag = 0;		\/* debug flag; can be set by caller *\/$/;"	v
+rtt_debug	../lib/rtt.c	/^rtt_debug(struct rtt_info *ptr)$/;"	f
+rtt_debug	../unpv13e/lib/rtt.c	/^rtt_debug(struct rtt_info *ptr)$/;"	f
+rtt_info	../lib/unprtt.h	/^struct rtt_info {$/;"	s
+rtt_info	../unpv13e/lib/unprtt.h	/^struct rtt_info {$/;"	s
+rtt_info	../unpv13e/rtt/unprtt.h	/^struct rtt_info {$/;"	s
+rtt_init	../lib/rtt.c	/^rtt_init(struct rtt_info *ptr)$/;"	f
+rtt_init	../unpv13e/lib/rtt.c	/^rtt_init(struct rtt_info *ptr)$/;"	f
+rtt_minmax	../lib/rtt.c	/^rtt_minmax(float rto)$/;"	f	file:
+rtt_minmax	../unpv13e/lib/rtt.c	/^rtt_minmax(float rto)$/;"	f	file:
+rtt_newpack	../lib/rtt.c	/^rtt_newpack(struct rtt_info *ptr)$/;"	f
+rtt_newpack	../unpv13e/lib/rtt.c	/^rtt_newpack(struct rtt_info *ptr)$/;"	f
+rtt_nrexmt	../lib/unprtt.h	/^  int		rtt_nrexmt;	\/* # times retransmitted: 0, 1, 2, ... *\/$/;"	m	struct:rtt_info
+rtt_nrexmt	../unpv13e/lib/unprtt.h	/^  int		rtt_nrexmt;	\/* # times retransmitted: 0, 1, 2, ... *\/$/;"	m	struct:rtt_info
+rtt_nrexmt	../unpv13e/rtt/unprtt.h	/^  int		rtt_nrexmt;	\/* #times retransmitted: 0, 1, 2, ... *\/$/;"	m	struct:rtt_info
+rtt_rto	../lib/unprtt.h	/^  float		rtt_rto;	\/* current RTO to use, in seconds *\/$/;"	m	struct:rtt_info
+rtt_rto	../unpv13e/lib/unprtt.h	/^  float		rtt_rto;	\/* current RTO to use, in seconds *\/$/;"	m	struct:rtt_info
+rtt_rto	../unpv13e/rtt/unprtt.h	/^  float		rtt_rto;	\/* current RTO to use, seconds *\/$/;"	m	struct:rtt_info
+rtt_rtt	../lib/unprtt.h	/^  float		rtt_rtt;	\/* most recent measured RTT, in seconds *\/$/;"	m	struct:rtt_info
+rtt_rtt	../unpv13e/lib/unprtt.h	/^  float		rtt_rtt;	\/* most recent measured RTT, in seconds *\/$/;"	m	struct:rtt_info
+rtt_rtt	../unpv13e/rtt/unprtt.h	/^  float		rtt_rtt;	\/* most recent measured RTT, seconds *\/$/;"	m	struct:rtt_info
+rtt_rttvar	../lib/unprtt.h	/^  float		rtt_rttvar;	\/* smoothed mean deviation, in seconds *\/$/;"	m	struct:rtt_info
+rtt_rttvar	../unpv13e/lib/unprtt.h	/^  float		rtt_rttvar;	\/* smoothed mean deviation, in seconds *\/$/;"	m	struct:rtt_info
+rtt_rttvar	../unpv13e/rtt/unprtt.h	/^  float		rtt_rttvar;	\/* smoothed mean deviation, seconds *\/$/;"	m	struct:rtt_info
+rtt_srtt	../lib/unprtt.h	/^  float		rtt_srtt;	\/* smoothed RTT estimator, in seconds *\/$/;"	m	struct:rtt_info
+rtt_srtt	../unpv13e/lib/unprtt.h	/^  float		rtt_srtt;	\/* smoothed RTT estimator, in seconds *\/$/;"	m	struct:rtt_info
+rtt_srtt	../unpv13e/rtt/unprtt.h	/^  float		rtt_srtt;	\/* smoothed RTT estimator, seconds *\/$/;"	m	struct:rtt_info
+rtt_start	../lib/rtt.c	/^rtt_start(struct rtt_info *ptr)$/;"	f
+rtt_start	../unpv13e/lib/rtt.c	/^rtt_start(struct rtt_info *ptr)$/;"	f
+rtt_stop	../lib/rtt.c	/^rtt_stop(struct rtt_info *ptr, uint32_t ms)$/;"	f
+rtt_stop	../unpv13e/lib/rtt.c	/^rtt_stop(struct rtt_info *ptr, uint32_t ms)$/;"	f
+rtt_timeout	../lib/rtt.c	/^rtt_timeout(struct rtt_info *ptr)$/;"	f
+rtt_timeout	../unpv13e/lib/rtt.c	/^rtt_timeout(struct rtt_info *ptr)$/;"	f
+rtt_ts	../lib/rtt.c	/^rtt_ts(struct rtt_info *ptr)$/;"	f
+rtt_ts	../unpv13e/lib/rtt.c	/^rtt_ts(struct rtt_info *ptr)$/;"	f
+rttinfo	../unpv13e/rtt/dg_send_recv.c	/^static struct rtt_info   rttinfo;$/;"	v	typeref:struct:rtt_info	file:
+rttinit	../unpv13e/rtt/dg_send_recv.c	/^static int	rttinit = 0;$/;"	v	file:
+s	../unpv13e/ping/bsdping.c	/^int s;				\/* socket file descriptor *\/$/;"	v
+s_fixedpt	../unpv13e/ssntp/ntp.h	/^struct s_fixedpt {		\/* 32-bit fixed-point *\/$/;"	s
+sa_print	../unpv13e/key/printsadbmsg.c	/^sa_print(struct sadb_ext *ext)$/;"	f
+sabind	../unpv13e/traceroute/trace.h	/^  struct sockaddr  *sabind;	\/* sockaddr{} for binding source port *\/$/;"	m	struct:proto	typeref:struct:proto::sockaddr
+sadb_add	../unpv13e/key/add.c	/^sadb_add(struct sockaddr *src, struct sockaddr *dst, int type, int alg,$/;"	f
+sadb_dump	../unpv13e/key/dump.c	/^sadb_dump(int type)$/;"	f
+sadb_register	../unpv13e/key/register.c	/^sadb_register(int type)$/;"	f
+salast	../unpv13e/traceroute/trace.h	/^  struct sockaddr  *salast;	\/* last sockaddr{} for receiving *\/$/;"	m	struct:proto	typeref:struct:proto::sockaddr
+salen	../unpv13e/key/add.c	/^salen(struct sockaddr *sa)$/;"	f
+salen	../unpv13e/ping/ping.h	/^  socklen_t	    salen;		\/* length of sockaddr{}s *\/$/;"	m	struct:proto
+salen	../unpv13e/traceroute/trace.h	/^  socklen_t   		salen;	\/* length of sockaddr{}s *\/$/;"	m	struct:proto
+sarecv	../unpv13e/ping/ping.h	/^  struct sockaddr  *sarecv;	\/* sockaddr{} for receiving *\/$/;"	m	struct:proto	typeref:struct:proto::sockaddr
+sarecv	../unpv13e/traceroute/trace.h	/^  struct sockaddr  *sarecv;	\/* sockaddr{} for receiving *\/$/;"	m	struct:proto	typeref:struct:proto::sockaddr
+sasend	../unpv13e/ping/ping.h	/^  struct sockaddr  *sasend;	\/* sockaddr{} for send, from getaddrinfo *\/$/;"	m	struct:proto	typeref:struct:proto::sockaddr
+sasend	../unpv13e/traceroute/trace.h	/^  struct sockaddr  *sasend;	\/* sockaddr{} for send, from getaddrinfo *\/$/;"	m	struct:proto	typeref:struct:proto::sockaddr
+satype	../unpv13e/key/name.c	/^static struct idlist satype[] = {$/;"	v	typeref:struct:idlist	file:
+sccsid	../unpv13e/ping/bsdping.c	/^static char sccsid[] = "@(#)ping.c	8.1 (Berkeley) 6\/5\/93";$/;"	v	file:
+sctp_address_to_associd	../unpv13e/sctp/sctp_addr_to_associd.c	/^sctp_address_to_associd(int sock_fd, struct sockaddr *sa, socklen_t salen)$/;"	f
+sctp_bind_arg_list	../unpv13e/sctp/sctp_bindargs.c	/^sctp_bind_arg_list(int sock_fd, char **argv, int argc)$/;"	f
+sctp_get_no_strms	../unpv13e/sctp/sctp_getnostrm.c	/^sctp_get_no_strms(int sock_fd,struct sockaddr *to, socklen_t tolen)$/;"	f
+sctp_pdapi_rdbuf_sz	../unpv13e/sctp/sctp_pdapircv.c	/^static int sctp_pdapi_rdbuf_sz=0;$/;"	v	file:
+sctp_pdapi_readbuf	../unpv13e/sctp/sctp_pdapircv.c	/^static uint8_t *sctp_pdapi_readbuf=NULL;$/;"	v	file:
+sctp_print_addresses	../unpv13e/sctp/sctp_print_addrs.c	/^sctp_print_addresses(struct sockaddr_storage *addrs, int num)$/;"	f
+sctpstr_cli	../unpv13e/sctp/sctp_strcli.c	/^sctpstr_cli(FILE *fp, int sock_fd, struct sockaddr *to, socklen_t tolen)$/;"	f
+sctpstr_cli	../unpv13e/sctp/sctp_strcli1.c	/^sctpstr_cli(FILE *fp, int sock_fd, struct sockaddr *to, socklen_t tolen)$/;"	f
+sctpstr_cli	../unpv13e/sctp/sctp_strcli_un.c	/^sctpstr_cli(FILE *fp, int sock_fd, struct sockaddr *to, socklen_t tolen)$/;"	f
+sctpstr_cli_echoall	../unpv13e/sctp/sctp_strcliecho.c	/^sctpstr_cli_echoall(FILE *fp, int sock_fd, struct sockaddr *to, socklen_t tolen)$/;"	f
+sctpstr_cli_echoall	../unpv13e/sctp/sctp_strcliecho2.c	/^sctpstr_cli_echoall(FILE *fp, int sock_fd, struct sockaddr *to, socklen_t tolen)$/;"	f
+search	../unpv13e/libgai/gai_hdr.h	/^struct search {$/;"	s
+search	../unpv13e/libgai/old/savecopy.c	/^struct search {$/;"	s	file:
+send	../lib/unp.h	91;"	d
+send	../lib/unp.h	93;"	d
+send	../unp.h	65;"	d
+send	../unp.h	67;"	d
+send	../unpv13e/key/unp.h	72;"	d
+send	../unpv13e/key/unp.h	74;"	d
+send	../unpv13e/lib/unp.h	91;"	d
+send	../unpv13e/lib/unp.h	93;"	d
+send	../unpv13e/sctp/unp.h	65;"	d
+send	../unpv13e/sctp/unp.h	67;"	d
+send	../unpv13e/sock/ourhdr.h	22;"	d
+send_all	../unpv13e/mcast/send.c	/^send_all(int sendfd, SA *sadest, socklen_t salen)$/;"	f
+send_dns_query	../unpv13e/udpcksum/senddnsquery-libnet.c	/^send_dns_query(void)$/;"	f
+send_dns_query	../unpv13e/udpcksum/senddnsquery-raw.c	/^send_dns_query(void)$/;"	f
+send_v4	../unpv13e/ping/send_v4.c	/^send_v4(void)$/;"	f
+send_v6	../unpv13e/ping/send_v6.c	/^send_v6()$/;"	f
+sendbuf	../unpv13e/ping/ping.h	/^char	 sendbuf[BUFSIZE];$/;"	v
+sendbuf	../unpv13e/traceroute/trace.h	/^char	 sendbuf[BUFSIZE];$/;"	v
+sendfd	../unpv13e/traceroute/trace.h	/^int		 sendfd, recvfd;	\/* send on UDP sock, read on raw ICMP sock *\/$/;"	v
+sendhdr	../unpv13e/rtt/dg_send_recv.c	/^} sendhdr, recvhdr;$/;"	v	typeref:struct:hdr	file:
+sendto_01	../unpv13e/test/test1.c	/^sendto_01()$/;"	f
+seq	../unpv13e/rtt/dg_send_recv.c	/^  uint32_t	seq;	\/* sequence # *\/$/;"	m	struct:hdr	file:
+serv	../unpv13e/debug/backlog.c	/^struct sockaddr_in	serv;$/;"	v	typeref:struct:sockaddr_in
+serv	../unpv13e/debug/qlen.c	/^struct sockaddr_in	serv;$/;"	v	typeref:struct:sockaddr_in
+servaddr	../unpv13e/sock/main.c	/^struct sockaddr_in	cliaddr, servaddr;$/;"	v	typeref:struct:
+servaddr	../unpv13e/test/test1.c	/^struct sockaddr_in	servaddr, cliaddr;$/;"	v	typeref:struct:sockaddr_in
+server	../unpv13e/sock/main.c	/^int		server;				\/* to act as server requires -s option *\/$/;"	v
+servfd	../unpv13e/oob/heartbeatcli.c	/^static int		servfd;$/;"	v	file:
+servfd	../unpv13e/oob/heartbeatserv.c	/^static int	servfd;$/;"	v	file:
+servopen	../unpv13e/sock/servopen.c	/^servopen(char *host, char *port)$/;"	f
+sig_alrm	../unpv13e/advio/dgclitimeo3.c	/^sig_alrm(int signo)$/;"	f	file:
+sig_alrm	../unpv13e/debug/test04.c	/^sig_alrm(int signo)$/;"	f
+sig_alrm	../unpv13e/oob/heartbeatcli.c	/^sig_alrm(int signo)$/;"	f	file:
+sig_alrm	../unpv13e/oob/heartbeatserv.c	/^sig_alrm(int signo)$/;"	f	file:
+sig_alrm	../unpv13e/ping/sig_alrm.c	/^sig_alrm(int signo)$/;"	f
+sig_alrm	../unpv13e/rtt/dg_send_recv.c	/^sig_alrm(int signo)$/;"	f	file:
+sig_alrm	../unpv13e/tcpcliserv/tcpcli07.c	/^sig_alrm(int signo)$/;"	f
+sig_alrm	../unpv13e/traceroute/sig_alrm.c	/^sig_alrm(int signo)$/;"	f
+sig_alrm	../unpv13e/udpcksum/udpcksum.c	/^sig_alrm(int signo)$/;"	f
+sig_catch	../unpv13e/sock/loop.c	/^sig_catch(int signo)$/;"	f
+sig_chld	../unpv13e/advio/sig_chld_waitpid.c	/^sig_chld(int signo)$/;"	f
+sig_chld	../unpv13e/ipopts/sigchldwaitpid.c	/^sig_chld(int signo)$/;"	f
+sig_chld	../unpv13e/oob/sigchldwaitpid.c	/^sig_chld(int signo)$/;"	f
+sig_chld	../unpv13e/server/sig_chld_waitpid.c	/^sig_chld(int signo)$/;"	f
+sig_chld	../unpv13e/tcpcliserv/sigchldwait.c	/^sig_chld(int signo)$/;"	f
+sig_chld	../unpv13e/tcpcliserv/sigchldwaitpid.c	/^sig_chld(int signo)$/;"	f
+sig_chld	../unpv13e/udpcliserv/sigchldwaitpid.c	/^sig_chld(int signo)$/;"	f
+sig_chld	../unpv13e/unixdomain/sigchldwaitpid.c	/^sig_chld(int signo)$/;"	f
+sig_hup	../unpv13e/sigio/dgecho01.c	/^sig_hup(int signo)$/;"	f	file:
+sig_int	../unpv13e/server/serv00.c	/^sig_int(int signo)$/;"	f
+sig_int	../unpv13e/server/serv01.c	/^sig_int(int signo)$/;"	f
+sig_int	../unpv13e/server/serv02.c	/^sig_int(int signo)$/;"	f
+sig_int	../unpv13e/server/serv02m.c	/^sig_int(int signo)$/;"	f
+sig_int	../unpv13e/server/serv03.c	/^sig_int(int signo)$/;"	f
+sig_int	../unpv13e/server/serv03m.c	/^sig_int(int signo)$/;"	f
+sig_int	../unpv13e/server/serv04.c	/^sig_int(int signo)$/;"	f
+sig_int	../unpv13e/server/serv05.c	/^sig_int(int signo)$/;"	f
+sig_int	../unpv13e/server/serv06.c	/^sig_int(int signo)$/;"	f
+sig_int	../unpv13e/server/serv07.c	/^sig_int(int signo)$/;"	f
+sig_int	../unpv13e/server/serv08.c	/^sig_int(int signo)$/;"	f
+sig_int	../unpv13e/server/serv09.c	/^sig_int(int signo)$/;"	f
+sig_int	../unpv13e/test/accept_eintr.c	/^sig_int(int signo)$/;"	f
+sig_io	../unpv13e/sigio/dgecho01.c	/^sig_io(int signo)$/;"	f	file:
+sig_pipe	../unpv13e/tcpcliserv/tsigpipe.c	/^sig_pipe(int signo)$/;"	f
+sig_poll	../unpv13e/debug/test05.c	/^sig_poll(int signo)$/;"	f
+sig_urg	../unpv13e/oob/heartbeatcli.c	/^sig_urg(int signo)$/;"	f	file:
+sig_urg	../unpv13e/oob/heartbeatserv.c	/^sig_urg(int signo)$/;"	f	file:
+sig_urg	../unpv13e/oob/tcprecv01.c	/^sig_urg(int signo)$/;"	f
+sig_urg	../unpv13e/oob/tcprecv05.c	/^sig_urg(int signo)$/;"	f
+sig_usr	../unpv13e/sock/tellwait.c	/^sig_usr(int signo)	\/* one signal handler for SIGUSR1 and SIGUSR2 *\/$/;"	f	file:
+sigflag	../unpv13e/sock/tellwait.c	/^static volatile sig_atomic_t	sigflag;$/;"	v	file:
+sigio	../unpv13e/sock/main.c	/^int		sigio;				\/* send SIGIO *\/$/;"	v
+sigio_func	../unpv13e/sock/sockopts.c	/^sigio_func(int signo)$/;"	f	file:
+signal	../lib/signal.c	/^signal(int signo, Sigfunc *func)$/;"	f
+signal	../unpv13e/lib/signal.c	/^signal(int signo, Sigfunc *func)$/;"	f
+signal_intr	../lib/signal_intr.c	/^signal_intr(int signo, Sigfunc *func)$/;"	f
+signal_intr	../unpv13e/lib/signal_intr.c	/^signal_intr(int signo, Sigfunc *func)$/;"	f
+sink	../unpv13e/sock/sourcesink.c	/^sink(int sockfd)$/;"	f
+sink_tcp	../unpv13e/sock/sinktcp.c	/^sink_tcp(int sockfd)$/;"	f
+sink_udp	../unpv13e/sock/sinkudp.c	/^sink_udp(int sockfd)	\/* TODO: use recvfrom ?? *\/$/;"	f
+sleep_us	../unpv13e/sock/sleepus.c	/^sleep_us(unsigned int nusecs)$/;"	f
+snaplen	../unpv13e/udpcksum/main.c	/^int		snaplen = 200;	\/* amount of data to capture *\/$/;"	v
+sndbuflen	../unpv13e/sock/main.c	/^int		sndbuflen;			\/* size for SO_SNDBUF *\/$/;"	v
+sndtimeo	../unpv13e/sock/main.c	/^long	sndtimeo;			\/* SO_SNDTIMEO *\/$/;"	v
+snprintf	../lib/snprintf.c	/^snprintf(char *buf, size_t size, const char *fmt, ...)$/;"	f
+snprintf	../unpv13e/lib/snprintf.c	/^snprintf(char *buf, size_t size, const char *fmt, ...)$/;"	f
+sntp_proc	../unpv13e/ssntp/sntp_proc.c	/^sntp_proc(char *buf, ssize_t n, struct timeval *nowptr)$/;"	f
+sock_bind_wild	../lib/sock_bind_wild.c	/^sock_bind_wild(int sockfd, int family)$/;"	f
+sock_bind_wild	../unpv13e/lib/sock_bind_wild.c	/^sock_bind_wild(int sockfd, int family)$/;"	f
+sock_cmp_addr	../lib/sock_cmp_addr.c	/^sock_cmp_addr(const struct sockaddr *sa1, const struct sockaddr *sa2,$/;"	f
+sock_cmp_addr	../unpv13e/lib/sock_cmp_addr.c	/^sock_cmp_addr(const struct sockaddr *sa1, const struct sockaddr *sa2,$/;"	f
+sock_cmp_port	../lib/sock_cmp_port.c	/^sock_cmp_port(const struct sockaddr *sa1, const struct sockaddr *sa2,$/;"	f
+sock_cmp_port	../unpv13e/lib/sock_cmp_port.c	/^sock_cmp_port(const struct sockaddr *sa1, const struct sockaddr *sa2,$/;"	f
+sock_get_port	../lib/sock_get_port.c	/^sock_get_port(const struct sockaddr *sa, socklen_t salen)$/;"	f
+sock_get_port	../unpv13e/lib/sock_get_port.c	/^sock_get_port(const struct sockaddr *sa, socklen_t salen)$/;"	f
+sock_masktop	../unpv13e/libroute/sock_masktop.c	/^sock_masktop(SA *sa, socklen_t salen)$/;"	f
+sock_ntop	../lib/sock_ntop.c	/^sock_ntop(const struct sockaddr *sa, socklen_t salen)$/;"	f
+sock_ntop	../unpv13e/lib/sock_ntop.c	/^sock_ntop(const struct sockaddr *sa, socklen_t salen)$/;"	f
+sock_ntop_host	../lib/sock_ntop_host.c	/^sock_ntop_host(const struct sockaddr *sa, socklen_t salen)$/;"	f
+sock_ntop_host	../unpv13e/lib/sock_ntop_host.c	/^sock_ntop_host(const struct sockaddr *sa, socklen_t salen)$/;"	f
+sock_opts	../unpv13e/sockopt/checkopts.c	/^struct sock_opts {$/;"	s	file:
+sock_opts	../unpv13e/sockopt/checkopts.c	/^} sock_opts[] = {$/;"	v	typeref:struct:sock_opts
+sock_set_addr	../lib/sock_set_addr.c	/^sock_set_addr(struct sockaddr *sa, socklen_t salen, const void *addr)$/;"	f
+sock_set_addr	../unpv13e/lib/sock_set_addr.c	/^sock_set_addr(struct sockaddr *sa, socklen_t salen, const void *addr)$/;"	f
+sock_set_port	../lib/sock_set_port.c	/^sock_set_port(struct sockaddr *sa, socklen_t salen, int port)$/;"	f
+sock_set_port	../unpv13e/lib/sock_set_port.c	/^sock_set_port(struct sockaddr *sa, socklen_t salen, int port)$/;"	f
+sock_set_wild	../lib/sock_set_wild.c	/^sock_set_wild(struct sockaddr *sa, socklen_t salen)$/;"	f
+sock_set_wild	../unpv13e/lib/sock_set_wild.c	/^sock_set_wild(struct sockaddr *sa, socklen_t salen)$/;"	f
+sock_str_flag	../unpv13e/sockopt/checkopts.c	/^sock_str_flag(union val *ptr, int len)$/;"	f	file:
+sock_str_int	../unpv13e/sockopt/checkopts.c	/^sock_str_int(union val *ptr, int len)$/;"	f	file:
+sock_str_linger	../unpv13e/sockopt/checkopts.c	/^sock_str_linger(union val *ptr, int len)$/;"	f	file:
+sock_str_timeval	../unpv13e/sockopt/checkopts.c	/^sock_str_timeval(union val *ptr, int len)$/;"	f	file:
+sockaddr_storage	../lib/unp.h	/^struct sockaddr_storage {$/;"	s
+sockaddr_storage	../unpv13e/lib/unp.h	/^struct sockaddr_storage {$/;"	s
+sockatmark	../lib/sockatmark.c	/^sockatmark(int fd)$/;"	f
+sockatmark	../unpv13e/lib/sockatmark.c	/^sockatmark(int fd)$/;"	f
+socket	../unpv13e/configure	/^socket ();$/;"	f
+sockfd	../unpv13e/ping/ping.h	/^int		 sockfd;$/;"	v
+sockfd	../unpv13e/sigio/dgecho01.c	/^static int		sockfd;$/;"	v	file:
+sockfd	../unpv13e/threads/strclithread.c	/^static int	sockfd;		\/* global for both threads to access *\/$/;"	v	file:
+sockfd	../unpv13e/threads/strclithread2.c	/^static int	sockfd;$/;"	v	file:
+sockfd_to_family	../lib/sockfd_to_family.c	/^sockfd_to_family(int sockfd)$/;"	f
+sockfd_to_family	../unpv13e/lib/sockfd_to_family.c	/^sockfd_to_family(int sockfd)$/;"	f
+sockopts	../unpv13e/sock/sockopts.c	/^sockopts(int sockfd, int doall)$/;"	f
+source_tcp	../unpv13e/sock/sourcetcp.c	/^source_tcp(int sockfd)$/;"	f
+source_udp	../unpv13e/sock/sourceudp.c	/^source_udp(int sockfd)	\/* TODO: use sendto ?? *\/$/;"	f
+sourcesink	../unpv13e/sock/main.c	/^int		sourcesink;			\/* source\/sink mode *\/$/;"	v
+sport	../unpv13e/traceroute/trace.h	/^u_short	 sport, dport;$/;"	v
+sroute_cnt	../unpv13e/sock/main.c	/^int		sroute_cnt;			\/* count of #IP addresses in route *\/$/;"	v
+sroute_doopt	../unpv13e/sock/sourceroute.c	/^sroute_doopt(int strict, char *argptr)$/;"	f
+sroute_opt	../unpv13e/sock/sourceroute.c	/^u_char	sroute_opt[44];		\/* some implementations require this to be$/;"	v
+sroute_set	../unpv13e/sock/sourceroute.c	/^sroute_set(int sockfd)$/;"	f
+ss_family	../lib/unp.h	/^	sa_family_t	ss_family;$/;"	m	struct:sockaddr_storage
+ss_family	../unpv13e/lib/unp.h	/^	sa_family_t	ss_family;$/;"	m	struct:sockaddr_storage
+ss_len	../lib/unp.h	/^	u_char		ss_len;$/;"	m	struct:sockaddr_storage
+ss_len	../unpv13e/lib/unp.h	/^	u_char		ss_len;$/;"	m	struct:sockaddr_storage
+ssize_t	../unpv13e/sock/ourhdr.h	/^typedef	int	ssize_t;$/;"	t
+start_connect	../unpv13e/nonblock/start_connect.c	/^start_connect(struct file *fptr)$/;"	f
+status	../unpv13e/ssntp/ntp.h	/^  u_char			status;$/;"	m	struct:ntpdata
+str_cli	../lib/str_cli.c	/^str_cli(FILE *fp, int sockfd)$/;"	f
+str_cli	../unpv13e/advio/str_cli_kqueue04.c	/^str_cli(FILE *fp, int sockfd)$/;"	f
+str_cli	../unpv13e/advio/str_cli_poll03.c	/^str_cli(FILE *fp, int sockfd)$/;"	f
+str_cli	../unpv13e/advio/str_cli_select02.c	/^str_cli(FILE *fp, int sockfd)$/;"	f
+str_cli	../unpv13e/lib/str_cli.c	/^str_cli(FILE *fp, int sockfd)$/;"	f
+str_cli	../unpv13e/nonblock/strclifork.c	/^str_cli(FILE *fp, int sockfd)$/;"	f
+str_cli	../unpv13e/nonblock/strclinonb.c	/^str_cli(FILE *fp, int sockfd)$/;"	f
+str_cli	../unpv13e/oob/strcliselect02.c	/^str_cli(FILE *fp, int sockfd)$/;"	f
+str_cli	../unpv13e/select/strcliselect01.c	/^str_cli(FILE *fp, int sockfd)$/;"	f
+str_cli	../unpv13e/select/strcliselect02.c	/^str_cli(FILE *fp, int sockfd)$/;"	f
+str_cli	../unpv13e/tcpcliserv/str_cli08.c	/^str_cli(FILE *fp, int sockfd)$/;"	f
+str_cli	../unpv13e/tcpcliserv/str_cli09.c	/^str_cli(FILE *fp, int sockfd)$/;"	f
+str_cli	../unpv13e/tcpcliserv/str_cli11.c	/^str_cli(FILE *fp, int sockfd)$/;"	f
+str_cli	../unpv13e/threads/strclithread.c	/^str_cli(FILE *fp_arg, int sockfd_arg)$/;"	f
+str_cli	../unpv13e/threads/strclithread2.c	/^str_cli(FILE *fp_arg, int sockfd_arg)$/;"	f
+str_echo	../lib/str_echo.c	/^str_echo(int sockfd)$/;"	f
+str_echo	../unpv13e/advio/str_echo_stdio02.c	/^str_echo(int sockfd)$/;"	f
+str_echo	../unpv13e/lib/str_echo.c	/^str_echo(int sockfd)$/;"	f
+str_echo	../unpv13e/oob/strecho02.c	/^str_echo(int sockfd)$/;"	f
+str_echo	../unpv13e/tcpcliserv/str_echo08.c	/^str_echo(int sockfd)$/;"	f
+str_echo	../unpv13e/tcpcliserv/str_echo09.c	/^str_echo(int sockfd)$/;"	f
+str_echo	../unpv13e/unixdomain/strecho.c	/^str_echo(int sockfd)$/;"	f
+str_fam	../unpv13e/libgai/testga.c	/^str_fam(int family)$/;"	f	file:
+str_sock	../unpv13e/libgai/testga.c	/^str_sock(int socktype)$/;"	f	file:
+stratum	../unpv13e/ssntp/ntp.h	/^  u_char			stratum;$/;"	m	struct:ntpdata
+strerror	../unpv13e/sock/strerror.c	/^strerror(int error)$/;"	f
+strres	../unpv13e/sockopt/checkopts.c	/^static char	strres[128];$/;"	v	file:
+sum	../unpv13e/tcpcliserv/sum.h	/^  long	sum;$/;"	m	struct:result
+summary	../unpv13e/ping/bsdping.c	/^summary()$/;"	f
+supported_print	../unpv13e/key/printsadbmsg.c	/^supported_print(struct sadb_ext *ext)$/;"	f
+t_open	../unpv13e/configure	/^t_open ();$/;"	f
+t_scalar_t	../config.h	314;"	d
+t_scalar_t	../unpv13e/config.h	314;"	d
+t_scalar_t	../unpv13e/sparc64-unknown-freebsd5.1/config.h	293;"	d
+t_uscalar_t	../config.h	317;"	d
+t_uscalar_t	../unpv13e/config.h	317;"	d
+t_uscalar_t	../unpv13e/sparc64-unknown-freebsd5.1/config.h	296;"	d
+tcp_connect	../lib/tcp_connect.c	/^tcp_connect(const char *host, const char *serv)$/;"	f
+tcp_connect	../unpv13e/lib/tcp_connect.c	/^tcp_connect(const char *host, const char *serv)$/;"	f
+tcp_listen	../lib/tcp_listen.c	/^tcp_listen(const char *host, const char *serv, socklen_t *addrlenp)$/;"	f
+tcp_listen	../unpv13e/lib/tcp_listen.c	/^tcp_listen(const char *host, const char *serv, socklen_t *addrlenp)$/;"	f
+test_udp	../unpv13e/udpcksum/udpcksum.c	/^test_udp(void)$/;"	f
+thread_count	../unpv13e/server/pthread07.h	/^  long			thread_count;	\/* # connections handled *\/$/;"	m	struct:__anon8
+thread_count	../unpv13e/server/pthread08.h	/^  long			thread_count;	\/* # connections handled *\/$/;"	m	struct:__anon6
+thread_count	../unpv13e/server/pthread09.h	/^  long			thread_count;	\/* #connections handled *\/$/;"	m	struct:__anon7
+thread_main	../unpv13e/server/pthread07.c	/^thread_main(void *arg)$/;"	f
+thread_main	../unpv13e/server/pthread08.c	/^thread_main(void *arg)$/;"	f
+thread_main	../unpv13e/server/pthread09.c	/^thread_main(void *arg)$/;"	f
+thread_make	../unpv13e/server/pthread07.c	/^thread_make(int i)$/;"	f
+thread_make	../unpv13e/server/pthread08.c	/^thread_make(int i)$/;"	f
+thread_make	../unpv13e/server/pthread09.c	/^thread_make(int i)$/;"	f
+thread_tid	../unpv13e/server/pthread07.h	/^  pthread_t		thread_tid;		\/* thread ID *\/$/;"	m	struct:__anon8
+thread_tid	../unpv13e/server/pthread08.h	/^  pthread_t		thread_tid;		\/* thread ID *\/$/;"	m	struct:__anon6
+thread_tid	../unpv13e/server/pthread09.h	/^  pthread_t		thread_tid;		\/* thread ID *\/$/;"	m	struct:__anon7
+timespec	../lib/unp.h	/^struct timespec {$/;"	s
+timespec	../unp.h	/^struct timespec {$/;"	s
+timespec	../unpv13e/key/unp.h	/^struct timespec {$/;"	s
+timespec	../unpv13e/lib/unp.h	/^struct timespec {$/;"	s
+timespec	../unpv13e/sctp/unp.h	/^struct timespec {$/;"	s
+timeval_val	../unpv13e/sockopt/checkopts.c	/^  struct timeval	timeval_val;$/;"	m	union:val	typeref:struct:val::timeval	file:
+timing	../unpv13e/ping/bsdping.c	/^int timing;			\/* flag to do timing *\/$/;"	v
+tmax	../unpv13e/ping/bsdping.c	/^double tmax = 0.0;		\/* maximum round trip time *\/$/;"	v
+tmin	../unpv13e/ping/bsdping.c	/^double tmin = 999999999.0;	\/* minimum round trip time *\/$/;"	v
+tpi_bind	../unpv13e/streams/tpi_bind.c	/^tpi_bind(int fd, const void *addr, size_t addrlen)$/;"	f
+tpi_close	../unpv13e/streams/tpi_close.c	/^tpi_close(int fd)$/;"	f
+tpi_connect	../unpv13e/streams/tpi_connect.c	/^tpi_connect(int fd, const void *addr, size_t addrlen)$/;"	f
+tpi_read	../unpv13e/streams/tpi_read.c	/^tpi_read(int fd, void *buf, size_t len)$/;"	f
+tptr	../unpv13e/server/pthread07.h	/^Thread	*tptr;		\/* array of Thread structures; calloc'ed *\/$/;"	v
+tptr	../unpv13e/server/pthread08.h	/^Thread	*tptr;		\/* array of Thread structures; calloc'ed *\/$/;"	v
+tptr	../unpv13e/server/pthread09.h	/^Thread	*tptr;		\/* array of Thread structures; calloc'ed *\/$/;"	v
+traceloop	../unpv13e/traceroute/traceloop.c	/^traceloop(void)$/;"	f
+ts	../unpv13e/rtt/dg_send_recv.c	/^  uint32_t	ts;		\/* timestamp when sent *\/$/;"	m	struct:hdr	file:
+tsum	../unpv13e/ping/bsdping.c	/^double tsum = 0.0;		\/* sum of all times, for doing average *\/$/;"	v
+ttab	../unpv13e/ping/bsdping.c	/^static char *ttab[] = {$/;"	v	file:
+ttl	../unpv13e/traceroute/trace.h	/^int		 ttl, max_ttl;$/;"	v
+ttllevel	../unpv13e/traceroute/trace.h	/^  int	   ttllevel;		\/* setsockopt() level to set TTL *\/$/;"	m	struct:proto
+ttloptname	../unpv13e/traceroute/trace.h	/^  int	   ttloptname;		\/* setsockopt() name to set TTL *\/$/;"	m	struct:proto
+tv_nsec	../lib/unp.h	/^  long		tv_nsec;	\/* and nanoseconds *\/$/;"	m	struct:timespec
+tv_nsec	../unp.h	/^  long		tv_nsec;	\/* and nanoseconds *\/$/;"	m	struct:timespec
+tv_nsec	../unpv13e/key/unp.h	/^  long		tv_nsec;	\/* and nanoseconds *\/$/;"	m	struct:timespec
+tv_nsec	../unpv13e/lib/unp.h	/^  long		tv_nsec;	\/* and nanoseconds *\/$/;"	m	struct:timespec
+tv_nsec	../unpv13e/sctp/unp.h	/^  long		tv_nsec;	\/* and nanoseconds *\/$/;"	m	struct:timespec
+tv_sec	../lib/unp.h	/^  time_t	tv_sec;		\/* seconds *\/$/;"	m	struct:timespec
+tv_sec	../unp.h	/^  time_t	tv_sec;		\/* seconds *\/$/;"	m	struct:timespec
+tv_sec	../unpv13e/key/unp.h	/^  time_t	tv_sec;		\/* seconds *\/$/;"	m	struct:timespec
+tv_sec	../unpv13e/lib/unp.h	/^  time_t	tv_sec;		\/* seconds *\/$/;"	m	struct:timespec
+tv_sec	../unpv13e/sctp/unp.h	/^  time_t	tv_sec;		\/* seconds *\/$/;"	m	struct:timespec
+tv_sub	../lib/tv_sub.c	/^tv_sub(struct timeval *out, struct timeval *in)$/;"	f
+tv_sub	../unpv13e/lib/tv_sub.c	/^tv_sub(struct timeval *out, struct timeval *in)$/;"	f
+tv_sub	../unpv13e/ping/tv_sub.c	/^tv_sub(struct timeval *out, struct timeval *in)$/;"	f
+tv_sub	../unpv13e/traceroute/tv_sub.c	/^tv_sub(struct timeval *out, struct timeval *in)$/;"	f
+tvsub	../unpv13e/ping/bsdping.c	/^tvsub(out, in)$/;"	f
+udp	../unpv13e/sock/main.c	/^int		udp;				\/* use UDP instead of TCP *\/$/;"	v
+udp_01	../unpv13e/test/test1.c	/^udp_01()$/;"	f
+udp_check	../unpv13e/udpcksum/udpread.c	/^udp_check(char *ptr, int len)$/;"	f
+udp_client	../lib/udp_client.c	/^udp_client(const char *host, const char *serv, SA **saptr, socklen_t *lenp)$/;"	f
+udp_client	../unpv13e/lib/udp_client.c	/^udp_client(const char *host, const char *serv, SA **saptr, socklen_t *lenp)$/;"	f
+udp_client	../unpv13e/test/test2.c	/^udp_client(const char *host, const char *serv, void **saptr, socklen_t *lenp)$/;"	f
+udp_connect	../lib/udp_connect.c	/^udp_connect(const char *host, const char *serv)$/;"	f
+udp_connect	../unpv13e/lib/udp_connect.c	/^udp_connect(const char *host, const char *serv)$/;"	f
+udp_read	../unpv13e/udpcksum/udpread.c	/^udp_read(void)$/;"	f
+udp_server	../lib/udp_server.c	/^udp_server(const char *host, const char *serv, socklen_t *addrlenp)$/;"	f
+udp_server	../unpv13e/lib/udp_server.c	/^udp_server(const char *host, const char *serv, socklen_t *addrlenp)$/;"	f
+udp_server_reuseaddr	../unpv13e/names/udp_server_reuseaddr.c	/^udp_server_reuseaddr(const char *host, const char *serv, socklen_t *addrlenp)$/;"	f
+udp_write	../unpv13e/udpcksum/udpwrite.c	/^udp_write(char *buf, int userlen)$/;"	f
+un_ctl6	../unpv13e/ping/old/ip6.h	/^	} un_ctl6;$/;"	m	union:ip6hdr::__anon2	typeref:struct:ip6hdr::__anon2::ip6hdrctl
+un_data16	../unpv13e/ping/old/icmp6.h	/^	u_int16_t	un_data16[2];	\/* Type-specific field *\/$/;"	m	union:icmp6hdr::__anon1
+un_data32	../unpv13e/ping/old/icmp6.h	/^	u_int32_t	un_data32[1];	\/* Type-specific field *\/$/;"	m	union:icmp6hdr::__anon1
+un_data8	../unpv13e/ping/old/icmp6.h	/^	u_int8_t	un_data8[4];	\/* Type-specific field *\/$/;"	m	union:icmp6hdr::__anon1
+un_lock	../unpv13e/sock/ourhdr.h	92;"	d
+un_vfc	../unpv13e/ping/old/ip6.h	/^	u_int8_t un_vfc;		\/* 4 bits version, 4 bits reserved *\/$/;"	m	union:ip6hdr::__anon2
+unlock_it	../unpv13e/server/lock_fcntl.c	/^static struct flock	lock_it, unlock_it;$/;"	v	typeref:struct:	file:
+unp_in_pktinfo	../lib/unp.h	/^struct unp_in_pktinfo {$/;"	s
+unp_in_pktinfo	../unpv13e/lib/unp.h	/^struct unp_in_pktinfo {$/;"	s
+urgwrite	../unpv13e/sock/main.c	/^int		urgwrite;			\/* write urgent byte after this write *\/$/;"	v
+usage	../unpv13e/libgai/testga.c	/^usage(const char *msg)$/;"	f	file:
+usage	../unpv13e/ping/bsdping.c	/^usage()$/;"	f
+usage	../unpv13e/sock/main.c	/^usage(const char *msg)$/;"	f	file:
+usage	../unpv13e/test/test1.c	/^usage(const char *msg)$/;"	f	file:
+usage	../unpv13e/udpcksum/main.c	/^usage(const char *msg)$/;"	f	file:
+usewritev	../unpv13e/sock/main.c	/^int		usewritev;			\/* use writev() instead of write() *\/$/;"	v
+val	../unpv13e/key/name.c	/^	int val;$/;"	m	struct:idlist	file:
+val	../unpv13e/sockopt/checkopts.c	/^union val {$/;"	u	file:
+val	../unpv13e/sockopt/checkopts.c	/^} val;$/;"	v	typeref:union:val
+verbose	../unpv13e/ping/ping.h	/^int		 verbose;$/;"	v
+verbose	../unpv13e/sock/main.c	/^int		verbose;			\/* each -v increments this by 1 *\/$/;"	v
+verbose	../unpv13e/test/test1.c	/^int		verbose;$/;"	v
+verbose	../unpv13e/traceroute/trace.h	/^int		 verbose;$/;"	v
+verbose	../unpv13e/udpcksum/main.c	/^int		verbose;$/;"	v
+vflag	../unpv13e/libgai/testga.c	/^int		vflag;$/;"	v
+wbuf	../unpv13e/sock/main.c	/^char   *wbuf;				\/* pointer that is malloc'ed *\/$/;"	v
+web_child	../unpv13e/server/web_child.c	/^web_child(int sockfd)$/;"	f
+web_child	../unpv13e/server/web_child_r.c	/^web_child(int sockfd)$/;"	f
+whereto	../unpv13e/ping/bsdping.c	/^struct sockaddr whereto;	\/* who to ping *\/$/;"	v	typeref:struct:sockaddr
+writable_timeo	../lib/writable_timeo.c	/^writable_timeo(int fd, int sec)$/;"	f
+writable_timeo	../unpv13e/lib/writable_timeo.c	/^writable_timeo(int fd, int sec)$/;"	f
+write_fd	../lib/write_fd.c	/^write_fd(int fd, void *ptr, size_t nbytes, int sendfd)$/;"	f
+write_fd	../unpv13e/lib/write_fd.c	/^write_fd(int fd, void *ptr, size_t nbytes, int sendfd)$/;"	f
+write_get_cmd	../unpv13e/nonblock/write_get_cmd.c	/^write_get_cmd(struct file *fptr)$/;"	f
+write_get_cmd	../unpv13e/threads/web01.c	/^write_get_cmd(struct file *fptr)$/;"	f
+write_get_cmd	../unpv13e/threads/web02.c	/^write_get_cmd(struct file *fptr)$/;"	f
+write_get_cmd	../unpv13e/threads/web03.c	/^write_get_cmd(struct file *fptr)$/;"	f
+write_lock	../unpv13e/sock/ourhdr.h	88;"	d
+writelen	../unpv13e/sock/main.c	/^int		writelen = 1024;	\/* default write length for socket *\/$/;"	v
+writen	../lib/writen.c	/^writen(int fd, const void *vptr, size_t n)$/;"	f
+writen	../unpv13e/lib/writen.c	/^writen(int fd, const void *vptr, size_t n)$/;"	f
+writen	../unpv13e/sock/writen.c	/^writen(int fd, const void *vptr, size_t n)$/;"	f
+writew_lock	../unpv13e/sock/ourhdr.h	90;"	d
+wset	../unpv13e/nonblock/web.h	/^fd_set	rset, wset;$/;"	v
+xmt	../unpv13e/ssntp/ntp.h	/^  struct l_fixedpt	xmt;$/;"	m	struct:ntpdata	typeref:struct:ntpdata::l_fixedpt
+zeromask	../unpv13e/sock/tellwait.c	/^static sigset_t			newmask, oldmask, zeromask;$/;"	v	file:
+zerosum	../unpv13e/udpcksum/main.c	/^int		zerosum;		\/* send UDP query with no checksum *\/$/;"	v

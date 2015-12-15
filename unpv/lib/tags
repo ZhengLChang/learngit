@@ -1,0 +1,317 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AF_LOCAL	unp.h	173;"	d
+AI_CANONNAME	addrinfo.h	23;"	d
+AI_PASSIVE	addrinfo.h	22;"	d
+Accept	wrapsock.c	/^Accept(int fd, struct sockaddr *sa, socklen_t *salenptr)$/;"	f
+BUFFSIZE	unp.h	197;"	d
+Bind	wrapsock.c	/^Bind(int fd, const struct sockaddr *sa, socklen_t salen)$/;"	f
+CMSG_LEN	unp.h	154;"	d
+CMSG_SPACE	unp.h	158;"	d
+Calloc	wrapunix.c	/^Calloc(size_t n, size_t size)$/;"	f
+Close	wrapunix.c	/^Close(int fd)$/;"	f
+Connect	wrapsock.c	/^Connect(int fd, const struct sockaddr *sa, socklen_t salen)$/;"	f
+Connect_timeo	connect_timeo.c	/^Connect_timeo(int fd, const SA *sa, socklen_t salen, int sec)$/;"	f
+DIR_MODE	unp.h	240;"	d
+Dup2	wrapunix.c	/^Dup2(int fd1, int fd2)$/;"	f
+EAI_ADDRFAMILY	addrinfo.h	36;"	d
+EAI_AGAIN	addrinfo.h	37;"	d
+EAI_BADFLAGS	addrinfo.h	38;"	d
+EAI_FAIL	addrinfo.h	39;"	d
+EAI_FAMILY	addrinfo.h	40;"	d
+EAI_MEMORY	addrinfo.h	41;"	d
+EAI_NODATA	addrinfo.h	42;"	d
+EAI_NONAME	addrinfo.h	43;"	d
+EAI_SERVICE	addrinfo.h	44;"	d
+EAI_SOCKTYPE	addrinfo.h	45;"	d
+EAI_SYSTEM	addrinfo.h	46;"	d
+FILE_MODE	unp.h	238;"	d
+Family_to_level	family_to_level.c	/^Family_to_level(int family)$/;"	f
+Fclose	wrapstdio.c	/^Fclose(FILE *fp)$/;"	f
+Fcntl	wrapunix.c	/^Fcntl(int fd, int cmd, int arg)$/;"	f
+Fdopen	wrapstdio.c	/^Fdopen(int fd, const char *type)$/;"	f
+Fgets	wrapstdio.c	/^Fgets(char *ptr, int n, FILE *stream)$/;"	f
+Fopen	wrapstdio.c	/^Fopen(const char *filename, const char *mode)$/;"	f
+Fork	wrapunix.c	/^Fork(void)$/;"	f
+Fputs	wrapstdio.c	/^Fputs(const char *ptr, FILE *stream)$/;"	f
+Get_ifi_info	get_ifi_info.c	/^Get_ifi_info(int family, int doaliases)$/;"	f
+Getpeername	wrapsock.c	/^Getpeername(int fd, struct sockaddr *sa, socklen_t *salenptr)$/;"	f
+Getsockname	wrapsock.c	/^Getsockname(int fd, struct sockaddr *sa, socklen_t *salenptr)$/;"	f
+Getsockopt	wrapsock.c	/^Getsockopt(int fd, int level, int optname, void *optval, socklen_t *optlenptr)$/;"	f
+Gettimeofday	wrapunix.c	/^Gettimeofday(struct timeval *tv, void *foo)$/;"	f
+Host_serv	host_serv.c	/^Host_serv(const char *host, const char *serv, int family, int socktype)$/;"	f
+IFI_ALIAS	unpifi.h	27;"	d
+IFI_HADDR	unpifi.h	11;"	d
+IFI_NAME	unpifi.h	10;"	d
+INADDR_NONE	unp.h	98;"	d
+INET6_ADDRSTRLEN	unp.h	121;"	d
+INET_ADDRSTRLEN	unp.h	113;"	d
+INFTIM	unp.h	184;"	d
+INFTIM_UNPH	unp.h	187;"	d
+If_indextoname	if_indextoname.c	/^If_indextoname(unsigned int index, char *name)$/;"	f
+If_nameindex	if_nameindex.c	/^If_nameindex(void)$/;"	f
+If_nametoindex	if_nametoindex.c	/^If_nametoindex(const char *name)$/;"	f
+Inet6_rth_add	wrapsock.c	/^Inet6_rth_add(void *rthbuf, const struct in6_addr *addr)$/;"	f
+Inet6_rth_getaddr	wrapsock.c	/^Inet6_rth_getaddr(const void *rthbuf, int idx)$/;"	f
+Inet6_rth_init	wrapsock.c	/^Inet6_rth_init(void *rthbuf, socklen_t rthlen, int type, int segments)$/;"	f
+Inet6_rth_reverse	wrapsock.c	/^Inet6_rth_reverse(const void *in, void *out)$/;"	f
+Inet6_rth_segments	wrapsock.c	/^Inet6_rth_segments(const void *rthbuf)$/;"	f
+Inet6_rth_space	wrapsock.c	/^Inet6_rth_space(int type, int segments)$/;"	f
+Inet_ntop	wraplib.c	/^Inet_ntop(int family, const void *addrptr, char *strptr, size_t len)$/;"	f
+Inet_pton	wraplib.c	/^Inet_pton(int family, const char *strptr, void *addrptr)$/;"	f
+Ioctl	wrapunix.c	/^Ioctl(int fd, int request, void *arg)$/;"	f
+Kevent	wrapsock.c	/^Kevent(int kq, const struct kevent *changelist, int nchanges,$/;"	f
+Kqueue	wrapsock.c	/^Kqueue(void)$/;"	f
+LISTENQ	unp.h	193;"	d
+Listen	wrapsock.c	/^Listen(int fd, int backlog)$/;"	f
+MAXFD	daemon_init.c	4;"	d	file:
+MAXLINE	unp.h	196;"	d
+Malloc	wrapunix.c	/^Malloc(size_t size)$/;"	f
+Mcast_block_source	mcast_join.c	/^Mcast_block_source(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+Mcast_get_if	mcast_get_if.c	/^Mcast_get_if(int sockfd)$/;"	f
+Mcast_get_loop	mcast_get_loop.c	/^Mcast_get_loop(int sockfd)$/;"	f
+Mcast_get_ttl	mcast_get_ttl.c	/^Mcast_get_ttl(int sockfd)$/;"	f
+Mcast_join	mcast_join.c	/^Mcast_join(int sockfd, const SA *grp, socklen_t grplen,$/;"	f
+Mcast_join_source_group	mcast_join.c	/^Mcast_join_source_group(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+Mcast_leave	mcast_leave.c	/^Mcast_leave(int sockfd, const SA *grp, socklen_t grplen)$/;"	f
+Mcast_leave_source_group	mcast_leave.c	/^Mcast_leave_source_group(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+Mcast_set_if	mcast_set_if.c	/^Mcast_set_if(int sockfd, const char *ifname, u_int ifindex)$/;"	f
+Mcast_set_loop	mcast_set_loop.c	/^Mcast_set_loop(int sockfd, int onoff)$/;"	f
+Mcast_set_ttl	mcast_set_ttl.c	/^Mcast_set_ttl(int sockfd, int val)$/;"	f
+Mcast_unblock_source	mcast_join.c	/^Mcast_unblock_source(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+Mkstemp	wrapunix.c	/^Mkstemp(char *template)$/;"	f
+Mmap	wrapunix.c	/^Mmap(void *addr, size_t len, int prot, int flags, int fd, off_t offset)$/;"	f
+My_addrs	my_addrs.c	/^My_addrs(int *pfamily)$/;"	f
+NI_DGRAM	addrinfo.h	33;"	d
+NI_MAXHOST	addrinfo.h	26;"	d
+NI_MAXSERV	addrinfo.h	27;"	d
+NI_NAMEREQD	addrinfo.h	31;"	d
+NI_NOFQDN	addrinfo.h	29;"	d
+NI_NUMERICHOST	addrinfo.h	30;"	d
+NI_NUMERICSERV	addrinfo.h	32;"	d
+Open	wrapunix.c	/^Open(const char *pathname, int oflag, mode_t mode)$/;"	f
+PF_LOCAL	unp.h	176;"	d
+Pipe	wrapunix.c	/^Pipe(int *fds)$/;"	f
+Poll	wrapsock.c	/^Poll(struct pollfd *fdarray, unsigned long nfds, int timeout)$/;"	f
+Pthread_cond_broadcast	wrappthread.c	/^Pthread_cond_broadcast(pthread_cond_t *cptr)$/;"	f
+Pthread_cond_signal	wrappthread.c	/^Pthread_cond_signal(pthread_cond_t *cptr)$/;"	f
+Pthread_cond_timedwait	wrappthread.c	/^Pthread_cond_timedwait(pthread_cond_t *cptr, pthread_mutex_t *mptr,$/;"	f
+Pthread_cond_wait	wrappthread.c	/^Pthread_cond_wait(pthread_cond_t *cptr, pthread_mutex_t *mptr)$/;"	f
+Pthread_create	wrappthread.c	/^Pthread_create(pthread_t *tid, const pthread_attr_t *attr,$/;"	f
+Pthread_detach	wrappthread.c	/^Pthread_detach(pthread_t tid)$/;"	f
+Pthread_join	wrappthread.c	/^Pthread_join(pthread_t tid, void **status)$/;"	f
+Pthread_key_create	wrappthread.c	/^Pthread_key_create(pthread_key_t *key, void (*func)(void *))$/;"	f
+Pthread_kill	wrappthread.c	/^Pthread_kill(pthread_t tid, int signo)$/;"	f
+Pthread_mutex_init	wrappthread.c	/^Pthread_mutex_init(pthread_mutex_t *mptr, pthread_mutexattr_t *attr)$/;"	f
+Pthread_mutex_lock	wrappthread.c	/^Pthread_mutex_lock(pthread_mutex_t *mptr)$/;"	f
+Pthread_mutex_unlock	wrappthread.c	/^Pthread_mutex_unlock(pthread_mutex_t *mptr)$/;"	f
+Pthread_mutexattr_init	wrappthread.c	/^Pthread_mutexattr_init(pthread_mutexattr_t *attr)$/;"	f
+Pthread_mutexattr_setpshared	wrappthread.c	/^Pthread_mutexattr_setpshared(pthread_mutexattr_t *attr, int flag)$/;"	f
+Pthread_once	wrappthread.c	/^Pthread_once(pthread_once_t *ptr, void (*func)(void))$/;"	f
+Pthread_setspecific	wrappthread.c	/^Pthread_setspecific(pthread_key_t key, const void *value)$/;"	f
+RTT_MAXNREXMT	unprtt.h	17;"	d
+RTT_RTOCALC	rtt.c	10;"	d	file:
+RTT_RXTMAX	unprtt.h	16;"	d
+RTT_RXTMIN	unprtt.h	15;"	d
+Read	wrapunix.c	/^Read(int fd, void *ptr, size_t nbytes)$/;"	f
+Read_fd	read_fd.c	/^Read_fd(int fd, void *ptr, size_t nbytes, int *recvfd)$/;"	f
+Readable_timeo	readable_timeo.c	/^Readable_timeo(int fd, int sec)$/;"	f
+Readline	readline.c	/^Readline(int fd, void *ptr, size_t maxlen)$/;"	f
+Readn	readn.c	/^Readn(int fd, void *ptr, size_t nbytes)$/;"	f
+Recv	wrapsock.c	/^Recv(int fd, void *ptr, size_t nbytes, int flags)$/;"	f
+Recvfrom	wrapsock.c	/^Recvfrom(int fd, void *ptr, size_t nbytes, int flags,$/;"	f
+Recvmsg	wrapsock.c	/^Recvmsg(int fd, struct msghdr *msg, int flags)$/;"	f
+SA	unp.h	212;"	d
+SERV_PORT	unp.h	200;"	d
+SERV_PORT_STR	unp.h	201;"	d
+SHUT_RD	unp.h	102;"	d
+SHUT_RDWR	unp.h	104;"	d
+SHUT_WR	unp.h	103;"	d
+SUN_LEN	unp.h	166;"	d
+Select	wrapsock.c	/^Select(int nfds, fd_set *readfds, fd_set *writefds, fd_set *exceptfds,$/;"	f
+Send	wrapsock.c	/^Send(int fd, const void *ptr, size_t nbytes, int flags)$/;"	f
+Sendmsg	wrapsock.c	/^Sendmsg(int fd, const struct msghdr *msg, int flags)$/;"	f
+Sendto	wrapsock.c	/^Sendto(int fd, const void *ptr, size_t nbytes, int flags,$/;"	f
+Setsockopt	wrapsock.c	/^Setsockopt(int fd, int level, int optname, const void *optval, socklen_t optlen)$/;"	f
+Shutdown	wrapsock.c	/^Shutdown(int fd, int how)$/;"	f
+Sigaddset	wrapunix.c	/^Sigaddset(sigset_t *set, int signo)$/;"	f
+Sigdelset	wrapunix.c	/^Sigdelset(sigset_t *set, int signo)$/;"	f
+Sigemptyset	wrapunix.c	/^Sigemptyset(sigset_t *set)$/;"	f
+Sigfillset	wrapunix.c	/^Sigfillset(sigset_t *set)$/;"	f
+Sigfunc	unp.h	/^typedef	void	Sigfunc(int);	\/* for signal handlers *\/$/;"	t
+Sigismember	wrapunix.c	/^Sigismember(const sigset_t *set, int signo)$/;"	f
+Signal	signal.c	/^Signal(int signo, Sigfunc *func)	\/* for our signal() function *\/$/;"	f
+Signal_intr	signal_intr.c	/^Signal_intr(int signo, Sigfunc *func)$/;"	f
+Sigpending	wrapunix.c	/^Sigpending(sigset_t *set)$/;"	f
+Sigprocmask	wrapunix.c	/^Sigprocmask(int how, const sigset_t *set, sigset_t *oset)$/;"	f
+Sock_bind_wild	sock_bind_wild.c	/^Sock_bind_wild(int sockfd, int family)$/;"	f
+Sock_ntop	sock_ntop.c	/^Sock_ntop(const struct sockaddr *sa, socklen_t salen)$/;"	f
+Sock_ntop_host	sock_ntop_host.c	/^Sock_ntop_host(const struct sockaddr *sa, socklen_t salen)$/;"	f
+Sockatmark	wrapsock.c	/^Sockatmark(int fd)$/;"	f
+Socket	wrapsock.c	/^Socket(int family, int type, int protocol)$/;"	f
+Socketpair	wrapsock.c	/^Socketpair(int family, int type, int protocol, int *fd)$/;"	f
+Sockfd_to_family	sockfd_to_family.c	/^Sockfd_to_family(int sockfd)$/;"	f
+Strdup	wrapunix.c	/^Strdup(const char *str)$/;"	f
+Sysconf	wrapunix.c	/^Sysconf(int name)$/;"	f
+Sysctl	wrapunix.c	/^Sysctl(int *name, u_int namelen, void *oldp, size_t *oldlenp,$/;"	f
+Tcp_connect	tcp_connect.c	/^Tcp_connect(const char *host, const char *serv)$/;"	f
+Tcp_listen	tcp_listen.c	/^Tcp_listen(const char *host, const char *serv, socklen_t *addrlenp)$/;"	f
+UNIXDG_PATH	unp.h	203;"	d
+UNIXSTR_PATH	unp.h	202;"	d
+Udp_client	udp_client.c	/^Udp_client(const char *host, const char *serv, SA **saptr, socklen_t *lenptr)$/;"	f
+Udp_connect	udp_connect.c	/^Udp_connect(const char *host, const char *serv)$/;"	f
+Udp_server	udp_server.c	/^Udp_server(const char *host, const char *serv, socklen_t *addrlenp)$/;"	f
+Unlink	wrapunix.c	/^Unlink(const char *pathname)$/;"	f
+Wait	wrapunix.c	/^Wait(int *iptr)$/;"	f
+Waitpid	wrapunix.c	/^Waitpid(pid_t pid, int *iptr, int options)$/;"	f
+Writable_timeo	writable_timeo.c	/^Writable_timeo(int fd, int sec)$/;"	f
+Write	wrapunix.c	/^Write(int fd, void *ptr, size_t nbytes)$/;"	f
+Write_fd	write_fd.c	/^Write_fd(int fd, void *ptr, size_t nbytes, int sendfd)$/;"	f
+Writen	writen.c	/^Writen(int fd, void *ptr, size_t nbytes)$/;"	f
+__SS_ALIGNSIZE	unp.h	219;"	d
+__SS_MAXSIZE	unp.h	218;"	d
+__SS_PAD1SIZE	unp.h	221;"	d
+__SS_PAD1SIZE	unp.h	223;"	d
+__SS_PAD2SIZE	unp.h	225;"	d
+__addrinfo_h	addrinfo.h	2;"	d
+__ss_align	unp.h	/^	int64_t		__ss_align;$/;"	m	struct:sockaddr_storage
+__ss_pad1	unp.h	/^	char		__ss_pad1[__SS_PAD1SIZE];$/;"	m	struct:sockaddr_storage
+__ss_pad2	unp.h	/^	char		__ss_pad2[__SS_PAD2SIZE];$/;"	m	struct:sockaddr_storage
+__unp_h	unp.h	5;"	d
+__unp_ifi_h	unpifi.h	5;"	d
+__unp_pthread_h	unpthread.h	5;"	d
+__unp_rtt_h	unprtt.h	2;"	d
+addrinfo	addrinfo.h	/^struct addrinfo {$/;"	s
+ai_addr	addrinfo.h	/^  struct sockaddr	*ai_addr;	\/* binary address *\/$/;"	m	struct:addrinfo	typeref:struct:addrinfo::sockaddr
+ai_addrlen	addrinfo.h	/^  size_t	ai_addrlen;			\/* length of ai_addr *\/$/;"	m	struct:addrinfo
+ai_canonname	addrinfo.h	/^  char		*ai_canonname;		\/* canonical name for host *\/$/;"	m	struct:addrinfo
+ai_family	addrinfo.h	/^  int		ai_family;			\/* PF_xxx *\/$/;"	m	struct:addrinfo
+ai_flags	addrinfo.h	/^  int		ai_flags;			\/* AI_PASSIVE, AI_CANONNAME *\/$/;"	m	struct:addrinfo
+ai_next	addrinfo.h	/^  struct addrinfo	*ai_next;	\/* next structure in linked list *\/$/;"	m	struct:addrinfo	typeref:struct:addrinfo::addrinfo
+ai_protocol	addrinfo.h	/^  int		ai_protocol;		\/* IPPROTO_xxx for IPv4 and IPv6 *\/$/;"	m	struct:addrinfo
+ai_socktype	addrinfo.h	/^  int		ai_socktype;		\/* SOCK_xxx *\/$/;"	m	struct:addrinfo
+bzero	unp.h	130;"	d
+connect_alarm	connect_timeo.c	/^connect_alarm(int signo)$/;"	f	file:
+connect_nonb	connect_nonb.c	/^connect_nonb(int sockfd, const SA *saptr, socklen_t salen, int nsec)$/;"	f
+connect_timeo	connect_timeo.c	/^connect_timeo(int sockfd, const SA *saptr, socklen_t salen, int nsec)$/;"	f
+daemon_inetd	daemon_inetd.c	/^daemon_inetd(const char *pname, int facility)$/;"	f
+daemon_init	daemon_init.c	/^daemon_init(const char *pname, int facility)$/;"	f
+daemon_proc	error.c	/^int		daemon_proc;		\/* set nonzero by daemon_init() *\/$/;"	v
+dg_cli	dg_cli.c	/^dg_cli(FILE *fp, int sockfd, const SA *pservaddr, socklen_t servlen)$/;"	f
+dg_echo	dg_echo.c	/^dg_echo(int sockfd, SA *pcliaddr, socklen_t clilen)$/;"	f
+err_doit	error.c	/^err_doit(int errnoflag, int level, const char *fmt, va_list ap)$/;"	f	file:
+err_dump	error.c	/^err_dump(const char *fmt, ...)$/;"	f
+err_msg	error.c	/^err_msg(const char *fmt, ...)$/;"	f
+err_quit	error.c	/^err_quit(const char *fmt, ...)$/;"	f
+err_ret	error.c	/^err_ret(const char *fmt, ...)$/;"	f
+err_sys	error.c	/^err_sys(const char *fmt, ...)$/;"	f
+family_to_level	family_to_level.c	/^family_to_level(int family)$/;"	f
+free_ifi_info	get_ifi_info.c	/^free_ifi_info(struct ifi_info *ifihead)$/;"	f
+get_ifi_info	get_ifi_info.c	/^get_ifi_info(int family, int doaliases)$/;"	f
+gethostbyname2	unp.h	137;"	d
+gf_time	gf_time.c	/^gf_time(void)$/;"	f
+host_serv	host_serv.c	/^host_serv(const char *host, const char *serv, int family, int socktype)$/;"	f
+hstrerror	hstrerror.c	/^hstrerror(int err)$/;"	f
+if_freenameindex	if_nameindex.c	/^if_freenameindex(struct if_nameindex *ptr)$/;"	f
+if_index	unp.h	/^  unsigned int   if_index;  \/* 1, 2, ... *\/$/;"	m	struct:if_nameindex
+if_indextoname	if_indextoname.c	/^if_indextoname(unsigned int index, char *name)$/;"	f
+if_name	unp.h	/^  char          *if_name;   \/* null-terminated name: "le0", ... *\/$/;"	m	struct:if_nameindex
+if_nameindex	if_nameindex.c	/^if_nameindex(void)$/;"	f
+if_nameindex	unp.h	/^struct if_nameindex {$/;"	s
+if_nametoindex	if_nametoindex.c	/^if_nametoindex(const char *name)$/;"	f
+ifi_addr	unpifi.h	/^  struct sockaddr  *ifi_addr;	\/* primary address *\/$/;"	m	struct:ifi_info	typeref:struct:ifi_info::sockaddr
+ifi_brdaddr	unpifi.h	/^  struct sockaddr  *ifi_brdaddr;\/* broadcast address *\/$/;"	m	struct:ifi_info	typeref:struct:ifi_info::sockaddr
+ifi_dstaddr	unpifi.h	/^  struct sockaddr  *ifi_dstaddr;\/* destination address *\/$/;"	m	struct:ifi_info	typeref:struct:ifi_info::sockaddr
+ifi_flags	unpifi.h	/^  short   ifi_flags;			\/* IFF_xxx constants from <net\/if.h> *\/$/;"	m	struct:ifi_info
+ifi_haddr	unpifi.h	/^  u_char  ifi_haddr[IFI_HADDR];	\/* hardware address *\/$/;"	m	struct:ifi_info
+ifi_hlen	unpifi.h	/^  u_short ifi_hlen;				\/* # bytes in hardware address: 0, 6, 8 *\/$/;"	m	struct:ifi_info
+ifi_index	unpifi.h	/^  short   ifi_index;			\/* interface index *\/$/;"	m	struct:ifi_info
+ifi_info	unpifi.h	/^struct ifi_info {$/;"	s
+ifi_mtu	unpifi.h	/^  short   ifi_mtu;				\/* interface MTU *\/$/;"	m	struct:ifi_info
+ifi_myflags	unpifi.h	/^  short   ifi_myflags;			\/* our own IFI_xxx flags *\/$/;"	m	struct:ifi_info
+ifi_name	unpifi.h	/^  char    ifi_name[IFI_NAME];	\/* interface name, null-terminated *\/$/;"	m	struct:ifi_info
+ifi_next	unpifi.h	/^  struct ifi_info  *ifi_next;	\/* next of these structures *\/$/;"	m	struct:ifi_info	typeref:struct:ifi_info::ifi_info
+in6addr_any	in6addr_any.c	/^const struct in6_addr in6addr_any;$/;"	v	typeref:struct:in6_addr
+ipi_addr	unp.h	/^  struct in_addr	ipi_addr;	\/* dst IPv4 address *\/$/;"	m	struct:unp_in_pktinfo	typeref:struct:unp_in_pktinfo::in_addr
+ipi_ifindex	unp.h	/^  int				ipi_ifindex;\/* received interface index *\/$/;"	m	struct:unp_in_pktinfo
+max	unp.h	246;"	d
+mcast_block_source	mcast_join.c	/^mcast_block_source(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+mcast_get_if	mcast_get_if.c	/^mcast_get_if(int sockfd)$/;"	f
+mcast_get_loop	mcast_get_loop.c	/^mcast_get_loop(int sockfd)$/;"	f
+mcast_get_ttl	mcast_get_ttl.c	/^mcast_get_ttl(int sockfd)$/;"	f
+mcast_join	mcast_join.c	/^mcast_join(int sockfd, const SA *grp, socklen_t grplen,$/;"	f
+mcast_join_source_group	mcast_join.c	/^mcast_join_source_group(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+mcast_leave	mcast_leave.c	/^mcast_leave(int sockfd, const SA *grp, socklen_t grplen)$/;"	f
+mcast_leave_source_group	mcast_leave.c	/^mcast_leave_source_group(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+mcast_set_if	mcast_set_if.c	/^mcast_set_if(int sockfd, const char *ifname, u_int ifindex)$/;"	f
+mcast_set_loop	mcast_set_loop.c	/^mcast_set_loop(int sockfd, int onoff)$/;"	f
+mcast_set_ttl	mcast_set_ttl.c	/^mcast_set_ttl(int sockfd, int val)$/;"	f
+mcast_unblock_source	mcast_join.c	/^mcast_unblock_source(int sockfd, const SA *src, socklen_t srclen,$/;"	f
+min	unp.h	245;"	d
+my_addrs	my_addrs.c	/^my_addrs(int *addrtype)$/;"	f
+my_read	readline.c	/^my_read(int fd, char *ptr)$/;"	f	file:
+pselect	pselect.c	/^pselect(int nfds, fd_set *rset, fd_set *wset, fd_set *xset,$/;"	f
+read_buf	readline.c	/^static char	read_buf[MAXLINE];$/;"	v	file:
+read_cnt	readline.c	/^static int	read_cnt;$/;"	v	file:
+read_fd	read_fd.c	/^read_fd(int fd, void *ptr, size_t nbytes, int *recvfd)$/;"	f
+read_ptr	readline.c	/^static char	*read_ptr;$/;"	v	file:
+readable_timeo	readable_timeo.c	/^readable_timeo(int fd, int sec)$/;"	f
+readline	readline.c	/^readline(int fd, void *vptr, size_t maxlen)$/;"	f
+readlinebuf	readline.c	/^readlinebuf(void **vptrptr)$/;"	f
+readn	readn.c	/^readn(int fd, void *vptr, size_t n)$/;"	f
+recv	unp.h	90;"	d
+recv	unp.h	92;"	d
+rtt_base	unprtt.h	/^  uint32_t	rtt_base;	\/* # sec since 1\/1\/1970 at start *\/$/;"	m	struct:rtt_info
+rtt_d_flag	rtt.c	/^int		rtt_d_flag = 0;		\/* debug flag; can be set by caller *\/$/;"	v
+rtt_debug	rtt.c	/^rtt_debug(struct rtt_info *ptr)$/;"	f
+rtt_info	unprtt.h	/^struct rtt_info {$/;"	s
+rtt_init	rtt.c	/^rtt_init(struct rtt_info *ptr)$/;"	f
+rtt_minmax	rtt.c	/^rtt_minmax(float rto)$/;"	f	file:
+rtt_newpack	rtt.c	/^rtt_newpack(struct rtt_info *ptr)$/;"	f
+rtt_nrexmt	unprtt.h	/^  int		rtt_nrexmt;	\/* # times retransmitted: 0, 1, 2, ... *\/$/;"	m	struct:rtt_info
+rtt_rto	unprtt.h	/^  float		rtt_rto;	\/* current RTO to use, in seconds *\/$/;"	m	struct:rtt_info
+rtt_rtt	unprtt.h	/^  float		rtt_rtt;	\/* most recent measured RTT, in seconds *\/$/;"	m	struct:rtt_info
+rtt_rttvar	unprtt.h	/^  float		rtt_rttvar;	\/* smoothed mean deviation, in seconds *\/$/;"	m	struct:rtt_info
+rtt_srtt	unprtt.h	/^  float		rtt_srtt;	\/* smoothed RTT estimator, in seconds *\/$/;"	m	struct:rtt_info
+rtt_start	rtt.c	/^rtt_start(struct rtt_info *ptr)$/;"	f
+rtt_stop	rtt.c	/^rtt_stop(struct rtt_info *ptr, uint32_t ms)$/;"	f
+rtt_timeout	rtt.c	/^rtt_timeout(struct rtt_info *ptr)$/;"	f
+rtt_ts	rtt.c	/^rtt_ts(struct rtt_info *ptr)$/;"	f
+send	unp.h	91;"	d
+send	unp.h	93;"	d
+signal	signal.c	/^signal(int signo, Sigfunc *func)$/;"	f
+signal_intr	signal_intr.c	/^signal_intr(int signo, Sigfunc *func)$/;"	f
+snprintf	snprintf.c	/^snprintf(char *buf, size_t size, const char *fmt, ...)$/;"	f
+sock_bind_wild	sock_bind_wild.c	/^sock_bind_wild(int sockfd, int family)$/;"	f
+sock_cmp_addr	sock_cmp_addr.c	/^sock_cmp_addr(const struct sockaddr *sa1, const struct sockaddr *sa2,$/;"	f
+sock_cmp_port	sock_cmp_port.c	/^sock_cmp_port(const struct sockaddr *sa1, const struct sockaddr *sa2,$/;"	f
+sock_get_port	sock_get_port.c	/^sock_get_port(const struct sockaddr *sa, socklen_t salen)$/;"	f
+sock_ntop	sock_ntop.c	/^sock_ntop(const struct sockaddr *sa, socklen_t salen)$/;"	f
+sock_ntop_host	sock_ntop_host.c	/^sock_ntop_host(const struct sockaddr *sa, socklen_t salen)$/;"	f
+sock_set_addr	sock_set_addr.c	/^sock_set_addr(struct sockaddr *sa, socklen_t salen, const void *addr)$/;"	f
+sock_set_port	sock_set_port.c	/^sock_set_port(struct sockaddr *sa, socklen_t salen, int port)$/;"	f
+sock_set_wild	sock_set_wild.c	/^sock_set_wild(struct sockaddr *sa, socklen_t salen)$/;"	f
+sockaddr_storage	unp.h	/^struct sockaddr_storage {$/;"	s
+sockatmark	sockatmark.c	/^sockatmark(int fd)$/;"	f
+sockfd_to_family	sockfd_to_family.c	/^sockfd_to_family(int sockfd)$/;"	f
+ss_family	unp.h	/^	sa_family_t	ss_family;$/;"	m	struct:sockaddr_storage
+ss_len	unp.h	/^	u_char		ss_len;$/;"	m	struct:sockaddr_storage
+str_cli	str_cli.c	/^str_cli(FILE *fp, int sockfd)$/;"	f
+str_echo	str_echo.c	/^str_echo(int sockfd)$/;"	f
+tcp_connect	tcp_connect.c	/^tcp_connect(const char *host, const char *serv)$/;"	f
+tcp_listen	tcp_listen.c	/^tcp_listen(const char *host, const char *serv, socklen_t *addrlenp)$/;"	f
+timespec	unp.h	/^struct timespec {$/;"	s
+tv_nsec	unp.h	/^  long		tv_nsec;	\/* and nanoseconds *\/$/;"	m	struct:timespec
+tv_sec	unp.h	/^  time_t	tv_sec;		\/* seconds *\/$/;"	m	struct:timespec
+tv_sub	tv_sub.c	/^tv_sub(struct timeval *out, struct timeval *in)$/;"	f
+udp_client	udp_client.c	/^udp_client(const char *host, const char *serv, SA **saptr, socklen_t *lenp)$/;"	f
+udp_connect	udp_connect.c	/^udp_connect(const char *host, const char *serv)$/;"	f
+udp_server	udp_server.c	/^udp_server(const char *host, const char *serv, socklen_t *addrlenp)$/;"	f
+unp_in_pktinfo	unp.h	/^struct unp_in_pktinfo {$/;"	s
+writable_timeo	writable_timeo.c	/^writable_timeo(int fd, int sec)$/;"	f
+write_fd	write_fd.c	/^write_fd(int fd, void *ptr, size_t nbytes, int sendfd)$/;"	f
+writen	writen.c	/^writen(int fd, const void *vptr, size_t n)$/;"	f

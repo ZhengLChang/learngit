@@ -1,0 +1,74 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BUFFSIZE	unpipc.h	144;"	d
+DIR_MODE	unpipc.h	149;"	d
+Door_create_proc	unpipc.h	/^typedef	void  Door_create_proc(door_info_t *);$/;"	t
+Door_server_proc	unpipc.h	/^typedef	void  Door_server_proc(void *, char *, size_t, door_desc_t *, size_t);$/;"	t
+FILE_MODE	unpipc.h	146;"	d
+HAVE_SYS_SEM_H	unpipc.h	58;"	d
+INFTIM	unpipc.h	128;"	d
+INFTIM_UNPH	unpipc.h	130;"	d
+Is_read_lockable	unpipc.h	227;"	d
+Is_write_lockable	unpipc.h	229;"	d
+MAP_FAILED	unpipc.h	45;"	d
+MAXLINE	unpipc.h	141;"	d
+MAXMSG	msgrcv.c	3;"	d	file:
+MAXMSG	msgrcvid.c	3;"	d	file:
+MAX_DATA	limits.c	3;"	d	file:
+MAX_NIDS	limits.c	5;"	d	file:
+MAX_NMESG	limits.c	4;"	d	file:
+MAX_PATH	unpipc.h	139;"	d
+PATH_MAX	unpipc.h	136;"	d
+PROGS	Makefile	/^PROGS =	ctl limits slot slotseq twoqueues testumask \\$/;"	m
+Read_lock	unpipc.h	217;"	d
+Readw_lock	unpipc.h	219;"	d
+SEM_FAILED	unpipc.h	35;"	d
+SUCCESS	unpipc.h	113;"	d
+SVMSG_MODE	unpipc.h	153;"	d
+SVSEM_MODE	unpipc.h	156;"	d
+SVSHM_MODE	unpipc.h	159;"	d
+Sigfunc	unpipc.h	/^typedef	void	Sigfunc(int);	\/* for signal handlers *\/$/;"	t
+Sigfunc_rt	unpipc.h	/^typedef	void	Sigfunc_rt(int, siginfo_t *, void *);$/;"	t
+Un_lock	unpipc.h	225;"	d
+Write_lock	unpipc.h	221;"	d
+Writew_lock	unpipc.h	223;"	d
+__unpipc_h	unpipc.h	5;"	d
+array	unpipc.h	/^  unsigned short  *array;$/;"	m	union:semun
+buf	unpipc.h	/^  struct semid_ds *buf;$/;"	m	union:semun	typeref:struct:semun::semid_ds
+bzero	unpipc.h	120;"	d
+data	limits.c	/^  char	data[MAX_DATA];$/;"	m	struct:mymesg	file:
+is_read_lockable	unpipc.h	211;"	d
+is_write_lockable	unpipc.h	213;"	d
+main	ctl.c	/^main(int argc, char **argv)$/;"	f
+main	limits.c	/^main(int argc, char **argv)$/;"	f
+main	msgcreate.c	/^main(int argc, char **argv)$/;"	f
+main	msgrcv.c	/^main(int argc, char **argv)$/;"	f
+main	msgrcvid.c	/^main(int argc, char **argv)$/;"	f
+main	msgrmid.c	/^main(int argc, char **argv)$/;"	f
+main	msgsnd.c	/^main(int argc, char **argv)$/;"	f
+main	slot.c	/^main(int argc, char **argv)$/;"	f
+main	slotseq.c	/^main(int argc, char **argv)$/;"	f
+main	testumask.c	/^main(int argc, char **argv)$/;"	f
+main	twoqueues.c	/^main(int argc, char **argv)$/;"	f
+max	unpipc.h	170;"	d
+max_mesg	limits.c	/^int		max_mesg;$/;"	v
+mesg	limits.c	/^} mesg;$/;"	v	typeref:struct:mymesg
+min	unpipc.h	169;"	d
+mymesg	limits.c	/^struct mymesg {$/;"	s	file:
+read_lock	unpipc.h	201;"	d
+readw_lock	unpipc.h	203;"	d
+semun	unpipc.h	/^union semun {				\/* define union for semctl() *\/$/;"	u
+timespec	unpipc.h	/^struct timespec {$/;"	s
+tv_nsec	unpipc.h	/^  long		tv_nsec;	\/* and nanoseconds *\/$/;"	m	struct:timespec
+tv_sec	unpipc.h	/^  time_t	tv_sec;		\/* seconds *\/$/;"	m	struct:timespec
+type	limits.c	/^  long	type;$/;"	m	struct:mymesg	file:
+un_lock	unpipc.h	209;"	d
+va_mode_t	unpipc.h	194;"	d
+va_mode_t	unpipc.h	196;"	d
+val	unpipc.h	/^  int              val;$/;"	m	union:semun
+write_lock	unpipc.h	205;"	d
+writew_lock	unpipc.h	207;"	d
