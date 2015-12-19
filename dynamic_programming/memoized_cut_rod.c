@@ -17,7 +17,14 @@ int memoized_cut_rod(int price[], int length)
 		return 0;
 	}
 	int *subproblem_method = (int *)calloc(length + 1, sizeof(int));
+	if(subproblem_method == NULL)
+	{
+		printf("calloc error\n");
+		return -1;
+	}
 	int maxPrice = memoized_cut_rod_aux(price, length, subproblem_method);
+	free(subproblem_method);
+	subproblem_method = NULL;
 	return maxPrice;
 }
 
