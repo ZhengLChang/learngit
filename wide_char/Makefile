@@ -1,5 +1,5 @@
 #Makefile
-CC=gcc
+CC=gcc -std=c99
 INCLUDE=
 LIB=-lpthread
 CFLAGS=-g -Wall -Werror -D_REENTRANT ${LIB} ${INCLUDE}
