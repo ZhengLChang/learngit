@@ -21,4 +21,3 @@ $(OutPut):${target}
 	
 clean:
 	-@rm  ${springcleaning}
-	-@cd ./review && $(MAKE) clean
