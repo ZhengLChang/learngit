@@ -21,4 +21,4 @@ $(OutPut):${target}
 	
 clean:
 	-@rm  ${springcleaning}
-	-@cd ./cut_rod && $(MAKE) clean
+	-@cd ./review && $(MAKE) clean
