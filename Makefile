@@ -20,4 +20,4 @@ $(OutPut):${target}
 
 	
 clean:
-	-rm  ${springcleaning}
+	-@rm  ${springcleaning}
