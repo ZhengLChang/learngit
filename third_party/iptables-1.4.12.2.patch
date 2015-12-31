@@ -1,0 +1,29 @@
+@@ -0,0 +1,11 @@
++diff -ur iptables-1.4.12.2/extensions/libxt_pkttype.c 
+iptables-1.4.12.2.new/extensions/libxt_pkttype.c
++--- iptables-1.4.12.2/extensions/libxt_pkttype.c       2012-01-02 
+18:19:09.000000000 +0100
+++++ iptables-1.4.12.2.new/extensions/libxt_pkttype.c   2012-02-23 
+09:58:15.914689222 +0100
++@@ -7,6 +7,7 @@
++ #include <stdio.h>
++ #include <string.h>
++ #include <xtables.h>
+++#define __aligned_u64 __u64 __attribute__((aligned(8)))
++ #include <linux/if_packet.h>
++ #include <linux/netfilter/xt_pkttype.h>
++ 
+
+
+
++--- a/extensions/GNUmakefile.in	Mon Jan 23 00:12:27 2012 +0800
+++++ b/extensions/GNUmakefile.in	Mon Jan 23 00:38:32 2012 +0800
++@@ -68,7 +68,7 @@
++ 
++ .PHONY: all install clean distclean FORCE
++ 
++-all: ${targets} check
+++all: ${targets}
++ 
++ check: ${targets}
++	@echo "  CHECK    unknown symbols in .so files"; \

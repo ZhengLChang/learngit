@@ -1,0 +1,23 @@
+﻿0) do diff path
+
+
+1)      Copy header.tar.gz to lilbdua folder and unzip it.
+
+2)      Copy libs.tar.gz to distributed_dua.
+
+3) redo 9919_9918_hh.diff patch
+
+3） /tools/voip-app/include/voice.h 
+++++++
+#define RTP_CODEC_OPT_G726_IETF_FORMAT (RTP_CODEC_OPT_G726_NIBBLE_REVERSED)
+
+4)      Recompile 
+
+
+In our reference board,
+
+1)      Copy css-loader to /lib/firmware/css-loader-ip.
+
+2)      Copy app_dsp and callManager to /usr/bin and chmod 755.
+
+3) 精简rootfs,  注意kernel变了，更改/lib/modules/ 的名字

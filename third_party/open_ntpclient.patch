@@ -1,0 +1,58 @@
+Hi Mike,
+
+Mike Frysinger wrote:
+> uClibc provides adjtimex(), not __adjtimex().  glibc implements these as
+
+But the modified uClibc in the dist does.
+It has for a couple of years.
+
+grep -r __adjtimex uClibc/*
+
+include/sys/timex.h:extern int __adjtimex (struct timex *__ntx) __THROW;
+libc/sysdeps/linux/common/adjtimex.c:weak_alias(adjtimex,__adjtimex)
+
+Regards
+Greg
+
+
+
+> aliases to each other, so they're functionally equivalent.  this patch
+> changes the call so it actually links against uClibc.  i also tweaked
+> the recvfrom() usage so socklen_t is used rather than int.
+> 
+> Signed-off-by: Mike Frysinger <vapier at gentoo.org>
+> ---
+> Index: user/ntpclient/ntpclient.c
+> ===================================================================
+> RCS file: /var/cvs/uClinux-dist/user/ntpclient/ntpclient.c,v
+> retrieving revision 1.1.1.1
+> diff -u -p -r1.1.1.1 ntpclient.c
+> --- user/ntpclient/ntpclient.c	16 Nov 2004 10:42:06 -0000	1.1.1.1
+> +++ user/ntpclient/ntpclient.c	29 May 2007 06:21:03 -0000
+> @@ -128,7 +128,7 @@ int get_current_freq(void)
+>  #ifdef linux
+>  	struct timex txc;
+>  	txc.modes=0;
+> -	if (__adjtimex(&txc) < 0) {
+> +	if (adjtimex(&txc) < 0) {
+>  		perror("adjtimex"); exit(1);
+>  	}
+>  	return txc.freq;
+> @@ -145,7 +145,7 @@ int set_freq(int new_freq)
+>  	struct timex txc;
+>  	txc.modes = ADJ_FREQUENCY;
+>  	txc.freq = new_freq;
+> -	if (__adjtimex(&txc) < 0) {
+> +	if (adjtimex(&txc) < 0) {
+>  		perror("adjtimex"); exit(1);
+>  	}
+>  	return txc.freq;
+> @@ -369,7 +369,8 @@ void primary_loop(int usd, int num_probe
+>  {
+>  	fd_set fds;
+>  	struct sockaddr sa_xmit;
+> -	int i, pack_len, sa_xmit_len, probes_sent, error;
+> +	int i, pack_len, probes_sent, error;
+> +	socklen_t sa_xmit_len;
+>  	struct timeval to;
+>  	struct ntptime udp_arrival_ntp;

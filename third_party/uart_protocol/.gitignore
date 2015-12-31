@@ -1,0 +1,4 @@
+libprotocol.a
+app/app_proto.o
+link/link_proto.o
+tty/tty_proto.o

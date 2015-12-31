@@ -1,0 +1,3 @@
+handle SIG32 nostop
+set sysroot /home/cyx/DSPG/sdk1311-eglib/rootfs
+set solib-search-path /home/cyx/DSPG/A6x/bin/libs:/home/cyx/DSPG/A6x/bin/dbus/lib

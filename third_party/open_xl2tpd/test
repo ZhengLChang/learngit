@@ -1,0 +1,21 @@
+cc -g -O2 -DDEBUG_PPPD -DDEBUG_CONTROL -DDEBUG_ENTROPY -Wall -DSANITY -DLINUX -I/usr/include -DIP_ALLOCATION    -c -o aaa.o aaa.c
+In file included from l2tp.h:28,
+                 from aaa.c:22:
+misc.h:67: warning: conflicting types for built-in function ‘log’
+aaa.c: In function ‘handle_challenge’:
+aaa.c:252: warning: pointer targets in passing argument 3 of ‘get_secret’ differ in signedness
+aaa.c:273: warning: pointer targets in passing argument 1 of ‘strlen’ differ in signedness
+aaa.c:274: warning: pointer targets in passing argument 1 of ‘strlen’ differ in signedness
+aaa.c: In function ‘encrypt_avp’:
+aaa.c:393: warning: pointer targets in passing argument 1 of ‘strlen’ differ in signedness
+aaa.c:400: warning: pointer targets in assignment differ in signedness
+aaa.c:421: warning: pointer targets in passing argument 1 of ‘strlen’ differ in signedness
+aaa.c:425: warning: pointer targets in assignment differ in signedness
+aaa.c: In function ‘decrypt_avp’:
+aaa.c:459: warning: pointer targets in passing argument 1 of ‘strlen’ differ in signedness
+aaa.c:461: warning: pointer targets in passing argument 1 of ‘MD5Final’ differ in signedness
+aaa.c:474: warning: pointer targets in passing argument 1 of ‘strlen’ differ in signedness
+aaa.c:475: warning: pointer targets in passing argument 2 of ‘MD5Update’ differ in signedness
+aaa.c:476: warning: pointer targets in passing argument 1 of ‘MD5Final’ differ in signedness
+cc -g -O2 -DDEBUG_PPPD -DDEBUG_CONTROL -DDEBUG_ENTROPY -Wall -DSANITY -DLINUX -I/usr/include -DIP_ALLOCATION    -c -o md5.o md5.c
+cc -o l2tpd -g -O2 -DDEBUG_PPPD -DDEBUG_CONTROL -DDEBUG_ENTROPY l2tpd.o pty.o misc.o control.o avp.o call.o network.o avpsend.o scheduler.o file.o aaa.o md5.o  

@@ -1,0 +1,22 @@
+diff --git a/voip-app/srtp/Makefile b/voip-app/srtp/Makefile
+index f58bca5..1baab79 100644
+--- a/voip-app/srtp/Makefile
++++ b/voip-app/srtp/Makefile
+@@ -86,6 +86,8 @@ libdir = ${exec_prefix}/lib
+ ciphers = crypto/cipher/cipher.o crypto/cipher/null_cipher.o      \
+           $(AES_ICM_OBJS)     
+ 
++aes		= crypto/cipher/aes.o
++
+ hashes  = crypto/hash/null_auth.o  crypto/hash/auth.o            \
+ 	  $(HMAC_OBJS)
+ 
+@@ -103,7 +105,7 @@ err     = crypto/kernel/err.o
+ kernel  = crypto/kernel/crypto_kernel.o  crypto/kernel/alloc.o   \
+           crypto/kernel/key.o $(rng) $(err) # $(ust) 
+ 
+-cryptobj =  $(ciphers) $(hashes) $(math) $(stat) $(kernel) $(replay)
++cryptobj =  $(ciphers) $(hashes) $(math) $(stat) $(kernel) $(replay) $(aes)
+ 
+ # libsrtp.a (implements srtp processing)
+ 

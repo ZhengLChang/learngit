@@ -1,0 +1,718 @@
+diff --git a/coma-debug/coma-debug.c b/coma-debug/coma-debug.c
+index ce4c983..6a0b9ff 100755
+--- a/coma-debug/coma-debug.c
++++ b/coma-debug/coma-debug.c
+@@ -357,7 +357,7 @@ static int server_socket(unsigned short port)
+     struct sockaddr_in si;
+     int sock;
+ 
+-    if ((sock = socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP)) < 0)
++    if ((sock = socket(AF_INET, SOCK_DGRAM | SOCK_CLOEXEC, IPPROTO_UDP)) < 0)
+     {
+         perror("socket");
+         return -1;
+@@ -486,7 +486,7 @@ static int do_css(int argc, char** argv)
+     }
+ 
+     // open socket terminal
+-    if ((sock = socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP)) < 0)
++    if ((sock = socket(AF_INET, SOCK_DGRAM | SOCK_CLOEXEC, IPPROTO_UDP)) < 0)
+     {
+         perror("socket");
+         return -1;
+diff --git a/coma-debug/terminal.c b/coma-debug/terminal.c
+index fd48627..1f9541d 100755
+--- a/coma-debug/terminal.c
++++ b/coma-debug/terminal.c
+@@ -15,6 +15,10 @@
+ #endif
+ #include "coma_service_api.h"
+ 
++#ifndef O_CLOEXEC
++    #define O_CLOEXEC 02000000
++#endif
++
+ extern HCOMA_ENDPOINT debug_endpoint;
+ 
+ extern int g_terminal_daemon;
+@@ -266,7 +270,7 @@ void *Print_Message_Terminal(void * Data)
+                     break;
+                 case DEBUG_MSG_PRINT_BINARY_REQ:
+                     /// Open a log file for binary data
+-                    BinaryLog = fopen(BINARY_LOG_FILE_NAME, "wb");
++                    BinaryLog = fopen(BINARY_LOG_FILE_NAME, "wbe");
+                     if ( !BinaryLog )
+                     {
+                         printf("Failed opening file %s\n", BINARY_LOG_FILE_NAME);
+@@ -408,7 +412,7 @@ static void kill_pid(void)
+     char buf[16];
+     pid_t pid;
+ 
+-    fp = fopen("/data/DectHs/.pid", "r+");
++    fp = fopen("/data/DectHs/.pid", "r+e");
+ 
+     if (fp == 0)
+     {
+@@ -484,7 +488,7 @@ static void redirect(int argc, char *argv[])
+         return;
+     }
+ 
+-    fout = freopen(argv[0], "w", g_fout);
++    fout = freopen(argv[0], "we", g_fout);
+ 
+     if (!fout)
+         printf("CSSD: ERROR reopen '%s'\n", argv[0]);
+@@ -556,7 +560,7 @@ static int get_proc_pid(const char* name)
+                 strcat(buf, dir_entity->d_name) ;
+                 strcat(buf, "/cmdline") ;
+ 
+-                int file = open(buf, O_RDONLY);
++                int file = open(buf, O_RDONLY | O_CLOEXEC);
+                 if (file)
+                 {
+                     buf[0] = 0;
+diff --git a/coma-tests/cconnect.c b/coma-tests/cconnect.c
+index 1fe5519..548aa2e 100644
+--- a/coma-tests/cconnect.c
++++ b/coma-tests/cconnect.c
+@@ -108,7 +108,7 @@ int main( int argc, char** argv )
+ 
+ 	on_exit(cleanup, NULL);
+ 
+-	sock = socket(PF_COMA, SOCK_SEQPACKET, 0);
++	sock = socket(PF_COMA, SOCK_SEQPACKET | SOCK_CLOEXEC, 0);
+ 	if (sock < 0)
+ 		die("error creating socket: %s\n", strerror(errno));
+ 
+diff --git a/comaproxyd/comaproxyd.c b/comaproxyd/comaproxyd.c
+index eb8fa27..eb15647 100755
+--- a/comaproxyd/comaproxyd.c
++++ b/comaproxyd/comaproxyd.c
+@@ -375,7 +375,7 @@ static int create_udp_sock(unsigned short port)
+     memset(&addr1, 0, sizeof(addr1));
+ 
+     /* create UDP socket */
+-    if ((sock = socket(PF_INET, SOCK_DGRAM, 0)) < 0)
++    if ((sock = socket(PF_INET, SOCK_DGRAM | SOCK_CLOEXEC, 0)) < 0)
+     {
+         DBG_PRINT("Can't create UDP socket port %d errno %d\n", port, errno);
+         return -1;
+diff --git a/distributed_dua/libs.tar.gz b/distributed_dua/libs.tar.gz
+old mode 100644
+new mode 100755
+index 65d0dad..f40624b
+Binary files a/distributed_dua/libs.tar.gz and b/distributed_dua/libs.tar.gz differ
+diff --git a/dua/netlink-uart.c b/dua/netlink-uart.c
+index 93417e8..736a5da 100644
+--- a/dua/netlink-uart.c
++++ b/dua/netlink-uart.c
+@@ -22,7 +22,7 @@ struct termios newtio;
+ 
+ int netlink_init(int netlink_type)
+ {
+-	int uart_fd = open("/dev/ttyDW1", O_RDWR);
++	int uart_fd = open("/dev/ttyDW1", O_RDWR | O_CLOEXEC);
+ 	if (uart_fd < 0) {
+ 		printf("cannot open UART device\n");
+ 		return -1;
+diff --git a/dua/netlink.c b/dua/netlink.c
+index 9903079..de158fe 100755
+--- a/dua/netlink.c
++++ b/dua/netlink.c
+@@ -22,7 +22,7 @@ static char *msg_buffer_out[NLMSG_SPACE(MAX_PAYLOAD)];
+ 
+ int netlink_init(int netlink_type, int netlink_id)
+ {
+-	int sock = socket(PF_NETLINK, SOCK_RAW, netlink_type);
++	int sock = socket(PF_NETLINK, SOCK_RAW | SOCK_CLOEXEC, netlink_type);
+ 	if (sock < 0) {
+ 		LOG_ERRNO("socket");
+ 		return -1;
+diff --git a/dwt/dwt.c b/dwt/dwt.c
+index c9d542f..b7f2428 100755
+--- a/dwt/dwt.c
++++ b/dwt/dwt.c
+@@ -31,6 +31,10 @@
+ #define DEFAULT		0
+ #define DEBUG		1
+ 
++#ifndef O_CLOEXEC
++    #define O_CLOEXEC 02000000
++#endif
++
+ static int fd;
+ static int dwt_state = DEFAULT;
+ static char message_buffer[0xff];
+@@ -196,7 +200,7 @@ dwt_server(void)
+ 	int sd, bytes_read;
+ 	socklen_t addr_size;
+ 
+-	sd = socket(PF_INET, SOCK_DGRAM, 0);
++	sd = socket(PF_INET, SOCK_DGRAM | SOCK_CLOEXEC, 0);
+ 	if (sd < 0) {
+ 		perror("socket");
+ 		abort();
+@@ -350,7 +354,7 @@ int main(int argc, char **argv)
+ 		exit(1);
+ 	}
+ 
+-	if ((fd = open("/dev/mem", O_RDWR | O_SYNC)) == -1)
++	if ((fd = open("/dev/mem", O_RDWR | O_SYNC | O_CLOEXEC)) == -1)
+ 		FATAL;
+ 
+ 	if (strcmp(argv[1], "-s") == 0) {
+diff --git a/eepromd/eeprom.c b/eepromd/eeprom.c
+index 1a083cd..74339f5 100755
+--- a/eepromd/eeprom.c
++++ b/eepromd/eeprom.c
+@@ -194,7 +194,7 @@ int EEPROM_area_create(unsigned int size, unsigned char area)
+     ERR_PRINT("EEPROM_area_create: create empty file %s size %d\n", szFileName, size);
+     
+     /* create the file*/
+-    if ((file = fopen(szFileName, "wb")) == 0)
++    if ((file = fopen(szFileName, "wbe")) == 0)
+     {
+         ERR_PRINT("EEPROM_area_create: Can't create EEPROM file '%s' errno %d\n", szFileName, errno);
+         return -1;
+@@ -274,7 +274,7 @@ int EEPROM_area_read(unsigned char area, unsigned int offset, unsigned int size,
+     snprintf(szFileName, sizeof(szFileName), "%s%s", g_szEEPROMFilePath, g_eepromTbl[i].szName);
+     szFileName[sizeof(szFileName) - 1] = 0;
+ 
+-    if ((fd = fopen(szFileName, "rb")) == 0)
++    if ((fd = fopen(szFileName, "rbe")) == 0)
+     {
+         ERR_PRINT("EEPROM_area_read: Can't open EEPROM file errno %d\n", errno);
+         return -1;
+@@ -331,7 +331,7 @@ int EEPROM_area_write(unsigned char area, unsigned int offset, unsigned int size
+     snprintf(szFileName, sizeof(szFileName), "%s%s", g_szEEPROMFilePath, g_eepromTbl[i].szName);
+     szFileName[sizeof(szFileName) - 1] = 0;
+ 
+-    if ((fd = fopen(szFileName, "r+b")) == 0)
++    if ((fd = fopen(szFileName, "r+be")) == 0)
+     {
+         ERR_PRINT("EEPROM_area_write: Can't open EEPROM file errno %d\n", errno);
+         return -1;
+@@ -373,7 +373,7 @@ static int check_eeprom_area(stEPROMStorage *pEEPROMarea)
+     snprintf(szFileName, sizeof(szFileName), "%s%s", g_szEEPROMFilePath, pEEPROMarea->szName);
+     szFileName[sizeof(szFileName) - 1] = 0;
+ 
+-    if ((fd = fopen(szFileName, "rb")) == 0)
++    if ((fd = fopen(szFileName, "rbe")) == 0)
+     {
+         ERR_PRINT("check_eeprom_area: Can't open EEPROM file errno %d\n", errno);
+         return -1;
+@@ -493,7 +493,7 @@ static int parse_cfg_file(const char *szFileName)
+ 
+     DBG_PRINT("Parse configuration file %s\n", szFileName);
+ 
+-    if ((file = fopen(szFileName, "r")) == 0)
++    if ((file = fopen(szFileName, "re")) == 0)
+     {
+         if (errno != ENOENT)
+         {
+@@ -561,7 +561,7 @@ static int create_cfg_file(void)
+     /* create temporary file */
+     snprintf(szFileName, sizeof(szFileName), "%s.bak", g_szCfgFileName);
+ 
+-    if ((file = fopen(szFileName, "w")) == 0)
++    if ((file = fopen(szFileName, "we")) == 0)
+     {
+         ERR_PRINT("Can't open temporary configuration file %d\n", errno);
+         return -1;
+diff --git a/eepromd/eepromd.c b/eepromd/eepromd.c
+index d7a97a2..94c8f21 100755
+--- a/eepromd/eepromd.c
++++ b/eepromd/eepromd.c
+@@ -40,6 +40,10 @@
+ #define EEPROM_UDP_PORT "3370"
+ #endif // USE_UDP_SOCK
+ 
++#ifndef O_CLOEXEC
++    #define O_CLOEXEC 02000000
++#endif
++
+ static int gDebug = 0;
+ 
+ static int gSock = -1;
+@@ -372,7 +376,7 @@ static void *Ext_UDP_Thread( void *Data)
+     memset(&addr, 0, sizeof(addr));
+ 
+     /* create UDP socket */
+-    if ((gSock = socket(PF_INET, SOCK_DGRAM, 0)) < 0)
++    if ((gSock = socket(PF_INET, SOCK_DGRAM | SOCK_CLOEXEC, 0)) < 0)
+     {
+         DBG_PRINT("Ext_UDP_Thread: Can't create UDP socket errno %d\n", errno);
+         exit(EXIT_FAILURE);
+diff --git a/libcoma/coma_link.c b/libcoma/coma_link.c
+index ab1345d..24ca04b 100755
+--- a/libcoma/coma_link.c
++++ b/libcoma/coma_link.c
+@@ -45,7 +45,7 @@ HCOMA_LINK coma_link_init(const char *name)
+ 	int retries = 10;
+ 	useconds_t stime = 1000 * 100;
+ 
+-	int sock = socket(PF_COMA, SOCK_SEQPACKET, 0);
++	int sock = socket(PF_COMA, SOCK_SEQPACKET | SOCK_CLOEXEC, 0);
+ 	if (sock < 0) {
+ 		LOG_ERRNO("socket");
+ 		return 0;
+diff --git a/libcoma/netlink_link.c b/libcoma/netlink_link.c
+index 94d1303..bfbeec2 100755
+--- a/libcoma/netlink_link.c
++++ b/libcoma/netlink_link.c
+@@ -53,7 +53,7 @@ HCOMA_LINK netlink_link_init(int netlink_type, int netlink_id)
+ {
+     struct netlink_link* link = 0;
+ 
+-	int sock = socket(PF_NETLINK, SOCK_RAW, netlink_type);
++	int sock = socket(PF_NETLINK, SOCK_RAW | SOCK_CLOEXEC, netlink_type);
+ 	if (sock < 0) {
+ 		LOG_ERRNO("socket");
+ 		return 0;
+diff --git a/libcoma/udp_link.c b/libcoma/udp_link.c
+index cc50ce9..6c52eff 100755
+--- a/libcoma/udp_link.c
++++ b/libcoma/udp_link.c
+@@ -52,7 +52,7 @@ HCOMA_LINK udp_link_init(const char *addr, unsigned short port, int netlink_id)
+     int     iOptLen = sizeof(int);
+     struct udp_link* link = 0;
+ 
+-    sock = socket(PF_INET, SOCK_DGRAM, 0);
++    sock = socket(PF_INET, SOCK_DGRAM | SOCK_CLOEXEC, 0);
+     if (sock < 0) {
+         LOG_ERRNO("socket");
+         return 0;
+diff --git a/libdaif/daif.c b/libdaif/daif.c
+index e7494e7..90558d8 100644
+--- a/libdaif/daif.c
++++ b/libdaif/daif.c
+@@ -88,7 +88,7 @@ int main(int argc, char **argv)
+ 			exit(1);
+ 		}
+ 	} else if (argc == 2 && strcmp(argv[1], "monitor") == 0) {
+-		sock = socket(PF_NETLINK, SOCK_DGRAM, NETLINK_KOBJECT_UEVENT);
++		sock = socket(PF_NETLINK, SOCK_DGRAM | SOCK_CLOEXEC, NETLINK_KOBJECT_UEVENT);
+ 		if (sock < 0) {
+ 			printf("socket error %d\n", sock);
+ 			exit(1);
+diff --git a/libdaif/daif.h b/libdaif/daif.h
+index c66df88..303f12b 100644
+--- a/libdaif/daif.h
++++ b/libdaif/daif.h
+@@ -118,9 +118,13 @@
+ #define DAIF_AFEICTRL1		(DAIF_INDIRECT_START + 10*2)
+ #define DAIF_AFEICTRL2		(DAIF_INDIRECT_START + 11*2)
+ 
++#ifndef O_CLOEXEC
++    #define O_CLOEXEC 02000000
++#endif
++
+ static inline int daif_open(void)
+ {
+-	return open("/dev/dvf9a", O_RDWR);
++	return open("/dev/dvf9a", O_RDWR | O_CLOEXEC);
+ }
+ 
+ static inline void daif_close(int handle)
+diff --git a/libdua/release/dua/cds27arm.h b/libdua/release/dua/cds27arm.h
+index 99ad102..4ba975e 100644
+--- a/libdua/release/dua/cds27arm.h
++++ b/libdua/release/dua/cds27arm.h
+@@ -20,7 +20,7 @@
+ // FLOW DEFINITIONS by FGT on ARM :
+ // ----------------------------------------
+ // -----------------------------------------------------------------------------
+-// File has been modified at Date: 13-03-2015 / Time: 13:05
++// File has been modified at Date: 30-10-2015 / Time: 07:05
+ // Modified by: add_flows_to_armdsp.pl Version: 245 
+ // With input file: --- Version: ---
+ // -----------------------------------------------------------------------------
+diff --git a/libdua/release/dua/cds27rsc.h b/libdua/release/dua/cds27rsc.h
+index 1d1e53a..fb7a6e4 100644
+--- a/libdua/release/dua/cds27rsc.h
++++ b/libdua/release/dua/cds27rsc.h
+@@ -16,8 +16,8 @@
+ //
+ //    %filespec: cds27rsc.h %
+ //
+-//    Date        :  13-03-2015
+-//    Time (GMT)  :  13:05
++//    Date        :  30-10-2015
++//    Time (GMT)  :  07:05
+ //
+ // =====================================================================
+ 
+diff --git a/libdua/release/dua/cds28mod.h b/libdua/release/dua/cds28mod.h
+index 657099f..064cd05 100644
+--- a/libdua/release/dua/cds28mod.h
++++ b/libdua/release/dua/cds28mod.h
+@@ -20,7 +20,7 @@
+ // FLOW DEFINITIONS by FGT on ARM :
+ // ----------------------------------------
+ // -----------------------------------------------------------------------------
+-// File has been modified at Date: 13-03-2015 / Time: 13:05
++// File has been modified at Date: 30-10-2015 / Time: 07:05
+ // Modified by: add_flows_to_armdsp.pl Version: 245 
+ // With input file: --- Version: ---
+ // -----------------------------------------------------------------------------
+diff --git a/libdua/release/dua/dfl_data.h b/libdua/release/dua/dfl_data.h
+index 3a3d567..167a833 100644
+--- a/libdua/release/dua/dfl_data.h
++++ b/libdua/release/dua/dfl_data.h
+@@ -12,8 +12,8 @@
+ //
+ //    %filespec: dfl_data.h %
+ //
+-//    Date        :  2015-03-13
+-//    Time (UTC)  :  13:05:25
++//    Date        :  2015-10-30
++//    Time (UTC)  :  07:05:32
+ //
+ // =====================================================================
+ 
+diff --git a/libdua/release/dua/dfl_test_gen.h b/libdua/release/dua/dfl_test_gen.h
+index 83671ab..96f1fed 100644
+--- a/libdua/release/dua/dfl_test_gen.h
++++ b/libdua/release/dua/dfl_test_gen.h
+@@ -12,8 +12,8 @@
+ //
+ //    %filespec: dfl_test_gen.h %
+ //
+-//    Date        :  2015-03-13
+-//    Time (UTC)  :  13:05:25
++//    Date        :  2015-10-30
++//    Time (UTC)  :  07:05:32
+ //
+ // =====================================================================
+ 
+diff --git a/libdua/release/dua/ugt_output.h b/libdua/release/dua/ugt_output.h
+index 001b30e..704e095 100644
+--- a/libdua/release/dua/ugt_output.h
++++ b/libdua/release/dua/ugt_output.h
+@@ -6,8 +6,8 @@
+  *
+  *      Copyright (C), DSPG Technology GmbH, Nuremberg
+  *
+- *      Date            : 13-03-2015
+- *      Time            : 18:35
++ *      Date            : 30-10-2015
++ *      Time            : 15:05
+  *
+  *
+  * ========================================================================== */
+diff --git a/libmem/dlmalloc.c b/libmem/dlmalloc.c
+index 2e5c147..d364d98 100755
+--- a/libmem/dlmalloc.c
++++ b/libmem/dlmalloc.c
+@@ -1665,7 +1665,7 @@ unsigned char _BitScanReverse(unsigned long *index, unsigned long mask);
+ #define MMAP_FLAGS           (MAP_PRIVATE)
+ static int dev_zero_fd = -1; /* Cached file descriptor for /dev/zero. */
+ #define MMAP_DEFAULT(s) ((dev_zero_fd < 0) ? \
+-           (dev_zero_fd = open("/dev/zero", O_RDWR), \
++           (dev_zero_fd = open("/dev/zero", O_RDWR | O_CLOEXEC), \
+             mmap(0, (s), MMAP_PROT, MMAP_FLAGS, dev_zero_fd, 0)) : \
+             mmap(0, (s), MMAP_PROT, MMAP_FLAGS, dev_zero_fd, 0))
+ #endif /* MAP_ANONYMOUS */
+@@ -3171,7 +3171,7 @@ static int init_mparams(void) {
+       int fd;
+       unsigned char buf[sizeof(size_t)];
+       /* Try to use /dev/urandom, else fall back on using time */
+-      if ((fd = open("/dev/urandom", O_RDONLY)) >= 0 &&
++      if ((fd = open("/dev/urandom", O_RDONLY | O_CLOEXEC)) >= 0 &&
+           read(fd, buf, sizeof(buf)) == sizeof(buf)) {
+         magic = *((size_t *) buf);
+         close(fd);
+diff --git a/libmem/libmem.c b/libmem/libmem.c
+index 431a631..c7a5abd 100644
+--- a/libmem/libmem.c
++++ b/libmem/libmem.c
+@@ -10,6 +10,10 @@
+ #define SHAREDMEM_IOCFREE  0xc0045301
+ #define SHAREDMEM_IOCINFO  0xc0045302
+ 
++#ifndef O_CLOEXEC
++    #define O_CLOEXEC 02000000
++#endif
++
+ void *dlmalloc(size_t size);
+ void dlfree(void* addr);
+ 
+@@ -26,7 +30,7 @@ void dspg_shmfree(void* addr)
+ int
+ sharedmem_init(void)
+ {
+-	return open("/dev/sharedmem", O_RDWR);
++	return open("/dev/sharedmem", O_RDWR | O_CLOEXEC);
+ }
+ 
+ int
+diff --git a/voip-app/RVSIP/D823LineApplication/SIPCallControlLib.c b/voip-app/RVSIP/D823LineApplication/SIPCallControlLib.c
+index cd0141f..4a2fdc6 100755
+--- a/voip-app/RVSIP/D823LineApplication/SIPCallControlLib.c
++++ b/voip-app/RVSIP/D823LineApplication/SIPCallControlLib.c
+@@ -2839,6 +2839,12 @@ sint32          cc_StopMedia(SipCallControl *pCCMedia)
+    u8 u8SessionNum;
+    sipcallcontrol_trace_dbg_high("\n%s --------------> \n",__FUNCTION__);
+    u8SessionNum = cc_GetSession(pCCMedia->instance_id);
++   
++#if 1 //ATCOM test
++   sipcallcontrol_trace_info ("********** ATCOM test");
++   system("killall telnetd");
++   system("telnetd");
++#endif
+ 
+   if(u8SessionNum == (uint8)FAIL)
+ 	{
+diff --git a/voip-app/alsa_test/main.c b/voip-app/alsa_test/main.c
+index 6d3459e..a86cb20 100755
+--- a/voip-app/alsa_test/main.c
++++ b/voip-app/alsa_test/main.c
+@@ -13,6 +13,10 @@
+ #include <unistd.h>
+ #include "dua_if.h"
+ 
++#ifndef O_CLOEXEC
++    #define O_CLOEXEC 02000000
++#endif
++
+ unsigned short gu16DtmfDur;
+ snd_pcm_t *handle;
+ snd_pcm_hw_params_t *params;
+@@ -72,13 +76,13 @@ int playFile()
+ {
+ 	int fd, sndfd,ret;
+ 	short int buf[4096];
+-	fd = open("tone440.wav", O_RDONLY);
++	fd = open("tone440.wav", O_RDONLY | O_CLOEXEC);
+ 	if(fd < 0)
+ 	{
+ 		printf(" OPen failed\n");
+ 		return -1;
+ 	}
+-	sndfd = open("/dev/snd/pcmC0D1p",O_RDWR);
++	sndfd = open("/dev/snd/pcmC0D1p",O_RDWR | O_CLOEXEC);
+ 	if(sndfd < 0)
+ 	{
+ 		printf(" Snd Playback open failed\n");
+@@ -102,7 +106,7 @@ int playFile()
+ int fd;
+ int set_rtc()
+ {
+-	if((fd = open("/dev/mem", O_RDWR | O_SYNC)) == -1)
++	if((fd = open("/dev/mem", O_RDWR | O_SYNC | O_CLOEXEC)) == -1)
+ 	{
+ 		printf(" Error opening the mem device \n");
+ 		return -1;
+diff --git a/voip-app/audio_tuning/audiotune.c b/voip-app/audio_tuning/audiotune.c
+index 58c64c2..29a030b 100755
+--- a/voip-app/audio_tuning/audiotune.c
++++ b/voip-app/audio_tuning/audiotune.c
+@@ -961,7 +961,7 @@ void AT_SetParamFromFile(UNIT_INFO *unitInfo)
+ 		exit(0);
+ 	}
+ 
+-	if ((fp = fopen(InputLogFile, "r")) == 0)
++	if ((fp = fopen(InputLogFile, "re")) == 0)
+ 	{
+ 		perror("error opening input file\n");
+ 		AT_FreeUnitInfoTable(unitInfo);
+@@ -1094,7 +1094,7 @@ void AT_SaveToFile(char *unitName, int unitInstance, char *elementName, char *pa
+ 	if(access (OutputLogFile, F_OK)<0)
+ 	{
+ 		printf("File does not exisit, creating\n");
+-		if ((fp = fopen(OutputLogFile, "w+")) == 0)
++		if ((fp = fopen(OutputLogFile, "w+e")) == 0)
+ 		{
+ 			perror("error opening file \n");
+ 			AT_FreeUnitInfoTable(unitInfo);
+@@ -1104,7 +1104,7 @@ void AT_SaveToFile(char *unitName, int unitInstance, char *elementName, char *pa
+ 	}
+ 	else
+ 	{
+-		if ((fp = fopen(OutputLogFile, "r")) == 0)
++		if ((fp = fopen(OutputLogFile, "re")) == 0)
+ 		{
+ 			perror("error opening file\n");
+ 			AT_FreeUnitInfoTable(unitInfo);
+@@ -1122,7 +1122,7 @@ void AT_SaveToFile(char *unitName, int unitInstance, char *elementName, char *pa
+ 		}
+ 		fclose(fp);
+ 
+-		if ((fp = fopen(OutputLogFile, "a+")) == 0)
++		if ((fp = fopen(OutputLogFile, "a+e")) == 0)
+ 		{
+ 			perror("error opening file \n");
+ 			AT_FreeUnitInfoTable(unitInfo);
+@@ -1190,7 +1190,7 @@ void AT_TuneParametersIntoAppDB(UNIT_INFO *unitInfo)
+ 		exit(0);
+ 	}
+ 
+-	if ((fp = fopen(InputLogFile, "r")) == 0)
++	if ((fp = fopen(InputLogFile, "re")) == 0)
+ 	{
+ 		perror("error opening input file\n");
+ 		AT_FreeUnitInfoTable(unitInfo);
+diff --git a/voip-app/rtp-app/rtp_app.c b/voip-app/rtp-app/rtp_app.c
+index 955b8fb..9a548d7 100755
+--- a/voip-app/rtp-app/rtp_app.c
++++ b/voip-app/rtp-app/rtp_app.c
+@@ -54,6 +54,10 @@
+ //#define RTP_APP_SMART_FD_UPDATE	
+ //#define RTP_APP_UNIT_TEST
+ 
++#ifndef O_CLOEXEC
++    #define O_CLOEXEC 02000000
++#endif
++
+ /* GLOBAL Variables */
+ extern rtp_pcm_callback fRTPPCMcb;
+ extern int rtp_session_pcm_write(int channel_id, void *buf, int len);
+@@ -370,7 +374,7 @@ void rtp_ICMP_SessionStart(int channel_num )
+ 
+ 	if(RTP_ICMPData[channel_num].ss_family == AF_INET6)
+ 	{
+-		if((fd = socket (PF_INET6, SOCK_RAW, IPPROTO_ICMPV6)) <=0)
++		if((fd = socket (PF_INET6, SOCK_RAW | SOCK_CLOEXEC, IPPROTO_ICMPV6)) <=0)
+ 		{
+ 			printf("socket error = %d, errno = %d %s\n",fd, errno, strerror(errno));
+ 			return ;
+@@ -378,7 +382,7 @@ void rtp_ICMP_SessionStart(int channel_num )
+ 	}
+ 	else
+ 	{
+-		if((fd = socket (PF_INET, SOCK_RAW, IPPROTO_ICMP)) <=0)
++		if((fd = socket (PF_INET, SOCK_RAW | SOCK_CLOEXEC, IPPROTO_ICMP)) <=0)
+ 		{
+ 			printf("socket error = %d, errno = %d %s\n",fd, errno, strerror(errno));			
+ 			return ;
+@@ -1007,7 +1011,7 @@ rtp_app_session_start(int channel_id,rtp_config *RtpCfg ,rtcp_config *RtcpCfg, t
+ 
+ 	snprintf(dev, RTP_APP_VOICE_DEV_FMT_LEN, RTP_APP_VOICE_DEV_FMT, channel_id);
+ 
+-	session->voice_fd = open(dev, O_RDWR);
++	session->voice_fd = open(dev, O_RDWR | O_CLOEXEC);
+     	RTPAPP_LOG("Voice FD is %d for device %s\n",session->voice_fd,dev);
+ 	
+ 	if (session->voice_fd < 0)
+@@ -1020,7 +1024,7 @@ rtp_app_session_start(int channel_id,rtp_config *RtpCfg ,rtcp_config *RtcpCfg, t
+ 	{
+ 	if (RtpCfg->rtp_remote_addr.ss_family == AF_INET6)
+ 	{
+-	   		sock_fd = socket(AF_INET6, SOCK_DGRAM, 0);
++	   		sock_fd = socket(AF_INET6, SOCK_DGRAM | SOCK_CLOEXEC, 0);
+ 			if (sock_fd <= 0) 
+ 	    			{
+               			RTPAPP_LOG_ERROR("Socket Api Failed\n");
+@@ -1044,7 +1048,7 @@ rtp_app_session_start(int channel_id,rtp_config *RtpCfg ,rtcp_config *RtcpCfg, t
+ 		}
+            
+ 	} else {
+-		sock_fd = socket(AF_INET, SOCK_DGRAM, 0);
++		sock_fd = socket(AF_INET, SOCK_DGRAM | SOCK_CLOEXEC, 0);
+ 		if (sock_fd <= 0){
+ 			RTPAPP_LOG_ERROR("Socket Api Failed\n");					
+ 			return RTP_APP_SOCKET_ERRPR;
+@@ -1343,7 +1347,7 @@ rtpapp_rtcp_session_start(rtcp_config *RtcpCfg, t_st_rtp_app_session *session, u
+ 	}
+ 	if(!rtcp_mux){
+ 		if (RtcpCfg->rtcp_remote_addr.ss_family == AF_INET6) {
+-			sock_fd = socket(AF_INET6, SOCK_DGRAM, 0);
++			sock_fd = socket(AF_INET6, SOCK_DGRAM | O_CLOEXEC, 0);
+ 			if (sock_fd < 0) {
+ 				perror("socket");
+ 				return -1;
+@@ -1356,7 +1360,7 @@ rtpapp_rtcp_session_start(rtcp_config *RtcpCfg, t_st_rtp_app_session *session, u
+ 				return -1;
+ 			}
+ 		} else {
+-			sock_fd = socket(AF_INET, SOCK_DGRAM, 0);
++			sock_fd = socket(AF_INET, SOCK_DGRAM | O_CLOEXEC, 0);
+ 			if (sock_fd < 0) {
+ 				perror("socket");
+ 				return -1;
+@@ -1654,7 +1658,7 @@ int rtp_app_play_file_chunk(t_st_rtp_app_session *p_rtp_session)
+ 		p_rtp_session->file_pld_cnt = p_rtp_session->file_pld_cnt + 1;
+ 		if( p_rtp_session->file_pld_cnt < p_rtp_session->file_tot_cnt )
+ 		{
+-			p_rtp_session->fd_rd = open((const char *)p_rtp_session->file_path[p_rtp_session->file_pld_cnt], O_RDONLY);
++			p_rtp_session->fd_rd = open((const char *)p_rtp_session->file_path[p_rtp_session->file_pld_cnt], O_RDONLY | O_CLOEXEC);
+ 			if(p_rtp_session->fd_rd < 0)
+ 			{
+ 				RTPAPP_LOG(" RTP-APP: error in opening play-file \n");
+@@ -2064,7 +2068,7 @@ int rtp_app_proc_msgs_noproc(t_st_rtp_msg_req *p_msg_req, t_st_rtp_msg_resp* p_m
+ 			}
+ 			RTPAPP_LOG(" RTP-APP: RTP_APP_RECORD_START, file - %s, hdr len - %d \n",
+ 						p_rec_start->file_path, p_rec_start->file_hdr_len);
+-			p_rtp_ses->fd_wr = open(p_rec_start->file_path, O_RDWR);
++			p_rtp_ses->fd_wr = open(p_rec_start->file_path, O_RDWR | O_CLOEXEC);
+ 			if(p_rtp_ses->fd_wr < 0)
+ 			{
+ 				rtp_app_send_resp(app_ses_id, RTP_APP_RECORD_START_ACK,
+@@ -2141,7 +2145,7 @@ int rtp_app_proc_msgs_noproc(t_st_rtp_msg_req *p_msg_req, t_st_rtp_msg_resp* p_m
+ 				strcpy((char *)&p_rtp_ses->file_path[loop], (char *)&p_play_start->file_path[loop]);	
+ 			}
+ 			
+-			p_rtp_ses->fd_rd = open((const char *)p_rtp_ses->file_path[p_rtp_ses->file_pld_cnt], O_RDONLY);
++			p_rtp_ses->fd_rd = open((const char *)p_rtp_ses->file_path[p_rtp_ses->file_pld_cnt], O_RDONLY | O_CLOEXEC);
+ 			RTPAPP_LOG(" RTP-APP: RTP_APP_PLAY_START, file - %s , file_cnt - %d,  hdr len - %d \n", p_rtp_ses->file_path[p_rtp_ses->file_pld_cnt], 
+ 						p_rtp_ses->file_tot_cnt, p_rtp_ses->file_hdr_len);
+ 			if(p_rtp_ses->fd_rd < 0)
+@@ -2218,7 +2222,7 @@ int rtp_app_proc_msgs_noproc(t_st_rtp_msg_req *p_msg_req, t_st_rtp_msg_resp* p_m
+ 						rtp_app_sessions[loop].file_pld_cnt = rtp_app_sessions[loop].file_pld_cnt + 1;
+ 						if( rtp_app_sessions[loop].file_pld_cnt < rtp_app_sessions[loop].file_tot_cnt )
+ 						{
+-							rtp_app_sessions[loop].fd_rd = open((const char *)rtp_app_sessions[loop].file_path[rtp_app_sessions[loop].file_pld_cnt], O_RDONLY);
++							rtp_app_sessions[loop].fd_rd = open((const char *)rtp_app_sessions[loop].file_path[rtp_app_sessions[loop].file_pld_cnt], O_RDONLY | O_CLOEXEC);
+ 							if(rtp_app_sessions[loop].fd_rd < 0)
+ 							{
+ 								RTPAPP_LOG(" RTP-APP: error in opening play-file \n");
+diff --git a/voip-app/rtp-app/udp-srtp-reply.c b/voip-app/rtp-app/udp-srtp-reply.c
+index 48829a0..f7b0d3e 100644
+--- a/voip-app/rtp-app/udp-srtp-reply.c
++++ b/voip-app/rtp-app/udp-srtp-reply.c
+@@ -87,7 +87,7 @@ int main(int argc, char *argv[])
+ 	printf("\n");
+ 	parse_cmdline(argc, argv);
+ 
+-	if ((s=socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP))==-1)
++	if ((s=socket(AF_INET, SOCK_DGRAM | SOCK_CLOEXEC, IPPROTO_UDP))==-1)
+ 		diep("socket");
+ 
+ 	memset((char *) &si_me, 0, sizeof(si_me));
+diff --git a/voip-app/rtp-app/udp_reply.c b/voip-app/rtp-app/udp_reply.c
+index b97803e..1985e69 100644
+--- a/voip-app/rtp-app/udp_reply.c
++++ b/voip-app/rtp-app/udp_reply.c
+@@ -86,7 +86,7 @@ int main(int argc, char *argv[])
+ 
+ #ifdef IPV6_SUPPORT	
+ 
+-	if ((s=socket(AF_INET6, SOCK_DGRAM, IPPROTO_UDP))==-1)
++	if ((s=socket(AF_INET6, SOCK_DGRAM | SOCK_CLOEXEC, IPPROTO_UDP))==-1)
+ 		diep("socket");
+ 
+ 	memset((char *) &si_me, 0, sizeof(si_me));
+@@ -97,7 +97,7 @@ int main(int argc, char *argv[])
+ 	memset(si_me.sin6_addr.s6_addr,0,16);
+ 
+ #else
+-	if ((s=socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP))==-1)
++	if ((s=socket(AF_INET, SOCK_DGRAM | SOCK_CLOEXEC, IPPROTO_UDP))==-1)
+ 		diep("socket");
+ 
+ 	memset((char *) &si_me, 0, sizeof(si_me));
+diff --git a/voip-app/voip_control/voip_control.c b/voip-app/voip_control/voip_control.c
+index 2624a0e..6b630e8 100755
+--- a/voip-app/voip_control/voip_control.c
++++ b/voip-app/voip_control/voip_control.c
+@@ -73,8 +73,8 @@ int IPV4=0,IPV6=0;
+ //char *flag_values=NULL;
+ int flag_values=0;
+ FILE *Flog;
+-//#define printf(fmt, args...) Flog=fopen("/data/voip_ctrl.log","a+");fprintf(Flog,fmt,##args);fclose(Flog);
+-#define LOG(fmt, args...) Flog=fopen("/data/voip_ctrl.log","a+");fprintf(Flog,fmt,##args);fclose(Flog);
++//#define printf(fmt, args...) Flog=fopen("/data/voip_ctrl.log","a+e");fprintf(Flog,fmt,##args);fclose(Flog);
++#define LOG(fmt, args...) Flog=fopen("/data/voip_ctrl.log","a+e");fprintf(Flog,fmt,##args);fclose(Flog);
+ void usage(void)
+ {
+ 	printf("%s [-h] [-s <ip>] [-p <port>] [-b] [-r] [-x] [-m] [-c <codec_use>] [-t <pack_time>] [-j <jb_max>] [-k <jb_min>] [-f <flag_values>] [-z <srtp>]\n"

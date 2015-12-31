@@ -1,0 +1,6 @@
+rootfs
+tmp
+rootfs.ubifs
+rootfs.img
+uboot_upgrade_mkfile
+rootfs_list.tar.gz

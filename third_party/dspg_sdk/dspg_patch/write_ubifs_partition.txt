@@ -1,0 +1,5 @@
+# ubiformat /dev/mtd4 -y
+# ubiattach /dev/ubi_ctrl -m 4
+# ubimkvol /dev/ubi1 -m -N app
+# ubiupdatevol /dev/ubi1_0 app.ubifs
+# mount -t ubifs ubi1_0 /usr/local/app/

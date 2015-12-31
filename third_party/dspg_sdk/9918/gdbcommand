@@ -1,0 +1,3 @@
+handle SIG32 nostop
+set sysroot /home/cyx/DSPG/sdk1311-uclib/rootfs
+set solib-search-path /home/cyx/DSPG/A1x/bin

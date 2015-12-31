@@ -1,0 +1,15 @@
+diff --git a/libdua/release/dua/cdat3mcv.h b/libdua/release/dua/cdat3mcv.h
+index e924689..17d15dc 100644
+--- a/libdua/release/dua/cdat3mcv.h
++++ b/libdua/release/dua/cdat3mcv.h
+@@ -131,8 +131,8 @@ INLINE int noprintf(const char *pszFmt, ...)
+ # define T_MCV_FID                  const char *
+ # define T_MCV_FHDL                 FILE *
+ 
+-# define MCV_OPEN_OLD_REQ(fh,fid)   ((NULL != ((fh)= fopen(fid,"rb"))) -1)
+-# define MCV_OPEN_NEW_REQ(fh,fid)   ((NULL != ((fh)= fopen(fid,"wb"))) -1)
++# define MCV_OPEN_OLD_REQ(fh,fid)   ((NULL != ((fh)= fopen(fid,"rbe"))) -1)
++# define MCV_OPEN_NEW_REQ(fh,fid)   ((NULL != ((fh)= fopen(fid,"wbe"))) -1)
+ # define MCV_RENAME_REQ(fh,old,fid) (fclose(fh), rename(old,fid))
+ # define MCV_DELETE_REQ(fh,fid)     (fclose(fh), remove(fid))
+ # define MCV_CLOSE_REQ(fh)          (fclose(fh), 0)

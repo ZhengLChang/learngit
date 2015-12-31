@@ -1,0 +1,4 @@
+1. 修改pthread_cond_timedwait的时钟，详细请查看patch
+2. 应用代码查找， dua接口 必须使用 duasync接口组
+3. dua接口可能返回错误。一定要查看本次dua调用的结果有没有被第二次dua接口调用
+4. 优化逻辑，避免重复调用，减轻dua负担

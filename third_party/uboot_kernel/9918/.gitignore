@@ -1,0 +1,4 @@
+rootfs.jffs2
+app.tar.gz
+tmp/
+rootfs

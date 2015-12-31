@@ -1,0 +1,169 @@
+--- /home/cyx/DSPG/package/sdk1311/tools/libdua/libdua.c	2015-03-23 14:15:54.000000000 +0800
++++ libdua.c	2015-12-28 13:57:00.843252597 +0800
+@@ -73,6 +73,7 @@
+ static pthread_t       dua_recvmsg_thread;
+ static pthread_mutex_t dua_pthread_mutex; //PTHREAD_MUTEX_RECURSIVE_NP
+ static pthread_cond_t dua_pthread_cond;
++static pthread_condattr_t dua_pthread_condattr;
+ static pthread_mutex_t dua_pthread_nl_recv_mutex; //PTHREAD_MUTEX_RECURSIVE_NP
+ #endif
+ 
+@@ -709,7 +710,9 @@
+ 	    pthread_mutexattr_settype(&attr, PTHREAD_MUTEX_RECURSIVE_NP);
+ 	    pthread_mutex_init(&dua_pthread_mutex, &attr);
+     }
+-    pthread_cond_init(&dua_pthread_cond, NULL);
++    pthread_condattr_init(&dua_pthread_condattr);
++    pthread_condattr_setclock(&dua_pthread_condattr, CLOCK_MONOTONIC);
++    pthread_cond_init(&dua_pthread_cond, &dua_pthread_condattr);
+     {
+ 	    pthread_mutexattr_t attr;
+ 	    pthread_mutexattr_init(&attr);
+@@ -1113,15 +1116,29 @@
+     return ret;
+ }
+ 
++static void nic_timespec_addns(struct timespec *ts, long ns)
++{
++	long sec=ns/1000000000;
++	ns=ns - sec*1000000000;
++
++	// perform the addition
++	ts->tv_nsec+=ns;
++
++	// adjust the time
++	ts->tv_sec+=ts->tv_nsec/1000000000 + sec;
++	ts->tv_nsec=ts->tv_nsec%1000000000;
++}
++
++#ifdef DUA_PTHREAD
++#define NI_TIMEOUT	10000L  /* 10ms */
++#endif
++
+ static int  // function return value or index for dua_ret[] (dep. on msg_id)
+ dua_send_prepmsg(int msg_id, char *buf, int buf_size)
+ {
+     t_dua_msg_hdr *pMsg= (t_dua_msg_hdr *)buf;
+     int     retval;
+     int     ret;
+-#ifdef DUA_PTHREAD
+-    const unsigned short timeout = 10000; /* 10ms */
+-#endif
+ 
+     if (buf_size < DUA_MSG_HDR_SIZE) {
+         ret = DUA_GEN_ERROR;
+@@ -1153,18 +1170,18 @@
+         }
+         #else
+         {
+-	    struct timeval now;
+-	    struct timespec outtime;
+-	    gettimeofday(&now, NULL);
+-	    outtime.tv_sec = now.tv_sec + timeout/1000000;
+-	    outtime.tv_nsec = now.tv_usec*1000 + (timeout%1000000)*1000;
++	    struct timespec now;
++	    clock_gettime(CLOCK_MONOTONIC, &now);
++
++	    now.tv_sec += NI_TIMEOUT / 1000000;
++	    nic_timespec_addns(&now, (NI_TIMEOUT % 1000000) * 1000L);
+ 
+ 	    pthread_mutex_unlock(&dua_pthread_mutex);
+ 	    pthread_mutex_lock(&dua_pthread_mutex);
+-	    ret = pthread_cond_timedwait(&dua_pthread_cond, &dua_pthread_mutex, &outtime);
++	    ret = pthread_cond_timedwait(&dua_pthread_cond, &dua_pthread_mutex, &now);
+ 		if(ret != 0)
+ 		{
+-			T	printf("\npthread_cond_timedwait returned error '%d'\n",ret);
++		T	printf("\npthread_cond_timedwait returned error '%d'\n",ret);
+ 		}
+         }
+         #endif
+--- /home/cyx/DSPG/package/sdk1311/tools/libdua/libduasync.c	2015-03-23 14:15:54.000000000 +0800
++++ libduasync.c	2015-12-28 13:35:06.175966941 +0800
+@@ -11,6 +11,7 @@
+ #include <sys/types.h>
+ #include <unistd.h>
+ #include <signal.h>
++#include <errno.h>
+ #else
+ #include <windows.h>
+ #define getpid GetCurrentProcessId
+@@ -24,6 +25,7 @@
+ #ifdef DUA_PTHREAD
+ static pthread_mutex_t dua_cb_mutex;
+ static pthread_cond_t dua_cb_cond;
++static pthread_condattr_t dua_cb_condattr;
+ static pthread_mutex_t genplay_cb_mutex; //PTHREAD_MUTEX_RECURSIVE_NP
+ static pthread_cond_t genplay_cb_cond;
+ static pthread_mutex_t test_cbk_mutex; //PTHREAD_MUTEX_RECURSIVE_NP
+@@ -49,7 +51,7 @@
+ #define xHistInc(x) {(x)= ((x)+1)%CBK_HISTORY_DIM;}
+ pthread_mutex_t duasyncMutex = PTHREAD_MUTEX_INITIALIZER ;
+ int g_DUAInitDone = 0;
+-#define OSL_DUA_TIMEOUT 5000
++#define OSL_DUA_TIMEOUT (5000L)
+ 
+ static s32 dataRead = 0, dataRead2 = 0;
+ 
+@@ -155,6 +157,19 @@
+     return res;
+ }
+ 
++static void nic_timespec_addns(struct timespec *ts, long int ns)
++{
++	long sec=ns/1000000000;
++	ns=ns - sec*1000000000;
++
++	// perform the addition
++	ts->tv_nsec+=ns;
++
++	// adjust the time
++	ts->tv_sec+=ts->tv_nsec/1000000000 + sec;
++	ts->tv_nsec=ts->tv_nsec%1000000000;
++}
++
+ 
+ t_DuaCbk *duasync_coma_wait(t_dua_UID unitId, s32 elem, t_dua_IND ind, s32 quiet)
+ {
+@@ -204,15 +219,24 @@
+         } 
+ 			
+ 	{
+-	    struct timeval now;
+-	    struct timespec outtime;
++	    struct timespec now;
++	    int result;
+ 
+ 	    pthread_mutex_lock(&dua_cb_mutex);
+-	    gettimeofday(&now, NULL);
+-	    outtime.tv_sec = now.tv_sec + OSL_DUA_TIMEOUT/1000;
+-	    outtime.tv_nsec = now.tv_usec*1000 + (OSL_DUA_TIMEOUT%1000)*1000000;
+-	    pthread_cond_timedwait(&dua_cb_cond, &dua_cb_mutex, &outtime);
++	    clock_gettime(CLOCK_MONOTONIC, &now);
++
++	    now.tv_sec += OSL_DUA_TIMEOUT / 1000;
++	    nic_timespec_addns(&now, (OSL_DUA_TIMEOUT % 1000) * 1000000L);
++
++	    result = pthread_cond_timedwait(&dua_cb_cond, &dua_cb_mutex, &now);
+ 	    pthread_mutex_unlock(&dua_cb_mutex);
++
++	    if(result != 0) {
++			printf("libduasync pthread_cond_timedwait error:%d\n", result);
++	    	memset(&cbk, 0, sizeof(t_DuaCbk));
++	    	cbk.unitId = cbk.elem = cbk.ind = -1;
++	    	break;
++	    }
+ 	}
+     } while (1);
+     
+@@ -251,7 +275,9 @@
+ 	
+ #ifdef DUA_PTHREAD
+     pthread_mutex_init(&dua_cb_mutex, NULL);
+-    pthread_cond_init(&dua_cb_cond, NULL);
++    pthread_condattr_init(&dua_cb_condattr);
++    pthread_condattr_setclock(&dua_cb_condattr, CLOCK_MONOTONIC);
++    pthread_cond_init(&dua_cb_cond, &dua_cb_condattr);
+     {
+ 	    pthread_mutexattr_t attr;
+ 	    pthread_mutexattr_init(&attr);

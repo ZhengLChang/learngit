@@ -1,0 +1,9 @@
+1） 在login到我们的EVB后，输入“telnetd”来启动9918的telnet。
+
+2） 启动“/css/voip.sh”
+
+3） 在另外的一个Terminal，Telnet到我们的EVB。Login后输入“css-term”来进入CSS的Console。
+
+4） 在CSS Console 里，输入“text set 1 32 1”
+
+
