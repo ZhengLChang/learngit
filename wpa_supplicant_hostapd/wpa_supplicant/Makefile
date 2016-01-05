@@ -12,7 +12,7 @@ export BINDIR ?= /usr/local/sbin/
 CFLAGS += -I../src
 CFLAGS += -I../src/utils
 
-ALL=wpa_supplicant wpa_passphrase wpa_cli
+ALL=wpa_supplicant wpa_passphrase wpa_cli my_test
 
 all: verify_config $(ALL) dynamic_eap_methods
 
@@ -1373,6 +1373,10 @@ wpa_cli: $(OBJS_c) $(OBJS_p) $(OBJS_TEST)
 	$(Q)$(AR) rs libwpa_cli.a $(OBJS_c) $(LIBS_c) $(OBJS_p) $(LIBS_p)
 	$(Q)$(LDO) $(LDFLAGS) -o wpa_cli $(OBJS_TEST) libwpa_cli.a
 	@$(E) "  LD " $@
+
+my_test:my_test.c
+	-@$(LDO) $(LDFLAGS) -o my_test $(OBJS_TEST) libwpa_cli.a
+	
 
 link_test: $(OBJS) $(OBJS_h) tests/link_test.o
 	$(Q)$(LDO) $(LDFLAGS) -o link_test $(OBJS) $(OBJS_h) tests/link_test.o $(LIBS)

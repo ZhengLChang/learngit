@@ -33,7 +33,9 @@ at_wpa_list_t * test_search_ap(void)
 {
 	at_wpa_list_t *list;
 	at_wpa_list_t *node;
+	wifi_connect();
 	list = wifi_search();
+	wifi_close_connection();
 
 	node = list;
 	while (node) {
@@ -93,18 +95,26 @@ int main(void)
 	int ret;
 	int network_id;
 	at_wpa_list_t *list;
-
-	ret = wifi_up(0, "/usr/local/data/wpa_supplicant.conf");
+	ret = wifi_up(0, "./wpa_supplicant.conf");
 	if(ret < 0) {
 		abort();
 	}
 
+	system("ifconfig wlan0 down");
+	system("ifconfig wlan0 up");
+	system("ifconfig wlan0 0.0.0.0");
 	system("dhcpcd wlan0");
 	phone_smart_get_ip();
-#if 0
 	printf("\n~~~~~~~~~~~~~~~~~~first search\n");
 	list = test_search_ap();
+	while(list != NULL)
+	{
+		printf("%s\n", list->ssid);
+		list = list->next;
+	}
 
+
+#if 0
 	network_id = wifi_add(NULL, "amoji", "147258369");
 	if(network_id < 0) {
 		printf("----ERROR: add wifi error\n");
@@ -135,6 +145,7 @@ int main(void)
 	free(list);          //**app must free list
 #endif
 	//printf("==========state:%d\n", wifi_get_auth_state());
+	wifi_list_free(list);
 	wifi_down();
 	return 0;
 }
