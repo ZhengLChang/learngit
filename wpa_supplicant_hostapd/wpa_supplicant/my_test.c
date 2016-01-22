@@ -35,7 +35,7 @@ at_wpa_list_t * test_search_ap(void)
 	at_wpa_list_t *node;
 	wifi_connect();
 	list = wifi_search();
-	wifi_close_connection();
+//	wifi_close_connection();
 
 	node = list;
 	while (node) {
@@ -111,6 +111,48 @@ int main(void)
 	{
 		printf("%s\n", list->ssid);
 		list = list->next;
+	}
+	network_id = wifi_add(NULL, "cisco", "atcom123456");
+	if(network_id < 0)
+	{
+		printf("----ERROR: add wifi error\n");
+	}
+	else
+	{
+		int counter = 0;
+
+		wifi_edit(network_id, "d8:24:bd:76:ce:ab", "cisco", "atcom123456");
+		printf("---SUCCESS: add wifi success\n");
+		wifi_select(network_id);
+		while(counter < 20)
+		{
+			sleep(1);
+			counter++;
+			if(9 == wifi_get_auth_state())
+			{
+				at_wpa_list_t *cur_wifi = NULL;
+				cur_wifi = wifi_update_list(NULL);
+				if(cur_wifi && cur_wifi->is_current == 1
+					&& cur_wifi->network_id == network_id)
+				{
+					wifi_list_free(cur_wifi);
+					phone_smart_get_ip();
+					system("ifconfig -a");
+					printf("---connect to wifi success\n");
+				}
+				else
+				{
+					wifi_list_free(cur_wifi);
+					wifi_remove(network_id);
+					printf("---connect to wifi fail\n");
+				}
+				break;
+			}
+		}
+		if(counter == 20)
+		{
+			printf("---connect to wifi fail\n");
+		}
 	}
 
 

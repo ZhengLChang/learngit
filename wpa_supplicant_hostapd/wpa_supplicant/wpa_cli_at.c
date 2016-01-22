@@ -572,6 +572,11 @@ int wifi_add(char *bssid, char *ssid, char *passwd)
 		return wifi_edit(edit_flag, bssid, ssid, passwd);
 	}
 
+	wpa_ctl_command(ctrl_conn, "set_network netid scan_ssid 1", buf, sizeof(buf));
+	if(ret < 0)
+	{
+		printf("************set_network netid scan_ssid 1 error********************");
+	}
 	ret = wpa_ctrl_command(ctrl_conn, "ADD_NETWORK", buf, sizeof(buf));
 	if(ret < 0 || strlen(buf) <= 0) {
 		return -1;
