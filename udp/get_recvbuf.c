@@ -11,7 +11,7 @@ int main(void)
 	int sock;
 	int rcvbuf = -1;
         socklen_t optlen;
-	if((sock = socket(AF_INET, SOCK_STREAM, 0)) < 0)
+	if((sock = socket(AF_INET, SOCK_DGRAM, 0)) < 0)
 	{
 		printf("socket error: %s\n", strerror(errno));
 		return -1;
