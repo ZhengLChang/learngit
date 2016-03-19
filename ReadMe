@@ -1,0 +1,2 @@
+export MYGITPATH=`pwd`
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${MYGITPATH}/PublicLic/pj_project/pj_lib/lib
