@@ -3,7 +3,6 @@ CC=gcc
 INCLUDE=
 LIB=-lpthread
 CFLAGS=-g -Wall -Werror -D_REENTRANT ${LIB} ${INCLUDE}
-#$(INCLUDE)
 MainFile=""
 OutPut=$(patsubst %.c, %, ${MainFile})
 src=
