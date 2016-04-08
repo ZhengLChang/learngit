@@ -90,6 +90,36 @@ vector<int> TCU::majors(vector<string> percentages, vector<int> start,
 	{
 		percent.push_back(split<int>(percentages[i], " "));
 	}
+	/*right code*/
+#if 0
+	while(years--)
+	{
+		vector<int> cnt(n, 0);
+		for(int i = 0; i < n; i++)
+		{
+			int left = start[i];
+			cout << "*******start print left********" << endl;
+			cout << "begin left = " << left << endl;
+			int total = 0;
+			for(int j = 0; j < n; j++)
+			{
+				cnt[j] += start[i] * percent[i][j]/100;
+				left -= start[i] * percent[i][j]/100;
+				total += percent[i][j];
+				cout << "middle left = " << left << endl;
+			}
+			cout << "total: " << total << endl;
+			cout << "percent" << "[" << i << "]: " << percent[i] << endl;
+			cout << "*******end print left********" << endl;
+
+			cnt[i] += left;
+		}
+		cout << cnt;
+		start = cnt;
+	}
+#endif 
+	/*have something wrong and write by myself*/
+#if 1
 	while(years--)
 	{
 		vector<int> cnt = start;
@@ -99,17 +129,18 @@ vector<int> TCU::majors(vector<string> percentages, vector<int> start,
 			{
 				if(i != j)
 				{
-					cnt[j] += start[i] * percent[i][j]/100 + 0.5;
+					cnt[j] += start[i] * percent[i][j]/100;
 				}
 				else
 				{
-					cnt[j] -= start[i] * (100 - percent[i][j])/100 + 0.5;
+					cnt[j] -= start[i] * (100 - percent[i][j])/100;
 				}
 			}
 		}
 		cout << cnt;
 		start = cnt;
 	}
+#endif
 	return start;
 }
 
