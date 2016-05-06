@@ -58,11 +58,10 @@ long long AvoidRoads::numWays(int width, int height, vector<string> &bad)
 				int is_bad = 0;
 				int tx = i + dx[k];
 				int ty = j + dy[k];
-#if 0
+#if 1        /*If you know why the next two line is needful, you are so clever*/
 				if(tx > width || ty > height)
 					continue;
 #endif
-				cout << "D[" << tx << "]" << "["<< ty  << "]" << " = " << D[tx][ty] << " i = " << i << " j = " << j << endl;
 				snprintf(is_bad1, sizeof(is_bad1), "%d %d %d %d", i, j, tx, ty);
 				snprintf(is_bad2, sizeof(is_bad2), "%d %d %d %d", tx, ty, i, j);
 				for(int p = 0; p < bad.size(); p++)
@@ -77,8 +76,6 @@ long long AvoidRoads::numWays(int width, int height, vector<string> &bad)
 				{
 					D[tx][ty] += D[i][j];
 				}
-				cout << "D[" << tx << "]" << "["<< ty  << "]" << " = " << D[tx][ty] << endl;
-
 			}
 		}
 	}
