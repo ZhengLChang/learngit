@@ -104,6 +104,7 @@ int main(void)
 	system("ifconfig wlan0 up");
 	system("ifconfig wlan0 0.0.0.0");
 	system("dhcpcd wlan0");
+	sleep(15);
 	phone_smart_get_ip();
 	printf("\n~~~~~~~~~~~~~~~~~~first search\n");
 	list = test_search_ap();
