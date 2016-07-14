@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <errno.h>
-#include <string.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
 #include <libgen.h>
+#include <limits.h>
+#include <fcntl.h>
+#include <string.h>
+#include <sys/stat.h>
 #include "sync-samples.h"
 
 const char *message = "This is very important data!\n";
@@ -15,45 +15,34 @@ int main(int argc, char **argv)
 {
 	int ret;
 	size_t message_len;
-	FILE *fp = NULL;
 	int fd, dir_fd;
+	mode_t old_mode;
 	char *containing_dir;
-
 	if(argc < 2)
 	{
 		fprintf(stderr, "Usage: %s <filename>\n", basename(argv[0]));
 		exit(USER_ERR);
 	}
-	fp = fopen(argv[1], "w");
-	if(!fp)
+	old_mode = umask((mode_t)0);
+	fd = open(argv[1], O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
+	if(fd < 0)
 	{
-		perror("fopen");
-		exit(LIB_ERR);
+		perror("open");
+		exit(SYS_ERR);
 	}
+	umask(old_mode);
 	message_len = strlen(message);
-	ret = fwrite(message, message_len, 1, fp);
-	if(ret != 1)
+	ret = full_write(fd, message, message_len);
+	if(ret != (int)message_len)
 	{
-		fprintf(stderr, "fwrite failed: %d\n", ferror(fp));
-		exit(LIB_ERR);
-	}
-	if(fflush(fp) != 0)
-	{
-		perror("fflush");
-		if(errno == EBADF)
+		if(ret < 0)
 		{
-			exit(LIB_ERR);
-		}
-		else
-		{
+			perror("write");
 			exit(SYS_ERR);
 		}
-	}
-	fd = fileno(fp);
-	if(fd == -1)
-	{
-		perror("fileno");
-		exit(LIB_ERR);
+		if(unlink(argv[1]) < 0)
+			perror("unlink");
+		exit(SYS_ERR);
 	}
 	if(fsync(fd) < 0)
 	{
@@ -74,20 +63,16 @@ int main(int argc, char **argv)
 	}
 	if(close(dir_fd) < 0)
 	{
-		perror("close");
+		perror("close dir_fd");
 		exit(SYS_ERR);
 	}
-	if(fclose(fp) < 0)
+	if(close(fd) < 0)
 	{
-		perror("fclose");
+		perror("close fd");
 		exit(SYS_ERR);
 	}
 	exit(0);
 }
-
-
-
-
 
 
 
