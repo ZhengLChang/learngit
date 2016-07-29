@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Language Type="1" Name="French" Size="337">
+<Reset_to_Factory_Warning>系統重置警告</Reset_to_Factory_Warning>
+<Reset_Option>設置選項</Reset_Option>
+<Full_Reset>全部還原</Full_Reset>
+<Config_Reset>配置還原</Config_Reset>
+<UserData_Reset>使用者資料還原</UserData_Reset>
+<reset_to_factory_by_the_mode_of_Full_Reset>重置所有設置?</reset_to_factory_by_the_mode_of_Full_Reset>
+<reset_to_factory_by_the_mode_of_Config_Reset>重置配置設置?</reset_to_factory_by_the_mode_of_Config_Reset>
+<reset_to_factory_by_the_mode_of_UserData_Reset>重置使用者資料?</reset_to_factory_by_the_mode_of_UserData_Reset>
+<Keypad_Lock>鍵盤鎖</Keypad_Lock>
+<keypad_lock_enable>啟用鍵盤鎖</keypad_lock_enable>
+<keypad_lock_type>鍵盤鎖類型</keypad_lock_type>
+<keypad_lock_timeout>超時時間</keypad_lock_timeout>
+<Phone_Unlock_Pin>解鎖碼</Phone_Unlock_Pin>
+<Menu_key>選項鎖</Menu_key>
+<Function_key>功能鎖</Function_key>
+<All_key>全鎖</All_key>
+<Answer_call_only>應答鎖</Answer_call_only>
+<emergency_call_only>僅限撥打緊急電話</emergency_call_only>
+<PreDial>預撥號</PreDial>
+<Dialing>撥號</Dialing>
+<Calling>呼叫</Calling>
+<Connected>通話</Connected>
+<Ringing>來電</Ringing>
+<Holding>保留</Holding>
+<Peer_hold>對方保留</Peer_hold>
+<Trying_to_hold>保留中</Trying_to_hold>
+<Trying_to_resume>恢復通話</Trying_to_resume>
+<Answering>應答</Answering>
+<Conference>會議</Conference>
+<Conference_With>三方號碼: </Conference_With>
+<Transferring>來電轉接: </Transferring>
+<Transfer_To>轉移至: </Transfer_To>
+<Blind_Transfer>直接轉: </Blind_Transfer>
+<Call_Ended>通話結束</Call_Ended>
+<Enter_Number>輸入號碼:</Enter_Number>
+<To>至</To>
+<From>來自</From>
+<IP_Call>IP Call</IP_Call>
+<IP_Calling>IP Calling</IP_Calling>
+<Enter_Bxfer_Target>輸入轉接號碼:</Enter_Bxfer_Target>
+<Enter_PickUp_Number>輸入代接號碼:</Enter_PickUp_Number>
+<Enter_Park_Code>輸入駐留號碼:</Enter_Park_Code>
+<Enter_UnPark_Code>輸入取回駐留號:</Enter_UnPark_Code>
+<Retrieving>查詢:</Retrieving>
+<Select_Pickup_Number>選擇代接號碼</Select_Pickup_Number>
+<Retrieving_in_Group>查詢組內來電號碼</Retrieving_in_Group>
+<No_Ringing_In_Group>組內沒有來電</No_Ringing_In_Group>
+<Enter_Message>輸入訊息</Enter_Message>
+
+<NewCall>撥號</NewCall>
+<EndCall>掛斷</EndCall>
+<Send>呼叫</Send>
+<EndConf>掛斷</EndConf>
+<More>更多</More>
+<Exit>退出</Exit>
+<select>選擇</select>
+<Add>新增</Add>
+<Save>保存</Save>
+<Cancel>取消</Cancel>
+<Back>返回</Back>
+<Dial>呼叫</Dial>
+<Xfer>詢問轉</Xfer>
+<Bxfer>直接轉</Bxfer>
+<Conf>會議</Conf>
+<join>退出</join>
+<hold>保留</hold>
+<lcr>LCR</lcr>
+<miss>未接</miss>
+<delete>刪除</delete>
+<edit>編輯</edit>
+<ok>確定</ok>
+<delChr>刪除</delChr>
+<clear>清除</clear>
+<alpha>字母</alpha>
+<num>數字</num>
+<IP>IP</IP>
+<option>選項</option>
+<copy>複製</copy>
+<paste>貼上</paste>
+<modify>修改</modify>
+<yn>是/否</yn>
+<redial>重撥</redial>
+<Directory>電話簿</Directory>
+<history>記錄</history>
+<dnd>勿打擾-關</dnd>
+<dnd_enable>勿打擾-開</dnd_enable>
+<cfwd>跟隨-關</cfwd>
+<forward>跟隨</forward>
+<cfwd_enable>跟隨-開</cfwd_enable>
+<pick>代接</pick>
+<GrPick>群組內代接</GrPick>
+<park>呼叫駐留</park>
+<unpark>取回駐留</unpark>
+<SMS>短訊息</SMS>
+<reply>回復</reply>
+<play>播放</play>
+<new>新建</new>
+<view>查看</view>
+<Switch>轉換</Switch>
+<Answer>應答</Answer>
+<Reject>拒絕</Reject>
+<Resume>恢復</Resume>
+<Change>更換</Change>
+
+<InComingCall>呼入電話: </InComingCall>
+<Ext_1_contacting_stun_error>Ext1註冊STUN失敗</Ext_1_contacting_stun_error>
+<Ext_2_contacting_stun_error>Ext2註冊STUN失敗</Ext_2_contacting_stun_error>
+<Ext_3_contacting_stun_error>Ext3註冊STUN失敗</Ext_3_contacting_stun_error>
+<Ext_4_contacting_stun_error>Ext4註冊STUN失敗</Ext_4_contacting_stun_error>
+<Initializing_network>初始化網路...</Initializing_network>
+<Checking_DNS>檢查DNS...</Checking_DNS>
+<LAN_Disconnected>LAN口未連接 !</LAN_Disconnected>
+<WAN_Disconnected>WAN口未連接 !</WAN_Disconnected>
+<IP_Conflict>IP地址衝突 !</IP_Conflict>
+<New_Missed_Call>1條未接電話</New_Missed_Call>
+<New_Missed_Calls> 條未接電話</New_Missed_Calls>
+<Do_Not_Disturb>免打擾</Do_Not_Disturb>
+<Calls_Forwarded>呼叫前轉已開啟</Calls_Forwarded>
+<PPPOE_dialing>PPPoE 撥號</PPPOE_dialing>
+
+<Menu>選項</Menu>
+<Enable>啟用</Enable>
+<Disable>禁用</Disable>
+<Empty>空</Empty>
+<Activation>啟動狀態</Activation>
+<List_is_Empty>無記錄</List_is_Empty>
+<Preference>個性化設置</Preference>
+<Headset>耳機</Headset>
+<Speaker>免持</Speaker>
+<Yes>是</Yes>
+<No>否</No>
+<No_service>沒有服務</No_service>
+<Factory_Reset>恢復出廠設置</Factory_Reset>
+<Choice_Symbol>選擇符號</Choice_Symbol>
+<New>新</New>
+<Old>舊</Old>
+<Default>默認</Default>
+<Language_setting>語言</Language_setting>
+
+<New_Entry>新建條目</New_Entry>
+<Number>號碼</Number>
+<Name>姓名</Name>
+<Ring>鈴聲</Ring>
+<Phone_book_is_full_Please_remove_a_record_info>電話簿已滿 !</Phone_book_is_full_Please_remove_a_record_info>
+<Call_History>呼叫歷史記錄</Call_History>
+<Dialed_Calls>已撥電話</Dialed_Calls>
+<Missed_Calls>未接電話</Missed_Calls>
+<Answered_Calls>已接電話</Answered_Calls>
+
+<NAT>NAT</NAT>
+<WAN>WAN網路設置</WAN>
+<LAN>LAN網路設置</LAN>
+<dhcp>動態IP</dhcp>
+<Static>靜態IP</Static>
+<PPPoe>PPPoE</PPPoe>
+<Host_Name>主機位址</Host_Name>
+<Domain>功能變數名稱地址</Domain>
+<Network>網路資訊</Network>
+<Connect_Type>連接類型</Connect_Type>
+<Current_IP>IP地址</Current_IP>
+<Current_Netmask>子網路遮罩</Current_Netmask>
+<Current_Gateway>閘道地址</Current_Gateway>
+<Current_primary_dns>主要DNS</Current_primary_dns>
+<Current_secondary_dns>備用DNS</Current_secondary_dns>
+<Static_IP_Address>IP地址</Static_IP_Address>
+<Static_Subnet_Mask>子網路遮罩</Static_Subnet_Mask>
+<Static_Default_Route>閘道地址</Static_Default_Route>
+<Static_DNS_1>主要DNS</Static_DNS_1>
+<Static_DNS_2>備用DNS</Static_DNS_2>
+<Wan_ip_is_null>IP地址為空</Wan_ip_is_null>
+<Wan_Subnet_Mask_is_null>子網路遮罩為空</Wan_Subnet_Mask_is_null>
+<Wan_default_route_is_null>閘道地址為空</Wan_default_route_is_null>
+<Wan_IP_addr_error>IP位址錯誤</Wan_IP_addr_error>
+<Wan_Subnet_Mask_error>子網路遮罩錯誤</Wan_Subnet_Mask_error>
+<Wan_Default_Route_error>閘道位址錯誤</Wan_Default_Route_error>
+<Wan_Dns1_error>主要DNS錯誤</Wan_Dns1_error>
+<Wan_Dns2_error>備用DNS錯誤</Wan_Dns2_error>
+<Setting_error_pls_check>設置錯誤,請檢查</Setting_error_pls_check>
+<Multicast_Address>組播地址</Multicast_Address>
+<Bridge_Mode>橋接模式</Bridge_Mode>
+
+<VLAN>VLAN</VLAN>
+<Voice_VLAN_ID>語音VLAN ID</Voice_VLAN_ID>
+<Data_VLAN_ID>數據VLAN ID</Data_VLAN_ID>
+<Voice_VLAN_ID_error>語音VLAN ID錯誤</Voice_VLAN_ID_error>
+<Data_VLAN_ID_error>資料VLAN ID錯誤</Data_VLAN_ID_error>
+
+<Ext>分機設置</Ext>
+<Sip_server>SIP伺服器地址</Sip_server>
+<Sip_port>伺服器埠號</Sip_port>
+<Sip_port_error>埠號錯誤!</Sip_port_error>
+<Sipaccount>SIP帳號</Sipaccount>
+<AuthID>認證ID</AuthID>
+<Display_Name>顯示名稱</Display_Name>
+<Proxy>代理位址</Proxy>
+<UserID>用戶名稱</UserID>
+<PPPOE_Login_Name>PPPoE用戶名</PPPOE_Login_Name>
+<PPPOE_Login_Password>PPPoE密碼</PPPOE_Login_Password>
+<PPPOE_Service_Name>PPPoE服務商</PPPOE_Service_Name>
+
+<Time_Date>時間/日期</Time_Date>
+<Date>日期</Date>
+<Time>時間</Time>
+<Time_zone>時區</Time_zone>
+<Time_Mode>時間模式</Time_Mode>
+<NTP>NTP</NTP>
+<NTP_Settings>NTP設置</NTP_Settings>
+<Enable_NTP_Server>啟用NTP功能</Enable_NTP_Server>
+<NTP_Server>NTP伺服器地址</NTP_Server>
+<Manual>手動</Manual>
+<Manual_Settings>手動設置</Manual_Settings>
+<Time_Format>時間格式</Time_Format>
+<Time_24hr>24小時制</Time_24hr>
+<Time_12hr>12小時制</Time_12hr>
+<Date_Format>日期格式</Date_Format>
+<day_month>日/月</day_month>
+<month_day>月/日</month_day>
+<Date_y_m_d>日期(年/月/日)</Date_y_m_d>
+<Time_h_m_s>時間(時/分/秒)</Time_h_m_s>
+<Date_format_error>日期格式錯誤</Date_format_error>
+<Time_format_error>時間格式錯誤</Time_format_error>
+
+<Conceal_Caller_ID>匿名呼叫</Conceal_Caller_ID>
+<Block_Anonymous_Call>拒接匿名電話</Block_Anonymous_Call>
+<Call_Waiting>呼叫等待</Call_Waiting>
+<Dial_Assistance>撥號助手</Dial_Assistance>
+<Preferred_Audio_Device>優先音訊設備</Preferred_Audio_Device>
+<Secure_Call>安全呼叫</Secure_Call>
+<Auto_Answer>自動回應</Auto_Answer>
+<Send_Audio_To_Speaker>啟用免持</Send_Audio_To_Speaker>
+<Call_Forward>呼叫前轉</Call_Forward>
+<CFWD_All_Number>無條件轉移號碼</CFWD_All_Number>
+<CFWD_Busy_Number>遇忙前轉號碼</CFWD_Busy_Number>
+<CFWD_No_Ans_Number>無人應答前轉號碼</CFWD_No_Ans_Number>
+<CFWD_No_Ans_Delay>無應答時間</CFWD_No_Ans_Delay>
+<Enable_Web_Server>啟用WEB服務</Enable_Web_Server>
+<Set_Password>設置密碼</Set_Password>
+<New_Password>新密碼:</New_Password>
+<Confirm_Password>確認密碼:</Confirm_Password>
+<Password_Disaccord>兩次密碼不同,重試?</Password_Disaccord>
+<Lcd_Contrast>LCD對比度</Lcd_Contrast>
+<Lcd_Backlight>背光燈亮度</Lcd_Backlight>
+
+<Status>狀態資訊</Status>
+<Phone>電話</Phone>
+<Registered>註冊成功</Registered>
+<Not_registered>未註冊</Not_registered>
+<Product_Info>產品資訊</Product_Info>
+<Product_Name>產品型號</Product_Name>
+<Serial_Number>序號</Serial_Number>
+<Software_Version>軟體版本</Software_Version>
+<Hardware_Version>硬體版本</Hardware_Version>
+<MAC_Address>MAC地址</MAC_Address>
+<Protocol>協議</Protocol>
+<Last_Reg_at>上次註冊時間</Last_Reg_at>
+<Next_Reg_at>下次註冊時間</Next_Reg_at>
+
+<Tone>音訊</Tone>
+<Ring_Tone>來電鈴聲</Ring_Tone>
+<User_Define_1>自訂1</User_Define_1>
+<User_Define_2>自訂2</User_Define_2>
+<No_Ring>無鈴聲</No_Ring>
+<Ring_Picker>鈴聲選擇</Ring_Picker>
+
+<Voice_Mail>語音信箱</Voice_Mail>
+<Voice_Mail_list>語音信箱清單</Voice_Mail_list>
+<Voice_Mail_Number>語音信箱號碼</Voice_Mail_Number>
+
+<Password>密碼:</Password>
+<Password_Error>密碼錯誤!</Password_Error>
+
+<Volume>音量</Volume>
+<Handset_Volume>聽筒音量</Handset_Volume>
+<Speaker_Volume>免持音量</Speaker_Volume>
+<Headset_Volume>耳機音量</Headset_Volume>
+<Ringer_Volume>鈴聲音量</Ringer_Volume>
+
+<rebooting>重啟...</rebooting>
+<restarting>重啟...</restarting>
+<Reboot>重啟</Reboot>
+<Confirm_System_Reboot>確定系統重啟?</Confirm_System_Reboot>
+<Confirm_System_Restart>確定系統重啟?</Confirm_System_Restart>
+<Reset_succeed_rebooting>重置成功! 重啟 ...</Reset_succeed_rebooting>
+<All_parameters_will_be_reset_to_factory_default_values_info>所有參數將會恢復到出廠預設值,繼續?</All_parameters_will_be_reset_to_factory_default_values_info>
+<Load_channel_failed>引導失敗, 請重啟</Load_channel_failed> 
+
+<Downloading_firmware>下載韌體...</Downloading_firmware>
+<Erasing>抹除中</Erasing>
+<Upgrading>更新中</Upgrading>
+<About_2_minutes>約2分鐘</About_2_minutes>
+<About_1_5_minutes>約1.5分鐘</About_1_5_minutes>
+<About_1_minutes>約1分鐘</About_1_minutes>
+<About_30_seconds>約30秒</About_30_seconds>
+<Erase_Finish_Upgrade>抹除成功, 更新...</Erase_Finish_Upgrade>
+<Upgrade_succeed>更新成功</Upgrade_succeed>
+<Downloading_file>下載檔案...</Downloading_file>
+<Download_fw_ok>下載檔案成功, 抹除中...</Download_fw_ok>
+<Failed_once>失敗, 重試</Failed_once>
+<Failed_twice>失敗, 重試</Failed_twice>
+<Failed_last_time>失敗, 最後一次重試</Failed_last_time>
+<Upgrade_failed>升級失敗</Upgrade_failed>
+<File_size_not_correct>檔案大小錯誤</File_size_not_correct>
+<Wait_update>請稍候, 升級中 ...</Wait_update>
+<VPN_connect_failed>VPN連接失敗</VPN_connect_failed>
+<Contacts>通訊錄</Contacts>
+
+<None>None</None>
+<Line>Line</Line>
+<BLF>BLF</BLF>
+<SpeedDial>SpeedDial</SpeedDial>
+<DTMF>DTMF</DTMF>
+<Mode>Mode</Mode>
+<LineKey>Line Key</LineKey>
+<ProgramKey>Programmable Key</ProgramKey>
+<Module>Module</Module>
+<Key>Key</Key>
+<Account>Account</Account>
+<None_explain>No special function.</None_explain>
+<Line_explain>Status Indication of one of your sip accounts.</Line_explain>
+<BLF_explain>Status Indication of one extension; Can speed dial and pickup.</BLF_explain>
+<SpeedDial_explain>speed dial</SpeedDial_explain>
+<DTMF_explain>Bundling frequently used account name or password on one key, for speed input during hot-line calls.</DTMF_explain>
+
+<Lan_Activation>LAN Activation</Lan_Activation>
+<PC_Activation>PC Activation</PC_Activation>
+<Lan_Identifier>LAN Identifier</Lan_Identifier>
+<PC_Identifier>PC Identifier</PC_Identifier>
+<Lan_Priority>LAN Priority</Lan_Priority>
+<PC_Priority>PC Priority</PC_Priority>
+<Lan_Identifier_error>LAN Identifier Error</Lan_Identifier_error>
+<PC_Identifier_error>PC Identifier Error</PC_Identifier_error>
+<Lan_Priority_error>LAN Priority Error</Lan_Priority_error>
+<PC_Priority_error>PC Priority Error</PC_Priority_error>
+
+	<WIFI>WIFI</WIFI>
+	<Ethernet>有線</Ethernet>
+	<Connect_Mode>連接模式</Connect_Mode>
+	<SSID>SSID</SSID>
+	<WIFI_Status>WIFI 狀態</WIFI_Status>
+	<WIFI_Connected>已連接</WIFI_Connected>
+	<Off_Line>斷線</Off_Line>
+	<Failed>連接失敗</Failed>
+	<IP_setting>IP 設置</IP_setting>
+	<WIFI_setting>WIFI 設置</WIFI_setting>
+	<AP_setting>個人熱點設置</AP_setting>
+	<Hotspot_list>熱點列表</Hotspot_list>
+	<Manual_add>手動連接</Manual_add>
+	<Link_WIFI>連結WIFI</Link_WIFI>
+	
+	<Link>連結</Link>
+	<Unlink>取消連結</Unlink>
+	<Unsave>取消保存</Unsave>
+	<Info>查看</Info>
+	<Encrypt>加密類型</Encrypt>
+	<Signal>訊號</Signal>
+	<Channel>通道</Channel>
+	<Ap_switch>是否開啟熱點</Ap_switch>
+	<DHCP_setting>DHCP 設置</DHCP_setting>
+	<On>開</On>
+	<Off>關</Off>
+	<Ap_ssid>SSID</Ap_ssid>
+	<Ap_password>密碼</Ap_password>
+	<WiFi_prompt_msg>搜索無線網路...</WiFi_prompt_msg>
+	<Authentication>驗證連接資訊...</Authentication>
+	<Connection_successful>連接成功...</Connection_successful>
+	<Connection_fail>連接失敗...</Connection_fail>
+	<WLAN>WLAN</WLAN>
+	<Security>安全性</Security>
+	<Ap_status>個人熱點狀態</Ap_status>
+	<Connect>連接</Connect>
+	<Signal_strength>訊號強度</Signal_strength>
+	<Excellent>強</Excellent>
+	<Good>較強</Good>
+	<Fair>一般</Fair>
+	<Poor>弱</Poor>
+	<IP_address>IP 地址</IP_address>
+	<Saved>已保存</Saved>
+	<Not_range>不在範圍內</Not_range>
+	<LDAP>LDAP</LDAP>
+	<local_directory>本地電話簿</local_directory>
+	<Remote_phone_book>遠端電話簿</Remote_phone_book>
+	<Search>搜索</Search>
+
+</Language>
