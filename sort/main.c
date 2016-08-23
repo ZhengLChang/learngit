@@ -12,19 +12,25 @@ int main(int argc, char **argv)
 				argv[0]);
 		return -1;
 	}
-	while((oc = getopt(argc, argv, "i")) != -1)
+	while((oc = getopt(argc, argv, "ism")) != -1)
 	{
 		switch(oc)
 		{
 			case 'i':
 				sortProc = InsertionSort;
 				break;
+			case 's':
+				sortProc = Shellsort;
+				break;
+			case 'm':
+				sortProc = Mergesort;
+				break;
 			default:
-				printf("option is valid!!!\n");
+				printf("option is invalid!!!\n");
 				break;
 		}
 	}
-	if(InsertionSort != NULL)
+	if(sortProc != NULL)
 	{
 		sortProc(arr, sizeof(arr)/sizeof(int));
 	}

@@ -3,5 +3,7 @@
 
 #include <stdio.h>
 void InsertionSort(int arr[], int n);
+void Shellsort(int A[], int N);
+void Mergesort(int A[], int N);
 
 #endif
