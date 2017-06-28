@@ -1,0 +1,31 @@
+#ifndef __PHONE_COMMON_H__
+#define __PHONE_COMMON_H__
+
+#define PJ_MAXPATH		    260
+
+char* phone_strcpy(char *dest, const char *src, int dest_size);
+
+int	  phone_strcmp(const char *str1, const char *str2);
+void* phone_malloc (int size);
+wchar_t* pj_ansi_to_unicode(const char *utf8, size_t length, wchar_t* outbuf, size_t buf_count);
+int pj_ansi_to_unicode_len(const char *utf8, size_t length);
+
+void get_current_dir(char *work_dir);
+void pj_array_erase( void *array,
+					unsigned elem_size,
+					unsigned count,
+					unsigned pos);
+
+#define PJ_ARRAY_SIZE(a)    (sizeof(a)/sizeof(a[0]))
+typedef int		pj_bool_t;
+typedef unsigned short	pj_uint16_t;
+
+#define PJ_TRUE	    1
+
+/** False value. */
+#define PJ_FALSE    0
+
+char* pj_unicode_to_ansi( const wchar_t *wstr, size_t len,
+						 char *buf, size_t buf_size);
+
+#endif

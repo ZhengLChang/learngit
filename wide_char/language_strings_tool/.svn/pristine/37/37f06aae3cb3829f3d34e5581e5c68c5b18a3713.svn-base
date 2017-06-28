@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Language Type="1" Name="French" Size="337">
+<!-- call state -->
+  <PreDial>Pré-numéro</PreDial>
+  <Dialing>numérotation</Dialing>
+  <Calling>Appel</Calling>
+  <Connected>Connecté</Connected>
+  <Ringing>Sonnerie</Ringing>
+  <Holding>En attente</Holding>
+  <Peer_hold>En attente</Peer_hold>
+  <Trying_to_hold>Tentative Attente</Trying_to_hold>
+  <Trying_to_resume>Tentative Reprise</Trying_to_resume>
+  <Answering>Réponse</Answering>
+  <Conference>Conférence</Conference>
+  <Conference_With>Conférence avec:</Conference_With>
+  <Transferring>Transfert Appel:</Transferring>
+  <Transfer_To>Transférer à:</Transfer_To>
+  <Blind_Transfer>Trnsf. sans préavis:</Blind_Transfer>
+  <Call_Ended>Appel Terminé</Call_Ended>
+  <Enter_Number>Entrer Numéro:</Enter_Number>
+  <To>A</To>
+  <From>De</From>
+  <Enter_Bxfer_Target>Entrer Numéro Bxfer:</Enter_Bxfer_Target>
+  <Enter_PickUp_Number>Entrer Numéro Pickup:</Enter_PickUp_Number>
+  <Enter_Park_Code>Entrer Numéro Parking:</Enter_Park_Code>
+  <Enter_UnPark_Code>Entrer UnPark Pos:</Enter_UnPark_Code>
+  <Retrieving>Récupération:</Retrieving>
+  <Select_Pickup_Number>Sélectionner Numéro Pickup</Select_Pickup_Number>
+  <Retrieving_in_Group>Récupération Groupe</Retrieving_in_Group>
+  <No_Ringing_In_Group>Pas de sonnerie Groupe</No_Ringing_In_Group>
+  <Enter_Message>Entrer Message</Enter_Message>
+<!-- button -->
+  <NewCall>Nv. Appel</NewCall>
+  <EndCall>Fin Appel</EndCall>
+  <Send>Envoi</Send>
+  <EndConf>Fin Conf.</EndConf>
+  <More>Plus</More>
+  <Exit>Quitter</Exit>
+  <select>Choix</select>
+  <Add>Ajout</Add>
+  <Save>Enreg</Save>
+  <Cancel>Annul</Cancel>
+  <Back>Retour</Back>
+  <Dial>Appel</Dial>
+  <Xfer>Xfer</Xfer>
+  <Bxfer>Bxfer</Bxfer>
+  <Conf>Conf</Conf>
+  <join>Quitter</join>
+  <hold>Att</hold>
+  <lcr>Rappel</lcr>
+  <miss>Manqué</miss>
+  <delete>Effacer</delete>
+  <edit>Éditer</edit>
+  <ok>OK</ok>
+  <delChr>EffChr</delChr>
+  <clear>Effacer</clear>
+  <alpha>Alpha</alpha>
+  <num>Num</num>
+  <IP>IP</IP>
+  <option>Option</option>
+  <copy>Copier</copy>
+  <paste>Coller</paste>
+  <modify>Modif</modify>
+  <yn>O/N</yn>
+  <redial>Rappel</redial>
+  <Directory>Annuaire</Directory>
+  <history>Journal</history>
+  <dnd>NPD</dnd>
+  <dnd_enable>-NPD</dnd_enable>
+  <cfwd>CFWD</cfwd>
+  <cfwd_enable>-CFWD</cfwd_enable>
+  <pick>Pick</pick>
+  <GrPick>GrPick</GrPick>
+  <park>Park</park>
+  <unpark>Unpark</unpark>
+  <SMS>SMS</SMS>
+  <reply>Répondre</reply>
+  <play>Jouer</play>
+  <new>Nouv</new>
+  <view>View</view>
+  <Switch>Changer</Switch>
+  <Answer>Rép</Answer>
+  <Reject>Rej</Reject>
+  <Resume>Reprise</Resume>
+  <Change>Modifier</Change>
+<!-- system information -->
+  <InComingCall>Appel entrant:</InComingCall>
+  <Ext_1_contacting_stun_error>Ext 1 STUN erreur</Ext_1_contacting_stun_error>
+  <Ext_2_contacting_stun_error>Ext 2 STUN erreur</Ext_2_contacting_stun_error>
+  <Ext_3_contacting_stun_error>Ext 3 STUN erreur</Ext_3_contacting_stun_error>
+  <Ext_4_contacting_stun_error>Ext 4 STUN erreur</Ext_4_contacting_stun_error>
+  <Initializing_network>Initialisation...</Initializing_network>
+  <Checking_DNS>Vérification DNS...</Checking_DNS>
+  <LAN_Disconnected>LAN Déconnecté !</LAN_Disconnected>
+  <WAN_Disconnected>WAN Déconnecté !</WAN_Disconnected>
+  <IP_Conflict>Conflit IP !</IP_Conflict>
+  <New_Missed_Call>1 nouvel appel manqué</New_Missed_Call>
+  <New_Missed_Calls> nouveaux appels manqués</New_Missed_Calls>
+  <Do_Not_Disturb>Ne Pas Déranger</Do_Not_Disturb>
+  <Calls_Forwarded>Appels Transférés</Calls_Forwarded>
+  <PPPOE_dialing>PPPoE numérotation</PPPOE_dialing>
+<!-- menu -->
+  <Menu>Menu</Menu>
+  <Enable>Activer</Enable>
+  <Disable>Désactiver</Disable>
+  <Empty>Vide</Empty>
+  <Activation>Activation</Activation>
+  <List_is_Empty>La Liste est Vide</List_is_Empty>
+  <Preference>Préférences</Preference>
+  <Headset>Ecouteur</Headset>
+  <Speaker>Haut-Parleur</Speaker>
+  <Yes>Oui</Yes>
+  <No>Non</No>
+  <No_service>Pas de Service</No_service>
+  <Factory_Reset>Retour Config. Usine</Factory_Reset>
+  <Choice_Symbol>Choisir Symbole</Choice_Symbol>
+  <New>Nouveau</New>
+  <Old>Ancien</Old>
+  <Default>Défaut</Default>
+  <Language_setting>Langue</Language_setting>
+<!-- menu directory & history -->
+  <New_Entry>Nouvelle Entrée</New_Entry>
+  <Number>Numéro</Number>
+  <Name>Nom</Name>
+  <Ring>Sonnerie</Ring>
+  <Phone_book_is_full_Please_remove_a_record_info>Répertoire plein !</Phone_book_is_full_Please_remove_a_record_info>
+  <Call_History>Historique Appels</Call_History>
+  <Dialed_Calls>Appels effectués</Dialed_Calls>
+  <Missed_Calls>Appels Manqués</Missed_Calls>
+  <Answered_Calls>Appels Répondus</Answered_Calls>
+<!-- menu network -->
+  <NAT>NAT</NAT>
+  <WAN>WAN</WAN>
+  <LAN>LAN</LAN>
+  <dhcp>DHCP</dhcp>
+  <Static>Statiq</Static>
+  <PPPoe>PPPoE</PPPoe>
+  <Host_Name>Nom Machine</Host_Name>
+  <Domain>Domaine</Domain>
+  <Network>Réseau</Network>
+  <Connect_Type>Type de Connexion</Connect_Type>
+  <Current_IP>IP Actuelle</Current_IP>
+  <Current_Netmask>Masque Sous-Réseau</Current_Netmask>
+  <Current_Gateway>Passerelle Actuelle</Current_Gateway>
+  <Current_primary_dns>DNS Primaire Actuel</Current_primary_dns>
+  <Current_secondary_dns>DNS Secondaire Actuel</Current_secondary_dns>
+  <Static_IP_Address>Adresse IP Statique</Static_IP_Address>
+  <Static_Subnet_Mask>Masque Ss-réseau Stat.</Static_Subnet_Mask>
+  <Static_Default_Route>Passerelle Statique</Static_Default_Route>
+  <Static_DNS_1>DNS Primaire Stat.</Static_DNS_1>
+  <Static_DNS_2>DNS Secondaire Stat.</Static_DNS_2>
+  <Wan_ip_is_null>Adresse IP Stat. Nulle</Wan_ip_is_null>
+  <Wan_Subnet_Mask_is_null>Masque Sous-réseau Nul</Wan_Subnet_Mask_is_null>
+  <Wan_default_route_is_null>Router Stat Défaut Nul</Wan_default_route_is_null>
+  <Wan_IP_addr_error>Err. Adresse IP Stat.</Wan_IP_addr_error>
+  <Wan_Subnet_Mask_error>Err. Masque Ss-réseau</Wan_Subnet_Mask_error>
+  <Wan_Default_Route_error>Err. Rtr. Stat. Défaut</Wan_Default_Route_error>
+  <Wan_Dns1_error>Err. DNS Primaire Stat</Wan_Dns1_error>
+  <Wan_Dns2_error>Err. DNS Seconda. Stat</Wan_Dns2_error>
+  <Setting_error_pls_check>Err. Config. Vérifiez !</Setting_error_pls_check>
+  <Multicast_Address>Adresse Multicast</Multicast_Address>
+  <Bridge_Mode>Mode Bridge</Bridge_Mode>
+<!-- menu vlan -->
+  <VLAN>VLAN</VLAN>
+  <Voice_VLAN_ID>ID VLAN Voix</Voice_VLAN_ID>
+  <Data_VLAN_ID>ID VLAN données</Data_VLAN_ID>
+  <Voice_VLAN_ID_error>Erreur ID VLAN Voix</Voice_VLAN_ID_error>
+  <Data_VLAN_ID_error>Erreur ID VLAN données</Data_VLAN_ID_error>
+<!-- menu account -->
+  <Ext>Extension</Ext>
+  <Sip_server>Serveur SIP</Sip_server>
+  <Sip_port>Port SIP</Sip_port>
+  <Sip_port_error>Erreur Port SIP!</Sip_port_error>
+  <Sipaccount>Compte SIP</Sipaccount>
+  <AuthID>Authentification ID</AuthID>
+  <Display_Name>Afficher Nom</Display_Name>
+  <Proxy>Proxy</Proxy>
+  <UserID>UserID</UserID>
+  <PPPOE_Login_Name>PPPoE Login</PPPOE_Login_Name>
+  <PPPOE_Login_Password>PPPoE Mot de Passe</PPPOE_Login_Password>
+  <PPPOE_Service_Name>PPPoE Nom Service</PPPOE_Service_Name>
+<!-- menu time -->
+  <Time_Date>Heure/Date</Time_Date>
+  <Date>Date</Date>
+  <Time>Heure</Time>
+  <Time_zone>Fuseau Horaire</Time_zone>
+  <Time_Mode>Mode Heure</Time_Mode>
+  <NTP>NTP</NTP>
+  <NTP_Settings>Param. NTP</NTP_Settings>
+  <Enable_NTP_Server>Activer Serveur NTP</Enable_NTP_Server>
+  <NTP_Server>Serveur NTP</NTP_Server>
+  <Manual>Utilisateur</Manual>
+  <Manual_Settings>Param. Utilisateur</Manual_Settings>
+  <Time_Format>Format Heure</Time_Format>
+  <Time_24hr>24hrs</Time_24hr>
+  <Time_12hr>12 hour</Time_12hr>
+  <Date_Format>12hrs</Date_Format>
+  <day_month>Jour/Mois</day_month>
+  <month_day>Mois/Jour</month_day>
+  <Date_y_m_d>Date(a/m/j)</Date_y_m_d>
+  <Time_h_m_s>Heure(h:m:s)</Time_h_m_s>
+  <Date_format_error>Date Erreur de Format</Date_format_error>
+  <Time_format_error>Erreur de Format de l'Heure</Time_format_error>
+<!-- menu preference -->
+  <Conceal_Caller_ID>Masquer Numéro</Conceal_Caller_ID>
+  <Block_Anonymous_Call>Bloquer Appel Anonyme</Block_Anonymous_Call>
+  <Call_Waiting>Mise en Attente</Call_Waiting>
+  <Dial_Assistance>Appel Assistance</Dial_Assistance>
+  <Preferred_Audio_Device>Son Préféré Equipement</Preferred_Audio_Device>
+  <Secure_Call>Appel Sécurisé</Secure_Call>
+  <Auto_Answer>Réponse Auto</Auto_Answer>
+  <Send_Audio_To_Speaker>Envoyer Son Vers Haut-Parleur</Send_Audio_To_Speaker>
+  <Call_Forward>Transfert Appel</Call_Forward>
+  <CFWD_All_Number>CFWD Tout Numéro</CFWD_All_Number>
+  <CFWD_Busy_Number>CFWD Numéro Occupé</CFWD_Busy_Number>
+  <CFWD_No_Ans_Number>CFWD Non Réponse</CFWD_No_Ans_Number>
+  <CFWD_No_Ans_Delay>CFWD Temps de Réponse</CFWD_No_Ans_Delay>
+  <Enable_Web_Server>Activer Serveur Web</Enable_Web_Server>
+  <Set_Password>Définir Mot de Passe</Set_Password>
+  <New_Password>Nouveau Mot de Passe:</New_Password>
+  <Confirm_Password>Confirmez Mot de Passe:</Confirm_Password>
+  <Password_Disaccord>Pas Identique, Réessayer?</Password_Disaccord>
+  <Lcd_Contrast>Contraste LCD</Lcd_Contrast>
+  <Lcd_Backlight>Niveau Rétro-Eclairage</Lcd_Backlight>
+<!-- menu status -->
+  <Status>Statut</Status>
+  <Phone>Téléphone</Phone>
+  <Registered>Inscrit</Registered>
+  <Not_registered>Pas d'Inscription</Not_registered>
+  <Product_Info>Info Produit</Product_Info>
+  <Product_Name>Nom Produit</Product_Name>
+  <Serial_Number>Numéro de Série</Serial_Number>
+  <Software_Version>Version Logicielle</Software_Version>
+  <Hardware_Version>Version Matérielle</Hardware_Version>
+  <MAC_Address>Adresse MAC</MAC_Address>
+  <Protocol>Protocole</Protocol>
+  <Last_Reg_at>Dernier Enreg. à</Last_Reg_at>
+  <Next_Reg_at>Prochain Enreg. à</Next_Reg_at>
+<!-- menu tone -->
+  <Tone>Tonalité</Tone>
+  <Ring_Tone>Sonnerie</Ring_Tone>
+  <User_Define_1>Préconfig 1</User_Define_1>
+  <User_Define_2>Préconfig 2</User_Define_2>
+  <No_Ring>Pas de Sonnerie</No_Ring>
+  <Ring_Picker>Choix Sonnerie</Ring_Picker>
+<!-- menu voice mail -->
+  <Voice_Mail>Messagerie</Voice_Mail>
+  <Voice_Mail_list>Liste Messagerie</Voice_Mail_list>
+  <Voice_Mail_Number>Numéro Messagerie</Voice_Mail_Number>
+<!-- menu login -->
+  <Password>Mot de Passe:</Password>
+  <Password_Error>Erreur Mot de Passe!</Password_Error>
+<!-- menu volume -->
+  <Volume>Volume</Volume>
+  <Handset_Volume>Vol. Combiné</Handset_Volume>
+  <Speaker_Volume>Vol. Haut-Parleur</Speaker_Volume>
+  <Headset_Volume>Vol. Ecouteur</Headset_Volume>
+  <Ringer_Volume>Vol. Sonnerie</Ringer_Volume>
+<!-- other -->
+  <rebooting>Redémarrage...</rebooting>
+  <restarting>Redémarrage...</restarting>
+  <Reboot>Redémarrage</Reboot>
+  <Confirm_System_Reboot>Confirmation Redémarrage?</Confirm_System_Reboot>
+  <Confirm_System_Restart>Confirmation Redémarrage?</Confirm_System_Restart>
+  <Reset_succeed_rebooting>Retour Config. Usine Effectué ! Redémarrage...</Reset_succeed_rebooting>
+  <All_parameters_will_be_reset_to_factory_default_values_info>Ré-initialiser les Paramètres Usine, OK?</All_parameters_will_be_reset_to_factory_default_values_info>
+  <Load_channel_failed>Echec du Chargement du Canal, Redémarrage nécessaire.</Load_channel_failed> 
+<!-- web information -->
+  <Downloading_firmware>Téléchargement fichier...</Downloading_firmware>
+  <Erasing>Effacement en cours</Erasing>
+  <Upgrading>Mise à niveau en cours</Upgrading>
+  <About_2_minutes>Environ 2 Minutes...</About_2_minutes>
+  <About_1_5_minutes>Environ 1.5 Minutes...</About_1_5_minutes>
+  <About_1_minutes>Environ 1 Minutes...</About_1_minutes>
+  <About_30_seconds>Environ 30 Secondes</About_30_seconds>
+  <Erase_Finish_Upgrade>Reset Terminé, Mise à Niveau...</Erase_Finish_Upgrade>
+  <Upgrade_succeed>Mise à Niveau Réussie</Upgrade_succeed>
+  <Downloading_file>Téléchargement fichier...</Downloading_file>
+  <Download_fw_ok>Téléchargement FW OK,  Effacement Fichier...</Download_fw_ok>
+  <Failed_once>Echec 1, Nouvelle Tentative...</Failed_once>
+  <Failed_twice>Echec 2, Nouvelle Tentative...</Failed_twice>
+  <Failed_last_time>Echec, Dernière Tentative</Failed_last_time>
+  <Upgrade_failed>Echec Mise à Niveau</Upgrade_failed>
+  <File_size_not_correct>La Taille du Fichier n'est pas Correcte.</File_size_not_correct>
+  <Wait_update>Attendez svp, Mise à jour...</Wait_update>
+<!-- add/append order by date -->
+  <VPN_connect_failed>Échec de la connexion VPN</VPN_connect_failed>
+  <Contacts>Contacts</Contacts>
+  <!-- menu dss key edit -->
+  <None>Aucun</None>
+  <Line>Ligne</Line>
+  <BLF>BLF</BLF>
+  <SpeedDial>ToucheRapide</SpeedDial>
+  <DTMF>DTMF</DTMF>
+  <Mode>Mode</Mode>
+  <LineKey>Touche Ligne</LineKey>
+  <ProgramKey>Touche Prog.</ProgramKey>
+  <Module>Module</Module>
+  <Key>Touche</Key>
+  <Account>Compte</Account>
+  <None_explain>Pas de Fonction Spéciale</None_explain>
+  <Line_explain>Indication Statut de Votre Compte SIP</Line_explain>
+  <BLF_explain>Indication Statut de Votre Extension. Appel Rapide Possible</BLF_explain>
+  <SpeedDial_explain>Touche Rapide</SpeedDial_explain>
+  <DTMF_explain>Bundling frequently used account name or password on one key, for speed input during hot-line calls.</DTMF_explain>
+<!-- vlan -->
+<Lan_Activation>Activation LAN</Lan_Activation>
+<PC_Activation>Activation PC</PC_Activation>
+<Lan_Identifier>Identification LAN</Lan_Identifier>
+<PC_Identifier>Identification PC</PC_Identifier>
+<Lan_Priority>Priorité LAN</Lan_Priority>
+<PC_Priority>Priorité PC</PC_Priority>
+<Lan_Identifier_error>Erreur Identification LAN</Lan_Identifier_error>
+<PC_Identifier_error>Erreur Identification PC</PC_Identifier_error>
+<Lan_Priority_error>Erreur Priorité LAN</Lan_Priority_error>
+<PC_Priority_error>Erreur Priorité PC</PC_Priority_error>
+<!-- WIFI -->
+	<WIFI>WIFI</WIFI>
+	<Ethernet>Ethernet</Ethernet>
+	<Connect_Mode>Mode Connecté</Connect_Mode>
+	<SSID>SSID</SSID>
+	<WIFI_Status>Statut WIFI</WIFI_Status>
+	<WIFI_Connected>Connecté</WIFI_Connected>
+	<Off_Line>Hors-Ligne</Off_Line>
+	<Failed>Echec</Failed>
+	<IP_setting>Param. IP</IP_setting>
+	<WIFI_setting>Param. WIFI</WIFI_setting>
+	<AP_setting>Param. AP</AP_setting>
+	<Hotspot_list>Liste HotSpot</Hotspot_list>
+	<Manual_add>Ajout Manuel</Manual_add>
+	<Link_WIFI>Lien WIFI</Link_WIFI>
+	<Link>Lier</Link>
+	<Unlink>Délier</Unlink>
+	<Unsave>Annul. Sauv.</Unsave>
+	<Info>Info</Info>
+	<Encrypt>Type Encryption</Encrypt>
+	<Signal>Signal</Signal>
+	<Channel>Cannal</Channel>
+	<Ap_switch>Changer AP</Ap_switch>
+	<DHCP_setting>Param. DHCP</DHCP_setting>
+	<On>On</On>
+	<Off>Off</Off>
+	<Ap_ssid>SSID AP</Ap_ssid>
+	<Ap_password>Mot de Passe</Ap_password>
+	<WiFi_prompt_msg>Scan Réseau WiFi...</WiFi_prompt_msg>
+	<Authentication>Information d'Authentification</Authentication>
+	<Connection_successful>Connexion Réussie...</Connection_successful>
+	<Connection_fail>Echec Connexion...</Connection_fail>
+	<WLAN>WLAN</WLAN>
+	<Security>Sécurité</Security>
+	<Ap_status>Statut AP</Ap_status>
+	<Connect>Connexion</Connect>
+	<Signal_strength>Force Signal</Signal_strength>
+	<Excellent>Excellent</Excellent>
+	<Good>Bon</Good>
+	<Fair>Suffisant</Fair>
+	<Poor>Faible</Poor>
+	<IP_address>Adresse IP</IP_address>
+	<Saved>Sauvegardé</Saved>
+	<Not_range>Hors de Portée</Not_range>
+</Language>

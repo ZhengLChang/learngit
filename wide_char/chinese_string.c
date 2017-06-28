@@ -385,8 +385,6 @@ static const wchar_t str_UserData_Reset[] = {0x7528, 0x6237, 0x6570, 0x636e, 0x8
 static const wchar_t str_reset_to_factory_by_the_mode_of_Full_Reset[] = {0x91cd, 0x7f6e, 0x6240, 0x6709, 0x8bbe, 0x7f6e, 0x3f, 0x0};
 static const wchar_t str_reset_to_factory_by_the_mode_of_Config_Reset[] = {0x91cd, 0x7f6e, 0x914d, 0x7f6e, 0x8bbe, 0x7f6e, 0x3f, 0x0};
 static const wchar_t str_reset_to_factory_by_the_mode_of_UserData_Reset[] = {0x91cd, 0x7f6e, 0x7528, 0x6237, 0x8d44, 0x6599, 0x3f, 0x0};
-static const wchar_t str_IP_Call[] = {0x49, 0x50, 0x20, 0x43, 0x61, 0x6c, 0x6c, 0x0};
-static const wchar_t str_IP_Calling[] = {0x49, 0x50, 0x20, 0x43, 0x61, 0x6c, 0x6c, 0x69, 0x6e, 0x67, 0x0};
 
 static const str_id_map str_map[]=
 {
@@ -750,8 +748,6 @@ static const str_id_map str_map[]=
 {ID_reset_to_factory_by_the_mode_of_Full_Reset, str_reset_to_factory_by_the_mode_of_Full_Reset},
 {ID_reset_to_factory_by_the_mode_of_Config_Reset, str_reset_to_factory_by_the_mode_of_Config_Reset},
 {ID_reset_to_factory_by_the_mode_of_UserData_Reset, str_reset_to_factory_by_the_mode_of_UserData_Reset},
-{ID_IP_Call, str_IP_Call},
-{ID_IP_Calling, str_IP_Calling},
 };
 #endif //chinese
 

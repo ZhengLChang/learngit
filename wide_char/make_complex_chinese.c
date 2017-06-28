@@ -1202,7 +1202,7 @@ wchar_t* pj_ansi_to_unicode(const char *utf8, size_t length, wchar_t* outbuf, si
 	memset(outbuf, 0, buf_count);
 
 	if(!utf8 || length == 0)
-		return 1;
+		return NULL;
 
 	while (pc < last && i < wlen)
 	{

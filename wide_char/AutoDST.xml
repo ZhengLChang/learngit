@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DSTData>
+  <DST szZoneID="0" szTime="-11"		szZone="Samoa"/>
+  <DST szZoneID="1" szTime="-10"		szZone="United States-Hawaii-Aleutian"/>
+  <DST szZoneID="2" szTime="-10" 	szZone="United States-Alaska-Aleutian"/>
+  <DST szZoneID="3" szTime="-9"		szZone="United States-Alaska Time"    	iType="1" szStart="3/2/0/2"		szEnd="11/1/0/2" 	szOffset="60"/>
+  <DST szZoneID="4" szTime="-8" 		szZone="Canada(Vancouver,Whitehorse)"  iType="1" szStart="3/2/0/2" 		szEnd="11/1/0/2" 	szOffset="60"/>
+  <DST szZoneID="5" szTime="-8" 	  szZone="Mexico(Tijuana,Mexicali)"     iType="1" szStart="4/1/0/0" 		szEnd="10/5/0/0" 	szOffset="60"/>
+  <DST szZoneID="6" szTime="-8" 	  szZone="United States-Pacific Time"   iType="1" szStart="3/2/0/2" 		szEnd="11/1/0/2" 	szOffset="60"/>
+  <DST szZoneID="7" szTime="-7" 		szZone="Canada(Edmonton,Calgary)" iType="1" szStart="3/2/0/2" 		szEnd="11/1/0/2" 	szOffset="60"/>
+  <DST szZoneID="8" szTime="-7"    szZone="Mexico(Mazatlan,Chihuahua)" iType="1" szStart="4/1/0/0" 		szEnd="10/5/0/0" 	szOffset="60"/>
+  <DST szZoneID="9" szTime="-7" 	  szZone="United States-Mountain Time"/>
+  <DST szZoneID="10" szTime="-7" 	  szZone="United States-MST no DST"/>
+  <DST szZoneID="11" szTime="-6"    szZone="Canada-Manitoba(Winnipeg)" iType="1" szStart="3/2/0/2" 		szEnd="11/1/0/2" 	szOffset="60"/>
+  <DST szZoneID="12" szTime="-6" 	  szZone="Chile(Easter Islands)" iType="1" szStart="10/2/5/0" 		szEnd="2/2/5/0" 	szOffset="60"/>
+  <DST szZoneID="13" szTime="-6" 		szZone="Mexico(Mexico City,Acapulco)"  iType="1" szStart="4/1/0/0" 		szEnd="10/5/0/0" 	szOffset="60"/>
+  <DST szZoneID="14" szTime="-6" 	  szZone="United States-Central Time" iType="1" szStart="3/2/0/2" 		szEnd="11/1/0/2" 	szOffset="60"/>
+  <DST szZoneID="15" szTime="-5"    szZone="Bahamas(Nassau)" iType="1" szStart="3/2/0/2" 		szEnd="11/1/0/2" 	szOffset="60"/>
+  <DST szZoneID="16" szTime="-5" 	  szZone="Canada(Montreal,Ottawa,Quebec)" iType="1" szStart="3/2/0/2" 		szEnd="11/1/0/2" 	szOffset="60"/>
+  <DST szZoneID="17" szTime="-5" 		szZone="Cuba(Havana)" iType="1" szStart="3/2/7/0" 		szEnd="10/5/0/0" 	szOffset="60"/>
+  <DST szZoneID="18" szTime="-5" 	  szZone="United States-Eastern Time" iType="1" szStart="3/2/0/2" 		szEnd="11/1/0/2" 	szOffset="60"/>
+  <DST szZoneID="19" szTime="-4:30"    szZone="Venezuela(Caracas)"/>
+  <DST szZoneID="20" szTime="-4" 	  szZone="Canada(Halifax,Saint John)"  iType="1" szStart="3/2/0/2" 		szEnd="11/1/0/2" 	szOffset="60"/>
+  <DST szZoneID="21" szTime="-4" 		szZone="Chile(Santiago)" iType="1" szStart="10/2/5/0" 		szEnd="2/2/5/0" 	szOffset="60"/>
+  <DST szZoneID="22" szTime="-4" 		szZone="Paraguay(Asuncion)" iType="1" szStart="10/3/0/0" 		szEnd="3/2/0/0" 	szOffset="60"/>
+  <DST szZoneID="23" szTime="-4" 	  szZone="United Kingdom-Bermuda(Bermuda)" iType="1" szStart="3/2/0/2" 		szEnd="11/1/0/2" 	szOffset="60"/>
+  <DST szZoneID="24" szTime="-4" 	  szZone="United Kingdom(Falkland Islands)" iType="1" szStart="9/1/0/2" 		szEnd="4/1/0/2" 	szOffset="60"/>
+  <DST szZoneID="25" szTime="-4"    szZone="Trinidad&Tobago" />
+  <DST szZoneID="26" szTime="-3:30"  szZone="Canada-New Foundland(St.Johns)"  iType="1" szStart="3/2/0/2" 		szEnd="11/1/0/2" 	szOffset="60"/>
+  <DST szZoneID="27" szTime="-3" 	  szZone="Denmark-Greenland(Nuuk)" iType="1" szStart="3/5/0/1" 		szEnd="10/5/0/1" 	szOffset="60"/>
+  <DST szZoneID="28" szTime="-3"    szZone="Argentina(Buenos Aires)" />
+  <DST szZoneID="29" szTime="-3" 	  szZone="Brazil(no DST)" />
+  <DST szZoneID="30" szTime="-3" 	  szZone="Brazil(DST)" iType="1" szStart="10/3/0/0" 		szEnd="2/3/0/0" 	szOffset="60"/>
+  <DST szZoneID="31" szTime="-2" 	  szZone="Brazil(no DST)" />
+  <DST szZoneID="32" szTime="-1" 	  szZone="Portugal(Azores)" iType="1" szStart="3/5/0/1" 		szEnd="10/5/0/2" 	szOffset="60"/>
+  <DST szZoneID="33" szTime="0" 	  szZone="GMT"/>
+  <DST szZoneID="34" szTime="0" 	  szZone="Greenland" 	  iType="1" szStart="3/5/0/1" 		szEnd="10/5/0/1" 	szOffset="60"/>
+  <DST szZoneID="35" szTime="0" 	  szZone="Denmark-Faroe Islands(Torshaven)" iType="1" szStart="3/5/0/1" 		szEnd="10/5/0/2" 	szOffset="60"/>
+  <DST szZoneID="36" szTime="0" 	  szZone="Ireland(Dublin)" iType="1" szStart="3/5/0/1" 		szEnd="10/5/0/2" 	szOffset="60"/>
+  <DST szZoneID="37" szTime="0" 	  szZone="Portugal(Lisboa,Porto,Funchal)" iType="1" szStart="3/5/0/1" 		szEnd="10/5/0/2" 	szOffset="60"/>
+  <DST szZoneID="38" szTime="0" 	  szZone="Spain-Canary Islands(Las Palmas)" iType="1" szStart="3/5/0/1" 		szEnd="10/5/0/2" 	szOffset="60"/>
+  <DST szZoneID="39" szTime="0" 	  szZone="United Kingdom(London)" iType="1" szStart="3/5/0/1" 		szEnd="10/5/0/2" 	szOffset="60"/>
+  <DST szZoneID="40" szTime="0" 	  szZone="Morocco" 		  iType="0" szStart="6/1/0" 		  szEnd="8/21/0" 	  szOffset="60"/>
+  <DST szZoneID="41" szTime="+1" 	  szZone="Albania(Tirane)" iType="1" szStart="3/5/0/2" 		szEnd="10/5/0/3" 	szOffset="60"/>
+  <DST szZoneID="42" szTime="+1" 		szZone="Austria(Vienna)" iType="1" szStart="3/5/0/2" 		szEnd="10/5/0/3" 	szOffset="60"/>
+  <DST szZoneID="43" szTime="+1" 		szZone="Belgium(Brussels)" iType="1" szStart="3/5/0/2" 		szEnd="10/5/0/3" 	szOffset="60"/>
+  <DST szZoneID="44" szTime="+1" 		szZone="Caicos" iType="1" szStart="4/4/5/0" 		szEnd="8/4/5/0" 	szOffset="60"/>
+  <DST szZoneID="45" szTime="+1" 		szZone="Chatam" />
+  <DST szZoneID="46" szTime="+1" 		szZone="Croatia(Zagreb)" iType="1" szStart="3/5/0/2" 		szEnd="10/5/0/3" 	szOffset="60"/>
+  <DST szZoneID="47" szTime="+1" 		szZone="Czech Republic(Prague)" iType="1" szStart="3/5/0/2" 		szEnd="10/5/0/3" 	szOffset="60"/>
+  <DST szZoneID="48" szTime="+1" 		szZone="Denmark(Kopenhaven)" iType="1" szStart="3/5/0/2" 		szEnd="10/5/0/3" 	szOffset="60"/>
+  <DST szZoneID="49" szTime="+1" 		szZone="France(Paris)" iType="1" szStart="3/5/0/2" 		szEnd="10/5/0/3" 	szOffset="60"/>
+  <DST szZoneID="50" szTime="+1" 		szZone="Germany(Berlin)" iType="1" szStart="3/5/0/2" 		szEnd="10/5/0/3" 	szOffset="60"/>
+  <DST szZoneID="51" szTime="+1" 		szZone="Hungary(Budapest)" iType="1" szStart="3/5/0/2" 		szEnd="10/5/0/3" 	szOffset="60"/>
+  <DST szZoneID="52" szTime="+1" 		szZone="Italy(Rome)" iType="1" szStart="3/5/0/2" 		szEnd="10/5/0/3" 	szOffset="60"/>
+  <DST szZoneID="53" szTime="+1" 		szZone="Luxembourg(Luxembourg)" iType="1" szStart="3/5/0/2" 		szEnd="10/5/0/3" 	szOffset="60"/>
+  <DST szZoneID="54" szTime="+1" 		szZone="Makedonia(Skopje)" iType="1" szStart="3/5/0/2" 		szEnd="10/5/0/3" 	szOffset="60"/>
+  <DST szZoneID="55" szTime="+1" 		szZone="Netherlands(Amsterdam)" iType="1" szStart="3/5/0/2" 		szEnd="10/5/0/3" 	szOffset="60"/>
+  <DST szZoneID="56" szTime="+1" 		szZone="Namibia(Windhoek)" iType="1" szStart="9/1/0/2" 		szEnd="4/1/0/2" 	szOffset="60"/>
+  <DST szZoneID="108" szTime="+1" szZone="Poland(Warsaw)" iType="0" szStart="3/26/2" szEnd="10/29/3" szOffset="60"/>
+  <DST szZoneID="57" szTime="+2" 		szZone="Estonia(Tallinn)" iType="1" szStart="3/5/0/3" 		szEnd="10/5/0/4" 	szOffset="60"/>
+  <DST szZoneID="58" szTime="+2" 		szZone="Finland(Helsinki)" iType="1" szStart="3/5/0/3" 		szEnd="10/5/0/4" 	szOffset="60"/>
+  <DST szZoneID="59" szTime="+2" 		szZone="Gaza Strip(Gaza)" iType="1" szStart="3/5/4/0" 		szEnd="9/1/3/2" 	szOffset="60"/>
+  <DST szZoneID="60" szTime="+2" 		szZone="Greece(Athens)" iType="1" szStart="3/5/0/3" 		szEnd="10/5/0/4" 	szOffset="60"/>
+  <DST szZoneID="61" szTime="+2" 		szZone="Israel(Tel Aviv)" iType="0" szStart="3/27/2" 		szEnd="9/27/2" 	szOffset="60"/>
+  <DST szZoneID="62" szTime="+2" 		szZone="Jordan(Amman)" iType="1" szStart="3/5/5/0" 		szEnd="10/5/5/1" 	szOffset="60"/>
+  <DST szZoneID="63" szTime="+2"      szZone="Latvia(Riga)" iType="1" szStart="3/5/0/3" 		szEnd="10/5/0/4" 	szOffset="60"/>
+  <DST szZoneID="64" szTime="+2" 		szZone="Lebanon(Beirut)" iType="1" szStart="3/5/0/0" 		szEnd="10/5/0/0" 	szOffset="60"/>
+  <DST szZoneID="65" szTime="+2" 		szZone="Moldova(Kishinev)" iType="1" szStart="3/5/0/3" 		szEnd="10/5/0/4" 	szOffset="60"/>
+  <DST szZoneID="66" szTime="+2" 		szZone="Russia(Kaliningrad)" iType="1" szStart="3/5/0/2" 		szEnd="10/5/0/3" 	szOffset="60"/>
+  <DST szZoneID="67" szTime="+2" 		szZone="Romania(Bucharest)" iType="1" szStart="3/5/0/3" 		szEnd="10/5/0/4" 	szOffset="60"/>
+  <DST szZoneID="68" szTime="+2" 		szZone="Syria(Damascus)" iType="1" szStart="3/5/5/0" 		szEnd="11/1/0/0" 	szOffset="60"/>
+  <DST szZoneID="69" szTime="+2" 		szZone="Turkey(Ankara)" iType="1" szStart="3/5/0/3" 		szEnd="10/5/0/4" 	szOffset="60"/>
+  <DST szZoneID="70" szTime="+2" 		szZone="Ukraine(Kyiv,Odessa)" iType="1" szStart="3/5/0/3" 		szEnd="10/5/0/4" 	szOffset="60"/>
+  <DST szZoneID="71" szTime="+3" 		szZone="East Africa Time" />
+  <DST szZoneID="72" szTime="+3" 		szZone="Iraq(Baghdad)" />
+  <DST szZoneID="73" szTime="+3" 		szZone="Russia(Moscow)" iType="1" szStart="3/5/0/2" 		szEnd="10/5/0/3" 	szOffset="60"/>
+  <DST szZoneID="74" szTime="+3:30"  szZone="Iran(Teheran)" iType="0" szStart="3/22/0" 		    szEnd="9/22/0" 	szOffset="60"/>
+  <DST szZoneID="75" szTime="+4"    szZone="Armenia(Yerevan)" iType="1" szStart="3/5/0/2" 		szEnd="10/5/0/3" 	szOffset="60"/>
+  <DST szZoneID="76" szTime="+4" 	  szZone="Azerbaijan(Baku)" iType="1" szStart="3/5/0/4" 		szEnd="10/5/0/5" 	szOffset="60"/>
+  <DST szZoneID="77" szTime="+4" 	  szZone="Georgia(Tbilisi)" />
+  <DST szZoneID="78" szTime="+4"  	szZone="Kazakstan(Aqtau)" />
+  <DST szZoneID="79" szTime="+4"  	szZone="Russia(Samara)" iType="1" szStart="3/5/0/2" 		szEnd="10/5/0/3" 	szOffset="60"/>
+  <DST szZoneID="80" szTime="+4:30"  	szZone="Kabul" />
+  <DST szZoneID="81" szTime="+5"  	szZone="Kazakstan(Aqtobe)"/>
+  <DST szZoneID="82" szTime="+5"  	szZone="Kyrgyzstan(Bishkek)" />
+  <DST szZoneID="83" szTime="+5"  	szZone="Pakistan(Islamabad)" iType="0" szStart="4/15/0" 		szEnd="11/1/0" 	szOffset="60"/>
+  <DST szZoneID="84" szTime="+5"  	szZone="Russia(Chelyabinsk)"  iType="1" szStart="3/5/0/2" 		szEnd="10/5/0/3" 	szOffset="60"/>
+  <DST szZoneID="85" szTime="+5:30" 	szZone="India(Calcutta)"/>
+  <DST szZoneID="86" szTime="+5:45" 	szZone="Katmandu"/> 
+  <DST szZoneID="87" szTime="+6"		szZone="Kazakstan(Astana,Almaty)"/>
+  <DST szZoneID="88" szTime="+6" 	  szZone="Russia(Novosibirsk,Omsk)"  iType="1" szStart="3/5/0/2" 		szEnd="10/5/0/3" 	szOffset="60"/>
+  <DST szZoneID="89" szTime="+6:30" 	szZone="Rangoon"/> 
+  <DST szZoneID="90" szTime="+7"		szZone="Russia(Krasnoyarsk)"  iType="1" szStart="3/5/0/2" 		szEnd="10/5/0/3" 	szOffset="60"/>
+  <DST szZoneID="91" szTime="+7" 		szZone="Thailand(Bangkok)"/>
+  <DST szZoneID="92" szTime="+8" 	  szZone="China(Beijing)"/>
+  <DST szZoneID="93" szTime="+8" 	  szZone="Singapore(Singapore)" />
+  <DST szZoneID="94" szTime="+8"    szZone="Australia(Perth)" iType="1" szStart="10/1/0/2" 		szEnd="3/5/0/3" 	szOffset="60"/>
+  <DST szZoneID="95" szTime="+9" 		szZone="Korea(Seoul)"/>
+  <DST szZoneID="96" szTime="+9" 	  szZone="Japan(Tokyo)"/>
+  <DST szZoneID="97" szTime="+9:30"  szZone="Australia(Adelaide)" iType="1" szStart="10/1/0/2" 		szEnd="4/1/0/3" 	szOffset="60"/>
+  <DST szZoneID="98" szTime="+9:30"  szZone="Australia(Darwin)" />
+  <DST szZoneID="99" szTime="+10" 	szZone="Australia(Sydney,Melbourne,Canberra)" iType="1" szStart="10/1/0/2" 		szEnd="4/1/0/3" 	szOffset="60"/>
+  <DST szZoneID="100" szTime="+10" 	szZone="Australia(Brisbane)"/>
+  <DST szZoneID="101" szTime="+10"   szZone="Australia(Hobart)"  iType="1" szStart="10/1/0/2" 		szEnd="4/1/0/3" 	szOffset="60"/>
+  <DST szZoneID="102" szTime="+10"   szZone="Russia(Vladivostok)" iType="1" szStart="3/5/0/2" 		szEnd="10/5/0/3" 	szOffset="60"/>
+  <DST szZoneID="103" szTime="+10:30" szZone="Australia(Lord Howe Islands)" iType="1" szStart="10/1/0/2" 		szEnd="4/1/0/3" 	szOffset="60"/>
+  <DST szZoneID="104" szTime="+11" 	szZone="New Caledonia(Noumea)"/>
+  <DST szZoneID="105" szTime="+12" 	szZone="New Zeland(Wellington,Auckland)" iType="1" szStart="9/5/0/3" 		szEnd="4/1/0/2" 	szOffset="60"/>
+  <DST szZoneID="106" szTime="+12:45"    szZone="New Zeland(Chatham Islands)" iType="1" szStart="9/5/0/4" 		szEnd="4/1/0/3" 	szOffset="60"/>
+  <DST szZoneID="107" szTime="+13" 	  szZone="Tonga(Nukualofa)" />
+</DSTData>
+  
